@@ -2,7 +2,7 @@
 	"name": "plutonium",
 	"title": "Plutonium",
 	"description": "A 5etools integration for Foundry VTT",
-	"version": "1.30.1",
+	"version": "1.31.0",
 	"author": "Giddy",
 	"keywords": [
 		"import",
@@ -33,7 +33,7 @@
 	"manifest": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/module.json",
 	"download": "https://github.com/TheGiddyLimit/plutonium-next/raw/master/plutonium-foundry08.zip",
 	"minimumCoreVersion": "0.8.4",
-	"compatibleCoreVersion": "0.8.7",
+	"compatibleCoreVersion": "0.8.8",
 	"socket": true,
 	"scripts": [
 		"./ve-lib/localforage.js",
@@ -228,29 +228,7 @@
 		"./art-css/ArtBrowser.css",
 		"./css/main.css"
 	],
-	"packs": [
-		{
-			"name": "creatures",
-			"label": "Creatures",
-			"system": "dnd5e",
-			"path": "./packs/creatures.db",
-			"entity": "Actor"
-		},
-		{
-			"name": "spells",
-			"label": "Spells",
-			"system": "dnd5e",
-			"path": "./packs/spells.db",
-			"entity": "Item"
-		},
-		{
-			"name": "items",
-			"label": "Items",
-			"system": "dnd5e",
-			"path": "./packs/items.db",
-			"entity": "Item"
-		}
-	],
+	"packs": [],
 	"languages": [
 		{
 			"lang": "en",

@@ -2,7 +2,7 @@
 	"name": "plutonium",
 	"title": "Plutonium",
 	"description": "A 5etools integration for Foundry VTT",
-	"version": "1.36.0",
+	"version": "1.37.0",
 	"author": "Giddy",
 	"keywords": [
 		"import",
@@ -227,6 +227,7 @@
 		"./js/UtilList2.js",
 		"./js/UtilMigrate.js",
 		"./js/UtilModalFilter.js",
+		"./js/UtilNotifications.js",
 		"./js/UtilPatch.js",
 		"./js/UtilRenderer.js",
 		"./js/UtilSocket.js",

@@ -2,7 +2,7 @@
 	"name": "plutonium",
 	"title": "Plutonium",
 	"description": "A 5etools integration for Foundry VTT",
-	"version": "1.37.0",
+	"version": "1.38.0",
 	"author": "Giddy",
 	"keywords": [
 		"import",
@@ -33,7 +33,7 @@
 	"manifest": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/module.json",
 	"download": "https://github.com/TheGiddyLimit/plutonium-next/raw/master/plutonium-foundry08.zip",
 	"minimumCoreVersion": "0.8.4",
-	"compatibleCoreVersion": "0.8.8",
+	"compatibleCoreVersion": "0.8.9",
 	"socket": true,
 	"scripts": [
 		"./ve-lib/localforage.js",
@@ -196,6 +196,7 @@
 		"./js/PatcherJournalSheet.js",
 		"./js/PatcherJquery.js",
 		"./js/PatcherLibWrapper.js",
+		"./js/PatcherModuleManagement.js",
 		"./js/PatcherRollData.js",
 		"./js/PatcherSettingsConfig.js",
 		"./js/PatcherTextEditor.js",

@@ -2,7 +2,7 @@
 	"name": "plutonium",
 	"title": "Plutonium",
 	"description": "A 5etools integration for Foundry VTT",
-	"version": "1.38.1",
+	"version": "1.39.0",
 	"author": "Giddy",
 	"keywords": [
 		"import",
@@ -114,6 +114,7 @@
 		"./js/DataConverterDeity.js",
 		"./js/DataConverterFeat.js",
 		"./js/DataConverterFeature.js",
+		"./js/DataConverterHazard.js",
 		"./js/DataConverterItem.js",
 		"./js/DataConverterLanguage.js",
 		"./js/DataConverterObject.js",
@@ -147,6 +148,7 @@
 		"./js/ImportListDeity.js",
 		"./js/ImportListFeat.js",
 		"./js/ImportListFeature.js",
+		"./js/ImportListHazard.js",
 		"./js/ImportListItem.js",
 		"./js/ImportListJournal.js",
 		"./js/ImportListLanguage.js",
@@ -158,13 +160,13 @@
 		"./js/ImportListReward.js",
 		"./js/ImportListRollableTable.js",
 		"./js/ImportListSpell.js",
+		"./js/ImportListTrap.js",
 		"./js/ImportListVariantRule.js",
 		"./js/ImportListVehicle.js",
 		"./js/ImportListVehicleUpgrade.js",
 		"./js/ImportSpecialPackages.js",
 		"./js/JqueryExtension.js",
 		"./js/Menu.js",
-		"./js/MenuActorTitleTools.js",
 		"./js/MenuCollectionTools.js",
 		"./js/MenuTitle.js",
 		"./js/MenuTitleActor.js",
@@ -184,6 +186,7 @@
 		"./js/MenuTitleSceneConfig.js",
 		"./js/MenuTitleSceneDirectory.js",
 		"./js/MenuTitleSettings.js",
+		"./js/NamedTokenCreator.js",
 		"./js/PageFilterClassFeatures.js",
 		"./js/Patcher.js",
 		"./js/PatcherActiveEffectConfig.js",
@@ -205,6 +208,7 @@
 		"./js/RivetBridge.js",
 		"./js/ShowSheet.js",
 		"./js/Styler.js",
+		"./js/TokenHpRoller.js",
 		"./js/Util.js",
 		"./js/UtilActiveEffects.js",
 		"./js/UtilActors.js",
@@ -240,7 +244,15 @@
 		"./art-css/ArtBrowser.css",
 		"./css/main.css"
 	],
-	"packs": [],
+	"packs": [
+		{
+			"name": "macros.db",
+			"label": "Macros",
+			"system": "dnd5e",
+			"path": "./packs/macros.db",
+			"entity": "Macro"
+		}
+	],
 	"languages": [
 		{
 			"lang": "en",

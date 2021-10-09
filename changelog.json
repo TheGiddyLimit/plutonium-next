@@ -1,0 +1,741 @@
+[
+	{
+		"ver": "0.0.2",
+		"title": "Initial Release",
+		"date": "2019-08-03",
+		"txt": "- Initial release\n- Ability to import homebrew creatures, spells, feats, and items to the actor/item collections\n- Ability to import spells/items/backgrounds/races/feats/classes/subclasses to character sheets\n- Actor item cleaner\n- Minor UI tweaks, including \"x\" button on notifications"
+	},
+	{
+		"ver": "0.0.2a",
+		"title": "Slightly Higher-Grade Plutonium",
+		"date": "2019-08-06",
+		"txt": "- Added workaround for Plutonium sometimes loading after Foundry had already fully initialized, thus causing Plutonium to miss the part where it's supposed to hook into the UI.\n- The \"Import\" button is now kept fixed at the bottom of import list windows.\n- Added importer support for Better NPC 5e sheets.\n- Added support for Node.js versions as old as version 10 (current is 12), as 10 is the minimum Foundry requires.\n- Enabled importing class levels even if there are no features present at that level.\n- Added weapon bonuses to weapon damage (previously only applied to to-hit)."
+	},
+	{
+		"ver": "0.0.2b",
+		"title": "That Awkward Moment When You Both Try to Go Through the Door at the Same Time",
+		"date": "2019-08-07",
+		"txt": "- Fixed concurrency issues when mass-creating entities"
+	},
+	{
+		"ver": "0.0.2c",
+		"title": "No Face, No Case",
+		"date": "2019-08-16",
+		"txt": "- Added config editor, with \"streamer mode\" option"
+	},
+	{
+		"ver": "0.0.2d",
+		"title": "Foundry v0.3.5 Compatibility",
+		"date": "2019-08-22",
+		"txt": "- Compatibility update for Foundry 0.3.5"
+	},
+	{
+		"ver": "0.0.3",
+		"title": "Compendium Change Concepts Confuse Concerned Citizens",
+		"date": "2019-09-01",
+		"txt": "- Added built-in compendiums\n- Added Variant & Optional Rule importer"
+	},
+	{
+		"ver": "0.0.3a",
+		"title": "Prune > Dates",
+		"date": "2019-09-08",
+		"txt": "- A folder picker UI in the importer, including a (limited) range of \"dynamic\" options, i.e. if you select \"Challenge Rating\" in the creature importer, it'll put each creature in a folder according to their CR. Something similar existed in betteR20, although it was nowhere near as customizable--this iteration allows full control. Sadly, Foundry only supports three levels of folder nesting at time of writing, but the developer (Atropos) aims to expand this to at least five.\n- A \"Prune Folders\" option and button in the Directory Cleaner, which can be enabled or run independently to have the cleaner also remove any empty folders it finds.\n- A tweak to the included compendiums to add the (abbreviated) source to the name of each item.\n- And a few other minor QoL improvements and layout fixes."
+	},
+	{
+		"ver": "0.0.3b",
+		"title": "More Than 99 Problems",
+		"date": "2019-09-14",
+		"txt": "- A minor compatibility update for Foundry v0.3.(6/7) (with regards to the directory panel layout changes)\n- Creature scaling on import\n- A fix for creatures disappearing from the combat tracker when they were marked as hidden"
+	},
+	{
+		"ver": "0.0.3c",
+		"title": "Your Wires Are Showing",
+		"date": "2019-09-16",
+		"txt": "- A fix for AC sources being a mess of HTML on non-default sheets\n- A fix for all the strange numbers appearing down the right-hand-side of import lists\n- A fix for the CR Scaler dialogue being a funny size sometimes"
+	},
+	{
+		"ver": "0.0.3d",
+		"title": "A Coat of Red Paint",
+		"date": "2019-09-22",
+		"txt": "- Fresh compendium dumps, with Descent Into Avernus content.\n- Updated Bestiary files, again to add Descent Into Avernus content.\n- A fix for imported creatures always using Strength as their ability score modifier for all their attack rolls. As Foundry doesn't allow the specification of exact to-hit modifiers on NPC attacks, I had completely overlooked this--since 5e statblocks never specify the ability the creature is using for each attack, I'm doing some guesswork behind the scenes to figure it out. It should be accurate in the vast majority of cases, although there appears to be a Foundry bug where creatures can never have their attack proficiency disabled when creating them via the API, so e.g. Ghast's bite is busted."
+	},
+	{
+		"ver": "0.0.3e",
+		"title": "Eat Sleep Code Repeat",
+		"date": "2019-10-29",
+		"txt": "- The \"import\" button should now be available on any sheet, rather than those I manually specify\n- The import list \"select all\" checkbox now only selects/deselects visible rows\n- An update to background importing to support multiple features (needed for DIA backgrounds)\n- A fix for repeated requests not properly caching data (so opening the same importer repeatedly in the same session should now be quicker)"
+	},
+	{
+		"ver": "0.0.3f",
+		"date": "2019-10-29",
+		"txt": "- Added workaround for a Foundry bug where full art would be used as tokens\n- Fixed a bug where items would fail to import\n- Fixed some minor layout bugs"
+	},
+	{
+		"ver": "0.0.4",
+		"date": "2019-11-16",
+		"txt": "- Compatibility update for Foundry v0.4.x+. Not that this update is not backwards compatible with 0.3.x.\n- Added rollable table importer\n- Added option to import classes/subclasses to journal"
+	},
+	{
+		"ver": "0.0.4a",
+		"date": "2019-11-29",
+		"txt": "- Added \"Spell Prepared Toggler\" tool to actors, accessible via a new \"Tools\" link in the actor window bar. This \"Tools\" link replaces the old \"Cleaner\" link, which is now instead accessed from this Tools sub-dialogue.\n- Fixed Silver Dragons failing to import due to a bug in rendering their lair actions\nv0.0.4b:\n- Fixed failing to load custom homebrew URLs"
+	},
+	{
+		"ver": "0.5.0",
+		"date": "2019-12-08",
+		"txt": "- (Made version number more sensible)\n- (Added support for Rivet)\n- Journal/etc. cleaner tool can now delete rollable tables\n- Races can now be imported as items\n- Non-rollable tables can now be imported as rollable tables\n- Custom importer folder paths are now saved to game settings (and will be used when receiving data from Rivet)\n- A blank token is now used for creatures missing a token on import\n- Fixed creature (and therefore token) sizing on import\n- Improved script initialisation to remove a benign error (thanks Red Reign)"
+	},
+	{
+		"ver": "0.6.0",
+		"date": "2020-01-02",
+		"txt": "- Added Psionics importer, which creates spells\n- Class importer now imports saving throw/skill/weapon/armor/tool proficiencies\n- Added notifications when importing through Rivet\n- Fixed versatile weapons being imported with two damage +@mods\n- Token actors are now re-rendered on importing to their sheets, ensuring the imported items are shown\n- Fixed Necromancy spells failing to set their school\n- Class importer now skips Proficiency Versatility features"
+	},
+	{
+		"ver": "0.7.0",
+		"date": "2020-01-11",
+		"txt": "- Compatibility update for Foundry v0.4.4+. Note that this update is not backwards compatible with 0.4.3.\n- Added a tool to bulk-move collection items to folders\n- Added config options for imported tokens, allowing e.g. bar attributes; name display modes to be customized\n- Spell/Item/Creature importers now try to use art from the SRD compendiums where none is available in 5etools\n- Added red coloration to \"Delete\"/\"Delete All\" collection rightclick\n- Shrunk collection UI buttons (now one row as opposed to two)"
+	},
+	{
+		"ver": "0.7.1",
+		"date": "2020-01-11",
+		"txt": "- Fixed links to spells in e.g. creature Spellcasting traits failing to cast the appropriate spell\n- Added configuration options to choose compendiums from which the importers will attempt to source images\n- Fixed bug which prevented Background importer from displaying when importing to journal"
+	},
+	{
+		"ver": "0.7.2",
+		"date": "2020-01-20",
+		"txt": "- Fixed item damage rolls failing to populate (note: compendiums not updated)\n- Fixed config dropdowns failing to display their current value"
+	},
+	{
+		"ver": "0.8.0",
+		"date": "2020-02-25",
+		"txt": "- Importer:\n  - Ported 5etools filters for use in lists\n  - Added SHIFT-click to lists for multi-selection\n  - Homebrew files may now be uploaded directly (see the option in the source dropdown)\n  - Added spell targeting data for all AoE spells for use with the new template system (and the ability to specify homebrew spell targeting data)\n  - Fixed \"1 <X> damage\" (e.g. the \"Bite\" attack of a rat) being added as features instead of attacks\n  - Fixed failing to remember which importer was last used\n  - Fixed non-existent importers being selected when opening actor importer after collection importer\n  - Overhauled UI\n\n- Config:\n  - Added initial actor/item permission options for all importers\n  - Added \"fast animation\" token config option, which toggles Foundry's slow-sliding token animations\n  - Added \"import spells as prepared\" toggle\n  - Added option to disable 5etools link rendering in imported content\n  - Overhauled UI\n\n- Tools:\n  - Added SHIFT-click to lists for multi-selection (e.g. in collection cleaner)\n  - Overhauled UIs"
+	},
+	{
+		"ver": "0.9.0",
+		"date": "2020-02-29",
+		"txt": "- Added config option to compact Plutonium window header buttons into a single dropdown button\n- Added support for homebrew subraces to race importer\n- Spell importer will now attempt to populate healing dice on healing spells\n- Added config option to convert spell ranges to metric (where possible)\n- Added filters to class importer (which apply to imported content, i.e. disabling the \"Class Feature Variant\" source will prevent any of its content from being imported)\n- Added tool proficiency import step to background importer\n- When using the item importer to import a pack to an actor, the pack is now split into, and imported as, its constituent items\n- Added support for hit dice to class importer\n- Added optional/variant feature importer\n- Added config-enable-able \"popout\" button for sheets, which pops them out into a separate window (warning: probably broken)\n- Added \"Compact Scenes\" config  option, which works similarly to the existing \"Compact Journal\" option\n- Fixed importing the same class multiple times (i.e. importing higher levels of the same class to level up) failing to re-use the existing class features item\n- Fixed creature importer failing to import non-attack actions as actions\n- Fixed Plutonium window header buttons failing to hide on window minimize\n- Fixed non-Foundry-standard condition immunities being rendered as HTML\n- Fixed class importer failing to set spell slots\n- Fixed some tables breaking the table importer\n- Fixed case where importer item thumbnail images would fail to render"
+	},
+	{
+		"ver": "0.9.1",
+		"date": "2020-03-08",
+		"txt": "- Compatibility update for Foundry 0.5.x\n- Added multiclass support to class importer (if you have already imported a different class, the importer will now ask if you wish to multiclass/use as base class/ignore the new class)\n- Improved class importer handling of spellcasting slots in the presence of multiple classes (provided all classes were imported with Plutonium version 0.9.1+)"
+	},
+	{
+		"ver": "0.9.2",
+		"date": "2020-03-14",
+		"txt": "- When importing a choice of skills/tools to a character, current skill/tool proficiencies are now shown in the \"choose\" menu\n- Added config option to convert item weights to metric\n- Fixed homebrew creature tokens failing to import in some cases\n- Fixed importer failing to remember which source was previously selected upon re-opening\n- Fixed drag-to-reorder being broken in import path editor"
+	},
+	{
+		"ver": "0.10.0",
+		"date": "2020-03-28",
+		"txt": "- Importers can now import directly to compendiums\n- Rivet can now be used to import directly to an actor [Rivet is working again as of 5etools v1.102.1, which is now rolling out]\n  - The target actor can be chosen by right-clicking the actor in the directory, or from the new \"Rivet\" section of config\n- Added \"Source (Abbreviation)\" as an option to import folder path editor\n- (Fixed junk console warning complaining about \"source map\")"
+	},
+	{
+		"ver": "0.11.0",
+		"date": "2020-04-01",
+		"txt": "- Added warning prompt when attempting to import a single high level of a class without importing the lower levels, to a sheet without an existing class\n- Added warning prompt when attempting to import a subclass (and no class) to a sheet without an existing class\n- Exploded class features on import, breaking down e.g. Fighting Style into all its constituent flavours\n- Added config option to \"fix\" Foundry's funny ESC key bindings:\n  - Foundry default: dismiss context menu -> close all UI windows -> de-select tokens/etc (GM only) -> toggle main menu\n  - the Giddy Special: un-focus current input -> dismiss context menu -> de-select tokens/etc (all users) -> close most recently used UI window -> toggle main menu\n- Added config option to add image thumbnails to the file browser (warning: slow)\n- Added config option to (attempt to) remove all animations from the UI (warning: fast)\n- Importer now avoids attempting to import to locked compendiums\n- Fixed various importers failing to import to compendiums\n- Fixed Race actor importer filters\n- Fixed spell \"at higher level\" choice popups failing to roll dice\n- Fixed backslashes/quotes breaking the \"rename\" functionality of the creature importer"
+	},
+	{
+		"ver": "0.11.1",
+		"date": "2020-04-01",
+		"txt": "- Added \"Open Main Menu\" button to settings tab when ESC key fix is enabled\n- Added \"reset tab\" buttons to config editor\n- Imported classes and class features will now attempt to source art from the SRD compendiums"
+	},
+	{
+		"ver": "0.12.0",
+		"date": "2020-04-04",
+		"txt": "- Added Bulk Permission Editor tool\n- Added folder paths and filtering to Directory Cleaner tool and Bulk Directory Mover tool\n- Added Condition/Disease importer\n- Import list windows are now full-height by default (fixing an issue where the list could have a scrollbar with very few items)"
+	},
+	{
+		"ver": "0.12.1",
+		"date": "2020-04-06",
+		"txt": "- Overhauled config system to add player layer. This allows each player to change a limited subset of config settings (the editor can be accessed in the Settings tab), including, importantly, the Rivet import target actor\n- Added workaround for Bulk Permission Editor wiping pre-existing permissions (I _think_ this is a Foundry bug)\n- Added workaround for compendiums being inaccessible in some rare cases (another Foundry bug? Happened in my own game; no errors; couldn't repro it elsewhere)"
+	},
+	{
+		"ver": "0.13.0",
+		"date": "2020-04-18",
+		"txt": "- (Compatibility update for 0.5.5)\n- Added Art Browser integration, accessible via the \"palette\" button in the scene controls menu. Features include:\n  - Drag-dropping tiles to the canvas, with configurable scaling\n  - Drag-dropping tokens to the canvas\n  - The ability to download entire image packs locally, provided the server-side mod is installed (more on this below)\n- Added server-side mod. Installation instructions can be found in the README. This enables things previously locked out by pesky browser security features, such as downloading images from websites that really don't want you downloading their images (lol). **This is entirely optional, and Plutonium will never _require_ you to mod the Foundry server.** It will, however, enable some additional bells and whistles, like the aforementioned mass image downloader.\n- Overhauled module internals/build system. This (hopefully) should not produce a visible difference in functionality, but should fix previous performance penalties incurred by running Plutonium on e.g. large maps with heavy use of dynamic lighting (thanks @ Felix for bringing this to my attention and providing sample data)\n- Fixed config \"reset tab\" button failing to take effect unless the settings were manually changed afterwards\n- Relaxed \"fast animations\" timing to hopefully prevent various timing-related bugs"
+	},
+	{
+		"ver": "0.14.0",
+		"title": "The drugs _do_ work",
+		"date": "2020-04-19",
+		"txt": "- Added (albeit highly shitty) Adventure/Book importer, similar to the \"legacy\" importer available in betteR20\n  - Currently doesn't split the text into millions of journal entries; let me know if the \"one chapter per entry\" approach is better or worse.\n  - Currently doesn't have the \"next journal entry/previous journal entry\" buttons at the top/bottom of each handout; will add these after receiving some feedback on the above.\n- Added \"Scene creation\" as an option for Art Browser drag-drop\n- Added Art Browser token sizing config options\n- Added config options for Art Browser button placement; it can be made visible under any/all of: the token, tiles, or main scene menus\n- Added (intentionally highly objectionable) display showing when the server-side mod is detected as active\n- Fixed broken \"View\" link in the Art Browser\n- Fixed Art Browser always attempting to leverage the server-side mod, instead of just where available\n- (Server) Fixed images failing to upload to an empty assets path"
+	},
+	{
+		"ver": "0.14.1",
+		"date": "2020-04-19",
+		"txt": "- Fixed \"prepared spell\" casters failing to import their spell lists during class import\n- Added filters to Actor Feature/Spell Cleaner"
+	},
+	{
+		"ver": "0.15.0",
+		"title": "Delicious Dogfood",
+		"date": "2020-04-27",
+		"txt": "- Added \"Bulk Prototype Token Editor\" tool to Actors journal tools, with a handful of options for handling the most common repetitive token-updating tasks (as per my personal experience; ymmv/suggestions appreciated)\n- Creature importer:\n  - Weapons wielded by creatures now have additional data pulled in, adding e.g. weight, price, weapon properties, and art (where available)\n  - Creatures wearing armor now have this armor added to their inventory\n  - Added config option to scale the weight/price of items wielded by larger creatures, based on either the \"Barding\" rules in the PHB, or on an item from SKT (\"Gurt's Greataxe\"), these being the only two examples I know of \"official\" rulings on the matter. Open to suggestions/pointers in the direction of more data.\n  - Actions with names including \"X/Day\" (etc.) now correctly import this information to their sheet\n  - Added (heuristic) parsing of action activation conditions\n  - Added (heuristic) parsing of bonus action traits\n  - Fixed some damage rolls/types not being added to imported actions\n- Spell importer:\n  - Fixed dice formulas in \"At Higher Levels\" text\n  - Fixed some damage rolls/types not being added to imported spell\n- Added rudimentary filtering to the actor Prepared Spell Mass-Toggler tool\n- Added sortable \"Level\" column to the actor Prepared Spell Mass-Toggler tool\n- Added config option to toggle \"backend detected\" display (the green logo variant); logo change also now disabled when in Streamer Mode\n- Added config option to append page information to imported \"Source\" text, e.g. \"PHB\" -> \"PHB, p.123\"\n- Fixed some \"Choose Skills/Tools\" dialogues crashing the Backgrounds importer\n- Fixed \"table groups\" failing to import via rivet, and made them available in the Table importer\n- Fixed per-source Creature/Spell importers including entities from outside their source\n- Fixed double-scrollbar layout bug in modified file picker\n- (Developer) All patched methods now expose their originals as `_plutoniumCache_<originalMethodName>`"
+	},
+	{
+		"ver": "0.16.0",
+		"title": "Interfacial",
+		"date": "2020-05-03",
+		"txt": "- Importer:\n  - Overhauled importer UI\n    - Importers may now quickly be selected from a panel, rather than a dropdown\n    - Added search and (rudimentary) filtering for sources, and a list display\n    - Combined the \"folder\" and \"compendium\" import options into one always-visible area\n    - Added option to keep the importer list open, allowing e.g. filling out a character's spells then items without re-opening each time\n  - Re-opening the same importer list twice in a row should now be much faster\n  - Added colors to importer \"Source\" columns\n  - Added config option to set spell \"Preparation Mode\" when importing\n  - Added link to the current archive of converted Roll20 modules (the button next to the Adventure importer)\n  - Spell importer now loads targeting information from the SRD where available (as 5etools doesn't have a good representation of much of this data yet)\n  - An importer targeting an actor will now auto-close if the actor is deleted\n  - Spellcasting progression, skill choice number, and skill choices are now set on class sheet items when importing classes\n  - \"Always prepared\" spells are now imported as \"always prepared\" when importing classes\n  - Fixed Race importer failing to set \"Powerful Build\" flag; added \"Halfling Lucky\" and \"Savage Attacks\" flag support\n  - Feat importer now sets \"Alert,\" \"Elven Accuracy,\" and \"Observant\" flags when importing the appropriate feats\n  - Classes importer now sets \"Jack of All Trades\" and \"Remarkable Athlete\" flags when importing the appropriate sub/class levels\n\n  - Improved Creature importer\n    - Creature spells are now imported as innate/pact as appropriate\n    - Lair actions now import with their DCs/damages when available\n    - Fixed case where a creature could lose proficiency in its weapons (notably affecting Hobgoblin Warlord)\n    - Fixed case where a creature with no CR (notably ERLW's artificer pets) would fail to import their damage rolls\n    - Fixed case where a creature with only one total Foundry item on its sheet (e.g. one action, no traits) would crash the importer\n\n\n- Added \"Polymorpher\" tool in actor tools. Allows you to use the Plutonium importing UI to load and polymorph/wild shape directly into the loaded creature\n- Moved \"compact Plutonium header buttons\" option to general UI, and re-worked it to generally overhaul of Foundry's button header styling\n- Bulk token editor can now set bars to \"None\" (i.e. empty)\n- Split \"Compact Journal\" config options into one option for each directory\n- Moved \"hacky\" config settings into a new \"Experimental\" section. You are no longer allowed to complain when these intentionally don't work.\n- Added experimental config option to override source data/image URL\n- Improved layout of Bulk Permissions Editor, ensuring the \"creature name\" column is always visible when scrolling horizontally\n- Fixed some config dropdowns failing to display their current value\n- (Homebrew) Fixed crashes on missing race size/speed"
+	},
+	{
+		"ver": "0.16.1",
+		"date": "2020-05-05",
+		"txt": "- Added workaround for incompatibility with Forge assets manager module\n- Item importer now imports containers as containers\n- Item importer now imports some items (those with bonuses to AC; those matching common equipment names like \"belt of...\") as \"equipment\" rather than \"loot\""
+	},
+	{
+		"ver": "0.16.2",
+		"date": "2020-05-06",
+		"txt": "- Added earlier permissions check for players attempting to polymorph, immediately denying it with a helpful explanation\n- Added automatic player whisper to GM when attempting to revert a polymorphed actor, with a button prompt allowing the GM to one-click delete the orphaned transformed actor\n- Fixed subclasses failing to import in some cases\n- Fixed case where selected items could remain selected when re-opening an importer"
+	},
+	{
+		"ver": "0.16.3",
+		"date": "2020-05-06",
+		"txt": "- Added further workaround for incompatibility with Forge assets manager module"
+	},
+	{
+		"ver": "0.16.4",
+		"date": "2020-05-07",
+		"txt": "- Added \"All Players\" column to bulk permissions updater\n- Fixed Class importer failing to load highest chosen level in some cases\n- Fixed regression preventing file picker previews from loading"
+	},
+	{
+		"ver": "0.17.0",
+		"title": "Digital Crack",
+		"date": "2020-05-17",
+		"txt": "- (Compatibility update for 0.5.7)\n- Art Browser now opens in \"token\" mode if opened from the \"Basic Controls\" sidebar, and \"tiles\" mode if opened from the \"Tile Controls\" sidebar\n- Added mode-cycling button to the Art Browser, allowing token/tile/scene mode to quickly be switched between\n- Art Browser now remembers \"bad\" hosts per-session, and will avoid querying them for art (instead immediately using the modded backend/fallback) when drag-dropping\n- Added config option to dynamically name the browser tab after the scene, and add an optional suffix (rather than the usual \"Foundry Virtual Tabletop • A Standalone Virtual Tabletop Application\")\n- Wondrous items and poisons are now imported to a \"Wondrous\"/\"Poison\" folder if folderizing by item type, and no other type info is available\n- Adventure/Book importers now pull rollable tables directly from the text, rather than only those linked from the text\n- Added annoying \"disclaimer\" whisper message, requiring acknowledgement to prevent it from repeatedly appearing (acknowledgement currently saved per-server, will likely change to per-client eventually)\n- Removed prominent \"5etools\" labels\n- Fixed trusted players being able to see main importer/etc buttons\n- Fixed file browser crashes on names containing \"%\"\n- Fixed sheet items (usually, actions of imported creatures) failing to persist in rare cases, and thus disappearing on reload\n- Fixed crash on closing importer UI when parts of it had not completed loading\n- Added backend version number to modded backend display\n- (Updated backend mod to be compatible with Foundry 0.5.7 backend; please upgrade to 0.1.3 as required--also note the updated instructions for applying the mod)"
+	},
+	{
+		"ver": "0.17.1",
+		"date": "2020-05-18",
+		"txt": "- Fixed \"tab name from scene\" crashing if there is no active scene"
+	},
+	{
+		"ver": "0.17.2",
+		"title": "Sweet Release",
+		"date": "2020-05-22",
+		"txt": "- (Compatibility update for 0.6.0)\n- All Wondrous items are now imported as equipment, if they do not have another non-loot type\n- Items are now imported as tweaked copies of their SRD versions, if available\n- Added support for \"Reliable Talent\" flag\n- Added experimental Multiattack roller (rolling a \"Multiattack\" action on a creature now _might_ roll some of its listed attacks)\n- Overhauled localStorage system to use Foundry's built-in \"client\"-type settings, where possible _[note that this will have reset many settings]_\n- Improved some 5etools hover window styling, and fixed Foundry-style `[[]]` tags from appearing within 5etools hover windows\n- Fixed Bulk Prototype Token Editor crashing on attempting to open configuration screen\n- Fixed Races importer crashing on attempting to load homebrew\n- Fixed error on attempting to bring an importer window to front"
+	},
+	{
+		"ver": "0.18.0",
+		"title": "Communist Manifest",
+		"date": "2020-05-24",
+		"txt": "- Added custom items to spells (thanks to Adriannom and co.)\n- Added custom icons to feats (thanks to Jinker)\n- Added experimental \"Enable Journal Embeds\" feature. When enabled, this allows you to rightclick a journal item and set an embedded link (Google Doc, YouTube video, etc.) which is then displayed as an embed in that journal entry. Note that this takes up the entire journal entry; any text which might have been in there will be hidden until you remove the embed (same process, but submit an empty URL field).\n- Multiattack auto-roller now handles a couple of additional formats\n- Fixed Item importer failing when importing to the Items directory\n- Fixed gold component values on imported spells"
+	},
+	{
+		"ver": "1.0.0",
+		"title": "Finishing Touches",
+		"date": "2020-05-25",
+		"txt": "- Added search bar to config\n- Added config option to \"Display Missing Health\" on tokens. This puts a small player-visible number on each token which has taken damage, showing how much health it's missing.\n- Added config option to disable Creature Importer Scale/Rename dialogue\n- Fixed Creature Importer failing to set spellcaster level"
+	},
+	{
+		"ver": "1.1.0",
+		"title": "Cocked and Locked",
+		"date": "2020-05-31",
+		"txt": "- Ammunition is now imported as a consumable, rather than a weapon (as per D&D 5e 0.9.2)\n- When importing a weapon that requires ammunition, the Item Importer will attempt to link that weapon to an existing consumable ammo item\n  - When importing items, weapons that require ammunition are now always imported last\n- Item Importer now uses base SRD item art if none is available for a specific variant (e.g. \"Longsword\" art will be used if \"Cool +1 Longsword\" does not exist in the SRD)\n- Improved Adventure/Book Importer error handling when dealing with mismatched contents and chapters\n- Added \"Open Default Importer\" buttons to Importer Wizard, which open the main \"5etools\" importer with one click\n- Improve Race Importer spell handling; spells should now be imported with the correct ability scores and preparation mode\n- Made some content matching (i.e. looking for existing class items when levelling up a class) less strict (now matches on only name, as opposed to name + source). Old strict matching is now available as a config option.\n- Added config option to avoid splitting item packs when importing items to actors\n- Fixed non-attunable magic items being imported as attuned\n- Fixed Class Importer failing to fully reset when switching from one source to another\n- Fixed file upload in Adventure/Book Importer"
+	},
+	{
+		"ver": "1.1.1",
+		"date": "2020-06-01",
+		"txt": "- Fixed Race Importer failing to populate sheet items\n- Fixed Art Browser font color"
+	},
+	{
+		"ver": "1.1.2",
+		"date": "2020-06-03",
+		"txt": "- (Added Mythic Odysseys of Theros files _[no compendium update yet]_)\n- Multiattack roller now detects some additional formats\n- Fixed Creature Importer failing to import Orc War Chief damage"
+	},
+	{
+		"ver": "1.1.3",
+		"title": "For Real This Time",
+		"date": "2020-06-04",
+		"txt": "- Restored compatibility with \"dark mode\" module(s), hopefully\n- Added compatibility with \"Mindmap\" module\n- Fixed inner windows failing to scroll on Firefox"
+	},
+	{
+		"ver": "1.2.0",
+		"title": "Plutonium For All (Sort-Of)",
+		"date": "2020-06-06",
+		"txt": "- Plutonium is no longer limited (in its manifest) to the \"dnd5e\" system, and should successfully load under other systems. While it will still contain all the 5e-specific importers and tools, the system-agnostic tweaks and tools should all work.\n- Added \"Directory Deduplicator\" tool\n- Added \"Vision\" section to Bulk Prototype Token Editor\n- Fixed Item Importer handling of Wand of the War Mage and Holy Water\n- Fixed \"Display Missing Health\" token option breaking under certain conditions\n- Fixed Class Importer crashing when importing subclasses with multiple choices of spell set (e.g. Land Druid)"
+	},
+	{
+		"ver": "1.3.0",
+		"title": "More Buttons",
+		"date": "2020-06-13",
+		"txt": "- Added Popout support to Scene/Item/Journal/Table/Art Browser windows\n- Added \"preview\" (click and hold) and \"import\" buttons to Importer lists\n- Improved styling of 5etools hover windows\n- Improved Spell Importer damage parsing, and allowed damage to be specified manually (notably used to improve damage rolls of Magic Missile)\n- Fixed homebrew adventures/books failing to load their linked creatures/etc.\n- Fixed bug where Multiattack Roller would send one message per connected player\n- Journal entries can now be toggled between Text/Image mode when Journal Embeds are enabled (although you have to manually re-open the entry)"
+	},
+	{
+		"ver": "1.3.1",
+		"date": "2020-06-20",
+		"txt": "- Added support for main site data changes"
+	},
+	{
+		"ver": "1.4.0",
+		"title": "Online Classes",
+		"date": "2020-07-12",
+		"txt": "- Class Importer:\n  - Overhauled to handle new classes data format, including better splitting of text into individual features\n  - Added support for choosing from between multiple features (e.g. Fighting Styles)\n  - Improved parsing of text to extract extra information, such as durations, dice rolls, action types, and proficiencies\n  - Class and Optional Feature importers now pull from Foundry's SRD compendiums (where available) to enhance imported data\n  - Added ASI/feat picker when gaining an \"Ability Score Improvement\" feature\n- Added warning when importing more than 100 entities (as this can severely impact game performance). This warning can be disabled in the config.\n- Added advanced config option to use \"local\" image files rather than those from the 5e.tools server; note that this requires the contents of the 5etools \"image\" zip (available from get.5e.tools) to be present in the module directory\n- Added advanced config option to disable \"local\" data loading, forcing all data to be loaded from the 5e.tools server, or a custom server URL if one is provided\n- Fixed Race importer not setting token vision\n- Fixed file importer failing to function fruitfully\n- Fixed \"quick import\" buttons in Importer lists failing when importing homebrew\n- Fixed \"Fast Animations\" config setting affecting non-token animations, which could subtly break other systems\n- (Hopefully) Fixed BetterRolls support for Multiattack Auto-Roller\n- (Hopefully) Fixed Pop Out failing due to missing CORS headers"
+	},
+	{
+		"ver": "1.4.1",
+		"date": "2020-07-13",
+		"txt": "- Fixed features with optional tool proficiencies failing to import"
+	},
+	{
+		"ver": "1.4.2",
+		"date": "2020-07-19",
+		"txt": "- Improved overlay z-index compatibility with Foundry windows, hopefully preventing incorrect window/overlay ordering\n- Improved Class Importer UI for Ability Score Improvements\n- Fixed rare Class importer crash"
+	},
+	{
+		"ver": "1.4.3",
+		"date": "2020-07-20",
+		"txt": "- Fixed class features with non-homebrew sources in homebrew classes crashing the Class Importer\n- Moved the option to import creatures with CR scaling/renaming to a button in the Creature Importer\n- Added workaround for missing player permissions when selecting a feat in the Classes Importer ASI dialogue"
+	},
+	{
+		"ver": "1.5.0",
+		"title": "Get In",
+		"date": "2020-07-26",
+		"txt": "- Added Vehicle Importer\n- Class Importer now correctly sets hit dice on classes imported to the items directory (although the recommendation is still to use the on-sheet importer, as it has additional functionality)\n- Multiattack Roller now handles additional cases"
+	},
+	{
+		"ver": "1.6.0",
+		"title": "Spend It All",
+		"date": "2020-08-29",
+		"txt": "- Added support for D&D 0.9.5, specifically the \"physical damage\" resistance/etc. changes\n- Added starting equipment picker to Class Importer; either picking from the available default equipment, or using a shop UI to buy starting items\n- Class Importer now always orders classes before subclasses, even when sorting in reverse-name order\n- Class Importer will now prefer \"always prepared\" subclass spells over existing \"regularly prepared\" spells, switching matching spells to \"always prepared\" as required\n- Images imported from the Art Browser may now be placed as Journal Notes\n- Cancelling an import will now post an \"import cancelled\" message in the task manager UI, rather than an \"import success\" message\n- Fixed Class Importer failing to fill spellcaster spell slots on levelling up\n- Fixed Class Importer failing to fill Pact Magic spell slots\n- Fixed duplicate homebrew listings appearing in Importer source lists\n- Fixed extra curly braces being rendered in imported adventure/book texts\n- Fixed Item Importer failing to import items to folders\n- Fixed Item Importer failing to set range for melee weapons"
+	},
+	{
+		"ver": "1.6.1",
+		"date": "2020-08-30",
+		"txt": "- Fixed various bugs related to an internal API change (adventure/book content failing to populate; Class Feature Variants failing to show in filters)\n- Fixed Class Importer failing to import Gloom Stalker level 3"
+	},
+	{
+		"ver": "1.6.2",
+		"date": "2020-08-30",
+		"txt": "- Simplified Class Importer list selection when importing a class to an actor\n- Class Importer now greys out class levels an actor (probably) already has\n- Fixed importers getting stuck in actor/journal mode when switching between actor/journal importing"
+	},
+	{
+		"ver": "1.6.3",
+		"date": "2020-08-31",
+		"txt": "- Added \"Skip\" buttons to various Importer (primarily Class Importer) dialogues\n- Added experimental UI config option to remove the minimum mouse movement distance required to start a freehand drawing\n- Fixed Class Importer failing to load class data when importing a homebrew subclass\n- (Regenerated compendiums)"
+	},
+	{
+		"ver": "1.7.0",
+		"title": "No Plan Survives Contact with your Friends",
+		"date": "2020-09-13",
+		"txt": "- Importers may now load multiple data sets simultaneously. This can be used to, for example, load a homebrew file alongside 5etools' data, presenting both in one list.\n- Added starting equipment import step to Background Importer\n- Added \"Equipment Shop\" option to character sheet menu, which presents a mostly-identical UI to the class/background starting equipment screen\n\n- Creature Importer\n  - Now splits out Versatile damage where appropriate (as opposed to adding it as a secondary damage roll)\n  - Added config option to choose which spellcasting trait takes priority for creatures with multiple spellcasting traits\n  - Can now parse saving throws in traits (previously, only actions were checked)\n  - Improved parsing of dragon breath weapon attacks, to include targeting information, and splitting multi-modal breath weapons into their individual sub-modes. And, they now have a different icon!\n  - No longer skips skill/save bonuses if they aren't a perfect match with expected proficiency/expertise values. It will now instead choose proficient or expertise depending on which is closer to the original score. (Note that this will result in discrepancies between the original creature's skill/save bonus and the imported creature's, which will be ironed out in a future update.)\n  - Fixed some cases of parsing damage which must be dealt to the creature as damage the creature can output (e.g. \"the grapple can be broken by dealing 6 slashing damage to [the creature]\")\n\n- Spell damage data is now loaded from the SRD compendium where available, as this hand-curated data is more reliably correct\n- \"Choose Skills\" dialogues now display the ability score each skill is linked to\n- Fixed barding being imported as loot, rather than equipment (armor)\n- Fixed Importers failing to de-select list items post-import\n- Fixed Class Importer failing to import items chosen from equipment sets in the equipment import step\n- Fixed Class Importer crash on missing equipment data\n- (Regenerated compendiums)"
+	},
+	{
+		"ver": "1.7.1",
+		"date": "2020-09-15",
+		"txt": "- (Added content from Icewind Dale: Rime of the Frostmaiden)"
+	},
+	{
+		"ver": "1.7.2",
+		"date": "2020-09-16",
+		"txt": "- Fixed Table Importer failing to load"
+	},
+	{
+		"ver": "1.8.0",
+		"title": "Insert Package Joke Here",
+		"date": "2020-09-20",
+		"txt": "- Replaced Adventure Importer \"Worlds\" repository link with \"Package Importer,\" a UI for directly importing pre-built modules/worlds. Massive thanks to @ Modnar for providing the modules, worlds, misc data, and infrastructure to allow this to happen.\n- Split Adventure/Book Importer \"Configure and Import\" UI into two tabs: one for the \"classic\" importer which pulls actors, items, and journal entries from 5etools; one which attempts to find an available module/world in the above Package Importer tool for the currently selected source. \n- Creature Importer now correctly handles pact magic slots\n- Fixed Class Importer default starting equipment failing to combine stacks of items\n- Fixed image paths containing apostrophes failing to render in chat cards/sheet item thumbnails"
+	},
+	{
+		"ver": "1.8.1",
+		"date": "2020-09-22",
+		"txt": "- Fixed Table Importer failing to import"
+	},
+	{
+		"ver": "1.9.0",
+		"date": "2020-09-25",
+		"txt": "- Added experimental Journal Entries Config option to allow \"@EmbedJournalEntry\" syntax\n- Importing 2nd-level Warlock in the Class Importer now presents an Eldritch Invocation selection dialogue\n- Eldritch Invocation images and data are now pulled from the SRD, where available"
+	},
+	{
+		"ver": "1.10.0",
+		"date": "2020-09-26",
+		"txt": "- Added \"Import and Set Preparation Details\" alt-import button to Spell Importer. This functions similarly to the Creature Importer's \"Import with CR Scaling/Renames\" button, opening a UI which allows spell preparedness/preparation mode to be set as part of the import.\n- Added Spell Importer Config options to control spell preparedness/preparation mode when importing spells as items\n- Made the default config set more \"opinionated,\" i.e. more optional extras are enabled by default"
+	},
+	{
+		"ver": "1.10.1",
+		"date": "2020-09-27",
+		"txt": "- Fixed Creature Importer and Vehicle Importer crash"
+	},
+	{
+		"ver": "1.10.2",
+		"date": "2020-09-27",
+		"txt": "- Fixed Importer custom URL sources"
+	},
+	{
+		"ver": "1.11.0",
+		"date": "2020-10-02",
+		"txt": "- The Race Importer now sets damage resistances, damage immunities, and condition immunities when importing a race to an actor"
+	},
+	{
+		"ver": "1.12.0",
+		"date": "2020-10-10",
+		"txt": "- Tweaked UI for Race/Background Importer skill/language/tool proficiency popups, to reduce the number of popups, show more information, and help avoid double-picking the same proficiencies.\n- Race Importer now attempts to load race and race feature icons from the SRD compendium\n- Added advanced Config options to control whether or not bio/description text is imported when importing most entity types\n- Improved workaround for CR-less creature proficiency bonus detection, mitigating some cases where a creature's save/skill bonuses could become incorrectly inflated\n- Added workaround for DND5e 0.9.8 bug where levelling up a non-SRD class causes crashes to Class Importer\n- Added compatibility for 0.7.x token validation, avoiding case where token-less creatures/vehicles would crash the Creature/Vehicle importer"
+	},
+	{
+		"ver": "1.12.1",
+		"date": "2020-10-12",
+		"txt": "- Pressing ESC now closes open Plutonium title dropdown menus\n- Restored compatibility with dnd5e system versions <0.9.8"
+	},
+	{
+		"ver": "1.12.2",
+		"date": "2020-10-13",
+		"txt": "- Fixed Race Importer crash when a proficiency type is not defined on a race"
+	},
+	{
+		"ver": "1.13.0",
+		"date": "2020-10-18",
+		"title": "Triskaidekaphobia",
+		"txt": "- Added \"Duplicate Handling Mode\" to Importer config. This allows duplicate imports to be skipped/overwritten when importing, rather than filling your directories with junk copies.\n  - Functions in both directories and compendiums, but not within sheets (i.e. does not deduplicate sheet items when importing)\n  - Note that this involved sweeping changes to every importer. Expect bugs.\n- Table Importer now converts inline rolls to Foundry's [[/r ...]] format, allowing the sub-rolls to be rolled from chat cards\n- Fixed Class Importer Ability Score Improvement screen failing to handle Foundry's new numbers-as-strings data format\n- (Updated module `\"compatibleCoreVersion\"` to reflect current compatibility target)"
+	},
+	{
+		"ver": "1.13.1",
+		"date": "2020-10-21",
+		"txt": "- Added Config options to control the default expanded/collapsed state of embedded journal entries\n- Added SHIFT-click to mass expand/collapse embedded journal entries\n- Fixed rare Race Importer crash, affecting races with notes in their entries "
+	},
+	{
+		"ver": "1.14.0",
+		"date": "2020-10-21",
+		"title": "Interoperability",
+		"txt": "- (0.7.x) Moved directory buttons to match new layout\n- (0.7.x) Added Config option to hide directory buttons\n- Fixed Polymorpher crash\n- Fixed Polymorpher list \"quick import\" buttons importing via main importer rather than polymorph importer\n- Fixed Embedded Journal URL option breaking quick-switching between \"Text\" and \"Image\" journal entry modes\n- Split README backend mod installation section into 0.6.x and 0.7.x parts\n- (Server) Added 0.7.x version of backend mod (and moved copies of `plutonium-backend.js` files to version folders)"
+	},
+	{
+		"ver": "1.14.1",
+		"date": "2020-10-23",
+		"txt": "- (0.7.x) Fixed Art Browser crash during module initialization\n- (0.7.x) Fixed incompatibility with Dynamic Active Effects module when importing armor items to an actor\n- (0.7.x) Fixed sheet items missing from actors when imported to a compendium\n- Added Popout and Delete All buttons to compendium headers\n- Fixed incompatibility with Obsidian sheet"
+	},
+	{
+		"ver": "1.14.2",
+		"date": "2020-10-24",
+		"txt": "- Fixed the Class Importer crashing when importing subclasses to the items directory\n- The \"Fast UI Animations\" Config option is no longer enabled by default, as it causes sheets to fail to correctly close for some users. If you have to refresh to be able to re-open a sheet after closing it, disable this option."
+	},
+	{
+		"ver": "1.14.3",
+		"date": "2020-10-24",
+		"txt": "- Fixed Table Importer failing to convert \"00\" in d100 results to \"100\"\n- The Class Importer now exposes class/subclass source information as flags on created sheet items, adding potential for better integration with other modules"
+	},
+	{
+		"ver": "1.14.4",
+		"date": "2020-10-25",
+		"txt": "- Improved compatibility with Dynamic Active Effects for creature ACs, avoiding cases where an incorrect AC value would be set by DAE from a creature's equipped armor\n- Fixed Item Importer failing to set image when importing to the items directory/compendiums"
+	},
+	{
+		"ver": "1.14.5",
+		"date": "2020-10-25",
+		"txt": "- Fixed broken links in journal entries created by Adventure/Book Importer and Table Importer"
+	},
+	{
+		"ver": "1.14.6",
+		"date": "2020-11-08",
+		"txt": "- Added support for dnd5e v0.99\n  - New speed data is now populated\n  - New Diamond Soul flag is now set when importing the appropriate Monk level\n  - Added workaround for Foundry crash on levelling a class sheet item\n- (0.70x) Fixed Streamer Mode failing to rename compendiums\n- Fixed cases where Importer filters were not being cleaned up correctly, resulting in e.g. the Sources filter being blank\n- Fixed Creature Importer handling bonus weapons which do not state the bonus in the weapon name, e.g. Githyanki Knight's Silver Greatsword\n- (Regenerated compendiums)"
+	},
+	{
+		"ver": "1.14.7",
+		"date": "2020-11-16",
+		"txt": "- Spells imported as part of a race now include their usage limits\n- Added/improved Creature Importer parsing of some statblock elements to handle new formats introduced in TCE\n- Fixed Background Importer raising a (harmless) error on completing some import options\n- (Regenerated compendiums)"
+	},
+	{
+		"ver": "1.14.8",
+		"date": "2020-11-18",
+		"txt": "- Fixed Class Importer failing to load chosen feats in the Ability Score Improvement UI\n- Fixed rare crash when importing text containing skill proficiencies"
+	},
+	{
+		"ver": "1.15.0",
+		"title": "All the Small Things",
+		"date": "2020-11-23",
+		"txt": "- Creature Importer\n  - Sheet items now use SRD compendium art where available\n  - Legendary resistances and legendary actions now consume the appropriate sheet resource when used\n  - \"Split\" breath weapons (found on e.g. good-aligned dragons) now reference their parent breath weapon, in order to correctly handle charge usage\n  - \"Eye Ray\" actions are now split into one sheet item per ray (rather than the previous single item for all rays)\n- Added custom handling when drag-dropping Plutonium-imported items (classes, races, backgrounds) to actor sheets. The UI flow found when importing an item directly to the sheet is now triggered, rather than Foundry's default of creating a sheet item with static information. Note that this change is not retroactive; previously-imported items will drag-drop as before.\n- Added rudimentary action/equipment/weapon import to Vehicle Importer\n- Improved Multiattack Roller compatibility with Midi QoL\n- Added config option to hide \"Import\" buttons to users below a certain role\n- Added \"Thumbnail Size\" slider to Art Browser\n- Art Browser now displays its current drop mode in the window title (in addition to displaying it on the cycler button in the UI)\n- Added deduplication step to Importer list, which hides duplicates when selecting overlapping sources\n- Fixed ESC presses \"closing\" popped-out windows\n- Popped-out windows now close immediately, rather than re-opening in the main window, when their containing browser window is closed\n- Fixed Polymorpher failing to load creature data\n- (Regenerated compendiums)"
+	},
+	{
+		"ver": "1.15.1",
+		"date": "2020-11-24",
+		"txt": "- Fixed various races failing to import"
+	},
+	{
+		"ver": "1.15.2",
+		"date": "2020-11-27",
+		"txt": "- Added Config option to disable Plutonium-specific drag-drop handling, or to prompt the user each time\n- Importing the Artificer via the Class Importer now prompts the user to load their spell list\n- Fixed importer incorrectly deduplicating content, resulting in only the first selected source being displayed when selecting multiple sources\n- Fixed skill imported skill proficiencies not matching the proficiencies selected"
+	},
+	{
+		"ver": "1.15.3",
+		"date": "2020-11-29",
+		"txt": "- Fixed Adventure/Book Importer crash when attempting to deduplicate content"
+	},
+	{
+		"ver": "1.16.0",
+		"title": "Healthy Growth",
+		"date": "2020-12-04",
+		"txt": "- Added option to increase HP on levelling/adding class to Class Importer\n- Added Config option to use a creature's/vehicle's token image over its portrait image when populating its sheet portrait during import\n- Fixed Class Importer incorrectly handling drag-dropped subclass items\n- Fixed Shop send-to-right button functionality being bound to the \"preview\" button\n- (Electron) Fixed item drag-drop override causing further text input to fail until the app is minimized/re-maximized\n- (Server; Optional; v0.1.7) Improved error logging"
+	},
+	{
+		"ver": "1.16.1",
+		"date": "2020-12-09",
+		"txt": "- (Server; v0.2.0) Added package importer, replacing the previously-default Foundry importer (removed in Foundry 0.7.8). Note that this was removed from Foundry due to security concerns; install the backend mod at your own risk.\n- When attempting to install a package via the Package Importer, if the modded backend is not detected, a list of manifest links will be presented for the user to manually install via Foundry's regular \"Setup\" flow. With the modded backend installed, this functionality can be force-enabled via a config option.\n- Fixed Class Importer crashing on missing hit dice (e.g. sidekick classes)\n- Fixed Creature Importer failing to recognise some area effect formats (e.g. abominable yeti)"
+	},
+	{
+		"ver": "1.16.2",
+		"date": "2020-12-12",
+		"txt": "- Improved compatibility with Dungeon World game system\n- Fixed Class Importer skipping equipment import\n- Added compatibility with dnd5e v1.2.0"
+	},
+	{
+		"ver": "1.16.3",
+		"date": "2020-12-18",
+		"txt": "- Updated Polymorph \"Wildshape\" mode to match latest dnd5e version\n- Fixed Importer crashing when importing certain non-SRD creatures\n- Fixed Importer crashing when used as a player\n- Importer is now tolerant of broken entity \"source\" data, improving compatibility with some modules\n- (Regenerated compendiums)"
+	},
+	{
+		"ver": "1.17.0",
+		"date": "2020-12-26",
+		"title": "Forced to Use a Laptop Screen Over Christmas",
+		"txt": "- Added UI Config option to \"Compact Chat.\" This hides the author header for messages from an author after their first (within a time limit), to mimic the functionality of most modern chat apps. This, unfortunately, hides the \"delete\" button, so you can hold down SHIFT while hovering over a message to reveal the header.\n- Improved Starting Equipment UI to allow items to be purchased with gold while also gaining default starting equipment. This is useful in cases where you already have a gold amount entered into a sheet (e.g. from a background), and add class levels afterwards.\n- Fixed Art Browser button show/hide Config options failing to hide the correct buttons \n- Fixed Class Importer crashing when cancelling level selection"
+	},
+	{
+		"ver": "1.18.0",
+		"date": "2020-12-29",
+		"title": "Perfidious Packaging",
+		"txt": "- Feat Importer can now modify ability scores \n- Feat Importer can now import spells associated with a feat\n- Improved Spell Importer handling of various additional spell source, to (hopefully) improve the accuracy of preparation modes and use counts\n- All importers will now ask the user for confirmation before modifying an actor's ability scores (previously, no-choice ability score increases would always be applied) \n- Migrated hard-coded \"is prepared spellcaster\" check in Class Importer to class data, to allow homebrew classes to import spell lists in the future\n- Added rudimentary language import step to Class Importer, which currently ensures Druids learn Druidic, and Rogues learn Thieves' Cant. This will be expanded in future to support subclasses (e.g. Draconic Sorcerer), and learning languages at higher levels\n- (Fixed issue with package compilation which prevented the previous release from actually releasing)"
+	},
+	{
+		"ver": "1.18.1",
+		"date": "2021-01-03",
+		"txt": "- Overhauled Importer \"Additional Spells\" UI, used when races, feats, or subclasses provide additional spells during\n- Fixed a piece of flawed library code which had introduced about ten very subtle, but very nasty, bugs. The effect of these bugs was to either reduce import performance, or to partially delete to-be-imported data in some rare cases."
+	},
+	{
+		"ver": "1.19.0",
+		"date": "2021-01-11",
+		"title": "Come Kill Me, I'm Verified",
+		"txt": "- Added popout (to new window) buttons to popped-out sidebar tabs (e.g. Combat Tracker)\n- Added warning message when probably about to delete a non-transformed actor after a player clicks the \"Restore Transformation\" button on a transformed actor. Root cause of this behaviour still unknown.\n- Vehicle Importer now sets the actor's speeds to a reasonable interpretation of the vehicle's speed, within the restrictions of the sheet\n- Fixed Vehicle Importer crash on parsing certain speed types\n- Added support for gaining feats to Race Importer (i.e. Variant Human and Custom Lineage)\n- Fixed Creature Importer \"Rename\" functionality mangling text, when that text contains a longer word containing the creature's original name (e.g. \"imp\" in \"impeding\")\n- Added workaround for Item Importer failing to import \"equipment\"-type items as \"equipped\"\n- Improved Item Importer's classification of items as \"equipped\" or \"not equipped,\" now providing a reasonable guess based on item type\n- Fixed Compact Chat hiding skill names\n- Fixed Compact Chat incorrectly hiding headers in some cases\n- (Verified compatibility with dnd5e v1.2.2)"
+	},
+	{
+		"ver": "1.20.0",
+		"date": "2021-01-24",
+		"title": "Stay Wrapped",
+		"txt": "- Migrated Foundry/dnd5e patching to libWrapper\n- Added stub Plutonium settings to Foundry's \"Module Settings\" tab, with a button to open the main Plutonium Config\n- Added Config option to set minimum permission level required to use the Equipment Shop\n- Added support to Class Importer for gaining optional features at specified levels; currently used to prompt for choosing Eldritch Invocations when importing Warlock\n- Added support for \"characteristics\" (trait/ideal/bond/flaw) to Background Importer\n- Added Config option to import on-failing-save secondary attack damage (e.g. a the poison damage of a Giant Spider's bite) as \"Other Formula\" rather than a damage roll. This may improve compatibility with other modules, e.g. Midi-qol\n- Fixed Polymorph failing to add sheet items\n- Fixed various Importer UI bugs (e.g. Polymorph importer's buttons saying \"Import\" instead of \"Select\")\n- Fixed Creature Importer failing to locate sheet item icons (and slightly expanded those that it can locate, besides)\n- Fixed \"expanded spell list\" spells (i.e. Warlock subclass lists) importing as innate/always prepared spells\n- Fixed Multiattack Roller infinitely looping when detecting a \"multiattack\" action within the clicked multiattack action, and improved detection of some action types\n- Widened initial Art Browser window on narrow screens, to avoid hiding UI"
+	},
+	{
+		"ver": "1.21.0",
+		"date": "2021-02-06",
+		"title": "Auspicious",
+		"txt": "- Added support for choosing spell ability from a list of options presented by race [notably found in the UA2021: Gothic Lineages]\n- Added support for \"weighted\" ability scores [5etools' representation of those found in the UA2021: Gothic Lineages]\n- Added Polymorpher support for CR scaling/renaming [the button was previously displayed, but had no effect]\n- Reworked Importer list \"preview\" button (previously, an \"eye\" button you had to click-and-hold) to be an expandable drop-down set in-line in the list\n- Tweaked Importer list styling, adding borders and on-hover highlights to improve visual clarity\n- Added \"Find Active Effect Attribute Key\" button to rows in \"Effects\" tab of Configure Active Effect windows. This brings up a list of (hopefully) all available active effect attribute keys for the actor/item effect you're configuring. For those of you who use DAE, this is similar to the dropdown it provides for quickly selecting a key. As such, Plutonium's version  can be disabled in the Config for UI. [This was added mainly for my own benefit as I explore Active Effects, and may not be a permanent fixture]\n- Improved Starting Equipment/Equipment Shop UI, adding better visual hinting when gold has been rolled, and adding more navigation options\n- Improved compatibility with the Forien's Quest Log module\n- Improved Spell Importer dice parsing\n- Fixed Background Importer off-by-one error when rolling for characteristics\n- Fixed Equipment Shop failing to load its saved and/or default item list\n- Fixed Equipment Shop failing to correctly set an actor's currency on confirming a transaction\n- Fixed Package Importer list highlighting when clicking between selections\n- Fixed Item Importer splitting \"atomic\" collections of items (e.g. \"Bag of Ball Bearings (1,000)\") into their constituent items on import. If you still wish to import 1,000 individual Ball Bearing items, a Config option has been provided to disable this new behaviour.\n- Fixed Race Importer double-applying skill proficiencies in some cases \n- Added Rivet support for routePrefix'd game URLs [this update should have already been live in the Chrome and Firefox extension stores for some time]\n- (Added Rivet source to download)"
+	},
+	{
+		"ver": "1.21.1",
+		"date": "2021-02-06",
+		"txt": "- (Compatibility/syncing with 5etools filter fix)"
+	},
+	{
+		"ver": "1.22.0",
+		"date": "2021-02-10",
+		"title": "Better Late than Never?",
+		"txt": "- Added Config option to populate item (as in, 5e items, not Foundry items) active effects on import\n- Added Config option to use alternate active effect calculations, which support Foundry's roll \"@variable\" syntax (familiar for any DAE users)\n- Added warning message when DAE is enabled, and automatic disable for some features which are known to cause conflicts (the two mentioned above, as well as the extra \"Active Effect Attribute Key Helper\" button shown when configuring active effects)"
+	},
+	{
+		"ver": "1.23.0",
+		"date": "2021-02-15",
+		"title": "True Care, Truth Brings",
+		"txt": "- Added active effect generation to Item Importer for damage resistance/immunity/vulnerability and condition immunity\n- Improved Item Importer and Creature Importer DAE compatibility (and as such, removed warning notifications when both are active)\n- Improved active effect config UI tweaks, by adding a \"Priority\" field and improving the visuals. The Config option to enable/disable the tweaks has been renamed to \"Expand Active Effect Config.\"\n- Innately cast spells imported by the Race Importer are now imported with their appropriate casting level baked in (for example, a Tiefling's Hellish Rebuke is now set to 3d10 fire damage rather than 2d10). [The dnd5e sheet doesn't allow casting level to be chosen for innate spells, so the damage roll was always missing a die. This \"workaround\" may be removed if this changes in future.]\n- In the Class Importer, a special \"Unarmed Strike\" weapon is now created when importing the Monk class\n- The Class Importer can now create active effects for increased movement speed; this is currently used to create an Unarmored Movement effect for Monk, and a Fast Movement effect for Barbarian\n- The Class Importer now creates \"Unarmored Defense\" active effects\n- Added Config option to import fluff images to creature biographies (Creature Importer) and vehicle descriptions (Vehicle Importer)\n- Added Config option to set attunement type for items which would import with attunement requirements in Item Importer\n- Added (GM only) Config option to scale the prices in the Equipment Shop\n- Added rudimentary Supernatural Gifts and Rewards Importer\n- Improved visual clarity of Config search results (the sidebar is now greyed out for sections which contain no results)\n- Fixed incorrect active effect key being used for items which increase spell attack\n- Fixed extended active effect parser crashing the module's loading process in the presence of a broken active effect\n- Fixed price info not being populated on creature equipment\n- Improved performance of list rendering [by making the buttons uglier!]\n- (Removed fallback Art Browser image loader, as this depended on an external website which has since become too restricted to be of use)\n- (Regenerated compendiums)"
+	},
+	{
+		"ver": "1.23.1",
+		"date": "2021-02-27",
+		"txt": "- Added support for ability check bonuses to Item Importer active effects (i.e. Stone of Luck)\n- Added \"Base/Unarmored AC\" active effect when importing a class, calculated as 10 + Dexterity modifier\n- Added a Config option to include a class' table when the the Class Importer generates a description for a class items  \n- Improved compatibility with Drag Upload; some meaningless errors thrown by the Art Browser are now squashed if it is detected\n- Improved compatibility with Obsidian module; importing items with active effects should no longer brick your sheet\n- Fixed Creature Importer attempting to create active effects for ACs when importing to compendiums; as compendiums do not (yet?) cleanly support active effects, the AC is now instead imported as a static value\n- Fixed compatibility with DAE; active effect config enhancements will now be correctly disabled if DAE is detected  \n- Fixed Feat Importer failing to set sheet flags (for e.g. Observant)\n- Fixed interaction between \"Import: Use Strict Entity Matching\" and \"Import: Duplicate Handling Mode\" Config options; non-strict matching will now be correctly applied when searching for duplicates\n- Fixed Class Importer's ASI feat display\n- Fixed rare Class Importer crash when importing/rendering embedded tables\n- (Brew) Standardised usage of \"foundryData\" on entities, and and \"foundryX\" entities (e.g. \"foundrySpell\"), to work on just about anything that can be imported"
+	},
+	{
+		"ver": "1.23.2",
+		"date": "2021-02-28",
+		"txt": "- Fixed crash when importing homebrew classes"
+	},
+	{
+		"ver": "1.24.0",
+		"date": "2021-03-12",
+		"title": "Positive Effects",
+		"txt": "- Added racial weapon/armor proficiency import to Race Importer\n- Race Importer can now set active effects; this is used to add natural armor effects\n- Feat Importer can now set active effects; this is used to add movement speed modification effects\n- Added support for choosing race (lineage) size to Race Importer\n- Added custom scaling spell formulas to various spells which don't cleanly fot into dnd5e's damage roll/scaling schema (thanks @ BaumMeister)\n- Added various feature selection steps to Class Importer (artificer infusions, arcane archer options, ...) \n- Fixed Race Importer clobbering damage resistance/vulnerability/immunity and condition immunity when setting unrelated values\n- Fixed Class Importer failing to respect \"required\" options in choice sets, e.g. Four Element Monk's \"Elemental Attunement\" discipline\n- Fixed Creature Importer failing to preserve original actor's folder when overwriting duplicates\n- Fixed Item Importer crash when drag-dropping a homebrew item, imported to the item directory, to an actor\n- Fixed Equipment Shop adding rolled gold to sheet as copper pieces\n- Fixed Config resetting empty-able dropdowns with non-empty defaults on reload\n- Fixed Rivet failing to find tabs with URLs containing trailing junk (e.g. \"#\" or \"?\")\n- (Regenerated compendiums)\n"
+	},
+	{
+		"ver": "1.24.1",
+		"date": "2021-03-17",
+		"txt": "- Fixed Importer previews failing to render\n- Improved Item Importer detection of non-\"loot\" items\n- Improved Auto-Roll Multiattack parsing"
+	},
+	{
+		"ver": "1.25.0",
+		"date": "2021-03-28",
+		"title": "Ensmoothening",
+		"txt": "- Class Importer now imports effects from the SRD (e.g. Barbarian's Rage effect) where available\n- Item Importer now imports effects from the SRD where available [although none are currently available]\n- Spell Importer now imports effects from the SRD where available\n- Race Importer now imports effects from the SRD where available [although none are currently available]\n- Race Importer now uses race/base race image as a fallback when importing race features, reducing the number of features which are imported with a default Plutonium image\n- Item Importer now uses \"base item\" image as a fallback when importing magic items (e.g. Oathbow), reducing the number of items which are imported with a default Plutonium image\n- When opening the Creature Importer for a specific, official, adventure source, the red \"Adventure NPC\" filter will be automatically removed\n- Added Creature Importer Config option to append CR/type \"tag\" suffixes to creature names on import\n- Added a \"re-open last used importer\" button to the \"Plutonium Import\" button at the top of relevant directories\n- Reworked Equipment Shop \"gold remaining\" display to show both the actor's remaining gold, as well as the \"shopping basket\" total cost of all to-be-purchased items\n- GM-only Config settings are now hidden from players by default; added Config option to reveal GM-only Config settings to players as read-only [i.e., restoring the default implementation prior to this update]\n- Tweaked preferred handling order for ESC key when \"Fix ESC Key\" Config option is active; the game menu will now always be closed on the first ESC press\n- Added Config option to disable the additional \"Open Game Menu\" added to the settings tab when the \"Fix ESC Key\" Config option is enabled\n- Added Art Browser Config option to disable scene auto-activate and scene config auto-display when creating scenes\n- Added Config option to add a \"Delete\" button to the context menu for scenes in the navbar\n- Added \"Show Players\" option to drop-down menu on actor and item sheets\n- Fixed Adventure Importer failing to find all creatures from some official adventures\n- Fixed Item Importer failing to set \"adamantine\", \"focus\", \"magical\", and \"silvered\" item flags\n- Fixed filter-selection windows failing to correctly clean up (resulting in blank windows) when re-opening the same filter-select window\n- Fixed some minor layout issues in the Importer\n- (Homebrew) Item Importer now supports an optional `\"foundryType\"` field, in which you can manually specify the exact Foundry item type an item should be imported as"
+	},
+	{
+		"ver": "1.25.1",
+		"date": "2021-03-31",
+		"txt": "- Table Importer now attempts to link to Plutonium compendium data when importing rows which contain creature/spell/item links\n- Table Importer now correctly substitutes Foundry dice expressions for encounter tables\n- Improved Class Importer detection of existing features\n- Improved Importer auto-generation of max feature uses (it can now detect and output variables/formulas in some cases)\n- Fixed various Importers adding source suffixes to items imported directly to sheets when the \"Add Page Numbers to Sources\" is enabled\n- Fixed Class Importer inflating ability scores when applying ASIs, in the case where the actor has active effects which increase their ability scores\n- (Regenerated compendiums)"
+	},
+	{
+		"ver": "1.25.2",
+		"date": "2021-04-01",
+		"txt": "- Fixed Class Importer using CON score, rather than CON modifier, when calculating HP increases"
+	},
+	{
+		"ver": "1.26.0",
+		"date": "2021-04-11",
+		"title": "Background Check",
+		"txt": "- Added support for second personality trait in Background Importer, as, RAW, you get two!\n- Added support for \"Customizing a Background\" rules to the Background Importer\n- The Spell Importer can now import spells as spell scrolls when importing to an actor. To do so, use the \"Import as Spell Scroll(s)\" button at the bottom of the importer's spell list.\n- Added system version check as part of startup, which warns you when your version of dnd5e (if you're using dnd5e) is older than Plutonium expects [currently, it doesn't warn if your version is too new, but this might change once I begin tinkering with 0.8.x; Soon:tm:]\n- Added Config option to prefix Adventure/Book Importer journal entries with a \"sort order prefix,\" which is a short alphanumeric tag that should be friendly to both Foundry's default directory sorting, and any modules that do alphabetical directory sorting\n- Journal entries created by the Adventure/Book Importer now specify sort ordering, to better preserve their sort order between reloads\n- Creature Importer now adds \"Special Equipment\" items to creature statblocks during import\n- Added \"Download Image\" button to Art Browser images (as an alternative to \"Copy URL\"), which will download the image to your current \"User Art Directory\" (as defined in the Config). Note that this requires the backend mod to function. [No changes were made to the backend mod, so if you already have it installed, you do not need to update it to benefit from this functionality.]\n- Fixed Item Importer crashing when active effect population disabled\n- Dice expressions containing multiplication/division signs are now correctly converted to \"*\" and \"/\"\n- Improved active effect system error detection; processing all actors will no longer fail due to one broken actor, and any individual broken actors will now log their IDs to console"
+	},
+	{
+		"ver": "1.26.1",
+		"date": "2021-04-17",
+		"txt": "- Improved speed of Directory Cleaner\n- Fixed Creature Importer failing to add spellcasting traits\n- Added \"show/hide all previews\" buttons to the top of various list views (Importer, Equipment Shop, others)\n- Added \"Source\" and \"Category\" filters to Equipment Shop"
+	},
+	{
+		"ver": "1.27.0",
+		"date": "2021-04-25",
+		"title": "More Stuff",
+		"txt": "- Adventure/Book Importer now parses and loads embedded rules, creating and linking to them as journal entries\n- Added rudimentary Vehicle Upgrade importer\n- Added rudimentary Object importer\n- Improved Importer activation/uses parsing, to hopefully set more activation/use info on created features\n- Reworked how Config options are handled if conflicting modules are detected; an auto-disabled option is now greyed out, and has a tooltip which provides info on which module is producing the conflict (this information is also logged to the console as a warning)\n- Disabled the \"Auto-Roll Multiattacks\" Config option if Midi QOL is detected, as the two are no longer compatible\n- Improved Multiattack Roller parsing, reducing some cases of excess rolling\n- Reworked compendium generation method, to better handle (i.e. bypass, because they break things) active effects\n- Fixed filter window appearing under modal window when selecting \"additional spells\" during imports, requiring the latter to be closed before the former could be accessed\n- Fixed subclass item names when importing to the items directory\n- Fixed Importer \"Custom URL\" inputs de-selecting during typing\n- (Regenerated compendiums)"
+	},
+	{
+		"ver": "1.27.1",
+		"date": "2021-04-26",
+		"txt": "- Fixed Creature Importer crash"
+	},
+	{
+		"ver": "1.27.2",
+		"date": "2021-04-26",
+		"txt": "- Improved Class Importer handling of skill/language/tool/weapon/armor proficiencies from higher-level features\n- Fixed Class Importer crash"
+	},
+	{
+		"ver": "1.28.0",
+		"date": "2021-05-01",
+		"title": "Eldritch Horrors",
+		"txt": "- Added Plutonium-specific flags to data available in roll formulas for sheet items. This is currently limited to the item's name, which can be accessed as `@name`, or as `@srd5e.name.<whitespace/etc.-stripped item name>`. This enables, for example, the following (quite hideous) expression for Agonizing Blast bonus damage: `+(@srd5e.name.eldritchblast ? @abilities.cha.mod : 0)`.\n- Optional Feature importer now imports additional spells, as specified by a given feature. For example, importing \"Armor of Shadows\" will add an at-will \"Mage Armor\" spell to your sheet.\n- Added hacky \"Spell Points\" Spell Importer config option, which sets all imported spells to \"at will\" and assigns them a sheet resource value according to their spell point cost\n- Creature Importer now tags a creature's attacks as \"magic\" if they have the \"Magic Weapons\" trait\n- Fixed Item Importer failing to set \"firearm\" property for firearms\n- Item Importer now imports explosives as consumables\n- Fixed Optional Feature Importer failing to load Eldritch Invocation, Fighting Style, and Metamagic images/info from the SRD compendium\n- Fixed Equipment failing to simplify coinage from backgrounds, resulting in stacks of copper being added to the sheet rather than a handful of gold\n- Fixed Class Importer failing to add \"static\" (i.e., pre-defined; without choices) proficiencies from within class features\n- Fixed a case where Importers could repeatedly overwrite the same sheet proficiencies with multiple sets of proficiency data, resulting in only the last proficiency set being added to the sheet\n"
+	},
+	{
+		"ver": "1.28.1",
+		"date": "2021-05-04",
+		"txt": "- Added \"Update Permissions?\" popup when attempting to show an actor sheet that one or more players do not have permissions over\n- Fixed Feat Importer crash when populating active effects\n- Fixed Creature Importer failing to folderize when importing to directory, after importing to compendium in the same session\n- Fixed Importer setting invalid spell ability when importing feats/etc. with variable spellcasting ability\n- Fixed Creature Importer failing to parse sense ranges containing numerical separators"
+	},
+	{
+		"ver": "1.28.2",
+		"date": "2021-05-07",
+		"txt": "- Reworked Package Importer to use the in-game (scene) loading bar\n- Reworked Class Importer's use of dnd5e flags, to use class-item-linked active effects rather than hard-setting the flag\n- Fixed Show Sheet failing for item sheets\n- Fixed crash when using DAE without configuring DAE's settings\n- Fixed Race/Feat Importer failing to set spell saving throw ability for additional spells"
+	},
+	{
+		"ver": "1.29.0",
+		"date": "2021-05-30",
+		"title": "Gestaltery",
+		"txt": "- Added Class/Subclass Feature Importer\n - This has been split out of the Class/Subclass importer, and sports a variety of improvements to the way additional data (proficiencies, damage imm./res./vuln., condition immunities, spells granted) are handled\n- Added \"Size\" display to Package Importer list [which is currently blank, and will be populated when the data is made available]\n- Added support for main site Summon Spell Level scaling to Creature Importer\n- Fixed \"Prepend Active Scene Name to Browser Tab Name\" config option failing to rename browser tab if the active scene name was edited\n- Fixed Backgrounds importer failing to recognize some characteristics tables (notably in GGR content)"
+	},
+	{
+		"ver": "1.29.1",
+		"date": "2021-06-01",
+		"txt": "- Added \"x/y rows visible\" counts to importer lists\n- Increased icon spell/feat icon resolution (from 48px to 96px, to better match the size used when editing an item), and converted icons to `.webp`"
+	},
+	{
+		"ver": "1.29.2",
+		"date": "2021-06-03",
+		"txt": "- Force-disabled Journal \"URL Embeds\" Config Option if \"Kanka-Foundry\" is active, as the two are mutually incompatible\n- Fixed Creature Importer incorrectly tagging mundane weapons as \"magical\"\n- Fixed ex-SCAG TCE cantrips missing icon art\n- Fixed Background Importer crash when customizing language/tool proficiencies"
+	},
+	{
+		"ver": "1.30.0",
+		"date": "2021-06-21",
+		"title": "Extra Buttons",
+		"txt": "- Added \"Level Up\" button to player character sheets which have at least one level [assuming some other requirements are also met, such as: Plutonium can find data source(s) for your current class(es)]\n- Added Deity Importer\n- Added Recipe Importer\n- Added \"Save List\"/\"Load List\" functionality to actor Prepared Spell Mass-Toggler\n- Added support for skill/tool expertise to appropriate Importers\n- Added basic support for Strixhaven subclasses to Class Importer\n- Added option to disable generic description text (what \"Versatile\" means, for example) to Item Importer Config\n- Added Class Importer support for homebrew prepared spell caster spell lists\n- Added \"Compact\" UI Config option for macros directory\n- Directory Cleaner, Directory Deduplicator, and Bulk Permission Editor now support the macro directory\n- (Homebrew) Added support for \"foundryData\" to `\"item\"`s, `\"variant\"`s, `\"reward\"`s, and `\"monster\"`s\n- (0.8.x) Added Config options to control how importers set token data (most fields can be set to \"use game setting\")\n- Reworked Psionic Importer to import as features instead of spells\n- Reworked Package Importer to only include modules, as worlds are community-created and external to Plutonium. Community-created modules can be found in the [Foundry Worlds](https://discord.gg/7RJFVjt5Bf) Discord.\n- Fixed Class Importer using post-effect HP, rather than base HP, when calculating HP increases when levelling up\n- Fixed Importers adding shield proficiencies as text\n- Fixed Item Importer incorrectly importing \"loading\" property\n- Fixed formatting of description text imported by Creature/Vehicle/Object Importer\n- Fixed dice rendering in \"scaled by spell level\" creature hover windows\n- Fixed Plutonium directory buttons being rendered multiple times in the presence of certain modules (notably Giffyglyph's 5e Monster Maker)\n- (0.8.x) Fixed Importers failing to delete effects when overwriting existing content\n- (0.8.x) Fixed Bulk Prototype Token Editor failing to open\n- (0.8.x) Fixed Config dropdowns visually resetting when opening the Config Editor"
+	},
+	{
+		"ver": "1.30.1",
+		"date": "2021-06-24",
+		"txt": "- Improved Config layout, and added individual \"Reset\" button to each setting\n- Added glow effect to Level Up button when at/above appropriate XP for level up\n- Improved performance of Level Up button rendering when repeatedly rendering sheet in quick succession\n- Removed spammy \"could not find class\" notifications produced by the Level Up button\n- Fixed Config returning junk data in rare cases (the source of recent \"bad permissions\" errors on import)\n- Fixed Config failing to display \"throwable\" items after resetting\n- Fixed Class Importer displaying \"additional spell\" dialogue outside of levels where the additional spells could be gained\n- Fixed Class Importer giving too much HP when adding 1st-level multiclass\n- Fixed Level Up button being activating on pressing `return` within sheet fields\n- Fixed Rules importer failing to create journal entries"
+	},
+	{
+		"ver": "1.31.0",
+		"date": "2021-06-25",
+		"title": "Tags: #fixes #breaking #>using-the-compendiums",
+		"txt": "- Removed built-in compendiums\n- Added 5etools \"@tag\" syntax equivalent, formulated as `@<tagName>[<name>|<source>|<...>]` (e.g. `@creature[goblin]`). This is used by the Table Importer, as a more flexible alternative to referencing built-in compendiums, when populating rows\n- Fixed Config returning junk data in even rarer cases (the _real_ source of recent \"bad permissions\" errors on import)\n- Fixed Level Up button \"Add New Class\" option adding all subclasses\n- Fixed Level Up button handling of second+ homebrew multiclass when levelling up"
+	},
+	{
+		"ver": "1.31.1",
+		"date": "2021-06-27",
+		"txt": "- Improved Level Up button styling when using Tidy5e Sheet\n- (Restricted Level Up button to supported sheets only; currently, these are the default dnd5e sheet, and the Tidy5e sheet)\n- Fixed Level Up button disappearing/failing to render on sheet re-render\n- Fixed Config search result count display"
+	},
+	{
+		"ver": "1.32.0",
+		"date": "2021-07-11",
+		"title": "The Boring Stuff",
+		"txt": "- Added Config option to prefer rendering links as `@<tag>[...]`s, which is now the default. This means that, instead of rendering links to 5etools, Foundry-like actor/item/etc. document links will be rendered instead.\n- Note that these are not _true_ Foundry document links, and, as such, there's magic going on behind the scenes to make them behave sensibly. If anything is missing, or doesn't quite work how you'd expect, do let me know.\n- Added a config option to enable 5etools-link-like hover capabilities to these fake Foundry document links [disabled by default, as I found it felt more annoying than helpful]\n- Added Config option to split imported adventure/book content \"by contents\" or \"by heading,\" as opposed to the default/existing \"by chapter\"\n- Added Config option to make Class Importer create a default \"Unarmed Strike\" weapon when importing a class\n- Added cantrip selection step to Class Importer for spellcaster classes\n- Added folder path hierarchy display to Importer Wizard \"Folder Path\" customizer\n- Added \"Feeling Lucky?\" button to Importer lists\n- Added GM-only \"Edit Config\" button to Equipment Shop, reducing the number of clicks required to e.g. set shop prices\n- Added various \"publication year/date\" options to Adventure and Book Importer pre-defined folder options\n- Added Export/Import buttons to Config Editor, which allow the entire config to be exported/imported between games\n- Added Spell Importer option to import as spell scrolls when importing to a directory/compendium (previously, this was limited to spells imported directly to actors)\n- Restored the Package Importer's ability to import worlds [as I have been informed that there should no longer be any scary copyright-infringing core worlds in the package index]\n- Fixed import de-duper handling of existing content when importing temporary entities\n- Fixed (harmless) error when SHIFT-clicking an actor `@<tag>[...]` link as a user with insufficient permissions to create actors\n- Fixed various subclass/race/background/etc. sources missing from spells, especially for homebrew\n- Fixed rare scene crash on \"missing health\" display trying to de-reference non-existent tokens\n- Deferred Creature Importer metadata loading until after main module load, to improve performance, and allow the error to be handled gracefully (instead of locking you out of e.g. the Config)\n- Fixed Config Editor failing to correctly reset/display reset state of empty strings\n- Fixed Background Importer crashing when trying to process @item tags in default starting equipment display text\n- Fixed rare text mangling when rendering embedded journal entries\n- (Brew) Fixed Class Importer failing to de-dupe classes in list views when loading homebrew subclasses\n- (Brew) Fixed Creature Importer crashing on poorly-formatted actions\n- (0.8.x) Reworked Race Importer token vision to be more aggressive in overwriting default values\n- (0.8.x) Fixed entities being imported to both directory _and_ compendium when importing to a compendium\n- (0.8.x) Removed un-needed directory render calls, which were inexplicably causing newly-created macros to open for everyone\n- (0.8.x) Fixed crash when opening the Bulk Prototype Token Editor \"Configure Editor\" window"
+	},
+	{
+		"ver": "1.32.1",
+		"date": "2021-07-11",
+		"txt": "- Fixed journal entries failing to load when containing certain @tags\n- Fixed case where a hover window could become stuck open"
+	},
+	{
+		"ver": "1.32.2",
+		"date": "2021-07-12",
+		"txt": "- Fixed crash when loading non-5e systems, and fixed opening Config Editor on non-5e systems [no guarantees that compatibility with non-5e systems will be continued in the future; use at your own risk]\n- Fixed Class Importer double-importing spells granted by features\n- Fixed crash when importing optional features via the Class Importer\n- (0.8.x) Fixed crash when loading with \"Disable Game Canvas\" Foundry setting enabled\n- (0.8.x) Fixed drag-dropping @tag items to sheets\n- (0.8.8+ compatible version: <https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/module.json>)"
+	},
+	{
+		"ver": "1.32.3",
+		"date": "2021-07-12",
+		"txt": "- _Really_ fixed crash when importing optional features via the Class Importer"
+	},
+	{
+		"ver": "1.32.4",
+		"date": "2021-07-18",
+		"txt": "- Fixed Creature Importer crashing when attempting to import fluff images when fluff text is unavailable\n- Fixed Class Importer handling of homebrew optional feature progression\n- Fixed handling of nested importable + non-importable tags when rendering descriptions\n- Fixed compatibility with Module Sets module"
+	},
+	{
+		"ver": "1.33.0",
+		"date": "2021-07-18",
+		"title": "Enhanced Coverage",
+		"txt": "- Added rudimentary \"Actions\", \"Languages\", \"Cults & Supernatural Boons,\" and \"Other Character Creation Options\" importers [these are primarily useful in that they teach the importer how to handle `@action`, `@language`, ... `@tag`s, fixing various \"broken\" links]\n- Fixed the Class & Subclass Feature Importer failing to handle clicking on `@classFeature` and `@subclassFeature` `@tag`s\n- Re-implemented Adventure/Book Importer duplicate handling [previously disabled as it was incompatible with fine-grained section splitting]\n- Fixed rare case where Importer could fail to detect existing folder with a given name if the name was numeric\n- Fixed hovering skill/sense names failing to show a hover window (especially in 0.8.x)"
+	},
+	{
+		"ver": "1.34.0",
+		"date": "2021-07-27",
+		"title": "Friend to Pareto",
+		"txt": "- Added support for `@sense[...]`/`@skill[...]` tags\n- Added compendium \"Visibility Toggler\" tool, which allows compendium visibility to be set en-masse\n- Added option to adjust the threshold at which the token \"Display Missing Health\" option switches from white to red text (i.e., when is a creature considered \"bloodied\")\n- Added capability for Bulk Permission Editor to skip updating a row if it detects no changes would be made, and improved update performance\n- Fixed Spell Importer using different icons between sheet items and active effects\n- Fixed Creature Importer not converting `@tag`s to Plutonium equivalents in biographies\n- Fixed Importer crash when importing journal entries or rollable tables to compendiums when \"Duplicate Handling Mode\" is set to None\n- Fixed compatibility with Permission Viewer module [for the moment; unsure if the module itself is working as intended, or if the incompatibility is a symptom of a minor UI bug]\n- (0.8.x) Fixed Bulk Prototype Token Editor setting junk \"Display Name\" and \"Display Bars\" values"
+	},
+	{
+		"ver": "1.35.0",
+		"date": "2021-07-31",
+		"title": "Divergence",
+		"txt": "- (0.8.x) Added initial support for dnd5e 1.4.x\n  - AC Active Effects have been replaced with the built-in AC auto-calculation where possible, in both the Item and Creature Importers\n  - Tool items are now given subtypes as appropriate, and instruments/gaming sets are now imported as tools\n  - The Vehicle Importer now sets land, air, and water types\n  - The Class Importer now sets available class proficiencies on imported class items\n  - Importers now break down weapon proficiencies, and some tool proficiencies, into their respective individual types. [Notably in need of improvement is the handling of tools and tool proficiencies. This requires a major overhaul of various Plutonium systems and 5etools' data (and, by extension, homebrew), which would otherwise have significantly delayed this update. More to come Soon:tm:.]\n- Added `homebrew` directory, from which homebrew is automatically loaded by appropriate Importers\n- Added a \"Variants\" dropdown to the Creature Importer's \"Import with ...\" dialogue. This currently only lists \"Dragons as Innate Spellcasters\" variants, but will be expanded in future to allow other variant creature imports.\n- Fixed drag-drop \"Use Importer?\" prompt not appearing for actions, backgrounds, conditions/diseases, cults/boons, races, and spells\n- Fixed unused \"expanded\" additional spell choices appearing in Class Importer flows"
+	},
+	{
+		"ver": "1.36.0",
+		"date": "2021-08-07",
+		"title": "Tweaking",
+		"txt": "- Added source abbreviations as (hidden) searchable text to Importer source lists (so searching e.g. \"PHB\" now works)\n- Added Config option allowing additional local homebrew files to be specified (beyond those listed in `homebrew/index.json`)\n- Added Config option to force Importer to render dice as plain text (e.g. \"1d6\") instead of inline rollers (e.g. \"[[/r 1d6]]\")\n- Improved compatibility with Twilight UI (thanks @ arcanist)\n- Fixed Table Importer handling of structured \"rollable column\" data [most of the tables use plain text, but some tables embedded in e.g. Curse of Strahd use a fancier data structure]\n- Fixed nested Importers not correctly resetting their internally-tracked actor\n- Fixed Class Importer \"prepared spell\" import step failing to filter out existing prepared spells in some cases\n- Fixed various dice/etc. button formatting issues in text rendered by the Importer\n- Fixed journals with a URL set failing to re-open when closed and re-opened\n- (Brew) The Vehicle Upgrades Importer now creates active effects even when importing to a directory\n- (Brew) Fixed expand/collapse buttons on `\"dataX\"` headers, and removed spurious Rivet button from `\"dataX\"` names"
+	},
+	{
+		"ver": "1.37.0",
+		"date": "2021-09-04",
+		"title": "Text Message Breakup",
+		"txt": "- Added \"Save Imported Images to Server\" (disabled by default) and \"Save Imported Tokens to Server\" (enabled by default) Config options, which download any images referenced during import, and upload them to your Foundry server\n- Added \"Prefer Foundry/System Images\" and \"Prefer Foundry/System Tokens\" Config options, which set the preferred order in which images and tokens should be sourced \n- Reworked Background, Feat, and Race Importer handling of proficiencies, to better support choices such as \"choose one language proficiency or one tool proficiency,\" and to make full use of dnd5e's new (tool) proficiency changes\n- Item Importer now classifies more bonus-providing items as \"equipment\" instead of \"loot\"\n- Reworked Polymorpher to import a temporary actor to the Actors directory before applying it to the chosen sheet. This ensures AC calculations are correct, and should be a more robust method for ensuring all sheet values are correctly applies as the dnd5e system evolves. [The downside of this, is that crashes/bugs can now leave a junk actor in your directory, so if that happens, please report it as a bug!]\n- Added \"Class Level\" scaling support to Creature Importer \"Scale and Rename\" screen, for various (mainly) TCE creatures\n- Added support for `@class[...]` tags\n- Creature Importer will now attempt to roughly parse and set targeting information for creature actions\n- Table Importer now adds table headers to an imported table's \"description\" field, providing additional context for the table's rows\n- Table Importer now converts all `@tag`s, rather than only those that take up a full table row\n- Creature Importer now adds links from any \"Legendary Actions\" feature to the creature's legendary actions. This is achieved by way of a custom `@ActorEmbeddedItem` syntax, which functions much like Foundry's `@Actor` syntax, but with two \"name/ID\" parts instead of one. For example, `@ActorEmbeddedItem[Big Bad][Sword of Cutting]` would link to, and open, the \"Sword of Cutting\" item on \"Big Bad\"'s character sheet.\n- Added Mythic Action import step to Creature Importer\n- Added Config option to choose which resource the Psionics Importer uses for Psi Points\n- Background Importer will now use available fluff images to set the image for imported backgrounds/background features\n- (Brew) Added support for `foundryFlags` to (hopefully) all importers\n- Added inline list previews to Vehicle and Object Importers\n- Improved Creature Importer detection of \"physical\" damage immunity/resistance/vulnerability\n- Added leading operand to item skill/save/etc. bonuses, to prevent them from being concatenated together when applied from active effects\n- Fixed Item Importer failing to correctly set rarity\n- Fixed Background Importer failing to strip `@tag`s from characteristics text\n- Fixed \"Use Modded Package Installer\" being missing from Config Editor, which prevented it from ever being used\n- Fixed Feat Importer double-importing skill/language proficiencies when a choice of proficiencies was available\n- Fixed Multiattack throwing a junk error when the last of a consumable item was used"
+	},
+	{
+		"ver": "1.38.0",
+		"date": "2021-09-12",
+		"title": "Tabulated Misdeeds",
+		"txt": "- Import Wizard may now be opened from tables headers; when opened from a table, the Importer will add imported entities to that table as compendium link rows (the entities themselves are stored in auto-generated compendiums)\n- Creature Importer now uses \"parent\" action image for certain sub/linked actions, notably dragon breath weapon modes\n- Added Config setting to specify Importer image/token assets directory\n- Renamed module in Module Management app when Streamer Mode is enabled\n- Improved compatibility with Tidy5e's dark mode\n- Fixed token images failing to save locally unless \"Save Imported Images to Server\" option was also enabled\n- Fixed Table Importer duplicating rows when updating an existing table\n- Fixed Vehicle Importer crash when importing infernal war machines\n- Fixed Class Importer crash when importing Bladesinger Wizard\n- Fixed Spell Importer doubling up damage/etc. dice for SRD spells in rare cases\n- (Brew) Added expertise support to Race Importer\n- (Updated required dnd5e version to 1.4.3; using a lower version will display a warning notification)"
+	},
+	{
+		"ver": "1.38.1",
+		"date": "2021-09-13",
+		"txt": "- Fixed Art Browser \"Drag-Drop Images As\" Config option being mis-labelled in Config Editor"
+	},
+	{
+		"ver": "1.39.0",
+		"date": "2021-09-22",
+		"title": "Voted Least Likely to Be What You Need",
+		"txt": "- Added rudimentary Trap and Hazard Importers\n- Added \"Avoid Disabling Animations for Ruler Movement\" Token Config option, which attempts to suppress the \"Disable Animations\" option (if enabled) when moving a token along a ruler path (when using `CTRL+drag` -> `SPACE`)\n- Added \"Wrap Long Folder Names\" UI Config option\n- Added a \"Create Named Token\" macro (as part of a compendium), which allows you to click on the scene and enter a name, and will create a Roll20-esque \"nameplate\" token at the clicked point\n- Added SHIFT-click to Importer list inline preview buttons, which previews fluff info (where available)\n- Added fine-grained permission Config options for all Plutonium-added tools\n- Added metric support for ranges to Item Importer, and for token vision ranges to Creature/Object/Vehicle Importers\n- Bulk Prototype Token Editor can now toggle token \"Link Actor Data\"\n- Reworked sheet header buttons to always prefer the \"compact\"/burger style, finally removing the ugly \"Tools\"/\"Import\" buttons\n- Added sort order display/carets to Importer lists\n- Added \"NPC HP Roll Mode\" Token Config option, which, when set, will modify how token HP is assigned on creation. Token HP may be rolled according to HP formula, or maximized, or minimized.\n- Added rudimentary bug report form to Config Editor; clicking the \"Report a Bug\" button will present you with a form similar to the one available from DiscordCrawler, with much of the required information pre-filled\n- Added Art Browser Config option to prefer saving files to the server over referencing external URLs \n- Added \"Allow Popout Chaining\" UI Config option, which, when enabled, will attempt to automatically pop out windows opened from already popped-out windows (previously, these were always opened in the main window)\n- (Brew) Renamed local homebrew `index.json` file to `index.template.json`, to avoid accidental overwrites\n- (Brew) Switched local homebrew from \"opt out\" to \"opt in;\" the `index.json` file is now only loaded if the \"Load Local Homebrew Index\" Import Config option is enabled\n- Fixed popped-out windows failing to close on main window close/refresh\n- Fixed Polymorpher requiring GM-only \"create/delete folder\" permissions; added prompt message to allow the GM to delete temporary actors used by player polymorph flow\n- Fixed \"Delete [Scene]\" navbar context option not being added on initial load\n- Fixed Config failing to automatically add a trailing slash to user-entered Base Site Url\n- Fixed Class Importer importing shield proficiencies as text, rather than \"Shield\" proficiency\n- Fixed Class Importer converting existing proficiencies to text when applying additional proficiencies\n- Fixed case where Tool/Config buttons could be double-added to directories"
+	},
+	{
+		"ver": "1.39.1",
+		"date": "2021-10-04",
+		"txt": "- Item Importer can now apply speed-modifying active effects for items which adjust speed\n- Improved Popout compatibility with the \"Monk's Enhanced Journal\" module [and made Popout more tolerant of non-standard applications]\n- Tweaked Creature Importer \"rename\" functionality, to catch more potential replace-able names\n- Made initial loading process more tolerant to crashes caused by failing to apply various config options\n- Added missing \"x\"/clear button to Config search bar\n- Fixed rare crash when drag-dropping a token to canvas when \"NPC HP Roll Mode\" is enabled\n- Fixed Table Importer crashing on \"<X> or less\" rolls\n- Fixed Foundry-item-typed entities failing to import when shift clicking `@<tag>[...]`s"
+	},
+	{
+		"ver": "1.39.2",
+		"date": "2021-10-05",
+		"txt": "- Fixed broken `Array` methods, which were generating a variety of fun bugs."
+	},
+	{
+		"ver": "1.39.3",
+		"date": "2021-10-05",
+		"txt": "- Migrated system support to dnd5e 1.5.x\n  - The Item Importer can now set \"base item\" and \"critical hit threshold/damage\" fields\n  - The Creature Importer can now correctly import non-standard saving throw/skill bonuses (previously, only exact proficiency levels were allowed)\n- Enabled scrollbars on popped-out windows\n- Token scale can now be edited via the Bulk Prototype Token Editor\n- Default token scale can now be set as a Config option for the Creature/Vehicle/Object Importers\n- Added \"Never Download\" Art Browser Config option, which forces the art browser to refer to art only by URL, and if it can't, display an error (instead of downloading the image to the server)\n- Added Config option to force the Psionic Importer to use the old \"import as spells\" method\n- Improved compatibility with the Obsidian module\n- Fixed crash when attempting to load spells from a homebrew source that does not include any spells (notably, when applying spell lists during the import of e.g. homebrew Cleric subclasses)\n- Fixed Class Importer being unable to import to NPCs [note that this is not guaranteed to work perfectly, but it wasn't supposed to be completely broken, either]"
+	}
+]

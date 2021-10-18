@@ -742,5 +742,10 @@
 		"ver": "1.39.4",
 		"date": "2021-10-18",
 		"txt": "- Added \"Import (Spells)\" Config option to \"Apply Class Filter when Opening on Actor\", which will apply e.g. the \"Wizard\" filter when the Spell Importer is opened from a sheet with (only) Wizard levels\n- Added \"Import (Spells)\" Config option to \"Auto-Detect Actor Spell Preparation Mode\", which makes the Spell Importer attempt to create a spell with a preparation mode appropriate to the spellcasting type of the actor it is being imported to, e.g. Pact Magic for Warlocks\n- Added support for \"@Folder[...]{...}\" tags (similar to Foundry's existing \"@Actor[...]{...}, etc.\", which, when clicked, will switch to the tab the folder is in, expand it, and scroll to it (and provides a brief flare animation to mark the folder)\n- Loot imported by Rivet is now displayed as a chat message, whispered to the GM\n- Class Importer now populates the \"Saving Throw\" field on Class items\n- The Bulk Permission Editor can now reset player permissions to \"Default\"\n- (Brew) Added \"Import\" Config option to \"Avoid Loading Homebrew Indexes on Startup\", which may _slightly_ improve load times, but also removes all the homebrew from the Importer source lists\n- (Brew) Importers now display a warning when attempting to open with no content\n- Fixed crash, due to attempting to create the same folder multiple times, when importing loot via Rivet"
+	},
+	{
+		"ver": "1.39.5",
+		"date": "2021-10-18",
+		"txt": "- Fixed Adventure/Book Importer being un-openable due to \"no content\" message"
 	}
 ]

@@ -2,7 +2,7 @@
 	"name": "plutonium",
 	"title": "Plutonium",
 	"description": "A 5etools integration for Foundry VTT",
-	"version": "1.39.5",
+	"version": "1.40.0",
 	"author": "Giddy",
 	"keywords": [
 		"import",
@@ -70,6 +70,7 @@
 		"./ve-js/filter-variantrules.js",
 		"./ve-js/filter-vehicles.js",
 		"./ve-js/list2.js",
+		"./ve-js/lootgen-ui.js",
 		"./ve-js/scalecreature.js",
 		"./ve-js/statgen-ui.js",
 		"./ve-js/util-generate-tables-data.js"
@@ -166,6 +167,7 @@
 		"./js/ImportListVehicleUpgrade.js",
 		"./js/ImportSpecialPackages.js",
 		"./js/JqueryExtension.js",
+		"./js/LootGeneratorApp.js",
 		"./js/Menu.js",
 		"./js/MenuCollectionTools.js",
 		"./js/MenuTitle.js",
@@ -227,6 +229,7 @@
 		"./js/UtilDataConverter.js",
 		"./js/UtilDataSource.js",
 		"./js/UtilEvents.js",
+		"./js/UtilFolders.js",
 		"./js/UtilGameSettings.js",
 		"./js/UtilHandlebars.js",
 		"./js/UtilList2.js",

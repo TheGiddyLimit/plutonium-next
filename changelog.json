@@ -747,5 +747,11 @@
 		"ver": "1.39.5",
 		"date": "2021-10-18",
 		"txt": "- Fixed Adventure/Book Importer being un-openable due to \"no content\" message"
+	},
+	{
+		"ver": "1.40.0",
+		"date": "2021-10-27",
+		"title": "Smash and Grab",
+		"txt": "- Ported main site Loot Generator; this can be found in the Plutonium \"Tools\" menu in the items/journal directories\n - Loot can be imported to the item directory, a journal entry, or a compendium\n - Loot can be drag-dropped to a scene to place a loot journal note\n - Loot can be drag-dropped to an actor to import to that actor\n- Spell metric unit conversion now correctly converts areas, and now supports converting miles to kilometres\n- Improved Importer detection of some proficiency-based feature use types\n- Fixed system version checker aggressively throwing junk warnings when using new system versions\n- Fixed \"Welcome\" message being (ironically) un-dismissible if Streamer Mode was enabled"
 	}
 ]

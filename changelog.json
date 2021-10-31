@@ -758,5 +758,10 @@
 		"ver": "1.40.1",
 		"date": "2021-10-27",
 		"txt": "- Fixed crash when importing FTD creatures with lair actions"
+	},
+	{
+		"ver": "1.40.2",
+		"date": "2021-10-31",
+		"txt": "- Added support for FTD's additional lair actions/regional effects when importing dragons\n- Fixed Loot Generator failing to display loot in chat when importing via Rivet\n- Fixed crash when attempting to import un-importable class/subclass features via Class & Subclass Feature Importer [by removing them from the list!]"
 	}
 ]

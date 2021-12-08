@@ -664,7 +664,7 @@
 	{
 		"ver": "1.32.2",
 		"date": "2021-07-12",
-		"txt": "- Fixed crash when loading non-5e systems, and fixed opening Config Editor on non-5e systems [no guarantees that compatibility with non-5e systems will be continued in the future; use at your own risk]\n- Fixed Class Importer double-importing spells granted by features\n- Fixed crash when importing optional features via the Class Importer\n- (0.8.x) Fixed crash when loading with \"Disable Game Canvas\" Foundry setting enabled\n- (0.8.x) Fixed drag-dropping @tag items to sheets\n- (0.8.8+ compatible version: <https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/module.json>)"
+		"txt": "- Fixed crash when loading non-5e systems, and fixed opening Config Editor on non-5e systems [no guarantees that compatibility with non-5e systems will be continued in the future; use at your own risk]\n- Fixed Class Importer double-importing spells granted by features\n- Fixed crash when importing optional features via the Class Importer\n- (0.8.x) Fixed crash when loading with \"Disable Game Canvas\" Foundry setting enabled\n- (0.8.x) Fixed drag-dropping @tag items to sheets"
 	},
 	{
 		"ver": "1.32.3",
@@ -785,5 +785,11 @@
 		"ver": "1.42.1",
 		"date": "2021-11-30",
 		"txt": "- The Item Importer can now \"stack\" items imported to an actor onto existing items in that actor's inventory. This can be configured to \"always\" stack (e.g., importing Longsword twice will result in one Longsword item with a quantity of two); \"sometimes\" stack (which will only stack consumables, loot, etc.); or \"never\" stack (the old behaviour, where each import results in a new item added to the actor's inventory).\n- Improved Spell Importer parsing of numerical \"at higher level\" values\n- Split out \"Use Spell Points\" Import (Spell) option to have a distinct setting for NPCs\n- Added (optional) \"Rivet active\" display to the Foundry logo in the top-left of the screen if Rivet is detected\n- Fixed non-GM users being unable to view temporary actors shown when clicking on `@<creature|vehicle|object>[...]`s\n- Fixed Spell Importer failing to set distance units\n- Fixed dismissing the \"use importer?\" prompt when drag-dropping a Plutonium-imported item to a sheet failing to cancel the standard drag-drop\n- Fixed Streamer Mode failing to re-obfuscate names in the Module Management window when changing tabs\n- Fixed module conflicts caused by \"popout\" actor/item checks\n- Fixed Background Importer failing to load selected sources in \"feature from another background\" picker"
+	},
+	{
+		"ver": "1.43.0",
+		"date": "2021-12-08",
+		"title": "Partial Credit",
+		"txt": "- The Adventure/Book Importers may now import maps (where available). [Note that the full-fat version of this has about as much coverage as the \"Dynamic Viewer\" on 5etools, i.e., not a lot.]\n- The Item Importer now populates ammo attack/damage bonuses\n- Added Config Option to make (Foundry) applications resizable by default\n- Fixed Spell Importer crash when importing spells in certain preparation modes\n- Fixed Race Importer crash when opening the importer without the default 5etools source selected\n- Fixed Bulk Permission Editor failing to set default permissions\n- Fixed active scene name not being cleared from tab name when deleting the active scene\n- Fixed Creature Importer adding an invalid \"custom\" language to creatures with non-standard languages, which would display as a small grey line on the sheet"
 	}
 ]

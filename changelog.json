@@ -796,5 +796,10 @@
 		"ver": "1.43.1",
 		"date": "2021-12-11",
 		"txt": "- Moved adventure/book map importing to freestanding Map Importer\n- Improved performance of adventure/book map importing\n- Fixed Map Importer throwing harmless error on missing map region data\n- Reworked \"Save Imported Images/Tokens to Server\" and \"Use Local Images\" Config options\n  - \"Use Local Images\" option now uses a (configurable) \"assets\" directory outwith the module directory\n  - \"Saved Image/Token Directory\" is now \"Image/Token Directory\"; this directory is used both for local image saving, and for local image serving\n  - (\"Save Imported Images to Server\" and \"Save Imported Tokens to Server\" may now be used alongside \"Use Local Images\")\n- Reworked 'Local Homebrew' Config options\n  - Now uses a (configurable) \"assets\" directory outwith the module directory\n  - If \"Use `index.json` for Local Homebrew\" is disabled, the configured directory will be listed directly using Foundry's built-in file API. Note that this requires file browse permissions, which are not the default for un-trusted players.\n- Fixed local homebrew not being loaded/available during some operations\n- Improved Importer detection of \"action\" vs \"bonus action\"\n- Fixed Spell Importer \"Class/Subclass\" filters behaving inconsistently when browsing homebrew with custom class spell lists"
+	},
+	{
+		"ver": "1.43.2",
+		"date": "2021-12-17",
+		"txt": "- The Map Importer can now folderize by chapter name, or map name\n- The Background Importer can now apply feats when importing to an actor [to support Strixhaven backgrounds]\n- Fixed \"Compact Scenes Directory\" UI Config option failing to compact scene folders"
 	}
 ]

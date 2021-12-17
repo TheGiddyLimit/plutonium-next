@@ -2,7 +2,7 @@
 	"name": "plutonium",
 	"title": "Plutonium",
 	"description": "A 5etools integration for Foundry VTT",
-	"version": "1.43.1",
+	"version": "1.43.2",
 	"author": "Giddy",
 	"keywords": [
 		"import",
@@ -223,6 +223,7 @@
 		"./js/UtilApplications.js",
 		"./js/UtilCanvas.js",
 		"./js/UtilCharactermancer.js",
+		"./js/UtilCharactermancerAdditionalFeats.js",
 		"./js/UtilCharactermancerAdditionalSpells.js",
 		"./js/UtilCharactermancerBackground.js",
 		"./js/UtilCharactermancerClass.js",

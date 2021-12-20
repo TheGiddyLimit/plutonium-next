@@ -801,5 +801,10 @@
 		"ver": "1.43.2",
 		"date": "2021-12-17",
 		"txt": "- The Map Importer can now folderize by chapter name, or map name\n- The Background Importer can now apply feats when importing to an actor [to support Strixhaven backgrounds]\n- Fixed \"Compact Scenes Directory\" UI Config option failing to compact scene folders"
+	},
+	{
+		"ver": "1.43.4",
+		"date": "2021-12-19",
+		"txt": "- Customizing a background's feature now changes (where appropriate) the feats/spells that background applies\n- Fixed various inconsistencies in table styling in imported entries"
 	}
 ]

@@ -2,7 +2,7 @@
 	"name": "plutonium",
 	"title": "Plutonium",
 	"description": "A 5etools integration for Foundry VTT",
-	"version": "1.43.2",
+	"version": "1.43.4",
 	"author": "Giddy",
 	"keywords": [
 		"import",

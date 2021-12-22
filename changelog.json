@@ -803,8 +803,14 @@
 		"txt": "- The Map Importer can now folderize by chapter name, or map name\n- The Background Importer can now apply feats when importing to an actor [to support Strixhaven backgrounds]\n- Fixed \"Compact Scenes Directory\" UI Config option failing to compact scene folders"
 	},
 	{
-		"ver": "1.43.4",
+		"ver": "1.43.3",
 		"date": "2021-12-19",
 		"txt": "- Customizing a background's feature now changes (where appropriate) the feats/spells that background applies\n- Fixed various inconsistencies in table styling in imported entries"
+	},
+	{
+		"ver": "1.43.4",
+		"date": "2021-12-22",
+		"title": "The Ninth Degree",
+		"txt": "- The Creature Importer now sensibly handles multiple spellcasting traits with different attributes\n- Fixed junk @tags appearing in names of maps imported via the Map Importer\n- Fixed Background Importer crash when drag-dropping a background from the items directory/a compendium\n- Fixed Background Importer failing to strip @tags from characteristics when clicking rows in the characteristic tables directly (rather than rolling)\n- (Brew) Simplified Importer handling of class/subclass spellcasting data, allowing more\n- (v9; Server; v0.4.0) Added v9 version of backend mod"
 	}
 ]

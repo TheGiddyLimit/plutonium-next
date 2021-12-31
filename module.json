@@ -1,8 +1,8 @@
 {
 	"name": "plutonium",
 	"title": "Plutonium",
-	"description": "A 5etools integration for Foundry VTT",
-	"version": "1.43.4",
+	"description": "A 5etools integration for Foundry VTT.",
+	"version": "1.44.0",
 	"author": "Giddy",
 	"keywords": [
 		"import",
@@ -204,6 +204,7 @@
 		"./js/PatcherItem.js",
 		"./js/PatcherJournalSheet.js",
 		"./js/PatcherJquery.js",
+		"./js/PatcherKeybindingsConfig.js",
 		"./js/PatcherLibWrapper.js",
 		"./js/PatcherModuleManagement.js",
 		"./js/PatcherRollData.js",
@@ -242,6 +243,7 @@
 		"./js/UtilHandlebars.js",
 		"./js/UtilHooks.js",
 		"./js/UtilImage.js",
+		"./js/UtilKeybinding.js",
 		"./js/UtilList2.js",
 		"./js/UtilMigrate.js",
 		"./js/UtilModalFilter.js",

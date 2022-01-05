@@ -2,7 +2,7 @@
 	"name": "plutonium",
 	"title": "Plutonium",
 	"description": "A 5etools integration for Foundry VTT.",
-	"version": "1.44.0",
+	"version": "1.45.0",
 	"author": "Giddy",
 	"keywords": [
 		"import",
@@ -236,6 +236,7 @@
 		"./js/UtilCompendium.js",
 		"./js/UtilDataConverter.js",
 		"./js/UtilDataSource.js",
+		"./js/UtilDataTransform.js",
 		"./js/UtilDocuments.js",
 		"./js/UtilEvents.js",
 		"./js/UtilFolders.js",
@@ -245,6 +246,7 @@
 		"./js/UtilImage.js",
 		"./js/UtilKeybinding.js",
 		"./js/UtilList2.js",
+		"./js/UtilMenu.js",
 		"./js/UtilMigrate.js",
 		"./js/UtilModalFilter.js",
 		"./js/UtilNotifications.js",
@@ -263,7 +265,6 @@
 		{
 			"name": "macros.db",
 			"label": "Macros",
-			"system": "dnd5e",
 			"path": "./packs/macros.db",
 			"type": "Macro"
 		}

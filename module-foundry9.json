@@ -1,9 +1,15 @@
 {
 	"name": "plutonium",
 	"title": "Plutonium",
-	"description": "A 5etools integration for Foundry VTT.",
-	"version": "1.46.0",
-	"author": "Giddy",
+	"description": "A <a href=\"https://5etools-mirror-1.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
+	"version": "1.47.0",
+	"authors": [
+		{
+			"name": "Giddy",
+			"url": "https://www.patreon.com/Giddy5e",
+			"discord": "Giddy#0001"
+		}
+	],
 	"keywords": [
 		"import",
 		"SRD",
@@ -26,7 +32,7 @@
 		"art"
 	],
 	"readme": "README.md",
-	"license": "MIT",
+	"license": "UNLICENSED",
 	"bugs": "https://discord.gg/nGvRCDs",
 	"changelog": "https://discord.gg/nGvRCDs",
 	"url": "https://www.patreon.com/Giddy5e",
@@ -47,6 +53,7 @@
 		"./ve-js/filter.js",
 		"./ve-js/filter-classes.js",
 		"./ve-js/filter-classes-raw.js",
+		"./ve-js/blacklist-ui.js",
 		"./ve-js/filter-actions.js",
 		"./ve-js/filter-backgrounds.js",
 		"./ve-js/filter-bestiary.js",
@@ -166,6 +173,7 @@
 		"./js/ImportListVariantRule.js",
 		"./js/ImportListVehicle.js",
 		"./js/ImportListVehicleUpgrade.js",
+		"./js/ImportSpecialImagePreloader.js",
 		"./js/ImportSpecialPackages.js",
 		"./js/JqueryExtension.js",
 		"./js/LootGeneratorApp.js",
@@ -198,6 +206,7 @@
 		"./js/PatcherActor.js",
 		"./js/PatcherApplication.js",
 		"./js/PatcherCanvasAnimation.js",
+		"./js/PatcherChatLog.js",
 		"./js/PatcherChatMessage.js",
 		"./js/PatcherDrawing.js",
 		"./js/PatcherGameKeyboard.js",
@@ -253,8 +262,12 @@
 		"./js/UtilRenderer.js",
 		"./js/UtilSocket.js",
 		"./js/UtilUi.js",
+		"./js/UtilWorldContentBlacklist.js",
+		"./js/UtilWorldDataSourceSelector.js",
 		"./js/Vetools.js",
-		"./js/WeDontTalk.js"
+		"./js/WeDontTalk.js",
+		"./js/WorldContentBlacklist.js",
+		"./js/WorldDataSourceSelector.js"
 	],
 	"styles": [
 		"./art-css/ArtBrowser.css",

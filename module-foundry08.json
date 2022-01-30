@@ -2,7 +2,7 @@
 	"name": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5etools-mirror-1.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "1.47.1",
+	"version": "1.47.2",
 	"author": "Giddy",
 	"keywords": [
 		"import",
@@ -279,5 +279,34 @@
 			"name": "English",
 			"path": "lang/en.json"
 		}
-	]
+	],
+	"flags": {
+		"manifestPlusVersion": "0.0.1",
+		"conflicts": [
+			{
+				"name": "dae",
+				"description": "Dynamic Active Effects is incompatible with active effect patches, which will be disabled."
+			},
+			{
+				"name": "midi-qol",
+				"description": "Midi Quality of Life Improvements is incompatible with the \"Auto-Roll Multiattacks\" option, which will be disabled."
+			},
+			{
+				"name": "babele",
+				"description": "Babele translations are not used in imported content."
+			},
+			{
+				"name": "monks-enhanced-journal",
+				"description": "Monk's Enhanced Journal is incompatible with the \"Set URL\" journal feature, which will be disabled."
+			},
+			{
+				"name": "kanka-foundry",
+				"description": "Kanka-Foundry is incompatible with the \"Set URL\" journal feature, which will be disabled."
+			},
+			{
+				"name": "better-rolltables",
+				"description": "Better Rolltables is incompatible with the \"Render >3 Levels of Folder Nesting\" option, which will be disabled."
+			}
+		]
+	}
 }

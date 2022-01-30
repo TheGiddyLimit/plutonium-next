@@ -846,5 +846,10 @@
 		"ver": "1.47.1",
 		"date": "2022-01-26",
 		"txt": "- Fixed Importer failing to read custom files/URLs\n- Fixed Class Importer failing to respect World Content Blacklist class entries\n- Fixed rendering of long strings in Config string pickers\n- (v9) Fixed \"Delete Message\" showing twice in chat message context menus; renamed to \"Delete\" to match Foundry standard \n- (Server; v0.4.2) (v9) Fixed crash when running in the Electron client _without_ the \"\"\"optional\"\"\" Electron addon"
+	},
+	{
+		"ver": "1.47.2",
+		"date": "2022-01-30",
+		"txt": "- Fixed World Content Blacklist failing to blacklist subclasses\n- (v9) Fixed \"number\"-type active effects no longer applying their values in v9.245\n- (v9) Fixed incompatibility with Better Rolltable\n- (Added Manifest+ conflict info)"
 	}
 ]

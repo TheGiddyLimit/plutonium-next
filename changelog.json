@@ -851,5 +851,10 @@
 		"ver": "1.47.2",
 		"date": "2022-01-30",
 		"txt": "- Fixed World Content Blacklist failing to blacklist subclasses\n- (v9) Fixed \"number\"-type active effects no longer applying their values in v9.245\n- (v9) Fixed incompatibility with Better Rolltable\n- (Added Manifest+ conflict info)"
+	},
+	{
+		"ver": "1.47.3",
+		"date": "2022-02-03",
+		"txt": "- Fixed Creature Importer duplicating creature items in rare cases\n- Fixed \"Base Site URL\" Import Config Option failing to apply to image URLs\n- Fixed Rivet failing to import base items/generic variants/specific variants\n- (v9) Fixed _non_ \"number\"-type active effects _which are still actually numbers_ no longer applying their values in v9.245\n- (Added handling for MPMM data)"
 	}
 ]

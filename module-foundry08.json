@@ -2,7 +2,7 @@
 	"name": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5etools-mirror-1.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "1.47.3",
+	"version": "1.47.4",
 	"author": "Giddy",
 	"keywords": [
 		"import",
@@ -306,6 +306,10 @@
 			{
 				"name": "better-rolltables",
 				"description": "Better Rolltables is incompatible with the \"Render >3 Levels of Folder Nesting\" option, which will be disabled."
+			},
+			{
+				"name": "tokenmagic",
+				"description": "Token Magic FX is incompatible with token rendering modifications. (Note that this is fixed in v9. Upgrade!)"
 			}
 		]
 	}

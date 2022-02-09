@@ -861,5 +861,10 @@
 		"ver": "1.47.4",
 		"date": "2022-02-05",
 		"txt": "- Added more active effect keys to the \"Find Active Effect Attribute Key\" app (notably, the missing AC keys, as well as various global attack/damage bonuses which are not visible on the sheet)\n- Fixed \"Open Last-Used Importer\" button opening the importer for the currently active mode, rather than the clicked-on mode\n- Fixed Class & Subclass/Class & Subclass Feature Importers inserting broken links when a feature has been filtered out\n- (v9) Improved compatibility with Token Magic FX module [note that this is probably still broken in v0.8.x; sorry, legacy users!]\n- (v9) Fixed journal entries directory failing to compact when the \"Compact Journal Entries\" UI Config option is enabled"
+	},
+	{
+		"ver": "1.47.5",
+		"date": "2022-02-08",
+		"txt": "- (v9) Fixed token effects/bars failing to render"
 	}
 ]

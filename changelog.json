@@ -877,5 +877,10 @@
 		"ver": "1.48.1",
 		"date": "2022-02-27",
 		"txt": "- Fixed Item Importer crashing when importing some items"
+	},
+	{
+		"ver": "1.48.2",
+		"date": "2022-03-10",
+		"txt": "- Added \"Select Class Sources\" screen to \"Add New Class\" flow of Level Up button, allowing e.g. homebrew classes to be selected when adding a new class\n- Fixed \"current uses\" being set to 0 when importing \"innate\" additional spells\n- Fixed Class Importer always choosing the first set of additional spells when adding spells from subclasses\n- Fixed \"Fix ESC Key\" Config option throwing an error when ESC is pressed with no active canvas\n- Fixed Item Importer failing to set correct ACs for some magical SRD items\n- Fixed Background Importer crash when cancelling feature import\n- Fixed Level Up button being added to sheet twice in rare cases\n- (v9) Fixed \"Compact Chat\" Config option setting chat font size to a fixed value, breaking the application of Foundry's \"Font Size\" slider\n- (v9) Removed \"Delete\" chat message context option, as this is now part of Foundry\n- (v9) Fixed Rivet failing to display rolls in chat"
 	}
 ]

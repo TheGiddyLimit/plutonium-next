@@ -2,7 +2,7 @@
 	"name": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5etools-mirror-1.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "1.48.3",
+	"version": "1.48.4",
 	"authors": [
 		{
 			"name": "Giddy",
@@ -132,6 +132,7 @@
 		"./js/DataConverterReward.js",
 		"./js/DataConverterSpell.js",
 		"./js/DataConverterTable.js",
+		"./js/DataConverterTrap.js",
 		"./js/DataConverterVariantRule.js",
 		"./js/DataConverterVehicle.js",
 		"./js/DataConverterVehicleUpgrade.js",
@@ -276,7 +277,7 @@
 	],
 	"packs": [
 		{
-			"name": "macros.db",
+			"name": "macros",
 			"label": "Macros",
 			"path": "./packs/macros.db",
 			"type": "Macro"
@@ -292,10 +293,6 @@
 	"flags": {
 		"manifestPlusVersion": "0.0.1",
 		"conflicts": [
-			{
-				"name": "dae",
-				"description": "Dynamic Active Effects is incompatible with active effect patches, which will be disabled."
-			},
 			{
 				"name": "midi-qol",
 				"description": "Midi Quality of Life Improvements is incompatible with the \"Auto-Roll Multiattacks\" option, which will be disabled."

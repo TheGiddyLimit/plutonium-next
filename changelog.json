@@ -887,5 +887,10 @@
 		"ver": "1.48.3",
 		"date": "2022-03-10",
 		"txt": "- Improved detection of reaction/per-rest feature data\n- Fixed Adventure/Book importer failing to open\n- Fixed player Config resetting on reload"
+	},
+	{
+		"ver": "1.48.4",
+		"date": "2022-03-16",
+		"txt": "- Fixed Class Importer failing to apply blacklist to spellcaster cantrip/prepared spell lists\n- Fixed Config compatibility overrides being applied too late for players\n- (v9) Fixed included compendium name containing a `.`, rendering it useless in the latest Foundry version"
 	}
 ]

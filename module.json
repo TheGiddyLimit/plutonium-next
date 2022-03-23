@@ -2,7 +2,7 @@
 	"name": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5etools-mirror-1.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "1.48.4",
+	"version": "1.49.0",
 	"authors": [
 		{
 			"name": "Giddy",
@@ -218,6 +218,7 @@
 		"./js/PatcherKeybindingsConfig.js",
 		"./js/PatcherLibWrapper.js",
 		"./js/PatcherModuleManagement.js",
+		"./js/PatcherNotifications.js",
 		"./js/PatcherRollData.js",
 		"./js/PatcherSettingsConfig.js",
 		"./js/PatcherTextEditor.js",

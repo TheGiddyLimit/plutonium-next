@@ -892,5 +892,12 @@
 		"ver": "1.48.4",
 		"date": "2022-03-16",
 		"txt": "- Fixed Class Importer failing to apply blacklist to spellcaster cantrip/prepared spell lists\n- Fixed Config compatibility overrides being applied too late for players\n- (v9) Fixed included compendium name containing a `.`, rendering it useless in the latest Foundry version"
+	},
+	{
+		"ver": "1.49.0",
+		"date": "2022-03-23",
+		"title": "Bug Hunt",
+		"titleAlt": "Creating More Bugs!",
+		"txt": "- Improved Creature Importer handling of multi-part versatile dice (e.g. \"1d10 slashing damage plus 1d6 cold damage\")\n- An additional image loader has been added to serve the \"Save Imported Images/Tokens to Server\" Config option, to bypass CORS issues when loading tokens/images from some URLs. This loader requires the backend mod to be installed in order to function.\n- Added UI Config option to suppress \"Missing roll data\" warning notifications \n- Fixed Item Importer crash when attempting to stack items with the \"Use Strict Entity Matching\" Config option enabled\n- Fixed inversion of source selection screen \"Select All\" checkbox states\n- Fixed Trap Importer crashing when trying to import\n- (Brew) Expanded `foundry<X>` usage\n  - More entity types (hopefully, all of them!) will now load/respect `foundry<X>` `effects`, `flags`, and `data`\n  - Effect flags, duration, etc. may now be specified\n- (v9) Fixed use of outdated scene progress bar API crashing various tools\n- (Server) Added generic binary data fetching endpoint (used as a workaround for loading troublesome tokens; see above)"
 	}
 ]

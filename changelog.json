@@ -909,5 +909,10 @@
 		"ver": "1.49.2",
 		"date": "2022-04-03",
 		"txt": "- Fixed crash when attempting to import a background"
+	},
+	{
+		"ver": "1.49.3",
+		"date": "2022-04-19",
+		"txt": "- Optional Feature and Feat Importers may now set senses (darkvision, blindsight, etc.)\n- Race Importer may now set more sense types [mainly for homebrew]\n- Added Config options to convert race speeds to metric\n- Added \"Set Folder Path\" button to Maps section of Adventure/Book Importer\n- (v9) Importers may now use Midi QOL reaction types when Midi QOL is active\n- Fixed rendering of `@classFeature[...]` and `@subclassFeature[]` @tags\n- Fixed Class/Subclass Feature Importer adding some active effects twice\n- Fixed Spell Importer failing to apply class filter when opening on caster sheet\n- (Brew) Added support for alternate tokens using `tokenUrl`"
 	}
 ]

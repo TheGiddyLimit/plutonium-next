@@ -914,5 +914,10 @@
 		"ver": "1.49.3",
 		"date": "2022-04-19",
 		"txt": "- Optional Feature and Feat Importers may now set senses (darkvision, blindsight, etc.)\n- Race Importer may now set more sense types [mainly for homebrew]\n- Added Config options to convert race speeds to metric\n- Added \"Set Folder Path\" button to Maps section of Adventure/Book Importer\n- (v9) Importers may now use Midi QOL reaction types when Midi QOL is active\n- Fixed rendering of `@classFeature[...]` and `@subclassFeature[]` @tags\n- Fixed Class/Subclass Feature Importer adding some active effects twice\n- Fixed Spell Importer failing to apply class filter when opening on caster sheet\n- (Brew) Added support for alternate tokens using `tokenUrl`"
+	},
+	{
+		"ver": "1.49.4",
+		"date": "2022-04-21",
+		"txt": "- Fixed various issues caused by Item Importer over-zealously matching SRD compendium items (e.g. converting \"Arrow +3\" to \"Arrow\" for the purposes of finding stats and/or stacking with existing sheet items) \n- (v9) Fixed crash when importing creatures with Midi QOL active\n- (Brew) Fixed Class Importer crash on malformed starting gold expression"
 	}
 ]

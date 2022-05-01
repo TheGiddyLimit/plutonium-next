@@ -2,7 +2,7 @@
 	"name": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5etools-mirror-1.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "1.49.4",
+	"version": "1.50.0",
 	"authors": [
 		{
 			"name": "Giddy",
@@ -71,6 +71,7 @@
 		"./ve-js/filter-vehicles.js",
 		"./ve-js/list2.js",
 		"./ve-js/lootgen-ui.js",
+		"./ve-js/omnidexer.js",
 		"./ve-js/scalecreature.js",
 		"./ve-js/statgen-ui.js",
 		"./ve-js/util-generate-tables-data.js"
@@ -226,6 +227,7 @@
 		"./js/Util.js",
 		"./js/UtilActiveEffects.js",
 		"./js/UtilActors.js",
+		"./js/UtilAdvancements.js",
 		"./js/UtilAdventureBook.js",
 		"./js/UtilApplications.js",
 		"./js/UtilCanvas.js",
@@ -235,7 +237,7 @@
 		"./js/UtilCharactermancerBackground.js",
 		"./js/UtilCharactermancerClass.js",
 		"./js/UtilCharactermancerEquipment.js",
-		"./js/UtilCharactermancerFeat.js",
+		"./js/UtilCharactermancerFeature.js",
 		"./js/UtilCharactermancerRace.js",
 		"./js/UtilCharactermancerSpell.js",
 		"./js/UtilCharactermancerSpellSlotLevelSelect.js",

@@ -925,5 +925,10 @@
 		"date": "2022-05-01",
 		"titleAlt": "Systemic Advancement",
 		"txt": "- Migrated system support to dnd5e 1.6.x\n  - Note that dnd5e 1.5.x is **no longer supported**.\n  - Note that Foundry v0.8.x is **no longer supported** either, as dnd5e 1.6.x requires Foundry v9+.\n  - Hit points/hit dice in advancements are not *yet* supported, but this may come in the future, if/when class items support more hit dice formats. Until then, the Class Importer will continue to set hit points/hit dice as it has always done.\n  - Features in advancements are not fully supported, and this is unlikely to change in the future, as importing features on-the-fly is preferable for a variety of reasons. The Class Importer will track imported features using advancements, allowing these to be easily removed when down-levelling, but levelling up should still be done via the Class Importer (or Charactermancer!).\n- Imported Optional Features may now import other Optional Features (e.g. the \"Superior Technique\" fighting style may now import Battle Master Maneuvers)\n- Converted all remaining \"5etools-style\" modal windows to Foundry applications, for a more consistent UI\n- Fixed Class Importer failing to load all available spells when prompting to add cantrips/fill spellbook\n- Fixed crashes around/rendering of @quickref tags\n- Token vision is now more consistently set across Creature Importer and Race Importer (with the former gaining better support for metric, and the latter gaining support for all truesight/tremorsense) "
+	},
+	{
+		"ver": "1.50.1",
+		"date": "2022-05-02",
+		"txt": "- Fixed crash when importing spells/opening the Spell Importer"
 	}
 ]

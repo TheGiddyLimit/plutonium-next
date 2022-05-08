@@ -930,5 +930,11 @@
 		"ver": "1.50.1",
 		"date": "2022-05-02",
 		"txt": "- Fixed crash when importing spells/opening the Spell Importer"
+	},
+	{
+		"ver": "1.51.0",
+		"date": "2022-05-08",
+		"titleAlt": "Boxcraft",
+		"txt": "- Added \"Rectangular Select ...\" tools to scene Measurement Controls, Lighting Controls, and Ambient Sound Controls, and made the \"Select Notes\" tool support standard click-drag box select\n- Added \"Replacement Data Compendiums\" Config option to Item/Spell Importers. If populated, the importer will check the compendiums provided for an existing version of an item/spell during import, and use the existing version if it finds one. This effectively allows e.g. spells imported to creature statblocks by the Creature Importer to be customized, or starting items imported by the Class Importer to be customized.\n- Setting a creature's token URL to a path ending in \"*\" (i.e., a wildcard) during the \"Customize Import\" phase of the Creature Importer will now correctly set the token \"Randomize Wildcard Images\" value for that creature\n- Added \"Class Starting Gold\" Equipment Shop Config option, which allows the GM to set a fixed value of starting gold to be used for purchasing starting equipment, instead of using the value set by the class\n- Added \"Open Last Used Importer (<entityType>)\" as bindable hotkey option (functionally identical to clicking the \"heart\" button in a directory)\n- Added \"Select Existing Folder Path\" dropdown to Importer \"Folder Path\" UI\n- Fixed Supernatural Gifts & Rewards imports crashing\n- Fixed Spell Importer crashing when \"Auto-Detect Actor Spell Preparation Mode\" option is enabled\n- Removed unnecessary URL encoding of various image URLs, notably those used in the Map Importer\n- Fixed table rolls of the form `9x-0` failing to convert to `9x-100` in some cases\n- Fixed Adventure/Book Importers importing inline content (tables) multiple times"
 	}
 ]

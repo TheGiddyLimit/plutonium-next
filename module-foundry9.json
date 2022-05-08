@@ -2,7 +2,7 @@
 	"name": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5etools-mirror-1.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "1.50.1",
+	"version": "1.51.0",
 	"authors": [
 		{
 			"name": "Giddy",
@@ -134,6 +134,7 @@
 		"./js/DocumentEmbeddedDocumentCleaner.js",
 		"./js/FilterApplications.js",
 		"./js/FolderPathBuilder.js",
+		"./js/FolderPathPicker.js",
 		"./js/GameStorage.js",
 		"./js/ImportList.js",
 		"./js/ImportListAction.js",
@@ -215,6 +216,7 @@
 		"./js/PatcherModuleManagement.js",
 		"./js/PatcherNotifications.js",
 		"./js/PatcherRollData.js",
+		"./js/PatcherSceneControls.js",
 		"./js/PatcherSettingsConfig.js",
 		"./js/PatcherTextEditor.js",
 		"./js/PatcherToken.js",

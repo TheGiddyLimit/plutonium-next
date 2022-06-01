@@ -2,7 +2,7 @@
 	"name": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5etools-mirror-1.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "1.51.0",
+	"version": "1.52.0",
 	"authors": [
 		{
 			"name": "Giddy",
@@ -74,7 +74,8 @@
 		"./ve-js/omnidexer.js",
 		"./ve-js/scalecreature.js",
 		"./ve-js/statgen-ui.js",
-		"./ve-js/util-generate-tables-data.js"
+		"./ve-js/util-generate-tables-data.js",
+		"./ve-js/utils-brew.js"
 	],
 	"esmodules": [
 		"./art-js/ArtBrowser.js",
@@ -263,6 +264,7 @@
 		"./js/UtilPatch.js",
 		"./js/UtilRenderer.js",
 		"./js/UtilSocket.js",
+		"./js/UtilTokens.js",
 		"./js/UtilUi.js",
 		"./js/UtilWorldContentBlacklist.js",
 		"./js/UtilWorldDataSourceSelector.js",
@@ -290,27 +292,37 @@
 			"path": "lang/en.json"
 		}
 	],
+	"dependencies": [
+		{
+			"name": "lib-wrapper"
+		}
+	],
 	"flags": {
-		"manifestPlusVersion": "0.0.1",
+		"manifestPlusVersion": "1.2.0",
 		"conflicts": [
 			{
 				"name": "midi-qol",
+				"type": "module",
 				"description": "Midi Quality of Life Improvements is incompatible with the \"Auto-Roll Multiattacks\" option, which will be disabled."
 			},
 			{
 				"name": "babele",
+				"type": "module",
 				"description": "Babele translations are not used in imported content."
 			},
 			{
 				"name": "monks-enhanced-journal",
+				"type": "module",
 				"description": "Monk's Enhanced Journal is incompatible with the \"Set URL\" journal feature, which will be disabled."
 			},
 			{
 				"name": "kanka-foundry",
+				"type": "module",
 				"description": "Kanka-Foundry is incompatible with the \"Set URL\" journal feature, which will be disabled."
 			},
 			{
 				"name": "better-rolltables",
+				"type": "module",
 				"description": "Better Rolltables is incompatible with the \"Render >3 Levels of Folder Nesting\" option, which will be disabled."
 			}
 		]

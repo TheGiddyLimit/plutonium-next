@@ -948,5 +948,10 @@
 		"ver": "1.52.1",
 		"date": "2022-06-01",
 		"txt": "- Fixed console spam due to over-eager destruction of missing HP display HUD elements"
+	},
+	{
+		"ver": "1.52.2",
+		"date": "2022-06-02",
+		"txt": "- Fixed crash when importing an actor to a compendium\n- Fixed Class Importer sheet item drag-drop handler killing other event handlers\n- Fixed scaling \"dice\" of flat-number spells (e.g. Aid)\n- Fixed rare case where a spell imported from an \"additional spells\" list could have a broken saving throw"
 	}
 ]

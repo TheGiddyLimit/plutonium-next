@@ -953,5 +953,10 @@
 		"ver": "1.52.2",
 		"date": "2022-06-02",
 		"txt": "- Fixed crash when importing an actor to a compendium\n- Fixed Class Importer sheet item drag-drop handler killing other event handlers\n- Fixed scaling \"dice\" of flat-number spells (e.g. Aid)\n- Fixed rare case where a spell imported from an \"additional spells\" list could have a broken saving throw"
+	},
+	{
+		"ver": "1.52.3",
+		"date": "2022-06-06",
+		"txt": "- Added \"Enabled, but Use 99 Slots\" spell points Config option. This avoids setting all spells to \"At Will,\" while preventing you from running out of slots, making organisation easier and providing better compatibility with other modules/sheets.\n- Fixed Race Importer crash when importing a race which does not have a subrace\n- Fixed Optional Feature importer crash when importing to a directory/compendium\n- Fixed Item Importer failing to fully set ranges from SRD\n- Fixed infinite prompt cycle when drag-dropping an item which has a replacement in a \"replacement data compendiums,\" when that replacement was also imported by Plutonium"
 	}
 ]

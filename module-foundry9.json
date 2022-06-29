@@ -2,7 +2,7 @@
 	"name": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5etools-mirror-1.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "1.52.3",
+	"version": "1.53.0",
 	"authors": [
 		{
 			"name": "Giddy",
@@ -244,6 +244,7 @@
 		"./js/UtilCharactermancerRace.js",
 		"./js/UtilCharactermancerSpell.js",
 		"./js/UtilCharactermancerSpellSlotLevelSelect.js",
+		"./js/UtilChat.js",
 		"./js/UtilCompat.js",
 		"./js/UtilCompendium.js",
 		"./js/UtilDataConverter.js",

@@ -2,7 +2,7 @@
 	"name": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5etools-mirror-1.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "1.54.0",
+	"version": "1.54.1",
 	"authors": [
 		{
 			"name": "Giddy",
@@ -52,6 +52,7 @@
 		"./ve-js/filter-backgrounds.js",
 		"./ve-js/filter-bestiary.js",
 		"./ve-js/filter-charcreationoptions.js",
+		"./ve-js/filter-common.js",
 		"./ve-js/filter-conditionsdiseases.js",
 		"./ve-js/filter-cultsboons.js",
 		"./ve-js/filter-deities.js",

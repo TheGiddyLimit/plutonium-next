@@ -970,5 +970,10 @@
 		"date": "2022-07-17",
 		"title": "Nerfed",
 		"txt": "- Spells cast at higher levels will now use the correct amount of spell points\n- Improved compatibility with Obsidian, avoiding crash/errors during initial load\n- Added \"Hidden Importers\" Config option, allowing unwanted importers to be hidden in the Import Wizard\n- Slightly re-ordered Import Wizard importer list, prioritizing <entity> importers over <entity feature> importers\n- Added rudimentary Background Feature and Race & Subrace Feature Importers, hidden by default\n- Added IDRotF map grid data (thanks @ Tevomato)\n- Fixed folder selection in macro Bulk Directory Mover tool\n- Fixed Class Importer importing to both compendium and directory when attempting to import to a compendium\n- _[(v10) Updated v10 version to compatibility with v10 dev 3 (Patron-only, until Foundry v10 stable is released)]_"
+	},
+	{
+		"ver": "1.54.1",
+		"date": "2022-07-21",
+		"txt": "- Added Spelljammer support to Vehicle Importer\n- Fixed ESC key failing to open game menu after opening a filter window"
 	}
 ]

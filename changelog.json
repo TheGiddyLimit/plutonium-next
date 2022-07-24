@@ -975,5 +975,10 @@
 		"ver": "1.54.1",
 		"date": "2022-07-21",
 		"txt": "- Added Spelljammer support to Vehicle Importer\n- Fixed ESC key failing to open game menu after opening a filter window"
+	},
+	{
+		"ver": "1.54.2",
+		"date": "2022-07-24",
+		"txt": "- Added \"Hide Subclasses in Class Importer\" Config option\n- Fixed Vehicle Importer failing to set Spelljammer ship token sizes\n- _[(v10) Updated v10 version to compatibility with v10 testing 1.1 (Patron-only, until Foundry v10 stable is released)]_"
 	}
 ]

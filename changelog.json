@@ -985,5 +985,10 @@
 		"ver": "1.54.3",
 		"date": "2022-08-12",
 		"txt": "- Creature Importer now classifies \"Recharge\" attacks as `feature`s rather than `weapon`s, allowing the recharge button to function\n- Split \"Enable Data Source Filtering\" Config option into \"player\" and \"GM\" options\n- Split Item Importer \"Attunement\" Config option into \"importing to directory\" and \"importing to actor\" parts, to better match the behaviour of the dnd5e system. The default when importing to a directory is now \"requires attunement,\" whereas the default when importing to an actor is \"attuned.\"\n- Setting an actor which is already the Rivet import target as the Rivet import target will now un-import-target that actor\n- Fixed active effect parser handling of spellcasting bonus expressions (e.g. \"+1+1\")\n- Fixed Item Importer failing to set custom types when using the \"Import As <type>\" customization\n- Fixed Class Importer crash when importing a class which has no subclasses (e.g. a Sidekick class)\n- Fixed World Data Source Selector list \"select all\" checkbox only _visually_ selecting all\n- Fixed Class Importer failing to apply filters to descriptions on items imported to directories/compendiums\n- Fixed Importers often resetting filters on open (especially first open)"
+	},
+	{
+		"ver": "1.54.4",
+		"date": "2022-08-17",
+		"txt": "- Tweaked Creature Importer parsing of some attacks (those with multiple ranges; those with multiple different damage rolls) to better support automation modules\n- Added support for Spelljammer: Adventures in Space content\n- Fixed rare crash on non-string active effect expressions"
 	}
 ]

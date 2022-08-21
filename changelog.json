@@ -990,5 +990,10 @@
 		"ver": "1.54.4",
 		"date": "2022-08-17",
 		"txt": "- Tweaked Creature Importer parsing of some attacks (those with multiple ranges; those with multiple different damage rolls) to better support automation modules\n- Added support for Spelljammer: Adventures in Space content\n- Fixed rare crash on non-string active effect expressions"
+	},
+	{
+		"ver": "1.54.5",
+		"date": "2022-08-21",
+		"txt": "- Added \"Maintain Images when Overwriting Duplicates\" Config option, which maintains the image and token image of a document when overwriting it using the \"Update Existing\" Importer Duplicate Handling Mode\n- Improved Creature Importer detection of damage rolls with no explicit damage type\n- Added warning when too many sources have been auto-selected (usually due to a bad \"Data Sources\" Config setup), with a configurable warning threshold\n- Fixed Creature Importer handling of versatile weapons\n- Fixed Class Importer double-importing active effects"
 	}
 ]

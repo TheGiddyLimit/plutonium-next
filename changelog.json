@@ -995,5 +995,10 @@
 		"ver": "1.54.5",
 		"date": "2022-08-21",
 		"txt": "- Added \"Maintain Images when Overwriting Duplicates\" Config option, which maintains the image and token image of a document when overwriting it using the \"Update Existing\" Importer Duplicate Handling Mode\n- Improved Creature Importer detection of damage rolls with no explicit damage type\n- Added warning when too many sources have been auto-selected (usually due to a bad \"Data Sources\" Config setup), with a configurable warning threshold\n- Fixed Creature Importer handling of versatile weapons\n- Fixed Class Importer double-importing active effects"
+	},
+	{
+		"ver": "1.54.6",
+		"date": "2022-08-28",
+		"txt": "- Added \"Split Conditional Damage Actions\" Creature Importer Config option which, when enabled, will split attacks with a conditional damage component (\"plus <damage> damage if <condition>\") into two separate sheet items; a \"Base\" item rolling only the base damage, and a \"Full\" item rolling the base plus conditional damage\n- Added warning display/button to Config when Config options which are incompatible with other loaded modules are detected; clicking this button will \"fix\" the affected Config options, eliminating further console warning spam\n- [(v10) Updated v10 version to compatibility with v10 testing 5 (Patron-only, until Foundry v10 stable is released)]"
 	}
 ]

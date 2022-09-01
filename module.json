@@ -1,8 +1,8 @@
 {
-	"name": "plutonium",
+	"id": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5etools-mirror-1.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "1.54.7",
+	"version": "1.55.0",
 	"authors": [
 		{
 			"name": "Giddy",
@@ -32,7 +32,10 @@
 	"url": "https://www.patreon.com/Giddy5e",
 	"manifest": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/module.json",
 	"download": "https://github.com/TheGiddyLimit/plutonium-next/raw/master/plutonium.zip",
-	"compatibleCoreVersion": "9",
+	"compatibility": {
+		"minimum": "10",
+		"verified": "10.284"
+	},
 	"socket": true,
 	"scripts": [
 		"./ve-lib/localforage.js",
@@ -98,7 +101,7 @@
 		"./js/CollectionCleaner.js",
 		"./js/CollectionDeduplicator.js",
 		"./js/CollectionFolderizer.js",
-		"./js/CollectionPermissionUpdater.js",
+		"./js/CollectionOwnershipUpdater.js",
 		"./js/CollectionTokenUpdater.js",
 		"./js/CompendiumListVisibilityToggler.js",
 		"./js/Config.js",
@@ -107,9 +110,11 @@
 		"./js/DataConverter.js",
 		"./js/DataConverterAction.js",
 		"./js/DataConverterActor.js",
+		"./js/DataConverterAdventure.js",
 		"./js/DataConverterAdventureBook.js",
 		"./js/DataConverterBackground.js",
 		"./js/DataConverterBackgroundFeature.js",
+		"./js/DataConverterBook.js",
 		"./js/DataConverterCharCreationOption.js",
 		"./js/DataConverterClass.js",
 		"./js/DataConverterClassSubclassFeature.js",
@@ -122,6 +127,7 @@
 		"./js/DataConverterFeature.js",
 		"./js/DataConverterHazard.js",
 		"./js/DataConverterItem.js",
+		"./js/DataConverterJournal.js",
 		"./js/DataConverterLanguage.js",
 		"./js/DataConverterObject.js",
 		"./js/DataConverterOptionalfeature.js",
@@ -203,6 +209,7 @@
 		"./js/MenuTitleSceneConfig.js",
 		"./js/MenuTitleSceneDirectory.js",
 		"./js/MenuTitleSettings.js",
+		"./js/ModuleMacro.js",
 		"./js/NamedTokenCreator.js",
 		"./js/NoteImageCreator.js",
 		"./js/PageFilterClassFeatures.js",
@@ -228,6 +235,7 @@
 		"./js/PatcherSettingsConfig.js",
 		"./js/PatcherTextEditor.js",
 		"./js/PatcherToken.js",
+		"./js/PatcherTooltips.js",
 		"./js/PopoutSheet.js",
 		"./js/RivetBridge.js",
 		"./js/ShowSheet.js",
@@ -253,6 +261,7 @@
 		"./js/UtilCharactermancerSpell.js",
 		"./js/UtilCharactermancerSpellSlotLevelSelect.js",
 		"./js/UtilChat.js",
+		"./js/UtilCollection.js",
 		"./js/UtilCompat.js",
 		"./js/UtilCompendium.js",
 		"./js/UtilDataConverter.js",
@@ -265,6 +274,7 @@
 		"./js/UtilHooks.js",
 		"./js/UtilImage.js",
 		"./js/UtilItem.js",
+		"./js/UtilJournalEntries.js",
 		"./js/UtilKeybinding.js",
 		"./js/UtilList2.js",
 		"./js/UtilMenu.js",
@@ -272,6 +282,7 @@
 		"./js/UtilModalFilter.js",
 		"./js/UtilNotifications.js",
 		"./js/UtilPatch.js",
+		"./js/UtilPrePreInit.js",
 		"./js/UtilRenderer.js",
 		"./js/UtilSocket.js",
 		"./js/UtilTokens.js",
@@ -302,11 +313,17 @@
 			"path": "lang/en.json"
 		}
 	],
-	"dependencies": [
-		{
-			"name": "lib-wrapper"
-		}
-	],
+	"relationships": {
+		"requires": [
+			{
+				"id": "lib-wrapper",
+				"type": "module",
+				"compatibility": {
+					"minimum": "1.12.5.0"
+				}
+			}
+		]
+	},
 	"flags": {
 		"manifestPlusVersion": "1.2.0",
 		"conflicts": [
@@ -319,16 +336,6 @@
 				"name": "babele",
 				"type": "module",
 				"description": "Babele translations are not used in imported content."
-			},
-			{
-				"name": "monks-enhanced-journal",
-				"type": "module",
-				"description": "Monk's Enhanced Journal is incompatible with the \"Set URL\" journal feature, which will be disabled."
-			},
-			{
-				"name": "kanka-foundry",
-				"type": "module",
-				"description": "Kanka-Foundry is incompatible with the \"Set URL\" journal feature, which will be disabled."
 			},
 			{
 				"name": "better-rolltables",

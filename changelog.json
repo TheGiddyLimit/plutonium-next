@@ -1016,5 +1016,10 @@
 		"ver": "1.55.1",
 		"date": "2022-09-02",
 		"txt": "- (v10) Fixed Creature Importer crash when setting token flags\n- (v10) Fixed embedded URL journal entry pages failing to render\n- (v10) Fixed standalone embedded URL journal entry styling"
+	},
+	{
+		"ver": "1.55.2",
+		"date": "2022-09-06",
+		"txt": "- (v10) Fixed Actor Polymorpher failing to open\n- (v10) Fixed some unintended styling changes introduced by Foundry's v10 styling updates\n- (v10) Fixed various uses of deprecated methods which were missed in earlier migrations\n- (v10) Fixed active effects being double-applied on game load\n- (v10) Fixed rendering crash when attempting to load a non-existent compendium link\n- (v10) Fixed \"Report a Bug\" dialogue being bugged\n- (v10) Fixed \"Fix ESC Key\" Config option breaking ESC key\n- (v10) Fixed Creature Importer failing to fully populate sheet items when importing to a compendium"
 	}
 ]

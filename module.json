@@ -2,12 +2,16 @@
 	"id": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5etools-mirror-1.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "1.55.2",
+	"version": "1.55.3",
 	"authors": [
 		{
 			"name": "Giddy",
 			"url": "https://www.patreon.com/Giddy5e",
-			"discord": "Giddy#0001"
+			"discord": "Giddy#0001",
+			"flags": {
+				"patreon": "Giddy5e",
+				"github": "TheGiddyLimit"
+			}
 		}
 	],
 	"keywords": [
@@ -28,7 +32,7 @@
 	"readme": "README.md",
 	"license": "UNLICENSED",
 	"bugs": "https://discord.gg/nGvRCDs",
-	"changelog": "https://discord.gg/nGvRCDs",
+	"changelog": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/CHANGELOG.md",
 	"url": "https://www.patreon.com/Giddy5e",
 	"manifest": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/module.json",
 	"download": "https://github.com/TheGiddyLimit/plutonium-next/raw/master/plutonium.zip",
@@ -322,26 +326,26 @@
 					"minimum": "1.12.5.0"
 				}
 			}
+		],
+		"conflicts": [
+			{
+				"id": "midi-qol",
+				"type": "module",
+				"reason": "Midi Quality of Life Improvements is incompatible with the \"Auto-Roll Multiattacks\" option, which will be disabled."
+			},
+			{
+				"id": "babele",
+				"type": "module",
+				"reason": "Babele translations are not used in imported content."
+			},
+			{
+				"id": "better-rolltables",
+				"type": "module",
+				"reason": "Better Rolltables is incompatible with the \"Render >3 Levels of Folder Nesting\" option, which will be disabled."
+			}
 		]
 	},
 	"flags": {
-		"manifestPlusVersion": "1.2.0",
-		"conflicts": [
-			{
-				"name": "midi-qol",
-				"type": "module",
-				"description": "Midi Quality of Life Improvements is incompatible with the \"Auto-Roll Multiattacks\" option, which will be disabled."
-			},
-			{
-				"name": "babele",
-				"type": "module",
-				"description": "Babele translations are not used in imported content."
-			},
-			{
-				"name": "better-rolltables",
-				"type": "module",
-				"description": "Better Rolltables is incompatible with the \"Render >3 Levels of Folder Nesting\" option, which will be disabled."
-			}
-		]
+		"attributions": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/ATTRIBUTIONS.md"
 	}
 }

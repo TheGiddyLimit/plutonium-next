@@ -1,3 +1,11 @@
+### v1.55.3
+
+> 2022-09-08
+
+- Fixed Equipment Shop failing to load
+- (v10) Spelljammer ships now correctly use the "Space Vehicle" type
+- (v10) Updated module.json conflict/etc. info to "Module Management+" v2.x structure
+
 ### v1.55.2
 
 > 2022-09-06

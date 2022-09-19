@@ -1,3 +1,16 @@
+### v1.55.4
+
+> 2022-09-19
+
+- Fixed Background Importer crashing when dropping a background to a sheet
+- Fixed Class Importer crashing when using the "Level Up" button on a sheet to select a new sub/class
+- Fixed some dice rolls not being rolled via the Foundry dice/chat system
+- Fixed Creature/Vehicle Importers failing to correctly folderize created actors when one or more actors in the selected list triggered an overwrite (due to usage of the "Update existing" Duplicate Handling Mode)
+- Removed legacy Importer Sorcery Point/Ki Point usage parsing (which would occasionally output features which consumed sheet resources) in favor of using existing Sorcery Point/Ki Point sheet item methods
+- Fixed "undefined" prerequisites on optional features not imported in relation to a class
+- Disabled extended active effect parsing in the presence of the "Rolldata Aware Active Effects" module (which achieves the same effect), to avoid crashes when resolving active effect values
+- (v10) Fixed rendering of @tags in Adventure/Book Importer
+
 ### v1.55.3
 
 > 2022-09-08

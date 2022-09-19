@@ -1026,5 +1026,10 @@
 		"ver": "1.55.3",
 		"date": "2022-09-08",
 		"txt": "- Fixed Equipment Shop failing to load\n- (v10) Spelljammer ships now correctly use the \"Space Vehicle\" type\n- (v10) Updated module.json conflict/etc. info to \"Module Management+\" v2.x structure"
+	},
+	{
+		"ver": "1.55.4",
+		"date": "2022-09-19",
+		"txt": "- Fixed Background Importer crashing when dropping a background to a sheet\n- Fixed Class Importer crashing when using the \"Level Up\" button on a sheet to select a new sub/class\n- Fixed some dice rolls not being rolled via the Foundry dice/chat system\n- Fixed Creature/Vehicle Importers failing to correctly folderize created actors when one or more actors in the selected list triggered an overwrite (due to usage of the \"Update existing\" Duplicate Handling Mode)\n- Removed legacy Importer Sorcery Point/Ki Point usage parsing (which would occasionally output features which consumed sheet resources) in favor of using existing Sorcery Point/Ki Point sheet item methods\n- Fixed \"undefined\" prerequisites on optional features not imported in relation to a class\n- Disabled extended active effect parsing in the presence of the \"Rolldata Aware Active Effects\" module (which achieves the same effect), to avoid crashes when resolving active effect values\n- (v10) Fixed rendering of @tags in Adventure/Book Importer"
 	}
 ]

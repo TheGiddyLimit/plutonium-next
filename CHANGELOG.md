@@ -1,3 +1,22 @@
+## v1.56.0 — "Google It" edition
+
+> 2022-10-02
+
+- (v10) Added Quick Insert integration.
+  - This can be disabled in the new "Integrations (Quick Insert)" Config tab
+  - This has a few limitations, partly due to Quick Insert having a limited dev API, and partly due to Plutonium content not _really_ existing in the world at time of search. It is currently best suited for adding creatures to the scene, and adding items to sheets.
+  - Results respect the Blocklist if in use, and the World Data Source Selector if the "Force Select All for ..." Config option(s) are enabled
+  - Homebrew results will appear _if and only if_ a brew is selected in the World Data Source Selector, and the appropriate "Force Select All for ..." Config option is enabled.
+- (v10) Improved support for dnd5e 2.0.3
+  - The Creature Importer now correctly sets Silvered/Adamantine/Magical "Physical Bypasses"
+  - The Item Importer now populates charge "Recovery Formula", and charge-based items now use the "Charges" Limited Uses type.
+- Fixed Creature Importer failing to import spellcasting traits if those traits were marked as "actions" instead of "traits" (as is the case for MPMM and later sources)
+- Fixed folder restyling breaking compendium folders as managed by the Compendium Folders module
+- (v10) When dropping a @tag which resolves to Foundry items to a sheet, the referenced entity is no longer imported to the items directory; instead, a temporary import is used, and the item added to the sheet directly
+- (v10) Fixed Spell Importer failing to set item ownership on import
+- (v10) Fixed crash when dropping a tile from the Art Browser
+- (Brew) Fixed races failing to appear in the Blocklist
+
 ### v1.55.4
 
 > 2022-09-19
@@ -64,7 +83,7 @@
 
 > 2022-08-28
 
-- Fixed Importers failing to apply blacklist to specific item variants
+- Fixed Importers failing to apply blocklist to specific item variants
 
 ### v1.54.6
 
@@ -316,7 +335,7 @@
 
 > 2022-03-16
 
-- Fixed Class Importer failing to apply blacklist to spellcaster cantrip/prepared spell lists
+- Fixed Class Importer failing to apply blocklist to spellcaster cantrip/prepared spell lists
 - Fixed Config compatibility overrides being applied too late for players
 - (v9) Fixed included compendium name containing a `.`, rendering it useless in the latest Foundry version
 
@@ -405,7 +424,7 @@
 
 > 2022-01-30
 
-- Fixed World Content Blacklist failing to blacklist subclasses
+- Fixed World Content Blocklist failing to blocklist subclasses
 - (v9) Fixed "number"-type active effects no longer applying their values in v9.245
 - (v9) Fixed incompatibility with Better Rolltable
 - (Added Manifest+ conflict info)
@@ -415,7 +434,7 @@
 > 2022-01-26
 
 - Fixed Importer failing to read custom files/URLs
-- Fixed Class Importer failing to respect World Content Blacklist class entries
+- Fixed Class Importer failing to respect World Content Blocklist class entries
 - Fixed rendering of long strings in Config string pickers
 - (v9) Fixed "Delete Message" showing twice in chat message context menus; renamed to "Delete" to match Foundry standard 
 - (Server; v0.4.2) (v9) Fixed crash when running in the Electron client _without_ the """optional""" Electron addon
@@ -426,7 +445,7 @@
 
 - Added "World Data Source Selector" tool. This allows the GM to curate the list of sources which are available (if the new Data Source "Enable Data Source Filtering" Config option is enabled) throughout the module (Importers, Actor Polymorpher, etc.)
   - Added "Force Select All for <Players|GMs>" Data Source Config option, which ensures that all available sources are selected throughout the module. Note that this _can_ be used without the "Enable Data Source Filtering" Config option recommended, to forcibly select _every_ available source, although this is not recommended for performance reasons. With these options are enabled, source selection screens will be silently skipped where possible.
-- Added "World Content Blacklist" tool; this is a port of the 5etools Blacklist, and works similarly
+- Added "World Content Blocklist" tool; this is a port of the 5etools Blocklist, and works similarly
 - Added "Importer Image Preloader" tool, which finds and downloads all images available in the current version of the site to your Config'd "Image/Token Directory" [this aims to be equivalent to downloading the (long-dead) images zip and manually creating an `img` from it]
 - The Import Wizard "Open Default Importer" buttons are now "Open Last-Used Importer" buttons, which will open the importer using the previous selection of sources made. If the "Force Select All" Data Source Config option(s) are enabled, this will instead open the importer with all sources selected.
 - (v9) Added "Import All" option to compendium title menu [this is the same functionality as a regular right-click -> import all]

@@ -2,7 +2,7 @@
 	"name": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5etools-mirror-1.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "1.55.4",
+	"version": "1.56.0",
 	"authors": [
 		{
 			"name": "Giddy",
@@ -47,7 +47,7 @@
 		"./ve-js/filter.js",
 		"./ve-js/filter-classes.js",
 		"./ve-js/filter-classes-raw.js",
-		"./ve-js/blacklist-ui.js",
+		"./ve-js/blocklist-ui.js",
 		"./ve-js/filter-actions.js",
 		"./ve-js/filter-backgrounds.js",
 		"./ve-js/filter-bestiary.js",
@@ -276,11 +276,11 @@
 		"./js/UtilSocket.js",
 		"./js/UtilTokens.js",
 		"./js/UtilUi.js",
-		"./js/UtilWorldContentBlacklist.js",
+		"./js/UtilWorldContentBlocklist.js",
 		"./js/UtilWorldDataSourceSelector.js",
 		"./js/Vetools.js",
 		"./js/WeDontTalk.js",
-		"./js/WorldContentBlacklist.js",
+		"./js/WorldContentBlocklist.js",
 		"./js/WorldDataSourceSelector.js"
 	],
 	"styles": [

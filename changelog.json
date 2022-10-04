@@ -1037,5 +1037,10 @@
 		"title": "Google It",
 		"date": "2022-10-02",
 		"txt": "- (v10) Added Quick Insert integration.\n  - This can be disabled in the new \"Integrations (Quick Insert)\" Config tab\n  - This has a few limitations, partly due to Quick Insert having a limited dev API, and partly due to Plutonium content not _really_ existing in the world at time of search. It is currently best suited for adding creatures to the scene, and adding items to sheets.\n  - Results respect the Blocklist if in use, and the World Data Source Selector if the \"Force Select All for ...\" Config option(s) are enabled\n  - Homebrew results will appear _if and only if_ a brew is selected in the World Data Source Selector, and the appropriate \"Force Select All for ...\" Config option is enabled.\n- (v10) Improved support for dnd5e 2.0.3\n  - The Creature Importer now correctly sets Silvered/Adamantine/Magical \"Physical Bypasses\"\n  - The Item Importer now populates charge \"Recovery Formula\", and charge-based items now use the \"Charges\" Limited Uses type.\n- Fixed Creature Importer failing to import spellcasting traits if those traits were marked as \"actions\" instead of \"traits\" (as is the case for MPMM and later sources)\n- Fixed folder restyling breaking compendium folders as managed by the Compendium Folders module\n- (v10) When dropping a @tag which resolves to Foundry items to a sheet, the referenced entity is no longer imported to the items directory; instead, a temporary import is used, and the item added to the sheet directly\n- (v10) Fixed Spell Importer failing to set item ownership on import\n- (v10) Fixed crash when dropping a tile from the Art Browser\n- (Brew) Fixed races failing to appear in the Blocklist"
+	},
+	{
+		"ver": "1.56.1",
+		"date": "2022-10-04",
+		"txt": "- (v10) Added Quick Insert \"Hidden Categories\" Config option\n- (v10) Fixed dropping Quick Insert links to text areas/chat producing invalid links"
 	}
 ]

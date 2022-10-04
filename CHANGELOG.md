@@ -1,3 +1,10 @@
+### v1.56.1
+
+> 2022-10-04
+
+- (v10) Added Quick Insert "Hidden Categories" Config option
+- (v10) Fixed dropping Quick Insert links to text areas/chat producing invalid links
+
 ## v1.56.0 — "Google It" edition
 
 > 2022-10-02

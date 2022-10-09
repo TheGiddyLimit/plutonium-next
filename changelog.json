@@ -1042,5 +1042,10 @@
 		"ver": "1.56.1",
 		"date": "2022-10-04",
 		"txt": "- (v10) Added Quick Insert \"Hidden Categories\" Config option\n- (v10) Fixed dropping Quick Insert links to text areas/chat producing invalid links"
+	},
+	{
+		"ver": "1.56.2",
+		"date": "2022-10-09",
+		"txt": "- (v10) Temporary document sheets created by Plutonium will now display a compendium-document-like \"Import\" button in the header (assuming the user has permissions to create documents of that type). This is notably useful when accessing content via Quick Insert.\n- (v10) Plutonium Quick Insert indexes now respect Quick Insert \"Document Type\" permission settings\n- (v10) Importers which create journal entries will no longer attempt to create images from \"fallback\" (i.e., generic black-and-white) images\n- (v10) Importers which create journal entries will no longer add expand/collapse buttons to headers, in favor of/to avoid conflicts with header links in the journal entry sidebar"
 	}
 ]

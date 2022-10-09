@@ -1,3 +1,12 @@
+### v1.56.2
+
+> 2022-10-09
+
+- (v10) Temporary document sheets created by Plutonium will now display a compendium-document-like "Import" button in the header (assuming the user has permissions to create documents of that type). This is notably useful when accessing content via Quick Insert.
+- (v10) Plutonium Quick Insert indexes now respect Quick Insert "Document Type" permission settings
+- (v10) Importers which create journal entries will no longer attempt to create images from "fallback" (i.e., generic black-and-white) images
+- (v10) Importers which create journal entries will no longer add expand/collapse buttons to headers, in favor of/to avoid conflicts with header links in the journal entry sidebar
+
 ### v1.56.1
 
 > 2022-10-04

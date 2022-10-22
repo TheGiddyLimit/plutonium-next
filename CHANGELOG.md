@@ -1,3 +1,22 @@
+## v1.57.0 — "Health Benefits" edition
+
+> 2022-10-22
+
+- Added "Roll (Custom Formula)" HP Increase Mode to Class Importer. This can be controlled by the GM using the new "Hit Points Increase Mode" and "Hit Points Increase Custom Roll Formula" Config options, or controlled by the player if these are left unset.
+- Added flavour text/speaker actor to Starting Equipment gold roll
+- The Creature Importer will now use ability-based save DCs for sheet items (rather than flat values), where possible. This can be turned off using the "Prefer Flat Saving Throws" Config option.
+- Fixed World Content Blocklist failing to open due to mis-named template file
+- Fixed Race Importer setting invalid token vision ranges for races with blindsight/tremorsense/truesight 
+- Fixed rare case where token vision range could be set to an invalid value when using "Prefer Metric Distance/Speed" Config option
+- Added "Custom Backend Endpoint" Config option
+- (v10) Fixed crash when using the Bulk Directory Mover
+- (v10) Fixed crash when clicking document links in some cases
+- (v10) Fixed temporary document ownership being set to an unnecessarily permissive default value
+- (v10) Fixed crash when clicking "Show Players" button
+- (v10) Fixed canvas crash when box-selecting and moving multiple light sources
+- (Brew) Fixed Creature Importer failing to load homebrew `legendaryGroup`s
+- (Brew) Fixed Class Importer failing to load class feature `ref`s found in subclass features, and subclass feature `ref`s found in class features
+
 ### v1.56.2
 
 > 2022-10-09

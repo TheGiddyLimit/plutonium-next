@@ -1047,5 +1047,11 @@
 		"ver": "1.56.2",
 		"date": "2022-10-09",
 		"txt": "- (v10) Temporary document sheets created by Plutonium will now display a compendium-document-like \"Import\" button in the header (assuming the user has permissions to create documents of that type). This is notably useful when accessing content via Quick Insert.\n- (v10) Plutonium Quick Insert indexes now respect Quick Insert \"Document Type\" permission settings\n- (v10) Importers which create journal entries will no longer attempt to create images from \"fallback\" (i.e., generic black-and-white) images\n- (v10) Importers which create journal entries will no longer add expand/collapse buttons to headers, in favor of/to avoid conflicts with header links in the journal entry sidebar"
+	},
+	{
+		"ver": "1.57.0",
+		"date": "2022-10-22",
+		"title": "Health Benefits",
+		"txt": "- Added \"Roll (Custom Formula)\" HP Increase Mode to Class Importer. This can be controlled by the GM using the new \"Hit Points Increase Mode\" and \"Hit Points Increase Custom Roll Formula\" Config options, or controlled by the player if these are left unset.\n- Added flavour text/speaker actor to Starting Equipment gold roll\n- The Creature Importer will now use ability-based save DCs for sheet items (rather than flat values), where possible. This can be turned off using the \"Prefer Flat Saving Throws\" Config option.\n- Fixed World Content Blocklist failing to open due to mis-named template file\n- Fixed Race Importer setting invalid token vision ranges for races with blindsight/tremorsense/truesight \n- Fixed rare case where token vision range could be set to an invalid value when using \"Prefer Metric Distance/Speed\" Config option\n- Added \"Custom Backend Endpoint\" Config option\n- (v10) Fixed crash when using the Bulk Directory Mover\n- (v10) Fixed crash when clicking document links in some cases\n- (v10) Fixed temporary document ownership being set to an unnecessarily permissive default value\n- (v10) Fixed crash when clicking \"Show Players\" button\n- (v10) Fixed canvas crash when box-selecting and moving multiple light sources\n- (Brew) Fixed Creature Importer failing to load homebrew `legendaryGroup`s\n- (Brew) Fixed Class Importer failing to load class feature `ref`s found in subclass features, and subclass feature `ref`s found in class features"
 	}
 ]

@@ -1,3 +1,21 @@
+## v1.58.0 — "Treasonous Days" edition
+
+> 2022-11-05
+
+- Fixed case where Importers could fail to apply custom effects if custom data/flags were not also present
+- Fixed Rivet "Whisper Rolls" setting failing to have any effect
+- Fixed drag-dropping a Plutonium-imported document to a sheet killing the drag-drop process if Plutonium could not find the original entity
+- (Brew) Fixed over-zealous filtering of brew data, which could result in custom item types/properties failing to load
+- (Brew) Fixed crash when force-typing an item as `backpack` without the requisite item data
+- (v10) Revised the way many Importers apply custom active effects when importing directly to an actor; effects are now preferentially applied to their origin item rather than the actor (e.g. importing a barbarian's "Rage" feature should now attach effects to the "Rage" item, rather than the actor itself)
+- (v10) Race items created by the Race Importer now include race fluff
+- (v10) When importing a race to an actor using the Race Importer, an umbrella item is now created for the race, which includes: summary information (ability score improvements, size, speed); fluff; and links to all race feature sheet items created during the import
+- (v10) Fixed creatures created by drag-dropping Plutonium actors from Quick Insert using overly-permissive ownership
+- (v10) Fixed crash when importing a vehicle upgrade to an actor
+- (Server; v10) Added "custom login" script/style addon. If installed, this allows you to place a `login.<css|js>` in a world's directory; these files are then loaded and served when viewing the login screen, allowing custom login styling to be created on a per-world basis. _See the module README for more!_
+- (Server; v10) Added "custom world" script/style addon, similar to the "custom login" addon, above, but which loads `world.<css|js>` from a world's directory when the world is active. Note that a creating a small module to house world-specific CSS/JS is preferable to using `world.<css|js>`.
+- (Server; v10) Split out largely-unused "package operations" into own optional addon, removing needless security holes otherwise created by installing the backend mod
+
 ## v1.57.0 — "Health Benefits" edition
 
 > 2022-10-22

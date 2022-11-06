@@ -1,3 +1,9 @@
+### v1.58.1 — "Treasonous Days" edition
+
+> 2022-11-06
+
+- Fixed crash when importing a prepared spellcasting class
+
 ## v1.58.0 — "Treasonous Days" edition
 
 > 2022-11-05

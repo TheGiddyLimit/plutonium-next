@@ -1,4 +1,13 @@
-### v1.58.1 — "Treasonous Days" edition
+### v1.58.2
+
+> 2022-11-09
+
+- Added 'Add "@items" to Roll Data' Actor Config option, which, if enabled, allows references of the form `@items.big-sword.system.attackBonus` in sheet item fields
+- (Brew) Migrated support for `chooseData` to `chooseSystem`, removing the deprecated conversion path
+- (Brew) Added support for `chooseFlags`
+- (Brew) Added support for externally specifying active effect icons, by setting an `img` field
+
+### v1.58.1
 
 > 2022-11-06
 

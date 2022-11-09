@@ -1063,7 +1063,11 @@
 	{
 		"ver": "1.58.1",
 		"date": "2022-11-06",
-		"title": "Treasonous Days",
 		"txt": "- Fixed crash when importing a prepared spellcasting class"
+	},
+	{
+		"ver": "1.58.2",
+		"date": "2022-11-09",
+		"txt": "- Added 'Add \"@items\" to Roll Data' Actor Config option, which, if enabled, allows references of the form `@items.big-sword.system.attackBonus` in sheet item fields\n- (Brew) Migrated support for `chooseData` to `chooseSystem`, removing the deprecated conversion path\n- (Brew) Added support for `chooseFlags`\n- (Brew) Added support for externally specifying active effect icons, by setting an `img` field"
 	}
 ]

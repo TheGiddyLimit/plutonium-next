@@ -1069,5 +1069,15 @@
 		"ver": "1.58.2",
 		"date": "2022-11-09",
 		"txt": "- Added 'Add \"@items\" to Roll Data' Actor Config option, which, if enabled, allows references of the form `@items.big-sword.system.attackBonus` in sheet item fields\n- (Brew) Migrated support for `chooseData` to `chooseSystem`, removing the deprecated conversion path\n- (Brew) Added support for `chooseFlags`\n- (Brew) Added support for externally specifying active effect icons, by setting an `img` field"
+	},
+	{
+		"ver": "1.58.3",
+		"date": "2022-11-09",
+		"txt": "- (Literally nothing)"
+	},
+	{
+		"ver": "1.58.4",
+		"date": "2022-11-23",
+		"txt": "- Added \"Player Character\" checkbox to Creature Importer customizer, which attempts to convert an imported creature to a `\"character\"`-type actor\n- The health attribute used by the Token \"Display Missing Health\" Config option may now be customized\n- Improved compatibility with the Status Icon Counters module\n- Fixed drag-dropping imported items to a sheet, using the standard Foundry import, erroneously preserving IDs (which made it impossible to drop multiple copies of the same item to a sheet)\n- Fixed blocklist failing to be applied to optional features referenced in class/subclass/other features\n- Fixed crash when building roll data in non-dnd5e systems\n- Fixed documents temporary-imported with Rivet failing to render their sheets\n- Fixed positioning of Rivet/backend presence displays when video chat is in use\n- (Brew) Added support for subclass features outwith known \"gain subclass feature\" levels\n- (Brew) Added fluff support to Feat Importer\n- (Brew) Added fluff support to Object Importer\n- (Brew) Fixed rendering of group-selection dropdown in expertise picker"
 	}
 ]

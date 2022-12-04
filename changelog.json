@@ -1079,5 +1079,10 @@
 		"ver": "1.58.4",
 		"date": "2022-11-23",
 		"txt": "- Added \"Player Character\" checkbox to Creature Importer customizer, which attempts to convert an imported creature to a `\"character\"`-type actor\n- The health attribute used by the Token \"Display Missing Health\" Config option may now be customized\n- Improved compatibility with the Status Icon Counters module\n- Fixed drag-dropping imported items to a sheet, using the standard Foundry import, erroneously preserving IDs (which made it impossible to drop multiple copies of the same item to a sheet)\n- Fixed blocklist failing to be applied to optional features referenced in class/subclass/other features\n- Fixed crash when building roll data in non-dnd5e systems\n- Fixed documents temporary-imported with Rivet failing to render their sheets\n- Fixed positioning of Rivet/backend presence displays when video chat is in use\n- (Brew) Added support for subclass features outwith known \"gain subclass feature\" levels\n- (Brew) Added fluff support to Feat Importer\n- (Brew) Added fluff support to Object Importer\n- (Brew) Fixed rendering of group-selection dropdown in expertise picker"
+	},
+	{
+		"ver": "1.58.5",
+		"date": "2022-12-04",
+		"txt": "- Added support for list syntax (`text: ...`, etc.) to importer lists, providing parity with site list pages\n- Added \"Text\" toggle to Adventure/Book Importers, allowing the creation of journal entries to be skipped\n- (Server) Added \"Enable/Disable Canvas\" buttons to login script sample"
 	}
 ]

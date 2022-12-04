@@ -1,3 +1,11 @@
+### v1.58.5
+
+> 2022-12-04
+
+- Added support for list syntax (`text: ...`, etc.) to importer lists, providing parity with site list pages
+- Added "Text" toggle to Adventure/Book Importers, allowing the creation of journal entries to be skipped
+- (Server) Added "Enable/Disable Canvas" buttons to login script sample
+
 ### v1.58.4
 
 > 2022-11-23

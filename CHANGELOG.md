@@ -1,3 +1,11 @@
+### v1.58.6
+
+> 2022-12-20
+
+- Fixed Race Importer crash when handling fluff text/images
+- Fixed Importers failing to strip @tags from tool/language proficiencies when adding to sheet
+- Fixed inconsistent sheet ownership when loading temporary documents via Quick Insert
+
 ### v1.58.5
 
 > 2022-12-04

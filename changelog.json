@@ -1084,5 +1084,10 @@
 		"ver": "1.58.5",
 		"date": "2022-12-04",
 		"txt": "- Added support for list syntax (`text: ...`, etc.) to importer lists, providing parity with site list pages\n- Added \"Text\" toggle to Adventure/Book Importers, allowing the creation of journal entries to be skipped\n- (Server) Added \"Enable/Disable Canvas\" buttons to login script sample"
+	},
+	{
+		"ver": "1.58.6",
+		"date": "2022-12-20",
+		"txt": "- Fixed Race Importer crash when handling fluff text/images\n- Fixed Importers failing to strip @tags from tool/language proficiencies when adding to sheet\n- Fixed inconsistent sheet ownership when loading temporary documents via Quick Insert"
 	}
 ]

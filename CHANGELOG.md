@@ -1,3 +1,10 @@
+### v1.58.7
+
+> 2022-12-22
+
+- Switched to "indented italics" instead of "greyed-out text" for entity version names in Importers
+- Fixed Level Up button failing to identify character class
+
 ### v1.58.6
 
 > 2022-12-20

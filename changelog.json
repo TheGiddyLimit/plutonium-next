@@ -1089,5 +1089,10 @@
 		"ver": "1.58.6",
 		"date": "2022-12-20",
 		"txt": "- Fixed Race Importer crash when handling fluff text/images\n- Fixed Importers failing to strip @tags from tool/language proficiencies when adding to sheet\n- Fixed inconsistent sheet ownership when loading temporary documents via Quick Insert"
+	},
+	{
+		"ver": "1.58.7",
+		"date": "2022-12-22",
+		"txt": "- Switched to \"indented italics\" instead of \"greyed-out text\" for entity version names in Importers\n- Fixed Level Up button failing to identify character class"
 	}
 ]

@@ -1094,5 +1094,10 @@
 		"ver": "1.58.7",
 		"date": "2022-12-22",
 		"txt": "- Switched to \"indented italics\" instead of \"greyed-out text\" for entity version names in Importers\n- Fixed Level Up button failing to identify character class"
+	},
+	{
+		"ver": "1.59.0",
+		"date": "2022-12-26",
+		"txt": "- Added Prerelease Content system\n- (Brew) Fixed Importers failing to correctly load dependencies from custom URLs/uploaded files"
 	}
 ]

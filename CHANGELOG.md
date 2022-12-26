@@ -1,3 +1,10 @@
+## v1.59.0
+
+> 2022-12-26
+
+- Added Prerelease Content system
+- (Brew) Fixed Importers failing to correctly load dependencies from custom URLs/uploaded files
+
 ### v1.58.7
 
 > 2022-12-22

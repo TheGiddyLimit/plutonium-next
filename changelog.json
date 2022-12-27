@@ -1099,5 +1099,10 @@
 		"ver": "1.59.0",
 		"date": "2022-12-26",
 		"txt": "- Added Prerelease Content system\n- (Brew) Fixed Importers failing to correctly load dependencies from custom URLs/uploaded files"
+	},
+	{
+		"ver": "1.59.1",
+		"date": "2022-12-27",
+		"txt": "- Fixed Importer crash when opening \"Additional Spells\" dialogue(s)"
 	}
 ]

@@ -1,3 +1,9 @@
+### v1.59.1
+
+> 2022-12-27
+
+- Fixed Importer crash when opening "Additional Spells" dialogue(s)
+
 ## v1.59.0
 
 > 2022-12-26

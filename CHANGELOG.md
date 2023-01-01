@@ -1,3 +1,10 @@
+### v1.59.2
+
+> 2023-01-01
+
+- Added support for ability scores to Background Importer
+- (Brew) Added support for local prerelease content (matching functionality for local homebrew)
+
 ### v1.59.1
 
 > 2022-12-27

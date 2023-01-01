@@ -1104,5 +1104,10 @@
 		"ver": "1.59.1",
 		"date": "2022-12-27",
 		"txt": "- Fixed Importer crash when opening \"Additional Spells\" dialogue(s)"
+	},
+	{
+		"ver": "1.59.2",
+		"date": "2023-01-01",
+		"txt": "- Added support for ability scores to Background Importer\n- (Brew) Added support for local prerelease content (matching functionality for local homebrew)"
 	}
 ]

@@ -1,3 +1,10 @@
+### v1.59.3
+
+> 2023-01-04
+
+- Fixed crash when opening Class/Subclass Importer after opening Class/Subclass Feature Importer
+- Fixed local prerelease/homebrew content failing to load
+
 ### v1.59.2
 
 > 2023-01-01

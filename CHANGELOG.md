@@ -1,3 +1,9 @@
+### v1.59.4
+
+> 2023-01-04
+
+- Fixed crash when loading spell data
+
 ### v1.59.3
 
 > 2023-01-04

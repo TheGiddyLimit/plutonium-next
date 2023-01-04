@@ -1114,5 +1114,10 @@
 		"ver": "1.59.3",
 		"date": "2023-01-04",
 		"txt": "- Fixed crash when opening Class/Subclass Importer after opening Class/Subclass Feature Importer\n- Fixed local prerelease/homebrew content failing to load"
+	},
+	{
+		"ver": "1.59.4",
+		"date": "2023-01-04",
+		"txt": "- Fixed crash when loading spell data"
 	}
 ]

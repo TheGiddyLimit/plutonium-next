@@ -1119,5 +1119,10 @@
 		"ver": "1.59.4",
 		"date": "2023-01-04",
 		"txt": "- Fixed crash when loading spell data"
+	},
+	{
+		"ver": "1.60.0",
+		"date": "2023-01-11",
+		"txt": "- Added support for dnd5e v2.1.0\n- The Class Importer now populates HP advancements where available\n- Added compatibility for Tidy5e sheet dark mode styling in popped-out sheets\n- Added support for splitting out \"extra damage if <creature> has advantage\" actions to Creature Importer\n- The Map Importer deduplication check now includes a partial image path comparison, to avoid excessively duplicating scenes with the same name but different images. Note that this only applies to scenes created from this version onwards.\n- Fixed crash when selecting additional spells from feats\n- Fixed Quick Insert integration always being enabled, even when disabled in the Config"
 	}
 ]

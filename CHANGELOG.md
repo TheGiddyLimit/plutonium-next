@@ -1,4 +1,12 @@
-## v1.60.0
+## v1.61.0 — "A Harsh Mistress" edition
+
+> 2023-01-15
+
+- Switched to a bundling approach for module script files, greatly reducing the number of HTTP requests required upon initial load (from ~250 to 1)
+- Fixed various feature which make use of dice rolls, and post the results to chat in the background, failing to disable the roll sound
+- (Brew) Added "Clear Plutonium Flags" directory document context menu option (disabled/not visible by default, and must be enabled in the "Tools" Config) which, if used on a directory document, will remove all `"plutonium"` flags from that document
+
+## v1.60.0 — "Counting Down" edition
 
 > 2023-01-11
 

@@ -1123,6 +1123,13 @@
 	{
 		"ver": "1.60.0",
 		"date": "2023-01-11",
+		"title": "Counting Down",
 		"txt": "- Added support for dnd5e v2.1.0\n- The Class Importer now populates HP advancements where available\n- Added compatibility for Tidy5e sheet dark mode styling in popped-out sheets\n- Added support for splitting out \"extra damage if <creature> has advantage\" actions to Creature Importer\n- The Map Importer deduplication check now includes a partial image path comparison, to avoid excessively duplicating scenes with the same name but different images. Note that this only applies to scenes created from this version onwards.\n- Fixed crash when selecting additional spells from feats\n- Fixed Quick Insert integration always being enabled, even when disabled in the Config"
+	},
+	{
+		"ver": "1.61.0",
+		"date": "2023-01-15",
+		"title": "A Harsh Mistress",
+		"txt": "- Switched to a bundling approach for module script files, greatly reducing the number of HTTP requests required upon initial load (from ~250 to 1)\n- Fixed various feature which make use of dice rolls, and post the results to chat in the background, failing to disable the roll sound\n- (Brew) Added \"Clear Plutonium Flags\" directory document context menu option (disabled/not visible by default, and must be enabled in the \"Tools\" Config) which, if used on a directory document, will remove all `\"plutonium\"` flags from that document"
 	}
 ]

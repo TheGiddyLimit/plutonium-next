@@ -1,3 +1,9 @@
+### v1.61.1
+
+> 2023-01-15
+
+- Fixed some Importers failing to open
+
 ## v1.61.0 — "A Harsh Mistress" edition
 
 > 2023-01-15

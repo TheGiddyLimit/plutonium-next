@@ -1136,5 +1136,10 @@
 		"ver": "1.61.1",
 		"date": "2023-01-15",
 		"txt": "- Fixed some Importers failing to open"
+	},
+	{
+		"ver": "1.61.2",
+		"date": "2023-01-19",
+		"txt": "- Fixed Map Importer list failing to visually differentiate between \"primary\" and \"extra\" sources\n- Fixed \"Compact Macros\" Config option having no effect\n- Fixed crash when opening the World Content Blocklist\n- Fixed crash when using Whistler's Item Rolls Extended (WIRE) and an actor with no active effects\n- (Brew) Added support for setting `\"foundrySceneRoot\"` and `\"foundrySceneFlags\"` on `image` entries. These are used by the Map Importer to add to the root data of an imported scene, and to add flags to an imported scene, respectively."
 	}
 ]

@@ -1,3 +1,24 @@
+## v1.62.0 — "Location, Location, Location" edition
+
+> 2023-01-26
+
+- Added Foundry scene grid sizing/scaling data to the remaining 1395(!) maps which did not otherwise have this data (thanks @ Lyra)
+- Added Grid Type and Grid Unit filters to Map Importer
+- Added 'Use "Pathfinder Token Pack: Bestiaries" Tokens/Portraits' (experimental) Creature Importer Config option. If enabled, the Importer will attempt to source tokens from the "Pathfinder Token Pack: Bestiaries" module, if the module is available.
+- Added Rivet "Minimum Permission Level" Config option
+- Added Folder and Player filters to the Bulk Ownership Editor tool
+- Added "Move Token Name Onto Token" Token Config option
+- Compendiums may now be set as the Rivet import target, either by right-clicking the compendium in the directory, by using the menu in a compendium's header, or by manually inputting the compendium's ID into the appropriate Config field
+- Rolls logged to chat by Rivet now match the value rolled in the site
+- Table rolls sent via Rivet now include the full text/row result of the roll, rather than just the number rolled
+- Fixed handling of compendium-sourced tokens with scaling values other than "1"
+- Fixed Map Importer setting "legacy hex" flag on imported hex-grid scenes
+- Fixed crash when attempting to drag Map Importer rows
+- Fixed Rivet-whispered roll chat messages being formatted as a regular whisper, rather than a dice-roll whisper
+- Fixed Spell Importer failing to handle rare type of cantrip scaling (notably found in Green-Flame Blade)
+- Fixed Quick Insert integration rendering `undefined` tooltips
+- Fixed Quick Insert integration always setting "Owner" ownership for imported temp documents
+
 ### v1.61.2
 
 > 2023-01-19

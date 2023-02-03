@@ -1,3 +1,20 @@
+## v1.63.0
+
+> 2023-02-02
+
+- Added Deck Importer
+- Added chat notification with link to the Automation Addon module <https://github.com/TheGiddyLimit/plutonium-addon-automation>, which is displayed if judged relevant (i.e., MidiQOL is running)
+- The Creature Importer can now parse damage rolls in non-action features
+- The Creature Importer can now set MidiQOL's "No Dam Save" flag when generating a sheet item, if judged appropriate
+- Added Item Importer 'Treat Extra Damage as "Other Formula"' option, which functions similarly to the existing 'Treat "Alternate" Attack Damage as "Other Formula"', but for imported items. This is automatically enabled when using the Automation Addon.
+- Improved compatibility of "Compact Header Buttons" styling with the Monarch module
+- Fixed tag system clobbering non-5etools tags (notably improving compatibility with the Mastercrafted module)
+- Fixed Adventure/Book Importer failing to folderize journals when not using the "Treat Journal Entries as Folders" option
+- Fixed Item Importer parsing too _much_ text in some cases (treating e.g. meta-references/notes as part of the main text), and too _little_ text in other cases (ignoring text from magic variants)
+- Fixed Item Importer regression where full SRD-image-fetching process wasn't being run
+- (Server) Fixed hook usage in custom login sample _[note that this does not require you to make any changes to your backend mod installation]_
+- (Brew) Improved support for Foundry-specific `magicvariant` data
+
 ## v1.62.0 — "Location, Location, Location" edition
 
 > 2023-01-26

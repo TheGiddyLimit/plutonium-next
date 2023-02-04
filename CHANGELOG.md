@@ -1,6 +1,15 @@
-## v1.63.0
+### v1.63.1
 
-> 2023-02-02
+> 2023-02-04
+
+- Fixed Importers failing to fully apply Automation Addon `system` changes in some cases
+- Fixed Importer crash on attempting to create an item with proficiency-based uses in a world using "proficiency dice" rules
+- (Brew) Added Deck Importer support for per-card back image
+- (Brew) Fixed Deck Importer failing to set "suite" and "value" on imported cards 
+
+## v1.63.0 — "Deck Insertion" edition
+
+> 2023-02-03
 
 - Added Deck Importer
 - Added chat notification with link to the Automation Addon module <https://github.com/TheGiddyLimit/plutonium-addon-automation>, which is displayed if judged relevant (i.e., MidiQOL is running)

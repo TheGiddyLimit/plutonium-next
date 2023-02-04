@@ -1150,8 +1150,13 @@
 	},
 	{
 		"ver": "1.63.0",
-		"date": "2023-02-02",
-		"title": "",
+		"date": "2023-02-03",
+		"title": "Deck Insertion",
 		"txt": "- Added Deck Importer\n- Added chat notification with link to the Automation Addon module <https://github.com/TheGiddyLimit/plutonium-addon-automation>, which is displayed if judged relevant (i.e., MidiQOL is running)\n- The Creature Importer can now parse damage rolls in non-action features\n- The Creature Importer can now set MidiQOL's \"No Dam Save\" flag when generating a sheet item, if judged appropriate\n- Added Item Importer 'Treat Extra Damage as \"Other Formula\"' option, which functions similarly to the existing 'Treat \"Alternate\" Attack Damage as \"Other Formula\"', but for imported items. This is automatically enabled when using the Automation Addon.\n- Improved compatibility of \"Compact Header Buttons\" styling with the Monarch module\n- Fixed tag system clobbering non-5etools tags (notably improving compatibility with the Mastercrafted module)\n- Fixed Adventure/Book Importer failing to folderize journals when not using the \"Treat Journal Entries as Folders\" option\n- Fixed Item Importer parsing too _much_ text in some cases (treating e.g. meta-references/notes as part of the main text), and too _little_ text in other cases (ignoring text from magic variants)\n- Fixed Item Importer regression where full SRD-image-fetching process wasn't being run\n- (Server) Fixed hook usage in custom login sample _[note that this does not require you to make any changes to your backend mod installation]_\n- (Brew) Improved support for Foundry-specific `magicvariant` data"
+	},
+	{
+		"ver": "1.63.1",
+		"date": "2023-02-04",
+		"txt": "- Fixed Importers failing to fully apply Automation Addon `system` changes in some cases\n- Fixed Importer crash on attempting to create an item with proficiency-based uses in a world using \"proficiency dice\" rules\n- (Brew) Added Deck Importer support for per-card back image\n- (Brew) Fixed Deck Importer failing to set \"suite\" and \"value\" on imported cards "
 	}
 ]

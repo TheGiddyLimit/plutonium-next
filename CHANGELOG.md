@@ -1,3 +1,9 @@
+### v1.63.2
+
+> 2023-02-05
+
+- Fixed rendering of @tags in text
+
 ### v1.63.1
 
 > 2023-02-04
@@ -5,7 +11,7 @@
 - Fixed Importers failing to fully apply Automation Addon `system` changes in some cases
 - Fixed Importer crash on attempting to create an item with proficiency-based uses in a world using "proficiency dice" rules
 - (Brew) Added Deck Importer support for per-card back image
-- (Brew) Fixed Deck Importer failing to set "suite" and "value" on imported cards 
+- (Brew) Fixed Deck Importer failing to set "suite" and "value" on imported cards
 
 ## v1.63.0 — "Deck Insertion" edition
 

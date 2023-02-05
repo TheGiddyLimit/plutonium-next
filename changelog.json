@@ -1157,6 +1157,11 @@
 	{
 		"ver": "1.63.1",
 		"date": "2023-02-04",
-		"txt": "- Fixed Importers failing to fully apply Automation Addon `system` changes in some cases\n- Fixed Importer crash on attempting to create an item with proficiency-based uses in a world using \"proficiency dice\" rules\n- (Brew) Added Deck Importer support for per-card back image\n- (Brew) Fixed Deck Importer failing to set \"suite\" and \"value\" on imported cards "
+		"txt": "- Fixed Importers failing to fully apply Automation Addon `system` changes in some cases\n- Fixed Importer crash on attempting to create an item with proficiency-based uses in a world using \"proficiency dice\" rules\n- (Brew) Added Deck Importer support for per-card back image\n- (Brew) Fixed Deck Importer failing to set \"suite\" and \"value\" on imported cards"
+	},
+	{
+		"ver": "1.63.2",
+		"date": "2023-02-05",
+		"txt": "- Fixed rendering of @tags in text"
 	}
 ]

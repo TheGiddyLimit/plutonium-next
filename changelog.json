@@ -1163,5 +1163,10 @@
 		"ver": "1.63.2",
 		"date": "2023-02-05",
 		"txt": "- Fixed rendering of @tags in text"
+	},
+	{
+		"ver": "1.63.3",
+		"date": "2023-02-12",
+		"txt": "- Reworked and improved performance of roll data generation with \"Add @items to Roll Data\" option enabled _[automatic, under the Automation Addon]_, which was otherwise causing lag when opening sheets\n- Switched to user-specific ownership when creating temporary documents from the Quick Insert integration, hopefully fixing various permission/sheet-opening issues for good\n- Updated compatibility with Tidy5e \"Prepared Spells\" field in the Class Importer, and added support for Tidy5e \"Multiclass Spellbook Filter\" to the Spell Importer\n- Fixed generic Foundry \"mystery man\" image being used as no-image fallback in actor Importers, instead of the intended \"blank token\" image\n- (Brew) Added support for `\"resource\"`s to the Creature Importer"
 	}
 ]

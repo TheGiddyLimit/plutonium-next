@@ -1,3 +1,12 @@
+### v1.63.4
+
+> 2023-02-13
+
+- Fixed many Importers crashing when attempting to render a player-opened temporary document via Quick Insert
+- Fixed Actor Importers failing to set player permissions on temporary documents imported via Quick Insert
+- Fixed sheet items being un-rollable from temporary documents
+- Fixed crash when importing temporary actors with spellcasting traits
+
 ### v1.63.3
 
 > 2023-02-12

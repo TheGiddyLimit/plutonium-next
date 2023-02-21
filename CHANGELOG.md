@@ -1,3 +1,11 @@
+### v1.63.5
+
+> 2023-02-21
+
+- Switched to `@attributes.prof` over `@prof` in generated expressions, to improve compatibility with "proficiency dice" variant rule
+- The Item Importer will now add any non-standard attunement requirements to the item's description, even if the "Include Damage, Properties, Rarity, and Attunement in Description" Config option is disabled
+- Fixed crash when using Token Action HUD due to un-linked dragon breath weapons
+
 ### v1.63.4
 
 > 2023-02-13

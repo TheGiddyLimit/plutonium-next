@@ -1178,5 +1178,10 @@
 		"ver": "1.63.5",
 		"date": "2023-02-21",
 		"txt": "- Switched to `@attributes.prof` over `@prof` in generated expressions, to improve compatibility with \"proficiency dice\" variant rule\n- The Item Importer will now add any non-standard attunement requirements to the item's description, even if the \"Include Damage, Properties, Rarity, and Attunement in Description\" Config option is disabled\n- Fixed crash when using Token Action HUD due to un-linked dragon breath weapons"
+	},
+	{
+		"ver": "1.63.6",
+		"date": "2023-02-21",
+		"txt": "- Added Foundry scene grid sizing/scaling data to Keys from the Golden Vault maps\n- Resetting a Config option as a player now resets to \"use GM's value,\" rather than \"factory default.\" This also fixes a minor UI bug where player-editable Config options would appear as \"set to a non-default value\" for players unless specifically overridden. _[Note that the default value for a player Config option was, and still is, implicitly the GM's value.]_\n- Fixed \"Fix ESC Key\" finding and closing some unwanted applications (notably, Token Action HUD's overlay) when pressing ESC\n- Fixed \"Fix ESC Key\" crash when pressing ESC on some module-specific canvas layers\n- Fixed dice pool sheet items having no activation type\n- Fixed Class Importer adding too much HP to advancements when rolling HP\n- Fixed Tidy5e \"prepared spell\" effect using wrong change mode\n- Removed defunct \"World/Module\" button from Adventure/Book Importers"
 	}
 ]

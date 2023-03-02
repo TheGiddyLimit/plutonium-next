@@ -1,3 +1,16 @@
+### v1.63.6
+
+> 2023-02-21
+
+- Added Foundry scene grid sizing/scaling data to Keys from the Golden Vault maps
+- Resetting a Config option as a player now resets to "use GM's value," rather than "factory default." This also fixes a minor UI bug where player-editable Config options would appear as "set to a non-default value" for players unless specifically overridden. _[Note that the default value for a player Config option was, and still is, implicitly the GM's value.]_
+- Fixed "Fix ESC Key" finding and closing some unwanted applications (notably, Token Action HUD's overlay) when pressing ESC
+- Fixed "Fix ESC Key" crash when pressing ESC on some module-specific canvas layers
+- Fixed dice pool sheet items having no activation type
+- Fixed Class Importer adding too much HP to advancements when rolling HP
+- Fixed Tidy5e "prepared spell" effect using wrong change mode
+- Removed defunct "World/Module" button from Adventure/Book Importers
+
 ### v1.63.5
 
 > 2023-02-21

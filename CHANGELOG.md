@@ -1,3 +1,10 @@
+### v1.63.7
+
+> 2023-03-12
+
+- Updated Monk's Little Details integrations for compatibility with split-out modules
+- Fixed Creature Importer crash when parsing certain data structures
+
 ### v1.63.6
 
 > 2023-02-21

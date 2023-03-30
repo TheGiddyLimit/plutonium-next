@@ -1,3 +1,13 @@
+## v1.64.0
+
+> 2023-03-30
+
+- Added Content Updater tool, which allows previously-imported content to be checked versus the latest available version, and updated (either fully or partially)
+- Added (optional) patch to document loading system, improving compatibility between Plutonium-added Quick Insert content, and Monk's Enhanced Journals/Active Tile Triggers modules
+- Fixed loading of subclasses in Level Up button
+- Fixed Class/Subclass Feature Importer failing to copy some SRD effects to imported items
+- Fixed root IDs failing to be scrubbed from Importer-made copies of existing compendium documents 
+
 ### v1.63.7
 
 > 2023-03-12

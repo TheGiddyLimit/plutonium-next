@@ -1,4 +1,19 @@
-## v1.64.0
+### v1.64.1
+
+> 2023-03-30
+
+- The Race Importer now (once again) imports speed directly to an actor's sheet, rather than as an active effect, to better enable _further_ active effects which rely on a non-zero speed existing
+- Added partial support (currently limited to spells and items) for diffing embedded documents on non-Plutonium-imported documents to the Content Updater. This allows, for example, spells and items imported to a player character to be updated using the Content Updater.
+- Improved Feat Importer parsing, allowing more usage constraints/recharge information to be correctly set
+- Added fallback path for badly-flagged classes to Level Up button, hopefully re-enabling the button in most cases (although do note that this does not work particularly well for homebrew classes/subclasses)
+- DFreds Convenient Effect's "Custom Effects" item is now treated as a special item which should not be modified/deleted by directory tools
+- Fixed deprecation warning when setting module compatibility settings
+- Fixed "not supported" error when attempting to import the "Concentration" status via Rivet
+- Fixed silent spellcasting failure when using MidiQOL with Plutonium's "Spell Points" options
+- Fixed sheet rendering performance when Level Up button is enabled and a non-Plutonium-imported class is present on a sheet
+- (Brew) Fixed crash when stripping `@tags` in class starting equipment 
+
+## v1.64.0 — "Built Different" edition
 
 > 2023-03-30
 

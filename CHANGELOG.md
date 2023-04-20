@@ -1,6 +1,16 @@
+### v1.64.2
+
+> 2023-04-20
+
+- Added more fields to the Content Updater's default "ignore" list
+- Fixed Optional Feature and Spell Importers failing to fetch SRD effects from compendiums
+- Fixed crash when opening the Bulk Prototype Token Editor
+- Fixed crash when opening the Polymorpher
+- Fixed wrong changelog displaying in-client
+
 ### v1.64.1
 
-> 2023-03-30
+> 2023-04-17
 
 - The Race Importer now (once again) imports speed directly to an actor's sheet, rather than as an active effect, to better enable _further_ active effects which rely on a non-zero speed existing
 - Added partial support (currently limited to spells and items) for diffing embedded documents on non-Plutonium-imported documents to the Content Updater. This allows, for example, spells and items imported to a player character to be updated using the Content Updater.

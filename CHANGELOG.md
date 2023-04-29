@@ -1,3 +1,20 @@
+## v1.65.0 — "11th Hour" edition
+
+> 2023-04-29
+
+- Added compatibility for MidiQOL to "Auto-Roll Multiattacks" Config option, allowing both to be used in tandem
+- Added "Time Between Multiattack Rolls" Config option, allowing artificial delay to be imposed between each roll in an auto-rolled multiattack
+- Drag-dropping an image from the Art Browser will now show a (very) rough indication of image loading progress in the scene progress bar
+- Added "Drag-Drop Position Anchor" Art Browser Config option, which now defaults to "Center" (rather than the old "Top-Left" implicit default)
+- Dropping an image from the Art Browser now activates the layer the image was dropped into
+- Added "Create Token from Image URL" macro
+- Refined and simplified logic for applying token "Display Missing Health" text/tweaking token text, to improve compatibility with other token-affecting modules
+- Fixed Content Updater crash when updating embedded documents belonging to non-Plutonium-imported documents
+- Fixed Creature Importer failing to change creature name in actions/etc. when renaming an already-named creature (such as Strahd von Zarovich)
+- Tweaked Importers to activate directory tabs _after_ importing content, rather than before, to slightly mitigate slowdown caused by viewing the imported-to directory while a large import is running
+- (Server) Added "custom setup" script/style addon. If installed, this allows you to place a `setup.<css|js>` in your data folder; these files are then loaded and served when viewing the setup screen, allowing custom styling. _See the module README for more!_ _[Note that this is mostly intended for removing adverts in v11, but has been back-ported to v10 for general use.]_
+- _[(v11) Added initial v11-compatible version (Patron-only, until Foundry v11 stable is released)]_
+
 ### v1.64.2
 
 > 2023-04-20

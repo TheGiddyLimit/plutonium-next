@@ -1,3 +1,11 @@
+### v1.66.1
+
+> 2023-05-02
+
+- Added 3D Canvas integration support to the Vehicle Importer
+- Added "Customize and Import..." option to Vehicle Importer, allowing tokens and 3d models to be customized during import
+- Fixed various cases where Importers were being improperly initialized, which resulted in 3d models failing to be set in certain situations (besides other minor bugs)
+
 ## v1.66.0 — "Another Dimension" edition
 
 > 2023-05-02

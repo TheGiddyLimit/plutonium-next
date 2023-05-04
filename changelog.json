@@ -1217,5 +1217,10 @@
 		"date": "2023-05-02",
 		"title": "Another Dimension",
 		"txt": "- Added rudimentary 3D Canvas integration (note that the \"3D Canvas\", \"3D Canvas Mapmaking Pack\", and \"3D Canvas Token Collection\" modules must be active for this integration to activate)\n  - The Creature Importer will now set a token's \"3D Model\", if a token is available in the 3D Canvas Token Browser\n  - When using the \"Customize and Import\" flow of the Creature Importer, a path to a 3D Model can be set, either by choosing from the list of options for that creature, or by specifying a custom path\n  - Added a \"Has 3D Model\" filter to the Creature Importer\n- Fixed \"Display Missing Health\" text appearing on tokens when the option is disabled\n- Fixed Content Updater crash when attempting to analyze non-Plutonium-imported sub-documents\n- Fixed Creature Importer failing to correctly set damage immunity/resistance/vulnerability \"Physical Bypasses\" when multiple bypasses were available\n- Fixed Creature Importer failing to rename creatures within lair action/regional effect text"
+	},
+	{
+		"ver": "1.66.1",
+		"date": "2023-05-02",
+		"txt": "- Added 3D Canvas integration support to the Vehicle Importer\n- Added \"Customize and Import...\" option to Vehicle Importer, allowing tokens and 3d models to be customized during import\n- Fixed various cases where Importers were being improperly initialized, which resulted in 3d models failing to be set in certain situations (besides other minor bugs)"
 	}
 ]

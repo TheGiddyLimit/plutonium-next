@@ -1,3 +1,10 @@
+### v1.66.2
+
+> 2023-05-11
+
+- (Brew) Added "Additional Font" auto-loading when importing content containing custom `@font` tags
+- (Brew) Added support for recent homebrew schema changes (table `"colLabelGroups"`; vehicle `"hpNote"` tags; etc.)
+
 ### v1.66.1
 
 > 2023-05-02

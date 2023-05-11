@@ -1222,5 +1222,10 @@
 		"ver": "1.66.1",
 		"date": "2023-05-02",
 		"txt": "- Added 3D Canvas integration support to the Vehicle Importer\n- Added \"Customize and Import...\" option to Vehicle Importer, allowing tokens and 3d models to be customized during import\n- Fixed various cases where Importers were being improperly initialized, which resulted in 3d models failing to be set in certain situations (besides other minor bugs)"
+	},
+	{
+		"ver": "1.66.2",
+		"date": "2023-05-11",
+		"txt": "- (Brew) Added \"Additional Font\" auto-loading when importing content containing custom `@font` tags\n- (Brew) Added support for recent homebrew schema changes (table `\"colLabelGroups\"`; vehicle `\"hpNote\"` tags; etc.)"
 	}
 ]

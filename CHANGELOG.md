@@ -1,3 +1,9 @@
+### v1.67.1
+
+> 2023-05-25
+
+- (v11) Fixed manifest using v10 manifest/download links, instead of v11 versions
+
 ## v1.67.0 — "Legs" edition
 
 > 2023-05-25

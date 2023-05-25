@@ -1,3 +1,30 @@
+## v1.67.0 — "Legs" edition
+
+> 2023-05-25
+
+- (v11) Added support for v11
+- The Creature Importer can now import to existing actors. When doing so, the name/portrait/token image of the original actor is preserved (unless it is a default image); this can be adjusted via the "Customize and Import" flow.
+- Overhauled "progress bar" app, improving styling and allowing sub-task information to be shown (for example, when importing a spellcaster via the Creature Importer, log messages from the Spell Importer are now visible; when importing class to an actor via the Class Importer, log messages from the Class Feature Importer are now visible; etc.).
+- Added Babele integration for SRD content. If enabled, and Babele is active, Plutonium will attempt to translate names and descriptions during import.
+- Added "Maximum" and "Minimum" predefined HP modes to Class Importer
+- Added "Has Plutonium Flags" to directory tool filters, allowing imported content to be easily filtered in/out
+- Added `"srd5e.importComplete"` hook support for class and subclass imports
+- Added warning to Art Browser if the backend mod is not detected
+- Added list of compatible backend mod versions to the module, which are checked against the backend mod (if installed). A notification will be shown if a version mismatch is found.
+- Fixed Race Importer failing to show versions as distinct from base entity
+- Fixed Spell Importer failing to apply customizations when importing to directory
+- Fixed Creature Importer lowercasing "Type"/"Type (With Tags)" folder names
+- Fixed Config values sometimes failing to save when programmatically changed en-masse
+- Fixed Compendium Visibility Toggler tool appearing in every directory menu _except_ for the one in the compendiums tab
+- (v11) Added "Embedded URL" journal page type, with the same functionality as the old "Embedded URL" sheet for "Text"-type pages
+- (v11) Added "Compact Compendium Packs" UI option
+- (v11) Added support for "None" token disposition in Importer Configs and Bulk Prototype Token Editor
+- (v11) Reworked "Compendium Visibility Toggler" tool to "Compendium Ownership Updater", allowing compendium ownership to be updated en-masse
+- (Brew) Added support for `"foundrySystem"` on `"monster"`-, `"vehicle"`-, `"object"`-, and `"trap"`-type entities
+- (Brew) Custom content (either loaded from file, or from custom URL) is now dynamically assigned as either "prerelease" or "homebrew" based on the contents of the file, rather than always being considered "homebrew"
+- (Brew) Fixed Feature Importers double-importing damage immunities/vulnerabilities/resistances and condition immunities
+- (Brew) Added support for `"preparedSpellsProgression"` on classes
+
 ### v1.66.2
 
 > 2023-05-11

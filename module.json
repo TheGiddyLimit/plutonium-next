@@ -2,7 +2,7 @@
 	"id": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5etools-mirror-1.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "1.66.2",
+	"version": "1.67.0",
 	"authors": [
 		{
 			"name": "Giddy",
@@ -38,10 +38,11 @@
 	"manifest": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/module.json",
 	"download": "https://github.com/TheGiddyLimit/plutonium-next/raw/master/plutonium.zip",
 	"compatibility": {
-		"minimum": "10",
-		"verified": "10.291"
+		"minimum": "11",
+		"verified": "11.299"
 	},
 	"socket": true,
+	"persistentStorage": true,
 	"esmodules": [
 		"./js/Bundle.js"
 	],
@@ -72,7 +73,8 @@
 				"type": "module",
 				"compatibility": {
 					"minimum": "1.12.5.0"
-				}
+				},
+				"reason": "libWrapper is used to patch Foundry methods and functions, extending or altering their functionality."
 			}
 		],
 		"conflicts": [
@@ -87,6 +89,11 @@
 				"reason": "Better Rolltables is incompatible with the \"Render >3 Levels of Folder Nesting\" option, which will be disabled."
 			}
 		]
+	},
+	"documentTypes": {
+		"JournalEntryPage": {
+			"url": {}
+		}
 	},
 	"flags": {
 		"attributions": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/ATTRIBUTIONS.md"

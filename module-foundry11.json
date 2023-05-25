@@ -1,0 +1,101 @@
+{
+	"id": "plutonium",
+	"title": "Plutonium",
+	"description": "A <a href=\"https://5etools-mirror-1.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
+	"version": "1.67.0",
+	"authors": [
+		{
+			"name": "Giddy",
+			"url": "https://www.patreon.com/Giddy5e",
+			"discord": "Giddy#0001",
+			"flags": {
+				"patreon": "Giddy5e",
+				"github": "TheGiddyLimit"
+			}
+		}
+	],
+	"keywords": [
+		"sheets",
+		"audio",
+		"automation",
+		"chat",
+		"combat",
+		"importer",
+		"content",
+		"dice",
+		"integration",
+		"journal",
+		"overhaul",
+		"patches",
+		"tools",
+		"visuals"
+	],
+	"readme": "README.md",
+	"license": "UNLICENSED",
+	"bugs": "https://discord.gg/nGvRCDs",
+	"changelog": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/CHANGELOG.md",
+	"url": "https://www.patreon.com/Giddy5e",
+	"manifest": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/module-foundry10.json",
+	"download": "https://github.com/TheGiddyLimit/plutonium-next/raw/master/plutonium-foundry10.zip",
+	"compatibility": {
+		"minimum": "11",
+		"verified": "11.299"
+	},
+	"socket": true,
+	"persistentStorage": true,
+	"esmodules": [
+		"./js/Bundle.js"
+	],
+	"styles": [
+		"./art-css/ArtBrowser.css",
+		"./css/main.css"
+	],
+	"packs": [
+		{
+			"name": "macros",
+			"label": "Macros",
+			"system": "dnd5e",
+			"path": "./packs/macros.db",
+			"type": "Macro"
+		}
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+	"relationships": {
+		"requires": [
+			{
+				"id": "lib-wrapper",
+				"type": "module",
+				"compatibility": {
+					"minimum": "1.12.5.0"
+				},
+				"reason": "libWrapper is used to patch Foundry methods and functions, extending or altering their functionality."
+			}
+		],
+		"conflicts": [
+			{
+				"id": "babele",
+				"type": "module",
+				"reason": "Babele translations are not used in imported content."
+			},
+			{
+				"id": "better-rolltables",
+				"type": "module",
+				"reason": "Better Rolltables is incompatible with the \"Render >3 Levels of Folder Nesting\" option, which will be disabled."
+			}
+		]
+	},
+	"documentTypes": {
+		"JournalEntryPage": {
+			"url": {}
+		}
+	},
+	"flags": {
+		"attributions": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/ATTRIBUTIONS.md"
+	}
+}

@@ -1,3 +1,10 @@
+## v1.68.0 — "Retooling" edition
+
+> 2023-05-27
+
+- Added support for dnd5e v2.2.x (and removed support for previous version(s))
+- Improved Class Importer handling of tool proficiencies
+
 ### v1.67.1
 
 > 2023-05-25

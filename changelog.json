@@ -1238,5 +1238,11 @@
 		"ver": "1.67.1",
 		"date": "2023-05-25",
 		"txt": "- (v11) Fixed manifest using v10 manifest/download links, instead of v11 versions"
+	},
+	{
+		"ver": "1.68.0",
+		"date": "2023-05-27",
+		"title": "Retooling",
+		"txt": "- Added support for dnd5e v2.2.x (and removed support for previous version(s))\n- Improved Class Importer handling of tool proficiencies"
 	}
 ]

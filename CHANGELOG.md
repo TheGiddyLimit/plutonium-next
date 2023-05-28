@@ -1,3 +1,10 @@
+### v1.68.1
+
+> 2023-05-28
+
+- Removed manifest conflict listing for Babele
+- (Brew) Fixed internal spell source lists failing to update when loading successive brews
+
 ## v1.68.0 — "Retooling" edition
 
 > 2023-05-27

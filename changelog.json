@@ -1244,5 +1244,10 @@
 		"date": "2023-05-27",
 		"title": "Retooling",
 		"txt": "- Added support for dnd5e v2.2.x (and removed support for previous version(s))\n- Improved Class Importer handling of tool proficiencies"
+	},
+	{
+		"ver": "1.68.1",
+		"date": "2023-05-28",
+		"txt": "- Removed manifest conflict listing for Babele\n- (Brew) Fixed internal spell source lists failing to update when loading successive brews"
 	}
 ]

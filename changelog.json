@@ -1249,5 +1249,12 @@
 		"ver": "1.68.1",
 		"date": "2023-05-28",
 		"txt": "- Removed manifest conflict listing for Babele\n- (Brew) Fixed internal spell source lists failing to update when loading successive brews"
+	},
+	{
+		"ver": "1.69.0",
+		"date": "2023-06-14",
+		"title": "Local Man Can't Stop Stealing",
+		"titleAlt": "nice",
+		"txt": "- Added port of D&D Beyond Importer icon set, greatly expanding the number of documents which import with pretty icons (notably, non-SRD classes/subclasses, non-SRD items, and creature features)\n- Importers now skip rendering directories in some cases, improving performance of temporary imports, and greatly improving performance of large imports\n- Improved compact compendium styling in the presence of long names\n- Added Importer button to compendium title menu; this opens the importer targeting the compendium\n- Fixed Content Updater crash on un-loadable entities\n- Fixed temporary documents, e.g. those created by clicking an `@<tag>[...]`, failing to set correct ownership when created by a user with some document creation permissions\n- Fixed Importers failing to open when targeting rollable tables\n- Fixed Item Importer active effect settings for potions, especially in the presence of automation modules\n- Fixed display of scene thumbnails when using compact scene styling\n- Fixed Importer crash when attempting to load additional data for some features "
 	}
 ]

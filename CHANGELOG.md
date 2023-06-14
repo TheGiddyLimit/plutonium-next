@@ -1,3 +1,18 @@
+## v1.69.0 — "Local Man Can't Stop Stealing" edition
+
+> 2023-06-14
+
+- Added port of D&D Beyond Importer icon set, greatly expanding the number of documents which import with pretty icons (notably, non-SRD classes/subclasses, non-SRD items, and creature features)
+- Importers now skip rendering directories in some cases, improving performance of temporary imports, and greatly improving performance of large imports
+- Improved compact compendium styling in the presence of long names
+- Added Importer button to compendium title menu; this opens the importer targeting the compendium
+- Fixed Content Updater crash on un-loadable entities
+- Fixed temporary documents, e.g. those created by clicking an `@<tag>[...]`, failing to set correct ownership when created by a user with some document creation permissions
+- Fixed Importers failing to open when targeting rollable tables
+- Fixed Item Importer active effect settings for potions, especially in the presence of automation modules
+- Fixed display of scene thumbnails when using compact scene styling
+- Fixed Importer crash when attempting to load additional data for some features 
+
 ### v1.68.1
 
 > 2023-05-28

@@ -1,3 +1,10 @@
+### v1.69.1
+
+> 2023-06-15
+
+- Fixed Importer Wizard failing to render folder configuration
+- Fixed Importer Wizard allowing Importers to be opened against document-type-mismatched compendiums 
+
 ## v1.69.0 — "Local Man Can't Stop Stealing" edition
 
 > 2023-06-14
@@ -1340,7 +1347,7 @@
 - Added Config option to split imported adventure/book content "by contents" or "by heading," as opposed to the default/existing "by chapter"
 - Added Config option to make Class Importer create a default "Unarmed Strike" weapon when importing a class
 - Added cantrip selection step to Class Importer for spellcaster classes
-- Added folder path hierarchy display to Importer Wizard "Folder Path" customizer
+- Added folder path hierarchy display to Import Wizard "Folder Path" customizer
 - Added "Feeling Lucky?" button to Importer lists
 - Added GM-only "Edit Config" button to Equipment Shop, reducing the number of clicks required to e.g. set shop prices
 - Added various "publication year/date" options to Adventure and Book Importer pre-defined folder options
@@ -2196,7 +2203,7 @@
   - When importing items, weapons that require ammunition are now always imported last
 - Item Importer now uses base SRD item art if none is available for a specific variant (e.g. "Longsword" art will be used if "Cool +1 Longsword" does not exist in the SRD)
 - Improved Adventure/Book Importer error handling when dealing with mismatched contents and chapters
-- Added "Open Default Importer" buttons to Importer Wizard, which open the main "5etools" importer with one click
+- Added "Open Default Importer" buttons to Import Wizard, which open the main "5etools" importer with one click
 - Improve Race Importer spell handling; spells should now be imported with the correct ability scores and preparation mode
 - Made some content matching (i.e. looking for existing class items when levelling up a class) less strict (now matches on only name, as opposed to name + source). Old strict matching is now available as a config option.
 - Added config option to avoid splitting item packs when importing items to actors

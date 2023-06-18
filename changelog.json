@@ -1266,5 +1266,10 @@
 		"ver": "1.69.2",
 		"date": "2023-06-18",
 		"txt": "- Reduced log spam when failing to parse ATL effects \n- Fixed Importer crash when attempting to load empty file/URL source\n- (Brew) Fixed loading performance regression"
+	},
+	{
+		"ver": "1.69.3",
+		"date": "2023-06-18",
+		"txt": "- Fixed module failing to load\n- (Brew) Fixed Class Importer failing to convert `@tags` in fluff "
 	}
 ]

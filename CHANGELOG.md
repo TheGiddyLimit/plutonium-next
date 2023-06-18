@@ -1,3 +1,10 @@
+### v1.69.3
+
+> 2023-06-18
+
+- Fixed module failing to load
+- (Brew) Fixed Class Importer failing to convert `@tags` in fluff 
+
 ### v1.69.2
 
 > 2023-06-18

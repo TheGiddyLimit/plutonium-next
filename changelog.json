@@ -1261,5 +1261,10 @@
 		"ver": "1.69.1",
 		"date": "2023-06-15",
 		"txt": "- Fixed Importer Wizard failing to render folder configuration\n- Fixed Importer Wizard allowing Importers to be opened against document-type-mismatched compendiums "
+	},
+	{
+		"ver": "1.69.2",
+		"date": "2023-06-18",
+		"txt": "- Reduced log spam when failing to parse ATL effects \n- Fixed Importer crash when attempting to load empty file/URL source\n- (Brew) Fixed loading performance regression"
 	}
 ]

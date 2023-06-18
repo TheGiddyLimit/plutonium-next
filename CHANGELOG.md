@@ -1,3 +1,11 @@
+### v1.69.2
+
+> 2023-06-18
+
+- Reduced log spam when failing to parse ATL effects 
+- Fixed Importer crash when attempting to load empty file/URL source
+- (Brew) Fixed loading performance regression
+
 ### v1.69.1
 
 > 2023-06-15

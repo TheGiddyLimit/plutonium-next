@@ -1,9 +1,21 @@
+## v1.70.0 — "Do Not Call Up That Which You Cannot Put Down" edition
+
+> 2023-07-02
+
+- Added integration for the "Foundry Summons", causing per-source Plutonium compendiums to be available for selection in Foundry Summons' settings
+- Added buttons to open the World Data Source Selector and World Concent Blocklist from the appropriate Config tab
+- Fixed Importer crash when attempting to find images for imported features
+- Fixed Bulk Ownership Editor crash when attempting to set journal ownership
+- Fixed Feature Importers failing to clean up temporary IDs in some cases, leading to broken links in rendered text
+- Fixed token status visual effects (e.g. invisibility) failing to apply
+- Fixed inconsistency when SHIFT-clicking `@UUID[Actor.Item.]` links
+
 ### v1.69.3
 
 > 2023-06-18
 
 - Fixed module failing to load
-- (Brew) Fixed Class Importer failing to convert `@tags` in fluff 
+- (Brew) Fixed Class Importer failing to convert `@tags` in fluff
 
 ### v1.69.2
 

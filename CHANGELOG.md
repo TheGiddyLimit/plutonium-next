@@ -1,3 +1,10 @@
+### v1.70.1
+
+> 2023-07-03
+
+- Fixed Foundry Summons integration failing to persist and load selected "Summoning Sources"
+- (v10) Fixed crash when applying active effects
+
 ## v1.70.0 — "Do Not Call Up That Which You Cannot Put Down" edition
 
 > 2023-07-02

@@ -1277,5 +1277,10 @@
 		"date": "2023-07-02",
 		"title": "Do Not Call Up That Which You Cannot Put Down",
 		"txt": "- Added integration for the \"Foundry Summons\", causing per-source Plutonium compendiums to be available for selection in Foundry Summons' settings\n- Added buttons to open the World Data Source Selector and World Concent Blocklist from the appropriate Config tab\n- Fixed Importer crash when attempting to find images for imported features\n- Fixed Bulk Ownership Editor crash when attempting to set journal ownership\n- Fixed Feature Importers failing to clean up temporary IDs in some cases, leading to broken links in rendered text\n- Fixed token status visual effects (e.g. invisibility) failing to apply\n- Fixed inconsistency when SHIFT-clicking `@UUID[Actor.Item.]` links"
+	},
+	{
+		"ver": "1.70.1",
+		"date": "2023-07-03",
+		"txt": "- Fixed Foundry Summons integration failing to persist and load selected \"Summoning Sources\"\n- (v10) Fixed crash when applying active effects"
 	}
 ]

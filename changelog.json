@@ -1282,5 +1282,10 @@
 		"ver": "1.70.1",
 		"date": "2023-07-03",
 		"txt": "- Fixed Foundry Summons integration failing to persist and load selected \"Summoning Sources\"\n- (v10) Fixed crash when applying active effects"
+	},
+	{
+		"ver": "1.70.2",
+		"date": "2023-07-23",
+		"txt": "- Improved compatibility with the \"Token Action HUD\" module\n- Fixed Creature Importer handling of secondary damage/\"other formula\" damage (generally in the presence of the 'Treat \"Save Halves\" Additional Attack Damage as \"Other Formula\"' Config option or the 'Treat \"Alternate\" Attack Damage as \"Other Formula\"' Config option)\n- Fixed Creature Import Customizer token picker having no \"Select File\" button\n- Fixed Class Importer failing to detect renamed classes (e.g. those renamed by Babele) when levelling up\n- Fixed subrace blocklist failing to be applied\n- Fixed Hazard Importer failing to populate text\n- Fixed Quick Import integration crash when attempting to index some homebrew data\n- (v11) Fixed Importer failing to access and create directories when attempting to save images\n- (Brew) Added Importer support for \"anyExotic\" language proficiencies"
 	}
 ]

@@ -1,3 +1,17 @@
+### v1.70.2
+
+> 2023-07-23
+
+- Improved compatibility with the "Token Action HUD" module
+- Fixed Creature Importer handling of secondary damage/"other formula" damage (generally in the presence of the 'Treat "Save Halves" Additional Attack Damage as "Other Formula"' Config option or the 'Treat "Alternate" Attack Damage as "Other Formula"' Config option)
+- Fixed Creature Import Customizer token picker having no "Select File" button
+- Fixed Class Importer failing to detect renamed classes (e.g. those renamed by Babele) when levelling up
+- Fixed subrace blocklist failing to be applied
+- Fixed Hazard Importer failing to populate text
+- Fixed Quick Import integration crash when attempting to index some homebrew data
+- (v11) Fixed Importer failing to access and create directories when attempting to save images
+- (Brew) Added Importer support for "anyExotic" language proficiencies
+
 ### v1.70.1
 
 > 2023-07-03

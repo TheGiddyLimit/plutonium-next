@@ -83,6 +83,12 @@
 				"type": "module",
 				"reason": "Better Rolltables is incompatible with the \"Render >3 Levels of Folder Nesting\" option, which will be disabled."
 			}
+		],
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system"
+			}
 		]
 	},
 	"documentTypes": {

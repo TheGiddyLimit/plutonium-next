@@ -1287,5 +1287,10 @@
 		"ver": "1.70.2",
 		"date": "2023-07-23",
 		"txt": "- Improved compatibility with the \"Token Action HUD\" module\n- Fixed Creature Importer handling of secondary damage/\"other formula\" damage (generally in the presence of the 'Treat \"Save Halves\" Additional Attack Damage as \"Other Formula\"' Config option or the 'Treat \"Alternate\" Attack Damage as \"Other Formula\"' Config option)\n- Fixed Creature Import Customizer token picker having no \"Select File\" button\n- Fixed Class Importer failing to detect renamed classes (e.g. those renamed by Babele) when levelling up\n- Fixed subrace blocklist failing to be applied\n- Fixed Hazard Importer failing to populate text\n- Fixed Quick Import integration crash when attempting to index some homebrew data\n- (v11) Fixed Importer failing to access and create directories when attempting to save images\n- (Brew) Added Importer support for \"anyExotic\" language proficiencies"
+	},
+	{
+		"ver": "1.70.3",
+		"date": "2023-08-04",
+		"txt": "- Improved compatibility with the \"Simple Calendar\" module; the alternate window-closing flow used when the \"Fix ESC Key\" Config option is enabled will now ignore any persistent Simple Calendar windows\n- Fixed Creature Importer crash when attempting to rename a creature with few/no actions/etc.\n- Fixed Item Importer failing to correctly set item proficiency in some cases\n- (Automation) Added optimistic effect-generating fallback for spells with no well-defined effects\n- (Automation) Expanded data passed to Automation Addon, (hopefully) improving integration results in some cases"
 	}
 ]

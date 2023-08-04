@@ -1,3 +1,13 @@
+### v1.70.3
+
+> 2023-08-04
+
+- Improved compatibility with the "Simple Calendar" module; the alternate window-closing flow used when the "Fix ESC Key" Config option is enabled will now ignore any persistent Simple Calendar windows
+- Fixed Creature Importer crash when attempting to rename a creature with few/no actions/etc.
+- Fixed Item Importer failing to correctly set item proficiency in some cases
+- (Automation) Added optimistic effect-generating fallback for spells with no well-defined effects
+- (Automation) Expanded data passed to Automation Addon, (hopefully) improving integration results in some cases
+
 ### v1.70.2
 
 > 2023-07-23

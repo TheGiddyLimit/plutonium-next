@@ -1,3 +1,11 @@
+### v1.70.4
+
+> 2023-08-07
+
+- Fixed spell range data failing to populate
+- Fixed Replacement Data Compendiums always preferring SRD renames, rather than the original name
+- (Automation) Improved Creature Importer flag determination logic for MidiQOL "No Dam Save" and "Full Dam Save"
+
 ### v1.70.3
 
 > 2023-08-04

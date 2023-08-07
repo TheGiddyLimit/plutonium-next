@@ -1292,5 +1292,10 @@
 		"ver": "1.70.3",
 		"date": "2023-08-04",
 		"txt": "- Improved compatibility with the \"Simple Calendar\" module; the alternate window-closing flow used when the \"Fix ESC Key\" Config option is enabled will now ignore any persistent Simple Calendar windows\n- Fixed Creature Importer crash when attempting to rename a creature with few/no actions/etc.\n- Fixed Item Importer failing to correctly set item proficiency in some cases\n- (Automation) Added optimistic effect-generating fallback for spells with no well-defined effects\n- (Automation) Expanded data passed to Automation Addon, (hopefully) improving integration results in some cases"
+	},
+	{
+		"ver": "1.70.4",
+		"date": "2023-08-07",
+		"txt": "- Fixed spell range data failing to populate\n- Fixed Replacement Data Compendiums always preferring SRD renames, rather than the original name\n- (Automation) Improved Creature Importer flag determination logic for MidiQOL \"No Dam Save\" and \"Full Dam Save\""
 	}
 ]

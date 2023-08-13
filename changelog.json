@@ -1297,5 +1297,10 @@
 		"ver": "1.70.4",
 		"date": "2023-08-07",
 		"txt": "- Fixed spell range data failing to populate\n- Fixed Replacement Data Compendiums always preferring SRD renames, rather than the original name\n- (Automation) Improved Creature Importer flag determination logic for MidiQOL \"No Dam Save\" and \"Full Dam Save\""
+	},
+	{
+		"ver": "1.70.5",
+		"date": "2023-08-13",
+		"txt": "- Added support for dnd5e v2.3.x (and removed support for previous version(s))\n- Added \"Level Up\" button support for sheets added by the \"Compact DnDBeyond 5e Character Sheet\" module\n- Improved compatibility with the \"Remote Highlight UI\" module, hopefully avoiding crashes during import\n- Fixed Creature Importer crash when attempting to rename a creature during customization"
 	}
 ]

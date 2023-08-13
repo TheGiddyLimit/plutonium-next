@@ -1,3 +1,12 @@
+### v1.70.5
+
+> 2023-08-13
+
+- Added support for dnd5e v2.3.x (and removed support for previous version(s))
+- Added "Level Up" button support for sheets added by the "Compact DnDBeyond 5e Character Sheet" module
+- Improved compatibility with the "Remote Highlight UI" module, hopefully avoiding crashes during import
+- Fixed Creature Importer crash when attempting to rename a creature during customization
+
 ### v1.70.4
 
 > 2023-08-07

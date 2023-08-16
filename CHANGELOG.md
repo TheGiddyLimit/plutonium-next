@@ -1,3 +1,9 @@
+### v1.70.6
+
+> 2023-08-16
+
+- ("Show Parent Icon/Name For Child @UUIDs" Config option is now off by default)
+
 ### v1.70.5
 
 > 2023-08-13

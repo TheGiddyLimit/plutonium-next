@@ -1,3 +1,13 @@
+### v1.70.7
+
+> 2023-08-20
+
+- Added "you are about to override" warning to Actor Importers when attempting to import an actor to an existing actor's sheet
+- Added support for main site changes (Illegal Drug item type; reward fluff)  
+- Active effect evaluator now falls back on default Foundry type path if no type for a field is defined in the game system model
+- Fixed active effect evaluator over-eagerly evaluating untyped values
+- Fixed active effect evaluator failing to load custom types before initial evaluation of active effects
+
 ### v1.70.6
 
 > 2023-08-16

@@ -1307,5 +1307,10 @@
 		"ver": "1.70.6",
 		"date": "2023-08-16",
 		"txt": "- (\"Show Parent Icon/Name For Child @UUIDs\" Config option is now off by default)"
+	},
+	{
+		"ver": "1.70.7",
+		"date": "2023-08-20",
+		"txt": "- Added \"you are about to override\" warning to Actor Importers when attempting to import an actor to an existing actor's sheet\n- Added support for main site changes (Illegal Drug item type; reward fluff)  \n- Active effect evaluator now falls back on default Foundry type path if no type for a field is defined in the game system model\n- Fixed active effect evaluator over-eagerly evaluating untyped values\n- Fixed active effect evaluator failing to load custom types before initial evaluation of active effects"
 	}
 ]

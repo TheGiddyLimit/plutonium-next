@@ -1,3 +1,13 @@
+### v1.70.8
+
+> 2023-09-06
+
+- Added "Level Up" button to level-zero character sheets, avoiding the need to use the Class Importer directly on newly-created sheets (this can be disabled using the 'Display "Level Up" Button on New Characters' Config option)
+- Moved various data-source-related Config options from the "Import" section to the "Data Sources" section
+- "Fixed" Tidy5e sheet integration "prepared spells" active effect crashing when importing some classes _([the effect is no longer added])_
+- (v11) Fixed Bulk Prototype Token Editor using v10 bar options, instead of the improved v11 options (notably, the superior AC bar property)
+- (v11) Fixed crash when using the Actor/Item sheet "Show to Players" button
+
 ### v1.70.7
 
 > 2023-08-20

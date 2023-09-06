@@ -1312,5 +1312,10 @@
 		"ver": "1.70.7",
 		"date": "2023-08-20",
 		"txt": "- Added \"you are about to override\" warning to Actor Importers when attempting to import an actor to an existing actor's sheet\n- Added support for main site changes (Illegal Drug item type; reward fluff)  \n- Active effect evaluator now falls back on default Foundry type path if no type for a field is defined in the game system model\n- Fixed active effect evaluator over-eagerly evaluating untyped values\n- Fixed active effect evaluator failing to load custom types before initial evaluation of active effects"
+	},
+	{
+		"ver": "1.70.8",
+		"date": "2023-09-06",
+		"txt": "- Added \"Level Up\" button to level-zero character sheets, avoiding the need to use the Class Importer directly on newly-created sheets (this can be disabled using the 'Display \"Level Up\" Button on New Characters' Config option)\n- Moved various data-source-related Config options from the \"Import\" section to the \"Data Sources\" section\n- \"Fixed\" Tidy5e sheet integration \"prepared spells\" active effect crashing when importing some classes _([the effect is no longer added])_\n- (v11) Fixed Bulk Prototype Token Editor using v10 bar options, instead of the improved v11 options (notably, the superior AC bar property)\n- (v11) Fixed crash when using the Actor/Item sheet \"Show to Players\" button"
 	}
 ]

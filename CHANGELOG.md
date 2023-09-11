@@ -1,3 +1,12 @@
+### v1.70.9
+
+> 2023-09-11
+
+- Fixed Config failing to populate missing values on load, which could result in a broken Config Editor when loading a saved config
+- Fixed Spell Importer failing to convert "untyped" damage rolls
+- Fixed Spell Importer failing to convert some healing expressions
+- Fixed Spell Importer failing to populate some flags when run with Automation Addon
+
 ### v1.70.8
 
 > 2023-09-06

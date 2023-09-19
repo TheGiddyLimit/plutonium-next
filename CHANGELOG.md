@@ -1,3 +1,17 @@
+## v1.71.0 — "Ten Lives out of Nine" edition
+
+> 2023-09-19
+
+- Reworked adventure/book importers
+  - Internal `@adventure`/`@book`, and `@area` tags, in imported adventures/books are now converted to UUIDs linking to the exact header in the imported content
+  - Adventures/books now always import as a journal entry with the adventure/book's title as the journal entry name (rather than optionally being importable into an existing journal entry)
+  - "Update existing" Duplicate Handling Mode for adventures/books has been simplified, and now includes an "are you sure?" prompt
+- Added 'Allow "&quot;"Header Anchors" in Notes' Config option. If enabled (default), a "Header Anchor" may be specified when creating or editing a map note. When opening a journal entry via a map note with a Header Anchor set, the journal entry will scroll to that header.
+  - Drag-dropping a header from a journal entry's contents to the canvas will autofill this field with the appropriate anchor
+- Added class/subclass/level folder path options to Class & Subclass Features Importer
+- Fixed Item Importer over-zealously trimming spellcasting focus description text when "Include Damage, Properties, Rarity, and Attunement in Description" Config option is disabled
+- Fixed empty sheet menus displaying as a near-invisible empty menu; a help message will now be displayed instead
+
 ### v1.70.9
 
 > 2023-09-11

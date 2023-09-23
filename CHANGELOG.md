@@ -1,3 +1,9 @@
+### v1.71.1
+
+> 2023-09-23
+
+- (Brew) Added support for `"foundryTokenScale"` on entities with tokens
+
 ## v1.71.0 — "Ten Lives out of Nine" edition
 
 > 2023-09-19

@@ -1333,5 +1333,10 @@
 		"ver": "1.71.1",
 		"date": "2023-09-23",
 		"txt": "- (Brew) Added support for `\"foundryTokenScale\"` on entities with tokens"
+	},
+	{
+		"ver": "1.71.2",
+		"date": "2023-10-18",
+		"txt": "- Added 'Disable the \"Level Up\" Button Until Character Has Enough XP' Config option\n- Fixed Creature Importer failing to override ammo requirements for imported creature weapons in the presence of \"Replacement [Item] Data Compendiums\"\n- Fixed Background Importer crash when importing custom features\n- Fixed Item Importer preferring generic variant images over base item images for imported weapons\n- (v11) Compendium \"Delete All [Contents]\" option now also removes folders\n- (Brew) Added support for \"weaponSimpleRanged\" and \"weaponMartialRanged\" in starting equipment\n- (Brew) Improved specificity of error when failing to load local files\n- (Brew) Fixed Importer crash when attempting to save entity with invalid image URL\n- (Brew) The Level Up Button will now respect custom changes to `CONFIG.DND5E.CHARACTER_EXP_LEVELS`"
 	}
 ]

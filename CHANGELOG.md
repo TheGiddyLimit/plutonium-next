@@ -1,3 +1,17 @@
+### v1.71.2
+
+> 2023-10-18
+
+- Added 'Disable the "Level Up" Button Until Character Has Enough XP' Config option
+- Fixed Creature Importer failing to override ammo requirements for imported creature weapons in the presence of "Replacement [Item] Data Compendiums"
+- Fixed Background Importer crash when importing custom features
+- Fixed Item Importer preferring generic variant images over base item images for imported weapons
+- (v11) Compendium "Delete All [Contents]" option now also removes folders
+- (Brew) Added support for "weaponSimpleRanged" and "weaponMartialRanged" in starting equipment
+- (Brew) Improved specificity of error when failing to load local files
+- (Brew) Fixed Importer crash when attempting to save entity with invalid image URL
+- (Brew) The Level Up Button will now respect custom changes to `CONFIG.DND5E.CHARACTER_EXP_LEVELS`
+
 ### v1.71.1
 
 > 2023-09-23

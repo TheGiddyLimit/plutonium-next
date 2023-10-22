@@ -1338,5 +1338,10 @@
 		"ver": "1.71.2",
 		"date": "2023-10-18",
 		"txt": "- Added 'Disable the \"Level Up\" Button Until Character Has Enough XP' Config option\n- Fixed Creature Importer failing to override ammo requirements for imported creature weapons in the presence of \"Replacement [Item] Data Compendiums\"\n- Fixed Background Importer crash when importing custom features\n- Fixed Item Importer preferring generic variant images over base item images for imported weapons\n- (v11) Compendium \"Delete All [Contents]\" option now also removes folders\n- (Brew) Added support for \"weaponSimpleRanged\" and \"weaponMartialRanged\" in starting equipment\n- (Brew) Improved specificity of error when failing to load local files\n- (Brew) Fixed Importer crash when attempting to save entity with invalid image URL\n- (Brew) The Level Up Button will now respect custom changes to `CONFIG.DND5E.CHARACTER_EXP_LEVELS`"
+	},
+	{
+		"ver": "1.71.3",
+		"date": "2023-10-22",
+		"txt": "- The Content Updater may now update `name`/`img`/`source` (disabled by default; enable via the \"Configure Skipped Fields\" option in the Content Updater)\n- Fixed Level Up button being incorrectly disabled in some cases\n- Fixed Map Importer placement of area markers on scaled maps (thanks @ Funnbot)\n- Fixed Adventure/Book Importer producing broken links to subheadings\n- (v10) Added explicit version check on startup, and restricted manifest to v10 only\n- (Brew) Fixed some hoverables failing to load when hovered in a session other than the session the content was imported in (`@homebrew` tags, `@footnote` tags, etc.)"
 	}
 ]

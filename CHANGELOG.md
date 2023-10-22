@@ -1,3 +1,14 @@
+### v1.71.3
+
+> 2023-10-22
+
+- The Content Updater may now update `name`/`img`/`source` (disabled by default; enable via the "Configure Skipped Fields" option in the Content Updater)
+- Fixed Level Up button being incorrectly disabled in some cases
+- Fixed Map Importer placement of area markers on scaled maps (thanks @ Funnbot)
+- Fixed Adventure/Book Importer producing broken links to subheadings
+- (v10) Added explicit version check on startup, and restricted manifest to v10 only
+- (Brew) Fixed some hoverables failing to load when hovered in a session other than the session the content was imported in (`@homebrew` tags, `@footnote` tags, etc.)
+
 ### v1.71.2
 
 > 2023-10-18

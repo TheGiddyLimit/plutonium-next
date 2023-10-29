@@ -1,3 +1,10 @@
+### v1.71.4
+
+> 2023-10-29
+
+- Added "Deselect All" and "Select By..." buttons to the Content Updater, to allow a specific field _[ :^) ]_ to be easily updated
+- Added map grid data for all remaining maps (thanks @ Lyra)
+
 ### v1.71.3
 
 > 2023-10-22

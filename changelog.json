@@ -1353,5 +1353,10 @@
 		"ver": "1.71.5",
 		"date": "2023-11-07",
 		"txt": "- Fixed Content Updater crash when attempting to Analyze worlds containing certain document structures\n- Fixed Prepared Spell Mass-Toggler crash when opening"
+	},
+	{
+		"ver": "1.71.6",
+		"date": "2023-11-07",
+		"txt": "- (Update dependencies)"
 	}
 ]

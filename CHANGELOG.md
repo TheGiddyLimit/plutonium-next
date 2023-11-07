@@ -1,3 +1,10 @@
+### v1.71.5
+
+> 2023-11-07
+
+- Fixed Content Updater crash when attempting to Analyze worlds containing certain document structures
+- Fixed Prepared Spell Mass-Toggler crash when opening
+
 ### v1.71.4
 
 > 2023-10-29

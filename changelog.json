@@ -1358,5 +1358,10 @@
 		"ver": "1.71.6",
 		"date": "2023-11-07",
 		"txt": "- (Update dependencies)"
+	},
+	{
+		"ver": "1.71.7",
+		"date": "2023-11-09",
+		"txt": "- Increased app rendering timeout duration _[an unreasonably short test value was being used, which could partially or completely prevent workflows from running on slower internet connections/hardware]_"
 	}
 ]

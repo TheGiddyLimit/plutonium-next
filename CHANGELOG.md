@@ -1,3 +1,9 @@
+### v1.71.7
+
+> 2023-11-09
+
+- Increased app rendering timeout duration _[an unreasonably short test value was being used, which could partially or completely prevent workflows from running on slower internet connections/hardware]_
+
 ### v1.71.6
 
 > 2023-11-07

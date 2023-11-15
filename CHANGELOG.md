@@ -1,3 +1,12 @@
+### v1.71.8
+
+> 2023-11-15
+
+- Tweaked scrollbar CSS on Firefox ("thin" scrollbars should now be used in Plutonium windows)
+- Added "Display Sources" Config option to Quick Insert integration (enabled by default); this replaces the generic "Plutonium" marker in the results with a source abbreviation
+- Fixed Quick Insert integration crash when attempting to index "cards" documents
+- (Brew) Added fluff support to Trap Importer
+
 ### v1.71.7
 
 > 2023-11-09

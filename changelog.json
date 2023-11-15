@@ -1363,5 +1363,10 @@
 		"ver": "1.71.7",
 		"date": "2023-11-09",
 		"txt": "- Increased app rendering timeout duration _[an unreasonably short test value was being used, which could partially or completely prevent workflows from running on slower internet connections/hardware]_"
+	},
+	{
+		"ver": "1.71.8",
+		"date": "2023-11-15",
+		"txt": "- Tweaked scrollbar CSS on Firefox (\"thin\" scrollbars should now be used in Plutonium windows)\n- Added \"Display Sources\" Config option to Quick Insert integration (enabled by default); this replaces the generic \"Plutonium\" marker in the results with a source abbreviation\n- Fixed Quick Insert integration crash when attempting to index \"cards\" documents\n- (Brew) Added fluff support to Trap Importer"
 	}
 ]

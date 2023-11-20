@@ -1368,5 +1368,11 @@
 		"ver": "1.71.8",
 		"date": "2023-11-15",
 		"txt": "- Tweaked scrollbar CSS on Firefox (\"thin\" scrollbars should now be used in Plutonium windows)\n- Added \"Display Sources\" Config option to Quick Insert integration (enabled by default); this replaces the generic \"Plutonium\" marker in the results with a source abbreviation\n- Fixed Quick Insert integration crash when attempting to index \"cards\" documents\n- (Brew) Added fluff support to Trap Importer"
+	},
+	{
+		"ver": "1.72.0",
+		"date": "2023-11-20",
+		"title": "Tenminus Est",
+		"txt": "- Added support for dnd5e v2.4.x (and dropped support for previous v2.3.x)\n  - The Race Importer now creates a \"race\"-type item, and sets some advancements, when importing a race\n  - The Class Importer now populates skill/save advancements, in addition to the advancements previously populated\n  - The Background Importer now makes better use of advancements\n  - Added Config option to disable \"Template Prompt\" checkbox to various Importers (most notably the Spell Importer)\n  - The Item Importer now uses the new \"dusk\"/\"dawn\" recharge types, where appropriate\n  - The Item Importer now sets \"Loot\" item subtypes, where appropriate\n  - Various other minor migrations\n- Dropped support for Foundry v10\n- Fixed Importers failing to set feature type on imported features (with the exception of \"monster feature\", which is (not) yet set)\n- Fixed wrong changelog showing when using \"Avoid Loading Local Data\" option\n- Fixed player \"Restore Transformation\" press failing to prompt the GM to delete their ex-transformed actor\n- (Brew) Improved automatic parsing of cantrip text, reducing reliance on `\"scalingLevelDice\"`"
 	}
 ]

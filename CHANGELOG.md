@@ -1,3 +1,21 @@
+## v1.72.0 — "Tenminus Est" edition
+
+> 2023-11-20
+
+- Added support for dnd5e v2.4.x (and dropped support for previous v2.3.x)
+  - The Race Importer now creates a "race"-type item, and sets some advancements, when importing a race
+  - The Class Importer now populates skill/save advancements, in addition to the advancements previously populated
+  - The Background Importer now makes better use of advancements
+  - Added Config option to disable "Template Prompt" checkbox to various Importers (most notably the Spell Importer)
+  - The Item Importer now uses the new "dusk"/"dawn" recharge types, where appropriate
+  - The Item Importer now sets "Loot" item subtypes, where appropriate
+  - Various other minor migrations
+- Dropped support for Foundry v10
+- Fixed Importers failing to set feature type on imported features (with the exception of "monster feature", which is (not) yet set)
+- Fixed wrong changelog showing when using "Avoid Loading Local Data" option
+- Fixed player "Restore Transformation" press failing to prompt the GM to delete their ex-transformed actor
+- (Brew) Improved automatic parsing of cantrip text, reducing reliance on `"scalingLevelDice"`
+
 ### v1.71.8
 
 > 2023-11-15

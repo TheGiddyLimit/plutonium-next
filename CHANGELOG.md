@@ -1,3 +1,16 @@
+### v1.72.1
+
+> 2023-11-23
+
+- Updated Bulk Prototype Token Editor to better reflect system token options
+  - Added "Unlinked" section with "Append Number to name of Unlinked Tokens?" and "Prepend Adjective to name of Unlinked Tokens?" options
+  - Replaced "Dim"/"Bright Vision" with "Vision Range" and "Vision Mode" options
+  - Added "(No update)" option for "Has Vision"
+  - Split "Light" section from "Vision" section
+- Importers (notably the Creature Importer) can now set Detection Modes on imported tokens, and correctly set Vision Range/Vision Mode
+- Fixed "ADD" active effects missing leading operator
+- Added map grid data for CoA/DSotDQ/BMT/SATO/TDCSR maps (thanks @ Lyra)
+
 ## v1.72.0 — "Tenminus Est" edition
 
 > 2023-11-20

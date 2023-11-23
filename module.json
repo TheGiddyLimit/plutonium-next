@@ -2,7 +2,7 @@
 	"id": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5etools-mirror-1.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "1.72.0",
+	"version": "1.72.1",
 	"authors": [
 		{
 			"name": "Giddy",
@@ -40,7 +40,7 @@
 	"compatibility": {
 		"minimum": "11",
 		"verified": "11.315",
-		"maximum": "999"
+		"maximum": "11.999"
 	},
 	"socket": true,
 	"persistentStorage": true,

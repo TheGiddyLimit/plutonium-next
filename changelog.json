@@ -1379,5 +1379,10 @@
 		"ver": "1.72.1",
 		"date": "2023-11-23",
 		"txt": "- Updated Bulk Prototype Token Editor to better reflect system token options\n  - Added \"Unlinked\" section with \"Append Number to name of Unlinked Tokens?\" and \"Prepend Adjective to name of Unlinked Tokens?\" options\n  - Replaced \"Dim\"/\"Bright Vision\" with \"Vision Range\" and \"Vision Mode\" options\n  - Added \"(No update)\" option for \"Has Vision\"\n  - Split \"Light\" section from \"Vision\" section\n- Importers (notably the Creature Importer) can now set Detection Modes on imported tokens, and correctly set Vision Range/Vision Mode\n- Fixed \"ADD\" active effects missing leading operator\n- Added map grid data for CoA/DSotDQ/BMT/SATO/TDCSR maps (thanks @ Lyra)"
+	},
+	{
+		"ver": "1.72.2",
+		"date": "2023-12-03",
+		"txt": "- The Creature Importer can now set \"Advantage on Initiate\" flag for creatures with appropriate traits\n- Fixed Item Importer using \"UPGRADE\" for speeds, where \"OVERRIDE\" was required to have any positive effect\n- Fixed crash when attempting to drag-drop a Plutonium entity to a sheet \n- (Automation) Increased specificity of data passed to Automation Addon during import, allowing correct active effects/etc. to be chosen in more cases\n- (Automation) Fixed crash when attempting to import a table"
 	}
 ]

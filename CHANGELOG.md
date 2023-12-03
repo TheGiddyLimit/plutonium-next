@@ -1,3 +1,13 @@
+### v1.72.2
+
+> 2023-12-03
+
+- The Creature Importer can now set "Advantage on Initiate" flag for creatures with appropriate traits
+- Fixed Item Importer using "UPGRADE" for speeds, where "OVERRIDE" was required to have any positive effect
+- Fixed crash when attempting to drag-drop a Plutonium entity to a sheet 
+- (Automation) Increased specificity of data passed to Automation Addon during import, allowing correct active effects/etc. to be chosen in more cases
+- (Automation) Fixed crash when attempting to import a table
+
 ### v1.72.1
 
 > 2023-11-23

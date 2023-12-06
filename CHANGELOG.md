@@ -1,8 +1,14 @@
+### v1.72.3
+
+> 2023-12-06
+
+- Importers will now set token vision saturation to "-1" if the imported entity only has darkvision, simulating the "can't discern color" aspect. The new "Token Vision Saturation" Config option(s) can be used to control this behaviour. _[Note that under default Foundry rendering this should not affect color viewed in lit areas.]_
+
 ### v1.72.2
 
 > 2023-12-03
 
-- The Creature Importer can now set "Advantage on Initiate" flag for creatures with appropriate traits
+- The Creature Importer can now set "Advantage on Initiative" flag for creatures with appropriate traits
 - Fixed Item Importer using "UPGRADE" for speeds, where "OVERRIDE" was required to have any positive effect
 - Fixed crash when attempting to drag-drop a Plutonium entity to a sheet 
 - (Automation) Increased specificity of data passed to Automation Addon during import, allowing correct active effects/etc. to be chosen in more cases

@@ -1,3 +1,31 @@
+## v1.73.0 — "Feature-Rich" edition
+
+> 2023-12-22
+
+- Reworked actor Importers, to split out "feature" Importers
+  - Added Creature Feature Importer, and (hidden/API-only) Object Feature Importer, Trap Feature Importer, and Vehicle Feature Importer
+  - Added more metric conversion options to above importers; notably, the Creature Feature Importer can now import metric ranges/AoEs
+  - Added per-"feature" Importer Config options; notably, the Creature Feature Importer has a new "Scale to Target Actor CR" option (enabled by default), which will attempt to scale features imported to an actor to that actor's CR. This uses a stripped-down version of the CR Scaler _[ymmv]_.
+  - Improved Content Updater handling of features created by the above importers (although the initial diff may require some features to be re-imported)
+- Reworked Creature Importer equipment handling to produce more consistent results, and improve (although not perfect) handling of equipment used in a creature's actions/etc.
+- Added `dnd5e` system requirement to module manifest
+- Reworked Loot Generator currency handling when drag-dropping to an NPC sheet
+  - Dropping currency (either as loot including currency, or an individual generated currency item) to an NPC sheet now creates (or updates, if it exists) a sheet item detailing the currency _[this avoids the case where, using e.g. the default `dnd5e` sheet, currency would be visually "lost" when dropped to an NPC sheet]_
+  - The "Import Currency as Sheet Item for NPCs" Config option can be used to toggle between the "sheet item" and "regular currency data" modes
+  - Fixed sheet drop handling of generated currency items
+- Reworked Adventure/Book Importer progress flow, to display everything in one progress bar, and to enable more granular "Cancel" requests
+- Reworked Adventure/Book Importer journal map note creation to better re-use existing map note images
+- Fixed Class Importer failing to add Unarmored Defense active effects
+- Fixed Adventure/Book Importers failing to import maps when the main adventure/book text was not selected
+- Fixed Other Options & Features Importer crash when importing an entity with "senses" data
+- Fixed Adventure/Book Importers wrapping images in link tags, breaking Foundry's default "click journal image to pop out" flow
+- Fixed Item Importer showing every item as requiring attunement
+- Fixed Table Importer crash when importing table groups
+- Fixed Map Importer incorrectly scaling regions (and therefore mis-positioning journal pins) in some cases
+- Fixed race condition when loading icons, resulting in inconsistent icons being applied for sheet items in some cases
+- Fixed Content Updater crash when attempting to create embedded documents
+- Fixed Psionics Importer crash when running with default resource config (although existing config may need to be reset for this to take effect)
+
 ### v1.72.3
 
 > 2023-12-06

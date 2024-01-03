@@ -1401,5 +1401,10 @@
 		"ver": "1.73.1",
 		"date": "2023-12-30",
 		"txt": "- Added map grid info for maps in Heroes' Feast: Saving the Childrens Menu, Grim Hollow: Lairs of Etharis, and Dungeons of Drakkenheim (thanks @ Lyra)\n- Added \"Deduplicate Nested Feature Selection\" Class & Subclass Features Importer Config option; when set to \"Deduplicate\" (the new default), the importer will ignore selected features which are already part of another, also selected, feature\n- Added \"Spell Scroll Price Mode\" Spell Importer Config option, which allows control over the price of imported scrolls\n- Fixed Loot Generator failing to create map notes on drag-drop\n- Fixed alignment of Loot Generator map notes\n- Fixed rendering of `@cite` tags\n- Fixed Map Importer mis-positioning of map notes when combining multiple positional transformations\n- Fixed rare Importer crash when spell selection was skipped\n- Fixed minor compatibility issue with \"Beaver's Crafting Module\""
+	},
+	{
+		"ver": "1.73.2",
+		"date": "2023-01-03",
+		"txt": "- (Automation) Added workaround for some scaling class advancements failing to match identifiers expected by integrations"
 	}
 ]

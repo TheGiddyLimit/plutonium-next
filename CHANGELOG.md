@@ -1,3 +1,9 @@
+### v1.73.2
+
+> 2023-01-03
+
+- (Automation) Added workaround for some scaling class advancements failing to match identifiers expected by integrations
+
 ### v1.73.1
 
 > 2023-12-30

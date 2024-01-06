@@ -1,8 +1,8 @@
 {
 	"id": "plutonium",
 	"title": "Plutonium",
-	"description": "A <a href=\"https://5etools-mirror-1.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "1.73.2",
+	"description": "A <a href=\"https://5etools-mirror-2.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
+	"version": "1.74.0",
 	"authors": [
 		{
 			"name": "Giddy",

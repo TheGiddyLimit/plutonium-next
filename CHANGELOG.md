@@ -1,6 +1,15 @@
+## v1.74.0
+
+> 2024-01-06
+
+- The Content Updater may now be run on compendiums. This is disabled by default, and must be enabled via the Content Updater's "Configure" button. Note that locked compendiums are ignored.
+- Improved Item Importer usage of ported D&D Beyond Importer icon set, providing better icons for ~450 items _[a number bloated by all the specific variants included; realistic number unknown]_
+- Fixed Content Updater crash when attempting to update a very large number of documents
+- (Switched to `mirror-2` as the primary image source and secondary data source)
+
 ### v1.73.2
 
-> 2023-01-03
+> 2024-01-03
 
 - (Automation) Added workaround for some scaling class advancements failing to match identifiers expected by integrations
 

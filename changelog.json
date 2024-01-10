@@ -1411,5 +1411,10 @@
 		"ver": "1.74.0",
 		"date": "2024-01-06",
 		"txt": "- The Content Updater may now be run on compendiums. This is disabled by default, and must be enabled via the Content Updater's \"Configure\" button. Note that locked compendiums are ignored.\n- Improved Item Importer usage of ported D&D Beyond Importer icon set, providing better icons for ~450 items _[a number bloated by all the specific variants included; realistic number unknown]_\n- Fixed Content Updater crash when attempting to update a very large number of documents\n- (Switched to `mirror-2` as the primary image source and secondary data source)"
+	},
+	{
+		"ver": "1.74.1",
+		"date": "2024-01-10",
+		"txt": "- Added \"Auto-Roll Multiattack Names\" Config option, allowing \"Auto-Roll Multiattack\" customization for actions not specifically called \"Multiattack\"\n- Added \"Level Up\" button compatibility for kgar's Tidy5e sheet"
 	}
 ]

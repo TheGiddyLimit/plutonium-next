@@ -1,3 +1,10 @@
+### v1.74.1
+
+> 2024-01-10
+
+- Added "Auto-Roll Multiattack Names" Config option, allowing "Auto-Roll Multiattack" customization for actions not specifically called "Multiattack"
+- Added "Level Up" button compatibility for kgar's Tidy5e sheet
+
 ## v1.74.0
 
 > 2024-01-06

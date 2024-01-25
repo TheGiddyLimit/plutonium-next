@@ -1,3 +1,14 @@
+### v1.74.2
+
+> 2024-01-25
+
+- Hover links may now be drag-dropped to the window to import the linked entity
+- Fixed Art Browser failing to load
+- Fixed Creature Importer failing to import variants as features when "Import Variants as Features" Config option is enabled
+- Fixed crash when fetching entity name with Babele module active
+- Fixed Level Up Button being displayed on level 0 sheets when 'Display "Level Up" Button on New Characters' Config option is disabled
+- (Brew) Fixed non-site paths incorrectly receiving `img/` prefix when saving to local
+
 ### v1.74.1
 
 > 2024-01-10

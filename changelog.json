@@ -1416,5 +1416,10 @@
 		"ver": "1.74.1",
 		"date": "2024-01-10",
 		"txt": "- Added \"Auto-Roll Multiattack Names\" Config option, allowing \"Auto-Roll Multiattack\" customization for actions not specifically called \"Multiattack\"\n- Added \"Level Up\" button compatibility for kgar's Tidy5e sheet"
+	},
+	{
+		"ver": "1.74.2",
+		"date": "2024-01-25",
+		"txt": "- Hover links may now be drag-dropped to the window to import the linked entity\n- Fixed Art Browser failing to load\n- Fixed Creature Importer failing to import variants as features when \"Import Variants as Features\" Config option is enabled\n- Fixed crash when fetching entity name with Babele module active\n- Fixed Level Up Button being displayed on level 0 sheets when 'Display \"Level Up\" Button on New Characters' Config option is disabled\n- (Brew) Fixed non-site paths incorrectly receiving `img/` prefix when saving to local"
 	}
 ]

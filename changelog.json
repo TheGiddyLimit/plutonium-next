@@ -1421,5 +1421,11 @@
 		"ver": "1.74.2",
 		"date": "2024-01-25",
 		"txt": "- Hover links may now be drag-dropped to the window to import the linked entity\n- Fixed Art Browser failing to load\n- Fixed Creature Importer failing to import variants as features when \"Import Variants as Features\" Config option is enabled\n- Fixed crash when fetching entity name with Babele module active\n- Fixed Level Up Button being displayed on level 0 sheets when 'Display \"Level Up\" Button on New Characters' Config option is disabled\n- (Brew) Fixed non-site paths incorrectly receiving `img/` prefix when saving to local"
+	},
+	{
+		"ver": "1.74.3",
+		"date": "2024-02-01",
+		"title": "Not That Update",
+		"txt": "- Added \"Hide Sheet Menu Button\" UI Config option\n- Added level filtering to optional feature selectors in Importers (e.g. when picking Eldritch Invocations as a Warlock)\n- Added \"Apply Level Filter when Opening on Actor\" Config option to Other Options & Features Importer\n- Improved compatibility with the \"Item Linking\" module when using Replacement Data Compendiums\n- Fixed crash when attempting to use the Level Up button\n- Fixed crash when drag-drop importing a class to a sheet\n- Fixed crash when attempting to open the Polymorpher\n- Fixed \"Large Import\" warning failing to render\n- Fixed Blocklist failing to apply to class starting equipment choices\n- Fixed \"Move Token Name Onto Token\" Config option failing to apply unless other Token Config options were also active\n- _[Note that this update does *not* add support for dnd5e v3.0.0. Maybe Soon:tm:.]_"
 	}
 ]

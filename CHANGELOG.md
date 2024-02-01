@@ -1,3 +1,19 @@
+### v1.74.3 — "Not That Update" edition
+
+> 2024-02-01
+
+- Added "Hide Sheet Menu Button" UI Config option
+- Added level filtering to optional feature selectors in Importers (e.g. when picking Eldritch Invocations as a Warlock)
+- Added "Apply Level Filter when Opening on Actor" Config option to Other Options & Features Importer
+- Improved compatibility with the "Item Linking" module when using Replacement Data Compendiums
+- Fixed crash when attempting to use the Level Up button
+- Fixed crash when drag-drop importing a class to a sheet
+- Fixed crash when attempting to open the Polymorpher
+- Fixed "Large Import" warning failing to render
+- Fixed Blocklist failing to apply to class starting equipment choices
+- Fixed "Move Token Name Onto Token" Config option failing to apply unless other Token Config options were also active
+- _[Note that this update does *not* add support for dnd5e v3.0.0. Maybe Soon:tm:.]_
+
 ### v1.74.2
 
 > 2024-01-25

@@ -1,3 +1,18 @@
+## v1.75.0 — "That Update (Part One)" edition
+
+> 2024-02-04
+
+- Added initial support for dnd5e v3.0.0 (and dropped support for previous v2.4.0)
+  - When the "Import Packs to Actors as Constituent Items" option is enabled (the default), imported items will now be added to their container item
+  - Added "Identify when Importing" Config option, and changed default to better support "unidentified item" changes
+  - Switched from black-background fallback icons to transparent-background versions of the same icons, to better match the system default. Additionally, switched some fallback icons to new system defaults.
+  - Reworked Vehicle Importer sheet item generation (notably for Spelljammer ships) to combine "equipment" and "attack" into a single "weapon" item, where possible
+  - Importers will attempt to appropriately set item `type`, where available
+  - Importers will attempt to appropriately set item concentration, where available
+  - (Various migrations to handle breaking changes, sheet changes, etc.)
+- Fixed crash when fetching compendium images
+- Fixed homebrew failing to load in various cases
+
 ### v1.74.3 — "Not That Update" edition
 
 > 2024-02-01

@@ -1,8 +1,16 @@
+### v1.75.1
+
+> 2024-02-05
+
+- Fixed Level Up button causing crash/failing to be added to sheet when "Disable Experience Tracking" is enabled
+- Tweaked styling of Level Up button to better match sheet buttons
+- Fixed opening an Importer via a "Open Last-Used Importer" button displaying an empty importer
+
 ## v1.75.0 — "That Update (Part One)" edition
 
 > 2024-02-04
 
-- Added initial support for dnd5e v3.0.0 (and dropped support for previous v2.4.0)
+- Added initial support for dnd5e v3.0.x (and dropped support for previous v2.4.x)
   - When the "Import Packs to Actors as Constituent Items" option is enabled (the default), imported items will now be added to their container item
   - Added "Identify when Importing" Config option, and changed default to better support "unidentified item" changes
   - Switched from black-background fallback icons to transparent-background versions of the same icons, to better match the system default. Additionally, switched some fallback icons to new system defaults.

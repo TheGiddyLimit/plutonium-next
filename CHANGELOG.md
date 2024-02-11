@@ -1,3 +1,15 @@
+## v1.76.0 — "Part Two" edition
+
+> 2024-02-11
+
+- Added initial token Dynamic Rings support
+  - Added "Enable Token Dynamic Rings" Creature Importer Config option; when enabled, the Creature Importer will attempt to find and populate token "dynamic ring" options with an appropriate "subject" image during import
+  - Added various Creature Importer Config options allowing dynamic rings to be customized
+  - (Reworked Importer token-loading internals to better support similar changes and/or additional token modules in future)
+- Item Importer can now categorize "loot"-type items as art objects/gemstones
+- Reworked Config Editor "color" options to allow hex values to be easily viewed/input
+- (Brew) Added/improved fluff support for `feat`s, `optionalfeature`s, and `reward`s
+
 ### v1.75.1
 
 > 2024-02-05

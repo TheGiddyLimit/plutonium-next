@@ -1438,5 +1438,11 @@
 		"ver": "1.75.1",
 		"date": "2024-02-05",
 		"txt": "- Fixed Level Up button causing crash/failing to be added to sheet when \"Disable Experience Tracking\" is enabled\n- Tweaked styling of Level Up button to better match sheet buttons\n- Fixed opening an Importer via a \"Open Last-Used Importer\" button displaying an empty importer"
+	},
+	{
+		"ver": "1.76.0",
+		"date": "2024-02-11",
+		"title": "Part Two",
+		"txt": "- Added initial token Dynamic Rings support\n  - Added \"Enable Token Dynamic Rings\" Creature Importer Config option; when enabled, the Creature Importer will attempt to find and populate token \"dynamic ring\" options with an appropriate \"subject\" image during import\n  - Added various Creature Importer Config options allowing dynamic rings to be customized\n  - (Reworked Importer token-loading internals to better support similar changes and/or additional token modules in future)\n- Item Importer can now categorize \"loot\"-type items as art objects/gemstones\n- Reworked Config Editor \"color\" options to allow hex values to be easily viewed/input\n- (Brew) Added/improved fluff support for `feat`s, `optionalfeature`s, and `reward`s"
 	}
 ]

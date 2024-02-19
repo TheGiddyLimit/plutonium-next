@@ -1,3 +1,10 @@
+### v1.76.1
+
+> 2024-02-19
+
+- Removed use of "legacy" dnd5e resources from Config options (although they may still be entered as "custom" resources)
+- Added support for non-homebrew content-specific fonts (i.e., Humblewood)
+
 ## v1.76.0 — "Part Two" edition
 
 > 2024-02-11

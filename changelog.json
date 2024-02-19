@@ -1444,5 +1444,10 @@
 		"date": "2024-02-11",
 		"title": "Part Two",
 		"txt": "- Added initial token Dynamic Rings support\n  - Added \"Enable Token Dynamic Rings\" Creature Importer Config option; when enabled, the Creature Importer will attempt to find and populate token \"dynamic ring\" options with an appropriate \"subject\" image during import\n  - Added various Creature Importer Config options allowing dynamic rings to be customized\n  - (Reworked Importer token-loading internals to better support similar changes and/or additional token modules in future)\n- Item Importer can now categorize \"loot\"-type items as art objects/gemstones\n- Reworked Config Editor \"color\" options to allow hex values to be easily viewed/input\n- (Brew) Added/improved fluff support for `feat`s, `optionalfeature`s, and `reward`s"
+	},
+	{
+		"ver": "1.76.1",
+		"date": "2024-02-19",
+		"txt": "- Removed use of \"legacy\" dnd5e resources from Config options (although they may still be entered as \"custom\" resources)\n- Added support for non-homebrew content-specific fonts (i.e., Humblewood)"
 	}
 ]

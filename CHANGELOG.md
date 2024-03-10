@@ -1,3 +1,20 @@
+## v1.77.0
+
+> 2024-03-10
+
+- Added Spotlight Omnisearch integration
+- Importers may now use `&Reference` enrichers in imported text; this can be controlled via the "Use Enrichers" Config option
+- Overhauled Importer compendium use, improving accuracy of SRD/replacement content lookup and icon acquisition
+- Improved Pop Out compatibility with dnd5e 3.0.x sheets _[all credit to the maintainer of the PopOut! module for their fixes to the dnd5e itself; Plutonium's Pop Out may soon be sunset in favour of PopOut!]_
+- Improved compatibility with Material Plane module (hopefully)
+- Fixed style naming collision with dnd5e 3.0.x sheets; style naming collision with Combat Tracker Extensions module
+- Fixed "Compact Chat" Config option failing to apply to chat message headers
+- Fixed Level Up button required role check being ignored in some cases
+- Fixed Creature Importer failing to import "x/rest" spells
+- Fixed journal link clicks navigating to top of chapter instead of correct heading
+- (Brew) Improved Table Importer handling of non-standard roll formulas
+- (Brew) Fixed Importers failing to load and apply `"foundry<X>"` data
+
 ### v1.76.1
 
 > 2024-02-19

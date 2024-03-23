@@ -1453,6 +1453,13 @@
 	{
 		"ver": "1.77.0",
 		"date": "2024-03-10",
+		"title": "Light Work",
 		"txt": "- Added Spotlight Omnisearch integration\n- Importers may now use `&Reference` enrichers in imported text; this can be controlled via the \"Use Enrichers\" Config option\n- Overhauled Importer compendium use, improving accuracy of SRD/replacement content lookup and icon acquisition\n- Improved Pop Out compatibility with dnd5e 3.0.x sheets _[all credit to the maintainer of the PopOut! module for their fixes to the dnd5e itself; Plutonium's Pop Out may soon be sunset in favour of PopOut!]_\n- Improved compatibility with Material Plane module (hopefully)\n- Fixed style naming collision with dnd5e 3.0.x sheets; style naming collision with Combat Tracker Extensions module\n- Fixed \"Compact Chat\" Config option failing to apply to chat message headers\n- Fixed Level Up button required role check being ignored in some cases\n- Fixed Creature Importer failing to import \"x/rest\" spells\n- Fixed journal link clicks navigating to top of chapter instead of correct heading\n- (Brew) Improved Table Importer handling of non-standard roll formulas\n- (Brew) Fixed Importers failing to load and apply `\"foundry<X>\"` data"
+	},
+	{
+		"ver": "1.78.0",
+		"date": "2024-03-23",
+		"title": "Contents May Differ",
+		"txt": "- Added initial support for dnd5e v3.1.x (and dropped support for previous v3.0.x)\n  - General compatibility fixes\n  - Importers can now set concentration modifiers (bonuses, advantage, etc.), where available\n  - The \"Fast Animations\" UI Config option now additionally affects the show/hide speed of various accordion elements\n  - Importers can now create \"summon\"-type actions, although these are not yet meaningfully populated _[more to come In A Future Update:tm:]_\n- The Item Importer can now import items to \"container\"-type items, when opened from an item's sheet header\n- Improved handling of items in containers in Directory Cleaner and Item Cleaner tools, with additional UI and filtering option\n- The Equipment Shop no longer allows spending more gold than is available, unless the new \"Allow Over-Spending\" Config option is enabled\n- Fixed missing directory context menu items (\"Set as Rivet Target\", \"Clear Plutonium Flags\", etc.)\n- Fixed display of inline headers in imported content"
 	}
 ]

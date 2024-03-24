@@ -1461,5 +1461,10 @@
 		"date": "2024-03-23",
 		"title": "Contents May Differ",
 		"txt": "- Added initial support for dnd5e v3.1.x (and dropped support for previous v3.0.x)\n  - General compatibility fixes\n  - Importers can now set concentration modifiers (bonuses, advantage, etc.), where available\n  - The \"Fast Animations\" UI Config option now additionally affects the show/hide speed of various accordion elements\n  - Importers can now create \"summon\"-type actions, although these are not yet meaningfully populated _[more to come In A Future Update:tm:]_\n- The Item Importer can now import items to \"container\"-type items, when opened from an item's sheet header\n- Improved handling of items in containers in Directory Cleaner and Item Cleaner tools, with additional UI and filtering option\n- The Equipment Shop no longer allows spending more gold than is available, unless the new \"Allow Over-Spending\" Config option is enabled\n- Fixed missing directory context menu items (\"Set as Rivet Target\", \"Clear Plutonium Flags\", etc.)\n- Fixed display of inline headers in imported content"
+	},
+	{
+		"ver": "1.78.1",
+		"date": "2024-03-24",
+		"txt": "- Importers may now generate `[[/save ...]]` enrichers, if the \"Use Enrichers -> Save DC\" Config option is enabled\n- Improved active effect calculation performance\n- Tweaked Importer caching to reduce memory usage when using multiple importers"
 	}
 ]

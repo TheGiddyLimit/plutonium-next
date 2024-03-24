@@ -1,3 +1,11 @@
+### v1.78.1
+
+> 2024-03-24
+
+- Importers may now generate `[[/save ...]]` enrichers, if the "Use Enrichers -> Save DC" Config option is enabled
+- Improved active effect calculation performance
+- Tweaked Importer caching to reduce memory usage when using multiple importers
+
 ## v1.78.0 — "Contents May Differ" edition
 
 > 2024-03-23

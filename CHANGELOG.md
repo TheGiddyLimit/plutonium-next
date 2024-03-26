@@ -1,3 +1,11 @@
+### v1.78.2
+
+> 2024-03-26
+
+- Fixed wrong Importers being shown when opening the Import Wizard on a compendium
+- Fixed incorrect `@name` roll data in embedded documents
+- Fixed Importers never rendering `[[/damage ...]]` enrichers
+
 ### v1.78.1
 
 > 2024-03-24

@@ -1466,5 +1466,10 @@
 		"ver": "1.78.1",
 		"date": "2024-03-24",
 		"txt": "- Importers may now generate `[[/save ...]]` enrichers, if the \"Use Enrichers -> Save DC\" Config option is enabled\n- Improved active effect calculation performance\n- Tweaked Importer caching to reduce memory usage when using multiple importers"
+	},
+	{
+		"ver": "1.78.2",
+		"date": "2024-03-26",
+		"txt": "- Fixed wrong Importers being shown when opening the Import Wizard on a compendium\n- Fixed incorrect `@name` roll data in embedded documents\n- Fixed Importers never rendering `[[/damage ...]]` enrichers"
 	}
 ]

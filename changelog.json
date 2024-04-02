@@ -1471,5 +1471,10 @@
 		"ver": "1.78.2",
 		"date": "2024-03-26",
 		"txt": "- Fixed wrong Importers being shown when opening the Import Wizard on a compendium\n- Fixed incorrect `@name` roll data in embedded documents\n- Fixed Importers never rendering `[[/damage ...]]` enrichers"
+	},
+	{
+		"ver": "1.78.3",
+		"date": "2024-04-02",
+		"txt": "- Improved compatibility with MidiQOL module\n- Improved compatibility with Loot Sheet NPC 5E module\n- Improved compatibility with Tidy 5e Sheets module\n- Synced 3d token index from 3D Canvas Token Collection module, adding ~400 models to this list of those which the Creature and Vehicle Importers can use during import\n- Fixed Background Importer attempting to load non-existent file in some cases"
 	}
 ]

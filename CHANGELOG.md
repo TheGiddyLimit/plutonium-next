@@ -1,3 +1,13 @@
+### v1.78.3
+
+> 2024-04-02
+
+- Improved compatibility with MidiQOL module
+- Improved compatibility with Loot Sheet NPC 5E module
+- Improved compatibility with Tidy 5e Sheets module
+- Synced 3d token index from 3D Canvas Token Collection module, adding ~400 models to this list of those which the Creature and Vehicle Importers can use during import
+- Fixed Background Importer attempting to load non-existent file in some cases
+
 ### v1.78.2
 
 > 2024-03-26

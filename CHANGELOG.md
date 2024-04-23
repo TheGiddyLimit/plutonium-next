@@ -1,3 +1,18 @@
+## v1.79.0 — "Lost in the Sauce" edition
+
+> 2024-04-23
+
+- (Reworked Importer source loading to better enable future changes)
+	- Added missing abbreviation aliases to source lists (i.e. searching "PHB" will now show the "Player's Handbook" source)
+	- Fixed selecting a source (e.g. "5etools") which includes another source's content (e.g. "Monster Manual") creating duplicate list items
+	- _[Note that this represents a major piece of internal rejigging; expect bugs]_
+- Importers may now generate `/damage` enrichers which include the trailing damage type
+- Added grid info for Vecna: Nest of the Eldritch Eye and new Curse of Strahd battlemaps (thanks @ Lyra)
+- Reworked Importer rendering to (hopefully) reduce rare OoM crashes
+- Fixed Rivet failing to import to compendiums
+- Fixed Importers failing to correctly enable "Dynamic Token Ring" unless one or more effects was active
+- (Brew) Fixed crash when importing unknown vehicle speed modes
+
 ### v1.78.3
 
 > 2024-04-02

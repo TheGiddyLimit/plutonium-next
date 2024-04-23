@@ -1476,5 +1476,11 @@
 		"ver": "1.78.3",
 		"date": "2024-04-02",
 		"txt": "- Improved compatibility with MidiQOL module\n- Improved compatibility with Loot Sheet NPC 5E module\n- Improved compatibility with Tidy 5e Sheets module\n- Synced 3d token index from 3D Canvas Token Collection module, adding ~400 models to this list of those which the Creature and Vehicle Importers can use during import\n- Fixed Background Importer attempting to load non-existent file in some cases"
+	},
+	{
+		"ver": "1.79.0",
+		"date": "2024-04-23",
+		"title": "Lost in the Sauce",
+		"txt": "- (Reworked Importer source loading to better enable future changes)\n\t- Added missing abbreviation aliases to source lists (i.e. searching \"PHB\" will now show the \"Player's Handbook\" source)\n\t- Fixed selecting a source (e.g. \"5etools\") which includes another source's content (e.g. \"Monster Manual\") creating duplicate list items\n\t- _[Note that this represents a major piece of internal rejigging; expect bugs]_\n- Importers may now generate `/damage` enrichers which include the trailing damage type\n- Added grid info for Vecna: Nest of the Eldritch Eye and new Curse of Strahd battlemaps (thanks @ Lyra)\n- Reworked Importer rendering to (hopefully) reduce rare OoM crashes\n- Fixed Rivet failing to import to compendiums\n- Fixed Importers failing to correctly enable \"Dynamic Token Ring\" unless one or more effects was active\n- (Brew) Fixed crash when importing unknown vehicle speed modes"
 	}
 ]

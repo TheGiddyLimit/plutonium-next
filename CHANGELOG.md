@@ -1,3 +1,20 @@
+## v1.80.0 — "Bit Dark In Here" edition
+
+> 2024-05-06
+
+- Added "Preferred Color Scheme" Config option, with a choice between "Browser Default", "Light", and "Dark". _[This will eventually be controlled by Foundry v12+'s option of the same name, once Foundry rolls out color scheme support to all major apps]_
+- The Map Importer may now fetch wall data from the new "Plutonium Scenes" repository (<https://github.com/TheGiddyLimit/plutonium-scenes> -- contributions welcome)
+- Improved placement of map region pucks
+- Changes to `CONFIG.DND5E.currencies` are now respected, provided they are made prior to the `"ready"` hook firing
+- Fixed Supernatural Gifts and Rewards failing to import
+- Fixed Importers incorrectly transferring status-inflicting effects to own actor
+- Fixed rare Importer crash when importing features with specific requirements
+- Fixed rendering of `@card[...]` and `@itemMastery[...]` tags
+- (Brew) Added support for `"foundrySceneWalls"`, and initial support for `"foundrySceneLights"` on map `"image"` entries
+- (Brew) Added support for `"displayName"` on `"packContents"` items
+- (Brew) Fixed search integrations (Quick Insert; Spotlight Omnisearch) failing to load when homebrew is force-selected in the World Data Source Selection
+- (Brew) Fixed token URL being incorrectly constructed when using "site reference" token info
+
 ## v1.79.0 — "Lost in the Sauce" edition
 
 > 2024-04-23

@@ -1482,5 +1482,12 @@
 		"date": "2024-04-23",
 		"title": "Lost in the Sauce",
 		"txt": "- (Reworked Importer source loading to better enable future changes)\n\t- Added missing abbreviation aliases to source lists (i.e. searching \"PHB\" will now show the \"Player's Handbook\" source)\n\t- Fixed selecting a source (e.g. \"5etools\") which includes another source's content (e.g. \"Monster Manual\") creating duplicate list items\n\t- _[Note that this represents a major piece of internal rejigging; expect bugs]_\n- Importers may now generate `/damage` enrichers which include the trailing damage type\n- Added grid info for Vecna: Nest of the Eldritch Eye and new Curse of Strahd battlemaps (thanks @ Lyra)\n- Reworked Importer rendering to (hopefully) reduce rare OoM crashes\n- Fixed Rivet failing to import to compendiums\n- Fixed Importers failing to correctly enable \"Dynamic Token Ring\" unless one or more effects was active\n- (Brew) Fixed crash when importing unknown vehicle speed modes"
+	},
+	{
+		"ver": "1.80.0",
+		"date": "2024-05-06",
+		"title": "Bit Dark In Here",
+		"titleAlt": "Through a Glass, Darkly",
+		"txt": "- Added \"Preferred Color Scheme\" Config option, with a choice between \"Browser Default\", \"Light\", and \"Dark\". _[This will eventually be controlled by Foundry v12+'s option of the same name, once Foundry rolls out color scheme support to all major apps]_\n- The Map Importer may now fetch wall data from the new \"Plutonium Scenes\" repository (<https://github.com/TheGiddyLimit/plutonium-scenes> -- contributions welcome)\n- Improved placement of map region pucks\n- Changes to `CONFIG.DND5E.currencies` are now respected, provided they are made prior to the `\"ready\"` hook firing\n- Fixed Supernatural Gifts and Rewards failing to import\n- Fixed Importers incorrectly transferring status-inflicting effects to own actor\n- Fixed rare Importer crash when importing features with specific requirements\n- Fixed rendering of `@card[...]` and `@itemMastery[...]` tags\n- (Brew) Added support for `\"foundrySceneWalls\"`, and initial support for `\"foundrySceneLights\"` on map `\"image\"` entries\n- (Brew) Added support for `\"displayName\"` on `\"packContents\"` items\n- (Brew) Fixed search integrations (Quick Insert; Spotlight Omnisearch) failing to load when homebrew is force-selected in the World Data Source Selection\n- (Brew) Fixed token URL being incorrectly constructed when using \"site reference\" token info"
 	}
 ]

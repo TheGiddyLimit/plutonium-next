@@ -1,3 +1,26 @@
+### v1.80.1
+
+> 2024-05-21
+
+- Added "Adventure/Book Name" as folder option to Map Importer
+- Added optional arguments to "Create Named Token" API method (`"backgroundUrl"`, `"font"`, `"textColor"`, and `"textShadowColor"`)
+- Added "Minimum Permission Level for <X>" config for all directory tools
+- Improved Map Importer by-name list sorting
+- Fixed Class Importer duplicating Unarmored Defense active effects; other similar effects
+- Fixed Importers double-importing "required" features from options pickers
+- The Creature Importer will now use shorthand embedded item references in descriptions where possible, to better support moving imported actors to/from compendiums
+- Fixed Map Importer journal note puck sizing in rare cases
+- Fixed Map Importer failing to respect "Generate Scene Thumbnails" Config option; fixed Map Importer double-generating scene thumbnails
+- Fixed Map Importer failing to generate unique names for unnamed maps
+- Fixed Creature Importer failing to recognize some wildcard token path formats when using "Customize and Import" flow
+- Fixed Adventure/Book Importer duplicating maps on sequential imports
+- Fixed Directory Deduplicator false positives when de-duplicating imported scenes
+- Fixed styling of sheet Level Up button; other minor elements
+- Improved compatibility with Template Macro module
+- Improved compatibility with Effect Macro module
+- (Brew) Added post-import "consumed item resource" linkage step to various Importers, ensuring consistent linking regardless of import order
+- (Brew) Fixed Importers failing to handle `"anyProficientTool"` expertise
+
 ## v1.80.0 — "Bit Dark In Here" edition
 
 > 2024-05-06

@@ -1,3 +1,18 @@
+## v1.81.0 — "Double Vees Up" edition
+
+> 2024-05-26
+
+- Added v12 version _[see: <https://github.com/TheGiddyLimit/plutonium-next/releases/tag/v1.81.0>]_
+- Added compatibility for dnd5e 3.2.x
+  - The Item Importer can now set metric units when the "Convert Item Weights to Metric" Config option is enabled
+  - The Item Importer now uses the "Optional Attunement" Attunement mode, where appropriate
+  - Importers now use the "Ritual Only" spell preparation mode, where appropriate
+  - The Feat and Other Options & Features Importers now set "Required Level", where appropriate
+- Added more Dynamic Ring "subject" tokens
+- Added Dynamic Ring support to the Object Importer _[with a whopping 3 tokens available]_
+- Fixed Map Importer by-name list sorting in the presence of decimal numbers
+- (Brew) Fixed `optionalfeature` references failing to be generated/loaded in the presence of homebrew
+
 ### v1.80.1
 
 > 2024-05-21

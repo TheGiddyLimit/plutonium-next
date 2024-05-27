@@ -1,3 +1,11 @@
+### v1.81.1
+
+> 2024-05-27
+
+- Added Vecna: Eve of Ruin map grid data (thanks @ Lyra)
+- Fixed Feat and Other Options & Features Importers crashing when importing prerequisite-less entries
+- (v12) Fixed crash when measuring distance from a token
+
 ## v1.81.0 — "Double Vees Up" edition
 
 > 2024-05-26

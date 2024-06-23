@@ -1,3 +1,26 @@
+## v1.82.0 — "Cauldronomicon" edition
+
+> 2024-06-23
+
+- Added Tasha's Cauldron of Everything "summon" creature versions
+- Added "Populate Summons Profiles" Config option, enabled by default. When enabled, a "summon" spell may have its summon data populated with Plutonium-specific IDs; attempting to summon a creature with the spell will first import that creature (to a configurable folder), and then continue the standard summon flow.
+- Added enchantments to Tasha's Cauldron of Everything Optional Features
+- Added "Spellwrought Tattoo" mode to the Spell Importer, as an additional alternative to importing a spell in "Spell Scroll" mode. Note that this is only available when using the Tasha's Cauldron of Everything module, as Spellwrought Tattoos are not supported by the default `dnd5e` system.
+- Added icons to various Tasha's Cauldron of Everything features, items, and spells which previously lacked them
+- Reworked Config "compendium" fields from plain text to a widget which:
+  - Allows a compendium to be added by drag-and-drop
+  - Allows a compendium to be clicked on to open/view that compendium
+- Added Phandelver and Below: The Shattered Obelisk and Tasha's Cauldron of Everything compendiums to default Importer "Additional Data Compendiums" lists
+- Added "Use Advancement-Backing Compendium" Config option. If enabled, Importers will copy advancement features to a custom compendium during import, allowing advancements to later be edited without losing features.
+- Added "Copy ID" button to compendium header menu
+- Added `*` as "select all" to Content Updater "Select By..."
+- Fixed Importer usage of advancements, ensuring that (among other things) imported features are displayed in the correct sheet section
+- Fixed "Import via Plutonium?" drag-drop prompt discarding document creation flags when continuing document creation
+- Fixed character HP increase active effect format being used in NPC actors
+- Fixed internal currency conversion reverting to 1:1:1:... coin exchange rates if a currency conversion value was missing (i.e., when using a module which modifies coin exchange rates)
+- (Brew) Added Item Importer support for simultaneous use of `"bonusWeapon"` and `"bonusWeaponDamage"`
+- (Brew) Added Item Importer support for `"subEntities"`
+
 ### v1.81.1
 
 > 2024-05-27

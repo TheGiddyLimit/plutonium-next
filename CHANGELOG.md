@@ -1,3 +1,11 @@
+### v1.82.3
+
+> 2024-06-24
+
+- Fixed advancements failing to be set when the Effect Macro module is active
+- Fixed crash when importing an exported Config
+- Fixed "Create Named Token" and "Create Token from Image URL" macros failing to set token image
+
 ### v1.82.2
 
 > 2024-06-24

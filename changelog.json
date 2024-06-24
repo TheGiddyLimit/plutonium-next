@@ -1521,5 +1521,10 @@
 		"ver": "1.82.2",
 		"date": "2024-06-24",
 		"txt": "- Fixed crash when loading class icons"
+	},
+	{
+		"ver": "1.82.3",
+		"date": "2024-06-24",
+		"txt": "- Fixed advancements failing to be set when the Effect Macro module is active\n- Fixed crash when importing an exported Config\n- Fixed \"Create Named Token\" and \"Create Token from Image URL\" macros failing to set token image"
 	}
 ]

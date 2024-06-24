@@ -1,3 +1,9 @@
+### v1.82.1
+
+> 2024-06-24
+
+- Fixed compendium Config migration failing on missing values
+
 ## v1.82.0 — "Cauldronomicon" edition
 
 > 2024-06-23

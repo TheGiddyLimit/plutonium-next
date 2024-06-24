@@ -1,3 +1,9 @@
+### v1.82.2
+
+> 2024-06-24
+
+- Fixed crash when loading class icons
+
 ### v1.82.1
 
 > 2024-06-24

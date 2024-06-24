@@ -1516,5 +1516,10 @@
 		"ver": "1.82.1",
 		"date": "2024-06-24",
 		"txt": "- Fixed compendium Config migration failing on missing values"
+	},
+	{
+		"ver": "1.82.2",
+		"date": "2024-06-24",
+		"txt": "- Fixed crash when loading class icons"
 	}
 ]

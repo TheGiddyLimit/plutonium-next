@@ -1,3 +1,16 @@
+### v1.82.4
+
+> 2024-07-10
+
+- Add "Left-Align Scene Names" UI option
+- Fixed Class Importer crash when importing placeholder subclasses
+- Fixed Deck Importer crash
+- Fixed rare crash when using "Auto-Roll Multiattacks" option
+- Fixed possible infinite loop when using "Auto-Roll Multiattacks" option with customized "Auto-Roll Multiattack Names" config
+- Fixed Art Browser failing to set token image when used in "Tokens" mode
+- (v12) Fixed Creature Importer crash when setting non-scaled dynamic token image
+- (Removed `game.modules.get("srd5e")` API alias)
+
 ### v1.82.3
 
 > 2024-06-24

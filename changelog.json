@@ -1526,5 +1526,10 @@
 		"ver": "1.82.3",
 		"date": "2024-06-24",
 		"txt": "- Fixed advancements failing to be set when the Effect Macro module is active\n- Fixed crash when importing an exported Config\n- Fixed \"Create Named Token\" and \"Create Token from Image URL\" macros failing to set token image"
+	},
+	{
+		"ver": "1.82.4",
+		"date": "2024-07-10",
+		"txt": "- Add \"Left-Align Scene Names\" UI option\n- Fixed Class Importer crash when importing placeholder subclasses\n- Fixed Deck Importer crash\n- Fixed rare crash when using \"Auto-Roll Multiattacks\" option\n- Fixed possible infinite loop when using \"Auto-Roll Multiattacks\" option with customized \"Auto-Roll Multiattack Names\" config\n- Fixed Art Browser failing to set token image when used in \"Tokens\" mode\n- (v12) Fixed Creature Importer crash when setting non-scaled dynamic token image\n- (Removed `game.modules.get(\"srd5e\")` API alias)"
 	}
 ]

@@ -1,3 +1,20 @@
+## v1.83.0 — "Three's a Crowd" edition
+
+> 2024-07-19
+
+- Added support for dnd5e 3.3.x (while maintaining compatibility with 3.2.x and 3.1.x)
+  - The Spell Importer may now populate the "Source Class" field, where available
+  - Updated "summon" spell support to avoid crashes when using Plutonium summons
+- Adventure/Book Importer may now use `@Embed` when rendering embedded statblocks
+- Adventure/Book Importer now scans for and presents embedded statblocks for import
+- Added Quests from the Infinite Staircase map grid data for (thanks @ Lyra)
+- Restored mistakenly-removed `game.modules.get("plutonium").api`
+- Fixed crash when expanding list previews
+- Fixed Map Importer failing to re-link map notes links when re-importing an existing map in "Update existing" Duplicate Handling Mode
+- Fixed Table Importer crash when importing a table group from secondary flows (including from within the Adventure/Book Importer)
+- Fixed Adventure/Book Importer generating invalid UUID links for imported entities in rare cases
+- (v12) Fixed crash when opening the Bulk Prototype Token Editor's "Configure Editor" window
+
 ### v1.82.4
 
 > 2024-07-10

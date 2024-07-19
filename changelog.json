@@ -1531,5 +1531,11 @@
 		"ver": "1.82.4",
 		"date": "2024-07-10",
 		"txt": "- Add \"Left-Align Scene Names\" UI option\n- Fixed Class Importer crash when importing placeholder subclasses\n- Fixed Deck Importer crash\n- Fixed rare crash when using \"Auto-Roll Multiattacks\" option\n- Fixed possible infinite loop when using \"Auto-Roll Multiattacks\" option with customized \"Auto-Roll Multiattack Names\" config\n- Fixed Art Browser failing to set token image when used in \"Tokens\" mode\n- (v12) Fixed Creature Importer crash when setting non-scaled dynamic token image\n- (Removed `game.modules.get(\"srd5e\")` API alias)"
+	},
+	{
+		"ver": "1.83.0",
+		"date": "2024-07-19",
+		"title": "Three's a Crowd",
+		"txt": "- Added support for dnd5e 3.3.x (while maintaining compatibility with 3.2.x and 3.1.x)\n  - The Spell Importer may now populate the \"Source Class\" field, where available\n  - Updated \"summon\" spell support to avoid crashes when using Plutonium summons\n- Adventure/Book Importer may now use `@Embed` when rendering embedded statblocks\n- Adventure/Book Importer now scans for and presents embedded statblocks for import\n- Added Quests from the Infinite Staircase map grid data for (thanks @ Lyra)\n- Restored mistakenly-removed `game.modules.get(\"plutonium\").api`\n- Fixed crash when expanding list previews\n- Fixed Map Importer failing to re-link map notes links when re-importing an existing map in \"Update existing\" Duplicate Handling Mode\n- Fixed Table Importer crash when importing a table group from secondary flows (including from within the Adventure/Book Importer)\n- Fixed Adventure/Book Importer generating invalid UUID links for imported entities in rare cases\n- (v12) Fixed crash when opening the Bulk Prototype Token Editor's \"Configure Editor\" window"
 	}
 ]

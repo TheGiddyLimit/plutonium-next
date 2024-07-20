@@ -1542,5 +1542,10 @@
 		"ver": "1.83.1",
 		"date": "2024-07-20",
 		"txt": "- Fixed Adventure/Book Importers failing to combine same-source attached entities into single checkboxes\n- Fixed Importer duplicate handling confusing spells and items (i.e., \"Shield\" the spell, and \"Shield\" the item)\n- (Brew) Improved error handling when dereferencing class/subclass features\n- (Brew) Adventure/Book Importers now render stub table on un-imported `\"statblock\"` entry, rather than misleading \"Loading...\" text\n- (Brew) Fixed rare cases where known sources would not be given their color styling\n- (Brew) Fixed regression in error handling when loading adventure-/book-attached entities"
+	},
+	{
+		"ver": "1.83.2",
+		"date": "2024-07-20",
+		"txt": "- Fixed Adventure/Book Importer crash when attempting to import specific adventures/books"
 	}
 ]

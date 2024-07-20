@@ -1,3 +1,9 @@
+### v1.83.2
+
+> 2024-07-20
+
+- Fixed Adventure/Book Importer crash when attempting to import specific adventures/books
+
 ### v1.83.1
 
 > 2024-07-20

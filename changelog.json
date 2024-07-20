@@ -1537,5 +1537,10 @@
 		"date": "2024-07-19",
 		"title": "Three's a Crowd",
 		"txt": "- Added support for dnd5e 3.3.x (while maintaining compatibility with 3.2.x and 3.1.x)\n  - The Spell Importer may now populate the \"Source Class\" field, where available\n  - Updated \"summon\" spell support to avoid crashes when using Plutonium summons\n- Adventure/Book Importer may now use `@Embed` when rendering embedded statblocks\n- Adventure/Book Importer now scans for and presents embedded statblocks for import\n- Added Quests from the Infinite Staircase map grid data for (thanks @ Lyra)\n- Restored mistakenly-removed `game.modules.get(\"plutonium\").api`\n- Fixed crash when expanding list previews\n- Fixed Map Importer failing to re-link map notes links when re-importing an existing map in \"Update existing\" Duplicate Handling Mode\n- Fixed Table Importer crash when importing a table group from secondary flows (including from within the Adventure/Book Importer)\n- Fixed Adventure/Book Importer generating invalid UUID links for imported entities in rare cases\n- (v12) Fixed crash when opening the Bulk Prototype Token Editor's \"Configure Editor\" window"
+	},
+	{
+		"ver": "1.83.1",
+		"date": "2024-07-20",
+		"txt": "- Fixed Adventure/Book Importers failing to combine same-source attached entities into single checkboxes\n- Fixed Importer duplicate handling confusing spells and items (i.e., \"Shield\" the spell, and \"Shield\" the item)\n- (Brew) Improved error handling when dereferencing class/subclass features\n- (Brew) Adventure/Book Importers now render stub table on un-imported `\"statblock\"` entry, rather than misleading \"Loading...\" text\n- (Brew) Fixed rare cases where known sources would not be given their color styling\n- (Brew) Fixed regression in error handling when loading adventure-/book-attached entities"
 	}
 ]

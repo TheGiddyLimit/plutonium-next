@@ -1,3 +1,14 @@
+### v1.83.1
+
+> 2024-07-20
+
+- Fixed Adventure/Book Importers failing to combine same-source attached entities into single checkboxes
+- Fixed Importer duplicate handling confusing spells and items (i.e., "Shield" the spell, and "Shield" the item)
+- (Brew) Improved error handling when dereferencing class/subclass features
+- (Brew) Adventure/Book Importers now render stub table on un-imported `"statblock"` entry, rather than misleading "Loading..." text
+- (Brew) Fixed rare cases where known sources would not be given their color styling
+- (Brew) Fixed regression in error handling when loading adventure-/book-attached entities
+
 ## v1.83.0 — "Three's a Crowd" edition
 
 > 2024-07-19

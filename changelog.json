@@ -83,7 +83,7 @@
 	{
 		"ver": "0.5.0",
 		"date": "2019-12-08",
-		"txt": "- (Made version number more sensible)\n- (Added support for Rivet)\n- Journal/etc. cleaner tool can now delete rollable tables\n- Races can now be imported as items\n- Non-rollable tables can now be imported as rollable tables\n- Custom importer folder paths are now saved to game settings (and will be used when receiving data from Rivet)\n- A blank token is now used for creatures missing a token on import\n- Fixed creature (and therefore token) sizing on import\n- Improved script initialisation to remove a benign error (thanks Red Reign)"
+		"txt": "- (Made version number more sensible)\n- (Added support for Rivet)\n- Journal/etc. cleaner tool can now delete rollable tables\n- Races can now be imported as items\n- Non-rollable tables can now be imported as rollable tables\n- Custom importer folder paths are now saved to game settings (and will be used when receiving data from Rivet)\n- A blank token is now used for creatures missing a token on import\n- Fixed creature (and therefore token) sizing on import\n- Improved script initialization to remove a benign error (thanks Red Reign)"
 	},
 	{
 		"ver": "0.6.0",
@@ -1531,5 +1531,27 @@
 		"ver": "1.82.4",
 		"date": "2024-07-10",
 		"txt": "- Add \"Left-Align Scene Names\" UI option\n- Fixed Class Importer crash when importing placeholder subclasses\n- Fixed Deck Importer crash\n- Fixed rare crash when using \"Auto-Roll Multiattacks\" option\n- Fixed possible infinite loop when using \"Auto-Roll Multiattacks\" option with customized \"Auto-Roll Multiattack Names\" config\n- Fixed Art Browser failing to set token image when used in \"Tokens\" mode\n- (v12) Fixed Creature Importer crash when setting non-scaled dynamic token image\n- (Removed `game.modules.get(\"srd5e\")` API alias)"
+	},
+	{
+		"ver": "1.83.0",
+		"date": "2024-07-19",
+		"title": "Three's a Crowd",
+		"txt": "- Added support for dnd5e 3.3.x (while maintaining compatibility with 3.2.x and 3.1.x)\n  - The Spell Importer may now populate the \"Source Class\" field, where available\n  - Updated \"summon\" spell support to avoid crashes when using Plutonium summons\n- Adventure/Book Importer may now use `@Embed` when rendering embedded statblocks\n- Adventure/Book Importer now scans for and presents embedded statblocks for import\n- Added Quests from the Infinite Staircase map grid data for (thanks @ Lyra)\n- Restored mistakenly-removed `game.modules.get(\"plutonium\").api`\n- Fixed crash when expanding list previews\n- Fixed Map Importer failing to re-link map notes links when re-importing an existing map in \"Update existing\" Duplicate Handling Mode\n- Fixed Table Importer crash when importing a table group from secondary flows (including from within the Adventure/Book Importer)\n- Fixed Adventure/Book Importer generating invalid UUID links for imported entities in rare cases\n- (v12) Fixed crash when opening the Bulk Prototype Token Editor's \"Configure Editor\" window"
+	},
+	{
+		"ver": "1.83.1",
+		"date": "2024-07-20",
+		"txt": "- Fixed Adventure/Book Importers failing to combine same-source attached entities into single checkboxes\n- Fixed Importer duplicate handling confusing spells and items (i.e., \"Shield\" the spell, and \"Shield\" the item)\n- (Brew) Improved error handling when dereferencing class/subclass features\n- (Brew) Adventure/Book Importers now render stub table on un-imported `\"statblock\"` entry, rather than misleading \"Loading...\" text\n- (Brew) Fixed rare cases where known sources would not be given their color styling\n- (Brew) Fixed regression in error handling when loading adventure-/book-attached entities"
+	},
+	{
+		"ver": "1.83.2",
+		"date": "2024-07-20",
+		"txt": "- Fixed Adventure/Book Importer crash when attempting to import specific adventures/books"
+	},
+	{
+		"ver": "1.84.0",
+		"date": "2024-08-18",
+		"title": "Unusual Suspects",
+		"txt": "- The Race Importer now populates skill/language advancements\n- The Trap Importer now tags basic attack-type effects as \"weapon\"s\n- Updated \"Quick Insert\" module integration to improve compatibility with version 3.y.z\n- Added Plutonium-specific tooltips/previews to Plutonium Quick Insert search results\n- Updated \"DFreds Convenient Effects\" module usage for compatibility with version 7.y.z\n- Improved compatibility with \"Polished UI\" module\n- Improved compatibility with \"Token Variant Art\" module\n- Added missing progress message for Importer \"Finalizing\" step\n- Converted Equipment Shop \"Allow Over-Spending\" boolean Config option to \"Minimum Permission Level For Over-Spending\"\n- Fixed Creature Importer adding weapon properties to natural/etc. weapon attacks\n- Fixed Class Importer setting incorrect HP advancements for non-sidekick classes when importing to an NPC actor\n- Fixed Content Updater crash when attempting to analyze imported decks in certain states\n- Fixed Importers polluting default token settings during import\n- (Brew) Improved Creature Importer handling of homebrew spellcasting levels\n- (Brew) Improved Creature Importer handling of non-standard passive perception values\n- (Brew) Fixed Item Importer failing to show specific variants for homebrew base items"
 	}
 ]

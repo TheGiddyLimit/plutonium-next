@@ -1553,5 +1553,10 @@
 		"date": "2024-08-18",
 		"title": "Unusual Suspects",
 		"txt": "- The Race Importer now populates skill/language advancements\n- The Trap Importer now tags basic attack-type effects as \"weapon\"s\n- Updated \"Quick Insert\" module integration to improve compatibility with version 3.y.z\n- Added Plutonium-specific tooltips/previews to Plutonium Quick Insert search results\n- Updated \"DFreds Convenient Effects\" module usage for compatibility with version 7.y.z\n- Improved compatibility with \"Polished UI\" module\n- Improved compatibility with \"Token Variant Art\" module\n- Added missing progress message for Importer \"Finalizing\" step\n- Converted Equipment Shop \"Allow Over-Spending\" boolean Config option to \"Minimum Permission Level For Over-Spending\"\n- Fixed Creature Importer adding weapon properties to natural/etc. weapon attacks\n- Fixed Class Importer setting incorrect HP advancements for non-sidekick classes when importing to an NPC actor\n- Fixed Content Updater crash when attempting to analyze imported decks in certain states\n- Fixed Importers polluting default token settings during import\n- (Brew) Improved Creature Importer handling of homebrew spellcasting levels\n- (Brew) Improved Creature Importer handling of non-standard passive perception values\n- (Brew) Fixed Item Importer failing to show specific variants for homebrew base items"
+	},
+	{
+		"ver": "1.84.1",
+		"date": "2024-08-22",
+		"txt": "- Improved Quick Insert integration \"`@auto`\" context support\n- Fixed Bulk Prototype Token Editor failing to set token scale values\n- Fixed Creature Importer failing to set token scale values\n- Fixed rare crash when importing a class via the Class Importer\n- Fixed rare Importer crash when attempting to link consumables\n- Fixed World Content Blocklist failing to load blocklisted entities"
 	}
 ]

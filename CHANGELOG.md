@@ -1,3 +1,14 @@
+### v1.84.1
+
+> 2024-08-22
+
+- Improved Quick Insert integration "`@auto`" context support
+- Fixed Bulk Prototype Token Editor failing to set token scale values
+- Fixed Creature Importer failing to set token scale values
+- Fixed rare crash when importing a class via the Class Importer
+- Fixed rare Importer crash when attempting to link consumables
+- Fixed World Content Blocklist failing to load blocklisted entities
+
 ## v1.84.0 — "Unusual Suspects" edition
 
 > 2024-08-18

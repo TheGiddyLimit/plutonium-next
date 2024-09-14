@@ -1558,5 +1558,10 @@
 		"ver": "1.84.1",
 		"date": "2024-08-22",
 		"txt": "- Improved Quick Insert integration \"`@auto`\" context support\n- Fixed Bulk Prototype Token Editor failing to set token scale values\n- Fixed Creature Importer failing to set token scale values\n- Fixed rare crash when importing a class via the Class Importer\n- Fixed rare Importer crash when attempting to link consumables\n- Fixed World Content Blocklist failing to load blocklisted entities"
+	},
+	{
+		"ver": "1.84.2",
+		"date": "2024-09-15",
+		"txt": "- Added \"Use Baldur's Gate 3 Icons\" Class Importer Config option (enabled by default)\n- Added \"Import Fluff Text to Description\" and \"Import Fluff Images to Description\" Class Importer Config options\n- Fixed tags-within-tags failing to be found by the Adventure/Book Importer as potential sub-entities to import\n- Fixed tags-within-tags rendering in journal entries created by Adventure/Book Importer\n- Fixed startup console error on player login when no GM is online\n- Fixed crash when using SRD compendiums as replacement compendiums\n- Fixed startup crash when using other game systems\n- Fixed advancement-backing compendium default permissions\n- Fixed Race Importer console warning when setting advancements\n- Removed border from Plutonium-imported images in journal entries\n- (Brew) Adventure/Book Importers now allow selection between multiple adventures/books defined in a single source \n- (Brew) Creature `\"token\"` information, referring to an existing site token, is additionally used to source a dynamic token subject (where available)\n- (Brew) Importers will now prefer linking, rather than embedding, `\"collapsed\"` `\"statblock\"` entries"
 	}
 ]

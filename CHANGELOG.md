@@ -1,3 +1,21 @@
+### v1.84.2
+
+> 2024-09-15
+
+- Added "Use Baldur's Gate 3 Icons" Class Importer Config option (enabled by default)
+- Added "Import Fluff Text to Description" and "Import Fluff Images to Description" Class Importer Config options
+- Fixed tags-within-tags failing to be found by the Adventure/Book Importer as potential sub-entities to import
+- Fixed tags-within-tags rendering in journal entries created by Adventure/Book Importer
+- Fixed startup console error on player login when no GM is online
+- Fixed crash when using SRD compendiums as replacement compendiums
+- Fixed startup crash when using other game systems
+- Fixed advancement-backing compendium default permissions
+- Fixed Race Importer console warning when setting advancements
+- Removed border from Plutonium-imported images in journal entries
+- (Brew) Adventure/Book Importers now allow selection between multiple adventures/books defined in a single source 
+- (Brew) Creature `"token"` information, referring to an existing site token, is additionally used to source a dynamic token subject (where available)
+- (Brew) Importers will now prefer linking, rather than embedding, `"collapsed"` `"statblock"` entries
+
 ### v1.84.1
 
 > 2024-08-22

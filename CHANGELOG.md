@@ -1,3 +1,10 @@
+### v1.84.3
+
+> 2024-09-20
+
+- Fixed Importer Image Preloader always re-downloading image URLs containing commas
+- Fixed rare "Save Imported Images to Server" Config option crash when attempting to create directories 
+
 ### v1.84.2
 
 > 2024-09-15

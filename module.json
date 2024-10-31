@@ -2,7 +2,7 @@
 	"id": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5e.tools\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "1.84.3",
+	"version": "2.0.0",
 	"authors": [
 		{
 			"name": "Giddy",
@@ -68,7 +68,7 @@
 				"id": "lib-wrapper",
 				"type": "module",
 				"compatibility": {
-					"minimum": "1.12.5.0"
+					"minimum": "1.13.0.0"
 				},
 				"reason": "libWrapper is used to patch Foundry methods and functions, extending or altering their functionality."
 			}

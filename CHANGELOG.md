@@ -1,9 +1,64 @@
+# v2.0.0 — "Retrofuturistic" edition
+
+> 2024-10-31
+
+- Dropped support for Foundry v11
+- Bumped required `libWrapper` dependency to `v1.13.0.0`
+- Added PHB'24 content; switched to 2024 rules as standard _[2014 module versions will remain available via <https://github.com/TheGiddyLimit/plutonium-next>]_
+  - Reworked Background Importer flow to better support '24 rules
+  - Added automatic migration for various data when using old classes/species/background
+    - Species and Backgrounds are forward-migrated per '24 character creation rules
+    - Additional spells are forward-migrated to '24 versions, where available
+    - Starting equipment items are migrated to '24 versions, where available
+  - Renamed various UI elements to better match '24 rules
+  - Various UI elements will now use/reference/link '24 content, rather than '14 content
+  - Added support for site-style version redirects when hovering a source-ambiguous hover link
+  - Added "Rules Version" Miscellaneous Config option, which can be switched between "Modern (2024)" and "Classic (2014)". Note that, for dedicated 2014 rules usage, a prior module version is preferred.
+- Added recursive feat/optional feature support; an optional feature may now grant a feat, which grants an optional feature, which grants a ...
+- The Species Importer will now populate advancements for: armor proficiencies; weapon proficiencies; tool proficiencies; damage resistances
+- The Background Importer will now populate advancements for: ability score increases; skill proficiencies; language proficiencies; armor proficiencies; weapon proficiencies; tool proficiencies; damage resistances
+- Added "Include Mastery Text in Description" Item Importer Config option
+- Revised Equipment Shop/Starting Equipment UI, adding more add/remove buttons, and allowing list left/right-click to add/remove items
+- Switched to "Type" for default sort column in Equipment Shop item list
+- Added "Exclude Legacy" Config option to search module integrations (Quick Insert; Spotlight Omnisearch)
+- Reworked Importer language handling, adding blocklist support, and an easier path to future expansion/future homebrew support
+- Reworked Importer weapon proficiency handling, adding blocklist support, and support for homebrew item proficiencies
+- Added Item Importer support for containers with a specified "volume" capacity (rather than weight/item capacity)
+- Reworked Config internals to validate loaded values earlier, and increase performance of fetching/setting values later _[you may see browser console warnings on startup as your old Config runs its initial self-heal]_
+- Reworked default advancement drag-drop suppression to handle additional edge-cases, and avoid timing hacks
+- Reworked rendering of some Importer dialogs, allowing vertical expansion when selecting an option with visible content which would overflow the dialog
+- The "Pathfinder Tokens: Bestiaries" integration will now use `dnd5e`-specific indexes in addition to `pf2e`-specific indexes, improving token coverage
+- Improved performance of Importer compendium caching when the same compendium is required multiple times in quick succession
+- Improved Auto-Roll Multiattack roller handling of '24-style names
+- Improved Creature Importer handling of various '24 summoned creature attributes
+- Improved Importer parsing of '24 on-rest recharge
+- Improved Importer parsing of '24 reactions
+- Improved Importer parsing of '24 "Magic" actions
+- Improved Importer parsing of '24-style feature use counts
+- Improved Class Importer handling of '24-style Unarmored Defense text
+- Added Spell Importer approximation of target info for common area types
+- Fixed Species Importer failing to match "inverted" name formats when searching (e.g. "Forest Gnome" instead of "Gnome (Forest)")
+- Fixed proficiency selectors failing to alphabetically sort proficiencies
+- Fixed Importers failing to show the count of visible list items on initial render
+- Fixed Importer hang when closing a feat selection dialog without selecting a feat
+- Fixed Recipe Importer failing to render ingredient lists
+- Fixed Rules Importer failing to list generated-from-book rules content
+- Fixed Creature Importer lair initiative formatting when using non-legacy NPC sheet
+- Fixed "Pathfinder Tokens: Bestiaries" integration failing to index tokens
+- Fixed Creature Importer failing to parse action/etc. recharge uses in some cases
+- (Server) Added "folder max depth" mod, as the "Render >4 Levels of Folder Nesting" option no longer functions in v12 without backend support
+- (Server) Hardened "package operations" security, moving it from "guaranteed hole" to "merely very risky"
+- (Brew) Added custom dynamic token subject support, via `"foundryTokenSubjectHref"`
+- (Brew) Added `"bonusSenses"` support to various importers, as a simplified alternative to specifying custom active effects
+- (Brew) Added `"featProgression"` support
+- (Brew) Fixed Class Importer failing to populate optional feature/feat progressions for no-feature-gained levels
+
 ### v1.84.3
 
 > 2024-09-20
 
 - Fixed Importer Image Preloader always re-downloading image URLs containing commas
-- Fixed rare "Save Imported Images to Server" Config option crash when attempting to create directories 
+- Fixed rare "Save Imported Images to Server" Config option crash when attempting to create directories
 
 ### v1.84.2
 

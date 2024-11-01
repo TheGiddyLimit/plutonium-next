@@ -1,3 +1,10 @@
+### v2.0.1
+
+> 2024-01-01
+
+- Added Scions of Elemental Evil map grid data (thanks @ Lyra)
+- Fixed Spell Importer "Spell Points" mode breaking sheet layout
+
 # v2.0.0 — "Retrofuturistic" edition
 
 > 2024-10-31
@@ -136,7 +143,7 @@
   - Updated "summon" spell support to avoid crashes when using Plutonium summons
 - Adventure/Book Importer may now use `@Embed` when rendering embedded statblocks
 - Adventure/Book Importer now scans for and presents embedded statblocks for import
-- Added Quests from the Infinite Staircase map grid data for (thanks @ Lyra)
+- Added Quests from the Infinite Staircase map grid data (thanks @ Lyra)
 - Restored mistakenly-removed `game.modules.get("plutonium").api`
 - Fixed crash when expanding list previews
 - Fixed Map Importer failing to re-link map notes links when re-importing an existing map in "Update existing" Duplicate Handling Mode

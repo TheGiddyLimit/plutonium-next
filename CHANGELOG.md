@@ -1,6 +1,17 @@
+### v2.0.2
+
+> 2024-11-04
+
+- Added "Allow Import Redirects for `@tag` Links" Config option (enabled by default); with this option enabled, clicking a link rendered from a source-ambiguous `@tag` (e.g. `@spell[fireball]`) will attempt to import the '24 version rather than the '14 version
+- The Spell Importer will now approximate rudimentary targeting information for single- and multiple-target spells
+- Fixed player-specific Config settings (i.e., for non-GM users) incorrectly hiding all GM-set values until "Reset"
+- Fixed deprecation warnings when posting whisper chat messages
+- Fixed Importers failing to set damage types for '24 content
+- Fixed Table Importer failing to import `9x-00` d100 results in some cases
+
 ### v2.0.1
 
-> 2024-01-01
+> 2024-11-01
 
 - Added Scions of Elemental Evil map grid data (thanks @ Lyra)
 - Fixed Spell Importer "Spell Points" mode breaking sheet layout

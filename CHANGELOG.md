@@ -1,3 +1,14 @@
+## v2.1.0 — "Housing Crisis" edition
+
+> 2024-11-18
+
+- Added rudimentary bastion Facilities Importer
+- Added Equipment Shop "Use Rarity Pricing" option (disabled by default). If enabled, and using "Modern (2024)" rules, magic items will be given prices according to their rarity and the "Magic Item Rarities and Values" DMG'24 table
+- Added 'Minimum Permission Level for "Show Players"' Config option
+- Improved compatibility with the "5e-Sheet Resources Plus" module
+- Fixed Importers failing to set correct proficiencies when importing an entity with mixed skill/tool proficiencies
+- (Brew) Fixed migrations failing to be applied to files loaded from URL
+
 ### v2.0.2
 
 > 2024-11-04

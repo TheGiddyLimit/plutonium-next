@@ -1585,5 +1585,11 @@
 		"ver": "2.0.2",
 		"date": "2024-11-04",
 		"txt": "- Added \"Allow Import Redirects for `@tag` Links\" Config option (enabled by default); with this option enabled, clicking a link rendered from a source-ambiguous `@tag` (e.g. `@spell[fireball]`) will attempt to import the '24 version rather than the '14 version\n- The Spell Importer will now approximate rudimentary targeting information for single- and multiple-target spells\n- Fixed player-specific Config settings (i.e., for non-GM users) incorrectly hiding all GM-set values until \"Reset\"\n- Fixed deprecation warnings when posting whisper chat messages\n- Fixed Importers failing to set damage types for '24 content\n- Fixed Table Importer failing to import `9x-00` d100 results in some cases"
+	},
+	{
+		"ver": "2.1.0",
+		"date": "2024-11-18",
+		"title": "Housing Crisis",
+		"txt": "- Added rudimentary bastion Facilities Importer\n- Added Equipment Shop \"Use Rarity Pricing\" option (disabled by default). If enabled, and using \"Modern (2024)\" rules, magic items will be given prices according to their rarity and the \"Magic Item Rarities and Values\" DMG'24 table\n- Added 'Minimum Permission Level for \"Show Players\"' Config option\n- Improved compatibility with the \"5e-Sheet Resources Plus\" module\n- Fixed Importers failing to set correct proficiencies when importing an entity with mixed skill/tool proficiencies\n- (Brew) Fixed migrations failing to be applied to files loaded from URL"
 	}
 ]

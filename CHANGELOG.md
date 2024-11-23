@@ -1,3 +1,12 @@
+### v2.1.1
+
+> 2024-11-23
+
+- The Creature Importer will now automatically migrate statblock spells to '24 versions when using '24 rules mode
+- Added "Hide Update Notifications" Config option (disabled by default _[:^)]_
+- Added grid info for DMG'24 maps (thanks @ Lyra)
+- (Brew) Fixed automatic '14 migration of UA: Strixhaven subclasses
+
 ## v2.1.0 — "Housing Crisis" edition
 
 > 2024-11-18

@@ -1591,5 +1591,10 @@
 		"date": "2024-11-18",
 		"title": "Housing Crisis",
 		"txt": "- Added rudimentary bastion Facilities Importer\n- Added Equipment Shop \"Use Rarity Pricing\" option (disabled by default). If enabled, and using \"Modern (2024)\" rules, magic items will be given prices according to their rarity and the \"Magic Item Rarities and Values\" DMG'24 table\n- Added 'Minimum Permission Level for \"Show Players\"' Config option\n- Improved compatibility with the \"5e-Sheet Resources Plus\" module\n- Fixed Importers failing to set correct proficiencies when importing an entity with mixed skill/tool proficiencies\n- (Brew) Fixed migrations failing to be applied to files loaded from URL"
+	},
+	{
+		"ver": "2.1.1",
+		"date": "2024-11-23",
+		"txt": "- The Creature Importer will now automatically migrate statblock spells to '24 versions when using '24 rules mode\n- Added \"Hide Update Notifications\" Config option (disabled by default _[:^)]_\n- Added grid info for DMG'24 maps (thanks @ Lyra)\n- (Brew) Fixed automatic '14 migration of UA: Strixhaven subclasses"
 	}
 ]

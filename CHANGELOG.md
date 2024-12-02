@@ -1,3 +1,9 @@
+### v2.1.2
+
+> 2024-12-02
+
+- (Compatibility for site changes)
+
 ### v2.1.1
 
 > 2024-11-23

@@ -1,3 +1,17 @@
+### v2.1.3
+
+> 2024-12-09
+
+- Added Config option to disable "Auto-Switch Sidebar Tabs" when importing
+- Added line width approximation to Spell Importer target approximation
+- Fixed junk log warning when waiting for some custom Importer UIs (Polymorpher; Ability Score Improvement "Choose a Feat") to render
+- Fixed `@classFeature`/`@subclassFeature` tags failing to import item on click
+- Fixed some journal Importers overwriting instead of skipping duplicates when using "Skip duplicates" Duplicate Handling Mode
+- Fixed importing to table failing to set associated compendium in resulting table row
+- Fixed Creature Importer failing to scale innate spells in some cases
+- Fixed Importer crash when attempting to save image with "Base Media URL" Config option set
+- (Brew) Added support for feat progression on feats
+
 ### v2.1.2
 
 > 2024-12-02

@@ -1,3 +1,27 @@
+## v2.2.0 — "Technicality" edition
+
+> 2024-12-31
+
+- Added support for dnd5e 4.1.x, and dropped support for dnd5e 3.x.y
+  - _[Note that this represents a complete rewrite of much of the module's internals. There will be bugs; caveat emptor.]_
+  - Overhauled Foundry "Item" importers; importers will now attempt to generate appropriate activities for imported documents. Additionally, more importers will attempt to set attack/saving throw/etc. information, and more in-depth content parsing is done generally, when compared to previous versions.
+  - Overhauled Bastions Importer to populate "facility" items
+  - The "Rules Version" Config option now has a "Use game setting" mode (which is now the default)
+  - The "Set Value From Rarity" Item Importer Config option, and fixed Equipment Shop population of specific variant prices to correctly match book values
+  - The "Use Spell Points" Config option now implements point scaling via a custom formula, allowing spells to be scaled on cast (provided the "Enabled, and Unlock Slots" mode is used)
+  - Reworked Actor Multiattack Roller to support activities
+  - The Spell Importer will now attempt to populate a spell list display for newly-imported spells
+  - (Various other minor fixes and improvements)
+- Improved Creature Importer cache loading performance on first creature import (>5 seconds faster on my machine)
+- The "Preferred Color Scheme" Config option now has a "Use game setting" mode (which is now the default)
+- When using the active effect "Find Active Effect Attribute Key" UI on an item's effects, the results now include possible actor attribute keys
+- Added partial workaround for linking `@tag` names containing square brackets
+- Fixed World Content Blocklist failing to apply to classes if any subclass for that class was not blocklisted
+- Fixed Adventure/Book Importer handling of non-embeddable inline entities
+- Fixed Class Importer double-population of skill activities
+- (Brew) Added "pointPool" resource support
+- (Brew) Fixed homebrew migrations failing to apply to uploaded files
+
 ### v2.1.3
 
 > 2024-12-09

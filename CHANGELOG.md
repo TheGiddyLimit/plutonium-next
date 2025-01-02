@@ -1,3 +1,10 @@
+### v2.2.1
+
+> 2025-01-01
+
+- Added "Import Features to Description" Class Importer option
+- Fixed starting equipment display when using '14 rules
+
 ## v2.2.0 — "Technicality" edition
 
 > 2024-12-31

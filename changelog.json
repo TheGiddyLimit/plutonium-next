@@ -1617,5 +1617,10 @@
 		"ver": "2.2.1",
 		"date": "2025-01-01",
 		"txt": "- Added \"Import Features to Description\" Class Importer option\n- Fixed starting equipment display when using '14 rules"
+	},
+	{
+		"ver": "2.2.2",
+		"date": "2025-01-02",
+		"txt": "- Fixed Class/Subclass Feature Importer crash when importing feature which is present in SRD compendiums"
 	}
 ]

@@ -1,3 +1,9 @@
+### v2.2.2
+
+> 2025-01-02
+
+- Fixed Class/Subclass Feature Importer crash when importing feature which is present in SRD compendiums
+
 ### v2.2.1
 
 > 2025-01-01

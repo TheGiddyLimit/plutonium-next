@@ -1,3 +1,21 @@
+### v2.2.3
+
+> 2025-01-07
+
+- Various improvements and fixes to the Creature Importer
+  - Added support for more styles of innate at-level-X spell
+  - Expanded parsing support for damage expressions; half-damage text; conditional damage formats
+  - Fixed various damage false-positives when generating activities
+  - Fixed over-eager activity damage merging, which could merge unrelated damage rolls into prior attack/save activities in some cases
+  - Fixed spells failing to populate when importing a creature to a compendium
+  - Fixed crash when clicking "plus PB" rollers
+  - Fixed "plus PB" rolls/DCs failing to generate matching values in activities
+  - Fixed "Regional Effects" activities having junk activation values
+- Added tolerance for invalid system rules version
+- Fixed crash when opening a character sheet when the "Level Advancement without XP" system Levelling Mode setting is used
+- Fixed Adventure/Book Importer "Set folder path for <x> import" buttons failing to show importer's configured folder path
+- Fixed Plutonium-configured Rules Version failing to override system-configured Rules Version for Plutonium-specific usage
+
 ### v2.2.2
 
 > 2025-01-02

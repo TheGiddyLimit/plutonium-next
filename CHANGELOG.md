@@ -1,3 +1,35 @@
+### v2.2.4
+
+> 2025-01-19
+
+- Added "Unsaved Changes" prompt when attempting to close World Data Source Selector and/or World Content Blocklist with unsaved changes
+- Added "Exclude Modern" Config option, the inverse of the existing "Exclude Legacy" Config option, to search module integrations
+- Improved compatibility with the "Tidy 5e Sheets" module's 4.x ApplicationV2 sheets
+- Improved compatibility with the "System Customizer" module, fixing a potential startup crash
+- Improved Importer parsing of various activity information
+  - Creature swarm damage with additional rider damage
+  - Creature damage with complex/multi-part/conditional rider damage
+  - Creature activity targeting
+  - Creature self-item-charge-consuming activities
+  - Creature "automatic hit" to-hit
+  - Creature non-damaging attacks
+  - Player activity ranges
+  - Spell multi-target targeting
+- Improved Trap Importer rendering of trap description
+- Fixed crash when attempting to expand previews in Creature Importer list
+- Fixed Importer crash when finalizing an import to a synthetic token actor
+- Fixed rare Class Importer crash when building descriptions for classes/subclasses
+- Fixed Class Importer failing to consider blocklist when applying internal "reprinted" filtering to sub-features
+- Fixed Equipment Shop/Item Importer failing to halve rarity-based cost for consumables
+- Fixed Importer crash when setting expertise
+- Fixed Creature Importer producing broken links for items which refer to lists of other items (eye rays; breath weapons)
+- Fixed crash when clicking a non-'24-redirected `@tag`
+- Fixed Class Importer failing to migrate subclass spells to '24 versions when importing a '14 subclass under '24 rules
+- Fixed rare roll crash on missing actor spellcasting ability
+- Plutonium's "Report a Bug" form now includes Foundry's basic "Support Details" information
+- (Added thumbnail image for module in Setup screen)
+- (Rivet) Added Chrome Manifest V3 extension version
+
 ### v2.2.3
 
 > 2025-01-07

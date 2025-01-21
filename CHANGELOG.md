@@ -1,3 +1,10 @@
+### v2.2.5
+
+> 2025-01-21
+
+- Improved Creature Importer handling of "Flee, Mortals!" retainers and companion
+- Fixed hidden crash when loading feature pickers for features with sub-feature references
+
 ### v2.2.4
 
 > 2025-01-19

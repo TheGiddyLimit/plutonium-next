@@ -1637,5 +1637,11 @@
 		"ver": "2.2.5",
 		"date": "2025-01-21",
 		"txt": "- Improved Creature Importer handling of \"Flee, Mortals!\" retainers and companion\n- Fixed hidden crash when loading feature pickers for features with sub-feature references"
+	},
+	{
+		"ver": "2.3.0",
+		"date": "2025-01-22",
+		"title": "Second-Hand Smoke",
+		"txt": "- Added support for dnd5e 4.2.x (maintaining support for dnd5e 4.1.x)\n  - Added \"Metric Volume\" Config options; support for setting metric volumes on containers in Items importer\n  - Added explicit \"Use game setting\" option to Importer Config option metric settings (previously this was implicit regardless of option chosen)\n  - Various minor Importer improvements (Vehicle Importer feature type tweaks; Creature Importer telepathy, habitat, and treasure support; Item Importer \"energy cell\" ammo type support)\n- Adventure/Book Importers now expand lists of `@creature` tags into lists of embeds (and embedded statblocks, under 4.2.x)\n- Fixed Importer failing to pre-populate actor ID when importing temp actor documents, leading to invalid links in some embedded items"
 	}
 ]

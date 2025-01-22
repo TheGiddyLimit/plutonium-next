@@ -1,3 +1,14 @@
+## v2.3.0 — "Second-Hand Smoke" edition
+
+> 2025-01-22
+
+- Added support for dnd5e 4.2.x (maintaining support for dnd5e 4.1.x)
+  - Added "Metric Volume" Config options; support for setting metric volumes on containers in Items importer
+  - Added explicit "Use game setting" option to Importer Config option metric settings (previously this was implicit regardless of option chosen)
+  - Various minor Importer improvements (Vehicle Importer feature type tweaks; Creature Importer telepathy, habitat, and treasure support; Item Importer "energy cell" ammo type support)
+- Adventure/Book Importers now expand lists of `@creature` tags into lists of embeds (and embedded statblocks, under 4.2.x)
+- Fixed Importer failing to pre-populate actor ID when importing temp actor documents, leading to invalid links in some embedded items
+
 ### v2.2.5
 
 > 2025-01-21

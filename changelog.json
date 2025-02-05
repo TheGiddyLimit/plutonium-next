@@ -1643,5 +1643,10 @@
 		"date": "2025-01-22",
 		"title": "Second-Hand Smoke",
 		"txt": "- Added support for dnd5e 4.2.x (maintaining support for dnd5e 4.1.x)\n  - Added \"Metric Volume\" Config options; support for setting metric volumes on containers in Items importer\n  - Added explicit \"Use game setting\" option to Importer Config option metric settings (previously this was implicit regardless of option chosen)\n  - Various minor Importer improvements (Vehicle Importer feature type tweaks; Creature Importer telepathy, habitat, and treasure support; Item Importer \"energy cell\" ammo type support)\n- Adventure/Book Importers now expand lists of `@creature` tags into lists of embeds (and embedded statblocks, under 4.2.x)\n- Fixed Importer failing to pre-populate actor ID when importing temp actor documents, leading to invalid links in some embedded items"
+	},
+	{
+		"ver": "2.3.1",
+		"date": "2025-02-05",
+		"txt": "- Added support for Dynamic Token Ring (where available) to the Vehicle Importer\n- Added support for half-PB spell recharge to various Importers\n- Improved Spell Importer target approximation for single- and multi-target spells\n- Fixed Level Up button being non-interactable when using \"Level Advancement without XP\" system Leveling Mode\n- Fixed \"Preferred Color Scheme\" Config option not being player-editable\n- Fixed Creature Importer mis-identifying \"check\" DCs as \"save\" DCs in some cases\n- Fixed crash when using non-actor compendiums as actor Additional/Replacement Data Compendium\n- Fixed Creature Importer crash when importing a creature with a \"Parry\" reaction, when the Midi QOL module is active"
 	}
 ]

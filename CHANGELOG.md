@@ -1,3 +1,16 @@
+### v2.3.1
+
+> 2025-02-05
+
+- Added support for Dynamic Token Ring (where available) to the Vehicle Importer
+- Added support for half-PB spell recharge to various Importers
+- Improved Spell Importer target approximation for single- and multi-target spells
+- Fixed Level Up button being non-interactable when using "Level Advancement without XP" system Leveling Mode
+- Fixed "Preferred Color Scheme" Config option not being player-editable
+- Fixed Creature Importer mis-identifying "check" DCs as "save" DCs in some cases
+- Fixed crash when using non-actor compendiums as actor Additional/Replacement Data Compendium
+- Fixed Creature Importer crash when importing a creature with a "Parry" reaction, when the Midi QOL module is active
+
 ## v2.3.0 — "Second-Hand Smoke" edition
 
 > 2025-01-22

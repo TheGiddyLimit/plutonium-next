@@ -1,3 +1,10 @@
+### v2.3.2
+
+> 2025-02-07
+
+- The Class Importer prefixes class/subclass feature names with "Level <x>: ..." in Modern mode
+- Fixed rare Class Importer crash when building class/subclass descriptions
+
 ### v2.3.1
 
 > 2025-02-05

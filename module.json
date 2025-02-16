@@ -2,7 +2,7 @@
 	"id": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5e.tools\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "2.3.2",
+	"version": "2.4.0",
 	"authors": [
 		{
 			"name": "Giddy",
@@ -32,7 +32,6 @@
 		"./js/Bundle.js"
 	],
 	"styles": [
-		"./art-css/ArtBrowser.css",
 		"./css/main.css"
 	],
 	"packs": [
@@ -58,8 +57,8 @@
 				"type": "system",
 				"compatibility": {
 					"minimum": "4.1.0",
-					"verified": "4.2.2",
-					"maximum": "4.2.999"
+					"verified": "4.3.1",
+					"maximum": "4.3.999"
 				}
 			}
 		],

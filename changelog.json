@@ -1653,5 +1653,11 @@
 		"ver": "2.3.2",
 		"date": "2025-02-07",
 		"txt": "- The Class Importer prefixes class/subclass feature names with \"Level <x>: ...\" in Modern mode\n- Fixed rare Class Importer crash when building class/subclass descriptions"
+	},
+	{
+		"ver": "2.4.0",
+		"date": "2025-02-16",
+		"title": "Triskaidekaphilia",
+		"txt": "- Added support for dnd5e 4.3.x (maintaining support for dnd5e 4.2.x)\n- Adventure/Book Importers may now redirect attached '14 content to '24 versions during import, where available\n- Fixed Spell Importer failing to add basic \"Cast\" activity if no other activities were generated\n- Improved Spell Importer target approximation for line spells\n- Improved Feature Importer handling of resource consumption; Importers should now be more likely to add \"use-self-item\" resource consumption to created activities  \n- (dnd5e 4.1.x) Fixed Creature Importer crash when importing a creature with treasure\n- (Brew) Improved Map Importer support for externally-specified wall data\n- _[(v13) Added initial v13-compatible version (Patron-only, until Foundry v13 stable is released)]_\n- _[(v13) Replaced \"Disable Animations\" and \"Avoid Disabling Animations for Ruler Movement\" options with \"Use ALT To Skip Token Animations\" option]_"
 	}
 ]

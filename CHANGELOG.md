@@ -1,3 +1,17 @@
+## v2.4.0 — "Triskaidekaphilia" edition
+
+> 2025-02-16
+
+- Added support for dnd5e 4.3.x (maintaining support for dnd5e 4.2.x)
+- Adventure/Book Importers may now redirect attached '14 content to '24 versions during import, where available
+- Fixed Spell Importer failing to add basic "Cast" activity if no other activities were generated
+- Improved Spell Importer target approximation for line spells
+- Improved Feature Importer handling of resource consumption; Importers should now be more likely to add "use-self-item" resource consumption to created activities  
+- (dnd5e 4.1.x) Fixed Creature Importer crash when importing a creature with treasure
+- (Brew) Improved Map Importer support for externally-specified wall data
+- _[(v13) Added initial v13-compatible version (Patron-only, until Foundry v13 stable is released)]_
+- _[(v13) Replaced "Disable Animations" and "Avoid Disabling Animations for Ruler Movement" options with "Use ALT To Skip Token Animations" option]_
+
 ### v2.3.2
 
 > 2025-02-07

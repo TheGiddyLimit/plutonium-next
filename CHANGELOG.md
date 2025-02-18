@@ -1,3 +1,9 @@
+### v2.4.1
+
+> 2025-02-18
+
+- Fixed default Equipment Shop "Category" filter preferring generic variants over specific variants
+
 ## v2.4.0 — "Triskaidekaphilia" edition
 
 > 2025-02-16
@@ -6,7 +12,8 @@
 - Adventure/Book Importers may now redirect attached '14 content to '24 versions during import, where available
 - Fixed Spell Importer failing to add basic "Cast" activity if no other activities were generated
 - Improved Spell Importer target approximation for line spells
-- Improved Feature Importer handling of resource consumption; Importers should now be more likely to add "use-self-item" resource consumption to created activities  
+- Improved Feature Importer handling of resource consumption; Importers should now be more likely to add "use-self-item" resource consumption to created activities
+- Added Hold Back The Dead map grid and wall data (thanks @ Lyra)
 - (dnd5e 4.1.x) Fixed Creature Importer crash when importing a creature with treasure
 - (Brew) Improved Map Importer support for externally-specified wall data
 - _[(v13) Added initial v13-compatible version (Patron-only, until Foundry v13 stable is released)]_

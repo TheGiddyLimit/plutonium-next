@@ -1,3 +1,13 @@
+### v2.4.2
+
+> 2025-02-23
+
+- Fixed Creature Importer failing to apply '24 creature initiative proficiency
+- Fixed Importers failing to apply "Default Weapon Target" option
+- Fixed Importers failing to display '14 weapon/tool proficiencies when in legacy rules mode
+- Fixed Importers failing to create "consumes-self" activity data in some cases
+- (Rivet) Added "Allow Actor Overwrite Imports" (disabled by default) Config option; this prevents Rivet from attempting to clobber existing actors when importing an actor with the "Target Document" set to an actor
+
 ### v2.4.1
 
 > 2025-02-18

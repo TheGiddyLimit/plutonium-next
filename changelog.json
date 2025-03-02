@@ -1669,5 +1669,10 @@
 		"ver": "2.4.2",
 		"date": "2025-02-23",
 		"txt": "- Fixed Creature Importer failing to apply '24 creature initiative proficiency\n- Fixed Importers failing to apply \"Default Weapon Target\" option\n- Fixed Importers failing to display '14 weapon/tool proficiencies when in legacy rules mode\n- Fixed Importers failing to create \"consumes-self\" activity data in some cases\n- (Rivet) Added \"Allow Actor Overwrite Imports\" (disabled by default) Config option; this prevents Rivet from attempting to clobber existing actors when importing an actor with the \"Target Document\" set to an actor"
+	},
+	{
+		"ver": "2.4.3",
+		"date": "2025-03-02",
+		"txt": "- When customizing an actor's token using the \"Customize and Import...\" flow, \"Dynamic Token Ring\" will now be automatically disabled for that actor\n- Fixed Spell Importer producing junk activities for spells in the '14 SRD\n- Fixed '14-version-locked imports using '24 art for sheet items\n- Fixed Spell Importer approximating target areas for spell attacks\n- _[(v13) Updated for compatibility with v13 Testing 2 (Patron-only, until Foundry v13 stable is released)]_\n- _[(v13) Enabled and revised now-supported rollable table header menu items; compendium header menu items]_\n- _[(v13) Tweaked compact styling to support sticky folder scrolling]_\n- _[(v13) Fixed \"Clear Plutonium Flags\" context menu option failing to clean flags from nested embedded documents]_\n- _[(v13) Fixed crash when using the rollable table \"Row Cleaner\" tool]_\n- _[(v13) Fixed crash when importing a creature with non-standard AC value]_\n- _[(v13) Fixed various minor styling bugs]_"
 	}
 ]

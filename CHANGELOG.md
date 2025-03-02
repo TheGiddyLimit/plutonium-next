@@ -1,3 +1,19 @@
+### v2.4.3
+
+> 2025-03-02
+
+- When customizing an actor's token using the "Customize and Import..." flow, "Dynamic Token Ring" will now be automatically disabled for that actor
+- Fixed Spell Importer producing junk activities for spells in the '14 SRD
+- Fixed '14-version-locked imports using '24 art for sheet items
+- Fixed Spell Importer approximating target areas for spell attacks
+- _[(v13) Updated for compatibility with v13 Testing 2 (Patron-only, until Foundry v13 stable is released)]_
+- _[(v13) Enabled and revised now-supported rollable table header menu items; compendium header menu items]_
+- _[(v13) Tweaked compact styling to support sticky folder scrolling]_
+- _[(v13) Fixed "Clear Plutonium Flags" context menu option failing to clean flags from nested embedded documents]_
+- _[(v13) Fixed crash when using the rollable table "Row Cleaner" tool]_
+- _[(v13) Fixed crash when importing a creature with non-standard AC value]_
+- _[(v13) Fixed various minor styling bugs]_
+
 ### v2.4.2
 
 > 2025-02-23

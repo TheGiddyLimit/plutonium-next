@@ -1,3 +1,23 @@
+## v2.5.0 — "Touch Class" edition
+
+> 2025-03-24
+
+- Added activities and effects for Player's Handbook '24 class features _[though not subclass features, Yet:tm:]_
+- Expanded Item Importer "equipment" handling (notably to include "clothes" items)
+- Item specific variants will now prefer legacy base items when using "Legacy (2014)" Rules Version
+- The Creature Importer will now prefer relative UUIDs over absolute UUIDs when generating "Spellcasting ..." sheet item text, improving usability when imported to a compendium
+- The Class/Subclass Feature Importer may (optionally) use class images as fallback if no icon is found for an imported feature
+- Fixed inconsistent loading of starting equipment when using only homebrew sources in the Class Importer
+- Fixed Importers failing to populate active effect "origin" in most cases
+- Fixed Creature Importer setting invalid AC formula when "Use Static AC Values" option is enabled
+- Fixed Adventure/Book Importers failing to migrate links to legacy creatures in some cases
+- Fixed Adventure/Book Importers duplicating imports of migrated legacy creatures
+- Fixed sheet Item Cleaner tool failing to sort by "Type"
+- _[(v13) Updated for compatibility with v13 Testing 3 (Patron-only, until Foundry v13 stable is released)]_
+- _[(v13) Added handling for ESC menu when "Fast Animations" UI option is enabled]_
+- _[(v13) Migrated "Preferred Color Scheme" Config option to always use new core "Theme and Color Scheme - Applications" setting, removing various undesirable edge-cases]_
+- _[(v13) Fixed 'Add "Delete" to Navbar Scene Context Menu' Config option having no effect]_
+
 ### v2.4.3
 
 > 2025-03-02

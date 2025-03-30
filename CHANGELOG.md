@@ -1,3 +1,14 @@
+### v2.5.1
+
+> 2025-03-30
+
+- Fixed Vehicle Importer crash when importing a vehicle with weapons
+- Fixed Artificer infusions missing "enchant" activities
+- Fixed various activity/effect data typos
+- Fixed crash when attempting to report an error before UI notifications are available for use
+- _[(v13) Updated for compatibility with v13 Testing 4 (Patron-only, until Foundry v13 stable is released)]_
+- _[(v13) Fixed `Show Folder Linked by @UUID[Folder.] on Click` Config option, and added automatic parent-folder expansion]_
+
 ## v2.5.0 — "Touch Class" edition
 
 > 2025-03-24

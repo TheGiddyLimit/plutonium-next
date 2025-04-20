@@ -1,3 +1,28 @@
+## v2.6.0 — "Supporting Cast" edition
+
+> 2025-04-20
+
+- Added activities and effects for Player's Handbook '24 subclass features
+- Added Spellcasting "Preparation Formula" value population for '24 classes
+- The Item Importer will now generate basic "Cast" activities for items with attached spells
+- Added filters to source selection UIs (notably in the Import Wizard). These allow an undesirable source (e.g. a "WIP" or "Invalid" homebrew) to be filtered out.
+- Importers may now render descriptions in imported active effects
+- Revised Importer use of UUIDs (notably around "Summon" and new "Cast" activities) to produce "valid" UUIDs, while maintaining Plutonium-required data
+  - While this future-proofs against an import bricking your world, it has the downside of making Plutonium-specific fake-UUIDs hard to read. The following API methods are therefore made available:
+    - Generating a UUID; `game.modules.get("plutonium").api.util.uuidFauxCompendium.getCustomUuid({tag: "spell", text: "Fireball|XPHB"})`
+    - Checking if a UUID is a Plutonium UUID; `game.modules.get("plutonium").api.util.uuidFauxCompendium.isCustomUuid(uuid)`
+    - Unpacking a Plutonium UUID; `game.modules.get("plutonium").api.util.uuidFauxCompendium.getCustomUuidInfo(uuid)`
+- Revised "Create Named Token" macro to use a token border/background appropriate to the configured game "Rules Version". This may be overridden with the `styleHint: "<one|classic>"` option.
+- Fixed various inconsistencies in custom system/effect/activities data for pre-2024 sources
+- Fixed Quick Insert/Spotlight Omnisearch integration failing to index some fluff images
+- Fixed Warlock always-prepared spells failing to import with "Pact Magic" spell preparation mode
+- Fixed Item Importer setting incorrect ability check ability for '24 tools
+- Fixed Map Importer incorrectly scaling walls in the presence of grid scaling
+- Fixed Importers failing to set temporary document (i.e., when created by clicking a link to view an entity which is not present in the world) permissions in some cases
+- Fixed Importers failing to set valid activity images in some cases
+- _[(v13) Updated for compatibility with v13 Testing 5 (Patron-only, until Foundry v13 stable is released)]_
+- _[(v13) Removed "Skip Token Animation When ALT Key Held" Config option, in favor of using the new `SHIFT+TAB` key combo when dragging a token (which enables teleport movement)]_
+
 ### v2.5.1
 
 > 2025-03-30

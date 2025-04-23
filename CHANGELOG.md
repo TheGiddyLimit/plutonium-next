@@ -1,3 +1,10 @@
+### v2.6.1
+
+> 2025-04-23
+
+- (Brew) Fixed Importer handling of "Fine"/"Diminutive"/"Colossal" token sizes
+- (Brew) Fixed Class Importer crash when loading a class with deprecated-format fluff
+
 ## v2.6.0 — "Supporting Cast" edition
 
 > 2025-04-20

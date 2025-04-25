@@ -1696,5 +1696,10 @@
 		"ver": "2.6.1",
 		"date": "2025-04-23",
 		"txt": "- (Brew) Fixed Importer handling of \"Fine\"/\"Diminutive\"/\"Colossal\" token sizes\n- (Brew) Fixed Class Importer crash when loading a class with deprecated-format fluff"
+	},
+	{
+		"ver": "2.6.2",
+		"date": "2025-04-25",
+		"txt": "- Fixed Level Up button failing to recognize legacy subclass imports\n- Fixed log warning spam when evaluating an expression which contains `@statuses. ...`"
 	}
 ]

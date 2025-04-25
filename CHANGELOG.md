@@ -1,3 +1,10 @@
+### v2.6.2
+
+> 2025-04-25
+
+- Fixed Level Up button failing to recognize legacy subclass imports
+- Fixed log warning spam when evaluating an expression which contains `@statuses. ...`
+
 ### v2.6.1
 
 > 2025-04-23

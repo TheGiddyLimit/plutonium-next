@@ -1,3 +1,27 @@
+## v2.7.0 — "13 Btw" edition
+
+> 2025-05-03
+
+- Added support for Foundry v13. _[Note that the "current" manifest URL now points to the v13 version. See <https://github.com/TheGiddyLimit/plutonium-next/releases> for v13/v12 version-specific manifest URLs.]_
+- Added support for dnd5e 4.4.x/5.0.x (and removed support for previous dnd5e versions)
+  - (v12) Added support for dnd5e 4.4.x (and removed support for previous dnd5e versions)
+  - (v13) Added support for dnd5e 5.0.x (and removed support for previous dnd5e versions)
+  - Updated Polymorpher to use new system transformation dialogue
+  - (v13) Updated sheet compatibility for Plutonium menus; actor Level Up button; Plutonium-specific drag-and-drop
+- The Imem Importer may now set casting ability for attached spells, where available
+- Fixed Spell Importer failing to set resource consumption for imported spells
+- Fixed Item Importer handling of attached spells with specified casting level
+- Fixed crash when opening non-actor "cast" activity created by an Importer
+- Fixed "Token Scale" Config option failing to be applied in actor Importers
+- Fixed Class Importer excessively filtering linked optional features for '14 subclasses on '24 classes
+- Fixed Loot Generator failing to set item quantity when drag-dropping loot to an actor
+- (v13) Fixed Importer windows failing to move to front when re-opened
+- (v13) Migrated various Foundry API usages away from deprecated versions
+- (v13) Consolidated the look of dialog windows
+- (v13) Fixed crash when opening Loot Generator
+- (v13) Fixed position of backend/Rivet status pips when A/V is active
+- (v13) Fixed sidebar and scene bar context menu additions
+
 ### v2.6.2
 
 > 2025-04-25

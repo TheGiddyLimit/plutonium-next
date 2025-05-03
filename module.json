@@ -2,7 +2,7 @@
 	"id": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5e.tools\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "2.6.2",
+	"version": "2.7.0",
 	"authors": [
 		{
 			"name": "Giddy",
@@ -22,9 +22,9 @@
 	"manifest": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/module.json",
 	"download": "https://github.com/TheGiddyLimit/plutonium-next/raw/master/plutonium.zip",
 	"compatibility": {
-		"minimum": "12",
-		"verified": "12.331",
-		"maximum": "12.999"
+		"minimum": "13",
+		"verified": "13.342",
+		"maximum": "13.999"
 	},
 	"socket": true,
 	"persistentStorage": true,
@@ -56,9 +56,9 @@
 				"id": "dnd5e",
 				"type": "system",
 				"compatibility": {
-					"minimum": "4.1.0",
-					"verified": "4.3.9",
-					"maximum": "4.3.999"
+					"minimum": "5.0.0",
+					"verified": "5.0.1",
+					"maximum": "5.0.999"
 				}
 			}
 		],

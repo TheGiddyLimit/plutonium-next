@@ -1,0 +1,97 @@
+{
+	"id": "plutonium",
+	"title": "Plutonium",
+	"description": "A <a href=\"https://5e.tools\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
+	"version": "2.7.0",
+	"authors": [
+		{
+			"name": "Giddy",
+			"url": "https://www.patreon.com/Giddy5e",
+			"discord": "giddy_",
+			"flags": {
+				"patreon": "Giddy5e",
+				"github": "TheGiddyLimit"
+			}
+		}
+	],
+	"readme": "README.md",
+	"license": "UNLICENSED",
+	"bugs": "https://discord.gg/nGvRCDs",
+	"changelog": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/CHANGELOG.md",
+	"url": "https://www.patreon.com/Giddy5e",
+	"manifest": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/module-foundry13.json",
+	"download": "https://github.com/TheGiddyLimit/plutonium-next/raw/master/plutonium-foundry13.zip",
+	"compatibility": {
+		"minimum": "13",
+		"verified": "13.342",
+		"maximum": "13.999"
+	},
+	"socket": true,
+	"persistentStorage": true,
+	"esmodules": [
+		"./js/Bundle.js"
+	],
+	"styles": [
+		"./css/main.css"
+	],
+	"packs": [
+		{
+			"name": "macros",
+			"label": "Macros",
+			"system": "dnd5e",
+			"path": "./packs/macros.db",
+			"type": "Macro"
+		}
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"compatibility": {
+					"minimum": "5.0.0",
+					"verified": "5.0.1",
+					"maximum": "5.0.999"
+				}
+			}
+		],
+		"requires": [
+			{
+				"id": "lib-wrapper",
+				"type": "module",
+				"compatibility": {
+					"minimum": "1.13.0.0"
+				},
+				"reason": "libWrapper is used to patch Foundry methods and functions, extending or altering their functionality."
+			}
+		],
+		"conflicts": [
+			{
+				"id": "better-rolltables",
+				"type": "module",
+				"reason": "Better Rolltables is incompatible with the \"Render >3 Levels of Folder Nesting\" option, which will be disabled."
+			}
+		]
+	},
+	"media": [
+		{
+			"type": "setup",
+			"url": "modules/plutonium/media/img/thumbnail-setup.webp"
+		}
+	],
+	"documentTypes": {
+		"JournalEntryPage": {
+			"url": {}
+		}
+	},
+	"flags": {
+		"attributions": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/ATTRIBUTIONS.md"
+	}
+}

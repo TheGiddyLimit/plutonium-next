@@ -1,3 +1,15 @@
+### v2.7.1
+
+> 2025-05-12
+
+- Added "Grapple" and "Shove" actions to optionally-created "Unarmed Strike" item, which is now created by default when importing a class/subclass
+- Split out GitHub-specific image-saving Config options, which are default-enabled to (hopefully) ease rate-limit issues
+- Fixed crash when attempting to import a hazard from an `@tag`
+- (v13) Fixed over-eager application of custom active effect config styling
+- (v13) Fixed Item Importer window positioning
+- (v13) Fixed various UI issues caused by bad style layering
+- (Brew) Fixed crash when loading items with resource-based attached spells
+
 ## v2.7.0 — "13 Btw" edition
 
 > 2025-05-03

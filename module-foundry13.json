@@ -2,7 +2,7 @@
 	"id": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5e.tools\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "2.7.0",
+	"version": "2.7.1",
 	"authors": [
 		{
 			"name": "Giddy",
@@ -57,7 +57,7 @@
 				"type": "system",
 				"compatibility": {
 					"minimum": "5.0.0",
-					"verified": "5.0.1",
+					"verified": "5.0.2",
 					"maximum": "5.0.999"
 				}
 			}

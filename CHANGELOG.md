@@ -1,3 +1,14 @@
+## v2.8.0 — "Improovede Splelign" edition
+
+> 2025-05-18
+
+- Added activities and effects for Player's Handbook '24 spells
+- Added workaround for GitHub URLs (used in homebrew/prerelease content) failing to load due to rate limits
+- (v13) Fixed Polymorph temporary actor GM-only chat "Delete" button always being hidden
+- (v13) Fixed tall proficiency/etc. selection windows failing to scroll; fixed various minor styling issues
+- (v13) Fixed crash when right-clicking a compendium entry
+- (v13) Fixed duplicate Importer drag-drop handling on Firefox
+
 ### v2.7.1
 
 > 2025-05-12

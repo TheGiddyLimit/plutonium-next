@@ -1712,5 +1712,11 @@
 		"ver": "2.7.1",
 		"date": "2025-05-12",
 		"txt": "- Added \"Grapple\" and \"Shove\" actions to optionally-created \"Unarmed Strike\" item, which is now created by default when importing a class/subclass\n- Split out GitHub-specific image-saving Config options, which are default-enabled to (hopefully) ease rate-limit issues\n- Fixed crash when attempting to import a hazard from an `@tag`\n- (v13) Fixed over-eager application of custom active effect config styling\n- (v13) Fixed Item Importer window positioning\n- (v13) Fixed various UI issues caused by bad style layering\n- (Brew) Fixed crash when loading items with resource-based attached spells"
+	},
+	{
+		"ver": "2.8.0",
+		"date": "2025-05-18",
+		"title": "Improovede Splelign",
+		"txt": "- Added activities and effects for Player's Handbook '24 spells\n- Added workaround for GitHub URLs (used in homebrew/prerelease content) failing to load due to rate limits\n- (v13) Fixed Polymorph temporary actor GM-only chat \"Delete\" button always being hidden\n- (v13) Fixed tall proficiency/etc. selection windows failing to scroll; fixed various minor styling issues\n- (v13) Fixed crash when right-clicking a compendium entry\n- (v13) Fixed duplicate Importer drag-drop handling on Firefox"
 	}
 ]

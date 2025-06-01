@@ -1,3 +1,15 @@
+### v2.8.1
+
+> 2025-06-01
+
+- Overhauled Species and Background Importers to generate more/better activities
+- Species and Background Importers now link gained feats from advancements of created species/background items
+- Added support for drag-dropping tags; search integration results to "summon"- and "cast"-type activities, to automatically populate Plutonium-style ephemeral actor/spell item links
+- Fixed Level Up button failing to finalize class/subclass feature item consumption info
+- Fixed compatibility with the LANCER system _[:^)]_, and added `dnd4e` and `lancer` as compatible game systems
+- Fixed Map Importer scaling of light positions (though not yet radius) from external scene data
+- (Brew) Added support for scene regions in external scene data
+
 ## v2.8.0 — "Improovede Splelign" edition
 
 > 2025-05-18

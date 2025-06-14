@@ -1723,5 +1723,11 @@
 		"ver": "2.8.1",
 		"date": "2025-06-01",
 		"txt": "- Overhauled Species and Background Importers to generate more/better activities\n- Species and Background Importers now link gained feats from advancements of created species/background items\n- Added support for drag-dropping tags; search integration results to \"summon\"- and \"cast\"-type activities, to automatically populate Plutonium-style ephemeral actor/spell item links\n- Fixed Level Up button failing to finalize class/subclass feature item consumption info\n- Fixed compatibility with the LANCER system _[:^)]_, and added `dnd4e` and `lancer` as compatible game systems\n- Fixed Map Importer scaling of light positions (though not yet radius) from external scene data\n- (Brew) Added support for scene regions in external scene data"
+	},
+	{
+		"ver": "2.9.0",
+		"date": "2025-06-14",
+		"title": "Oddments",
+		"txt": "- Added activities and effects for Player's Handbook '24 feats, optional features, race features and items\n- The '\"Secret\" Attack Description' Config option has been renamed to '\"Secret\" Action Descriptions', and will now wrap additional actions (breath weapons, etc.) in \"secret\" blocks\n- The Item Importer will now generate \"Utilize\" activities for '24 tools\n- Improved compatibility with the \"Cauldron of Plentiful Resources\" module\n- Migrated \"Add Audio as Sound Effect\" support from \"Monks Little Details\" to \"Monk's Sound Enhancements\" (MSE)\n- Fixed imported MSE sound effects referencing unplayable URLs, and added support for customizing \"Base Media URL (audio)\" source to match existing \"image\" options\n- Fixed Importers failing to finalize consumption links when imported via the quick-import button in list views\n- Fixed the Spell Importer failing to set consumption information in the presence of custom activities\n- Fixed the Item Importer failing to set weapon reach\n- Fixed the Item Importer failing to give a baseline consumption amount to consumable items\n- Fixed the Importer Image Preloader referencing an outdated host\n- (v13) Fixed \"Embedded URL\" journal page failing to fill full journal height\n- (v13) Fixed crash when drag-dropping `@tags`; search integration results"
 	}
 ]

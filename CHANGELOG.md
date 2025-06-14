@@ -1,3 +1,21 @@
+## v2.9.0 — "Oddments" edition
+
+> 2025-06-14
+
+- Added activities and effects for Player's Handbook '24 feats, optional features, race features and items
+- The '"Secret" Attack Description' Config option has been renamed to '"Secret" Action Descriptions', and will now wrap additional actions (breath weapons, etc.) in "secret" blocks
+- The Item Importer will now generate "Utilize" activities for '24 tools
+- Improved compatibility with the "Cauldron of Plentiful Resources" module
+- Migrated "Add Audio as Sound Effect" support from "Monks Little Details" to "Monk's Sound Enhancements" (MSE)
+- Fixed imported MSE sound effects referencing unplayable URLs, and added support for customizing "Base Media URL (audio)" source to match existing "image" options
+- Fixed Importers failing to finalize consumption links when imported via the quick-import button in list views
+- Fixed the Spell Importer failing to set consumption information in the presence of custom activities
+- Fixed the Item Importer failing to set weapon reach
+- Fixed the Item Importer failing to give a baseline consumption amount to consumable items
+- Fixed the Importer Image Preloader referencing an outdated host
+- (v13) Fixed "Embedded URL" journal page failing to fill full journal height
+- (v13) Fixed crash when drag-dropping `@tags`; search integration results
+
 ### v2.8.1
 
 > 2025-06-01

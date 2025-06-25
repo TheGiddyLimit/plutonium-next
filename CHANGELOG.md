@@ -1,3 +1,11 @@
+### v2.9.1
+
+> 2025-06-25
+
+- Improved compatibility with the "Ready Set Roll for D&D5e" module
+- Fixed crash when drag-dropping `@tags`; search integration results
+- (Brew) The Class Importer may now auto-generate prepared spell advancements
+
 ## v2.9.0 — "Oddments" edition
 
 > 2025-06-14

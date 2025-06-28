@@ -1,3 +1,9 @@
+### v2.9.2
+
+> 2025-06-28
+
+- Added Dragon Delves grid data (thanks @ Lyra)
+
 ### v2.9.1
 
 > 2025-06-25

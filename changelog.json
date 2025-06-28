@@ -1734,5 +1734,10 @@
 		"ver": "2.9.1",
 		"date": "2025-06-25",
 		"txt": "- Improved compatibility with the \"Ready Set Roll for D&D5e\" module\n- Fixed crash when drag-dropping `@tags`; search integration results\n- (Brew) The Class Importer may now auto-generate prepared spell advancements"
+	},
+	{
+		"ver": "2.9.2",
+		"date": "2025-06-28",
+		"txt": "- Added Dragon Delves grid data (thanks @ Lyra)"
 	}
 ]

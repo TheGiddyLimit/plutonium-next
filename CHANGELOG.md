@@ -1,3 +1,24 @@
+### v2.9.3
+
+> 2025-07-17
+
+- Added activities and effects for Dungeon Master's Guide '24 items
+- Improved compatibility with the "Monk's Combat Details" module
+- Fixed Creature Importer failing to transform some ability modifiers for summoned creatures
+- Fixed Creature Importer failing to parse "plus"/"minus" special hit points
+- Fixed linked summon stats failing to refresh on character item/effects change
+- Fixed active effect variables failing to resolve in some cases
+- Fixed crash when loading additional Foundry-specific data in the Class Importer
+- Fixed Changelog viewer using an invalid changelog URL
+- Fixed search integrations failing to display non-legacy content when in "Exclude Modern ('24)" mode
+- Fixed Equipment Shop using limited filter set, despite having magic items available
+- Fixed Class Importer failing to populate prepared spell progression for '24 classes
+- Fixed Spell Prepared Toggler list failing to render
+- Fixed CORS issue when loading images in rare cases
+- Fixed "Plutonium Import" button appearing in temporary document header menus
+- (v13) Fixed "Import" button missing from temporary document header menu
+- (Brew) Fixed `"foundryRaceFeature"` data defined at a "race" level failing to apply at a "subrace" level
+
 ### v2.9.2
 
 > 2025-06-28

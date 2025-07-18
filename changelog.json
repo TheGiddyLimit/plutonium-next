@@ -1744,5 +1744,10 @@
 		"ver": "2.9.3",
 		"date": "2025-07-17",
 		"txt": "- Added activities and effects for Dungeon Master's Guide '24 items\n- Improved compatibility with the \"Monk's Combat Details\" module\n- Fixed Creature Importer failing to transform some ability modifiers for summoned creatures\n- Fixed Creature Importer failing to parse \"plus\"/\"minus\" special hit points\n- Fixed linked summon stats failing to refresh on character item/effects change\n- Fixed active effect variables failing to resolve in some cases\n- Fixed crash when loading additional Foundry-specific data in the Class Importer\n- Fixed Changelog viewer using an invalid changelog URL\n- Fixed search integrations failing to display non-legacy content when in \"Exclude Modern ('24)\" mode\n- Fixed Equipment Shop using limited filter set, despite having magic items available\n- Fixed Class Importer failing to populate prepared spell progression for '24 classes\n- Fixed Spell Prepared Toggler list failing to render\n- Fixed CORS issue when loading images in rare cases\n- Fixed \"Plutonium Import\" button appearing in temporary document header menus\n- (v13) Fixed \"Import\" button missing from temporary document header menu\n- (Brew) Fixed `\"foundryRaceFeature\"` data defined at a \"race\" level failing to apply at a \"subrace\" level"
+	},
+	{
+		"ver": "2.9.4",
+		"date": "2025-07-18",
+		"txt": "- Fixed Plutonium UUIDs used in bastion facility \"harvesting\" spam-importing items when interacting with sheet\n- Fixed crash when resolving some active effect variables"
 	}
 ]

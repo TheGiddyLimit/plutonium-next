@@ -1,3 +1,10 @@
+### v2.9.4
+
+> 2025-07-18
+
+- Fixed Plutonium UUIDs used in bastion facility "harvesting" spam-importing items when interacting with sheet
+- Fixed crash when resolving some active effect variables
+
 ### v2.9.3
 
 > 2025-07-17

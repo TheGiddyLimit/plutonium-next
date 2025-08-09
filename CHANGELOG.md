@@ -1,3 +1,17 @@
+## v2.10.0 — "QoLegacy" edition
+
+> 2025-08-09
+
+- Added "Automatically Update Blocklist from Rules Version" Config option (enabled by default), which will attempt to sync Blocklist entries with your current rules version ('14 or '24) on world startup
+- Reworked "Quick Insert"/"Spotlight Omnisearch" module integration "Exclude..." options, to allow content to be automatically included/excluded based on rules version (now default)
+- Split "NPC HP Roll Mode" Config option into "NPC HP Roll Mode" and "NPC HP Roll Mode (Summons)", to allow summoned NPCs to retain standard hit points
+- Fixed crash when importing loot from the site Loot Generator via Rivet
+- Fixed Blocklist failing to apply to content in list picker windows
+- Fixed temporary actors, imported via e.g. the "Quick Insert" module integration, having the effects of their embedded items transferred to the parent actor
+- (v13) Added "Use Importer when Using 'ADD ...' Button on Actor" Config option (set to "Prompt" by default; this can be adjusted similarly to the "Use Importer when Drag-Dropping Items to Actors" Config option); when attempting to add e.g. a class to a sheet, Plutonium may now be used via the prompt 
+- (v13) Fixed directory buttons failing to hide when "Hide Directory Buttons" Config option is enabled
+- (v13) Fixed sheet menu options failing to be added to "group" actor sheets
+
 ### v2.9.4
 
 > 2025-07-18

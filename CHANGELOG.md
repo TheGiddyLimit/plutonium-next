@@ -1,3 +1,23 @@
+## v2.11.0 — "Always Split the Party" edition
+
+> 2025-08-15
+
+- (v13) Added support for dnd5e 5.1.x, and dropped support for dnd5e 5.0.x. _[Note that the v12 version is still supported, for the time being, and continues to support dnd5e 4.4.x]_
+- (v13) Added migration for junk subclass advancements on startup
+- (v13) Added Item Importer and Spell Importer (as spell scrolls) support for encounter sheets
+- (v13) Migrated "Embedded URL" journal page type to AppV2, and removed "Embedded URL (Legacy)" journal page type
+- (v13) The Creature Importer now populates the new actor "special" speed with any previously-unhandled speeds (e.g. alternate speeds granted in different transformation modes)
+- (v13) The Creature Importer now populates the new initiative advantage/disadvantage roll mode
+- (v13) Fixed drag-dropping compendiums to compendium Config fields
+- (v13) Fixed crash when rendering empty importer list
+- (v13) Tweaked active effect UI layout styling to be more consistent through config updates, while offering a larger "Value" input field
+- (v13) Fixed various minor styling issues with interactable elements
+- Fixed tooltips failing to load when hovering items on temporary actors (e.g. those imported via the Quick Insert module integration)
+- Fixed Creature Importer failing to set summoner-matching token disposition when summoning a creature via a summon activity
+- Fixed Class Importer generating junk advancements on subclasses
+- Fixed Class Importer failing to generate subclass prepared spells advancements
+- Fixed Config case-insensitive handling of compendium IDs
+
 ## v2.10.0 — "QoLegacy" edition
 
 > 2025-08-09

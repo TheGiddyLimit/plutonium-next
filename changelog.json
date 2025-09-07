@@ -1761,5 +1761,16 @@
 		"date": "2025-08-15",
 		"title": "Always Split the Party",
 		"txt": "- (v13) Added support for dnd5e 5.1.x, and dropped support for dnd5e 5.0.x. _[Note that the v12 version is still supported, for the time being, and continues to support dnd5e 4.4.x]_\n- (v13) Added migration for junk subclass advancements on startup\n- (v13) Added Item Importer and Spell Importer (as spell scrolls) support for encounter sheets\n- (v13) Migrated \"Embedded URL\" journal page type to AppV2, and removed \"Embedded URL (Legacy)\" journal page type\n- (v13) The Creature Importer now populates the new actor \"special\" speed with any previously-unhandled speeds (e.g. alternate speeds granted in different transformation modes)\n- (v13) The Creature Importer now populates the new initiative advantage/disadvantage roll mode\n- (v13) Fixed drag-dropping compendiums to compendium Config fields\n- (v13) Fixed crash when rendering empty importer list\n- (v13) Tweaked active effect UI layout styling to be more consistent through config updates, while offering a larger \"Value\" input field\n- (v13) Fixed various minor styling issues with interactable elements\n- Fixed tooltips failing to load when hovering items on temporary actors (e.g. those imported via the Quick Insert module integration)\n- Fixed Creature Importer failing to set summoner-matching token disposition when summoning a creature via a summon activity\n- Fixed Class Importer generating junk advancements on subclasses\n- Fixed Class Importer failing to generate subclass prepared spells advancements\n- Fixed Config case-insensitive handling of compendium IDs"
+	},
+	{
+		"ver": "2.12.0",
+		"date": "2025-09-07",
+		"title": "Autonomicon",
+		"txt": "- (v13) Updated Plutonium Addon: Automation integration; updated internal automation generators to match current automation landscape\n- (v13) Added support for \"Spellcasting Method\"/\"Preparation\" to Importers; Prepared Spell Mass-Toggler\n- (v13) Added \"Unwrap Long Compendium Names\" Config option\n- Added \"Minimum Permission Level for Directory Buttons\" Importer option, for anyone brave enough to give their players full access to the buttons\n- Updated '24 PHB automations\n- Added Foundry-style rendering to links in Loot Generator output\n- (v13) Fixed possible startup crash due to conflict with other modules\n- (v13) Fixed sizing of \"Embedded URL\" journal entry content\n- (v13) Fixed backend mod \"custom login\" styling support\n- (v13) Fixed \"Fix ESC Key\" failing to detect when the main menu is open\n- (v13) Fixed Streamer Mode failing to obfuscate module name in settings; module management\n- (v13) Fixed Importer crash when attempting to show title-less modal window\n- (v13) Fixed Creature Importer crash when importing to an existing actor\n- (v13) Fixed application of \"Wrap Long Folder Names\" Config option\n- (v13) Fixed rare non-blocking error when initializing chat handlers\n- Fixed Class Importer failing to set prepared spell class/subclass sources\n- Fixed Action Importer failing to set activation type"
+	},
+	{
+		"ver": "2.12.1",
+		"date": "2025-09-07",
+		"txt": "- (Fixed broken build)"
 	}
 ]

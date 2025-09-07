@@ -2,7 +2,7 @@
 	"id": "plutonium",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5e.tools\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "2.11.0",
+	"version": "2.12.1",
 	"authors": [
 		{
 			"name": "Giddy",
@@ -23,7 +23,7 @@
 	"download": "https://github.com/TheGiddyLimit/plutonium-next/raw/master/plutonium-foundry13.zip",
 	"compatibility": {
 		"minimum": "13",
-		"verified": "13.347",
+		"verified": "13.348",
 		"maximum": "13.999"
 	},
 	"socket": true,
@@ -57,7 +57,7 @@
 				"type": "system",
 				"compatibility": {
 					"minimum": "5.1.0",
-					"verified": "5.1.0",
+					"verified": "5.1.4",
 					"maximum": "5.1.999"
 				}
 			},

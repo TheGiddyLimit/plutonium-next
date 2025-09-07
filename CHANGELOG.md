@@ -1,3 +1,31 @@
+### v2.12.1
+
+> 2025-09-07
+
+- (Fixed broken build)
+
+## v2.12.0 — "Autonomicon" edition
+
+> 2025-09-07
+
+- (v13) Updated Plutonium Addon: Automation integration; updated internal automation generators to match current automation landscape
+- (v13) Added support for "Spellcasting Method"/"Preparation" to Importers; Prepared Spell Mass-Toggler
+- (v13) Added "Unwrap Long Compendium Names" Config option
+- Added "Minimum Permission Level for Directory Buttons" Importer option, for anyone brave enough to give their players full access to the buttons
+- Updated '24 PHB automations
+- Added Foundry-style rendering to links in Loot Generator output
+- (v13) Fixed possible startup crash due to conflict with other modules
+- (v13) Fixed sizing of "Embedded URL" journal entry content
+- (v13) Fixed backend mod "custom login" styling support
+- (v13) Fixed "Fix ESC Key" failing to detect when the main menu is open
+- (v13) Fixed Streamer Mode failing to obfuscate module name in settings; module management
+- (v13) Fixed Importer crash when attempting to show title-less modal window
+- (v13) Fixed Creature Importer crash when importing to an existing actor
+- (v13) Fixed application of "Wrap Long Folder Names" Config option
+- (v13) Fixed rare non-blocking error when initializing chat handlers
+- Fixed Class Importer failing to set prepared spell class/subclass sources
+- Fixed Action Importer failing to set activation type
+
 ## v2.11.0 — "Always Split the Party" edition
 
 > 2025-08-15

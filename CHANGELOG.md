@@ -1,3 +1,11 @@
+### v2.12.2
+
+> 2025-09-09
+
+- (v13) Improved Level Up button styling when using Tidy5e Sheet
+- (v13) Fixed doubled actor sheet menu items when using Tidy5e Sheet
+- (v13) Fixed Creature Importer crash when importing a creature with a "Parry" ability  when using Automation Addon
+
 ### v2.12.1
 
 > 2025-09-07

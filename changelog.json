@@ -1772,5 +1772,10 @@
 		"ver": "2.12.1",
 		"date": "2025-09-07",
 		"txt": "- (Fixed broken build)"
+	},
+	{
+		"ver": "2.12.2",
+		"date": "2025-09-09",
+		"txt": "- (v13) Improved Level Up button styling when using Tidy5e Sheet\n- (v13) Fixed doubled actor sheet menu items when using Tidy5e Sheet\n- (v13) Fixed Creature Importer crash when importing a creature with a \"Parry\" ability  when using Automation Addon"
 	}
 ]

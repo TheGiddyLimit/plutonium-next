@@ -1777,5 +1777,10 @@
 		"ver": "2.12.2",
 		"date": "2025-09-09",
 		"txt": "- (v13) Improved Level Up button styling when using Tidy5e Sheet\n- (v13) Fixed doubled actor sheet menu items when using Tidy5e Sheet\n- (v13) Fixed Creature Importer crash when importing a creature with a \"Parry\" ability  when using Automation Addon"
+	},
+	{
+		"ver": "2.12.3",
+		"date": "2025-09-17",
+		"txt": "- (v13) The Creature Importer now attempts to generate cast activities on imported spellcasting items\n- (v13) Improved compatibility with v13 fork of \"Simple Calendar\" the module\n- Improved compatibility with the \"Moulinette Media Search\" module\n- (v13; Automation) Fixed loaded activities losing required IDs"
 	}
 ]

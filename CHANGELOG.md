@@ -1,3 +1,12 @@
+### v2.12.3
+
+> 2025-09-17
+
+- (v13) The Creature Importer now attempts to generate cast activities on imported spellcasting items
+- (v13) Improved compatibility with v13 fork of "Simple Calendar" the module
+- Improved compatibility with the "Moulinette Media Search" module
+- (v13; Automation) Fixed loaded activities losing required IDs
+
 ### v2.12.2
 
 > 2025-09-09

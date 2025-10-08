@@ -1,3 +1,10 @@
+### v2.12.5
+
+> 2025-10-08
+
+- (v13) Migrated deprecated API usage
+- (Added support for main site changes)
+
 ### v2.12.4
 
 > 2025-10-04

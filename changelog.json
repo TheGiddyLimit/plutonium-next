@@ -1787,5 +1787,10 @@
 		"ver": "2.12.4",
 		"date": "2025-10-04",
 		"txt": "- (v13) Fixed crash when attempting to apply compendium Ownership Updater changes\n- (v13) Further improved Level Up button styling when using Tidy5e Sheet\n- (v13) Fixed non-GM-user crash when attempting to add Level Up button to a sheet when \"Level Advancement without XP\" dnd5e option is used in conjunction with disabling \"Allow Individual Rests\" dnd5e option\n- (v13) Fixed crash when attempting to import items to a container on an actor\n- Fixed Rivet failing to set dice roll mode when using the \"Send Rolls\" option with \"Whisper Rolls\" disabled\n- Fixed Class Importer requiring manual dice input when testing validity of roll formula\n- Fixed Map Importer failing to uniquely name maps, thereby making them un-importable, in some cases\n- Fixed Map Importer combat map grids using non-standard (i.e., not \"5 ft.\") grid sizing\n- Fixed input prompt modals failing to open in some cases\n- Improved compatibility with the \"Terrain Height Tools\" module\n- (Brew) Added support for `\"foundryAdvice\"`, which appends provided entries (as a Foundry-specific hint inset) to imported descriptions"
+	},
+	{
+		"ver": "2.12.5",
+		"date": "2025-10-08",
+		"txt": "- (v13) Migrated deprecated API usage\n- (Added support for main site changes)"
 	}
 ]

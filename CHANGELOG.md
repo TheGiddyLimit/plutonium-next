@@ -1,3 +1,24 @@
+### v2.12.6
+
+> 2025-10-30
+
+- (v13) Fixed "Import" button failing to appear in temporary document menu when using Tidy5e Sheet
+- (v13) Fixed advancement flow being incorrectly invoked when adding a Plutonium-imported class to a sheet via the compendium browser
+- (v13) When using metric unit options, fixed Importers failing to output metric units in some cases
+- Added map grid data for Heroes of the Borderlands (thanks @ Lyra)
+- Manually-added blocklist entries are now tracked separately from automatically-added blocklist entries, preventing removal of manually-added entries when using the "Automatically Update Blocklist from Rules Version" Config option
+- Added various customization options to the "Display Missing Health" Config option/feature: "Hide Missing Health on Defeated Tokens", "Bloodied Text Color", "Only Display Missing Health as Bloodied", "Bloodied Text"
+- Added default icons for imported fighting styles to Feat/Optional Feature Importers
+- Added fallback on subclass image to Subclass Feature Importer when no subclass feature image is available
+- Switched to GitHub "release" download links over `raw.` links for module install/download, hopefully alleviating GitHub "429" install errors
+- Switched to "identifier"-based matching for Unarmed Strike, preventing item re-creation if the original has been renamed
+- Importers will now respect core "Ring Enabled" token override settings
+- Applied PHB'24 2.1.0 update to activities/effects
+- Fixed Creature Importer failing to set senses in some cases
+- Fixed Background Importer doubling feature text when importing to the items directory
+- Fixed Importers failing to set save challenge ability on activities
+- (Brew) Fixed Importer crash when attempting to load file which contains species versions
+
 ### v2.12.5
 
 > 2025-10-08

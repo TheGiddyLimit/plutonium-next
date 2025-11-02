@@ -1,3 +1,10 @@
+### v2.12.7
+
+> 2025-11-02
+
+- (v13) Added Tidy5e sheet compatibility for the 'Use Importer when Using "ADD ..." Button on Actor' Config option
+- (v12) Fixed crash when importing a creature with the "Enable Token Dynamic Rings" Config option enabled
+
 ### v2.12.6
 
 > 2025-10-30

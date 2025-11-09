@@ -1,3 +1,16 @@
+### v2.12.8
+
+> 2025-11-09
+
+- (v13) Fixed Tidy5e sheet compatibility for the 'Use Importer when Using "ADD ..." Button on Actor' Config option using incorrect libWrapper patch mode
+- (v13) Fixed Content Updater progress percentage display
+- (v13) Fixed Content Updater updating additional unwanted fields (e.g. spell "source class")
+- Added map grid data for Welcome to the Hellfire Club and Forgotten Realms: Adventures in Faerûn (thanks @ Lyra)
+- Fixed importing an entity with a choice of feats failing to display the "select feat" dropdown
+- Fixed Spell Importer failing to update spell preparation when using "Replacement Data Compendiums" Config option
+- Fixed Importer crash when importing save activities with no challenge ability
+- Fixed additional cases where Importer could fail to set save activity challenge
+
 ### v2.12.7
 
 > 2025-11-02

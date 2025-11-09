@@ -1802,5 +1802,10 @@
 		"ver": "2.12.7",
 		"date": "2025-11-02",
 		"txt": "- (v13) Added Tidy5e sheet compatibility for the 'Use Importer when Using \"ADD ...\" Button on Actor' Config option\n- (v12) Fixed crash when importing a creature with the \"Enable Token Dynamic Rings\" Config option enabled"
+	},
+	{
+		"ver": "2.12.8",
+		"date": "2025-11-09",
+		"txt": "- (v13) Fixed Tidy5e sheet compatibility for the 'Use Importer when Using \"ADD ...\" Button on Actor' Config option using incorrect libWrapper patch mode\n- (v13) Fixed Content Updater progress percentage display\n- (v13) Fixed Content Updater updating additional unwanted fields (e.g. spell \"source class\")\n- Added map grid data for Welcome to the Hellfire Club and Forgotten Realms: Adventures in Faerûn (thanks @ Lyra)\n- Fixed importing an entity with a choice of feats failing to display the \"select feat\" dropdown\n- Fixed Spell Importer failing to update spell preparation when using \"Replacement Data Compendiums\" Config option\n- Fixed Importer crash when importing save activities with no challenge ability\n- Fixed additional cases where Importer could fail to set save activity challenge"
 	}
 ]

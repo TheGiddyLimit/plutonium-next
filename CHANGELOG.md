@@ -1,3 +1,11 @@
+### v2.12.9
+
+> 2025-11-13
+
+- Switched to "disposition"-based toggles for "Display Missing Health" Config option, allowing different settings to be used for friends/foes
+- Added "Include Property Text in Description" Item Importer option, which allows the body text of properties to be rendered while still skipping the header
+- Fixed Spell Importer failing to set save activity challenge ability
+
 ### v2.12.8
 
 > 2025-11-09
@@ -9,7 +17,7 @@
 - Fixed importing an entity with a choice of feats failing to display the "select feat" dropdown
 - Fixed Spell Importer failing to update spell preparation when using "Replacement Data Compendiums" Config option
 - Fixed Importer crash when importing save activities with no challenge ability
-- Fixed additional cases where Importer could fail to set save activity challenge
+- Fixed additional cases where Importer could fail to set save activity challenge ability
 
 ### v2.12.7
 

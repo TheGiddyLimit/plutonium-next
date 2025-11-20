@@ -1,3 +1,10 @@
+### v2.12.10
+
+> 2025-11-20
+
+- (v13) Improved compatibility with the "Monk's TokenBar" module
+- Added map grid data for Astarion's Book of Hungers and Netheril's Fall (thanks @ Lyra)
+
 ### v2.12.9
 
 > 2025-11-13

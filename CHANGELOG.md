@@ -1,3 +1,14 @@
+## v2.13.0 — "Mors Ab Alto" edition
+
+> 2025-11-29
+
+- (v13) Added support for dnd5e 5.2.x (maintaining support for dnd5e 5.1.x)
+- Added "Elemental Airship" support to Vehicle Importer
+- The Vehicle Importer will now approximate token/vehicle "size" via crew/passenger capacity, if no size/dimension information is available
+- Added map grid data for Lorwyn: First Light (thanks @ Lyra)
+- Importers will now prefer URL-encoded image paths, where available, to improve compatibility with other modules
+- Fixed drag-dropping to a Tidy5e sheet from e.g. the Quick Insert module creating a copy of the dropped document in the sidebar
+
 ### v2.12.10
 
 > 2025-11-20

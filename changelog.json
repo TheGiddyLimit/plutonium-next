@@ -1823,5 +1823,10 @@
 		"date": "2025-11-29",
 		"title": "Mors Ab Alto",
 		"txt": "- (v13) Added support for dnd5e 5.2.x (maintaining support for dnd5e 5.1.x)\n- Added \"Elemental Airship\" support to Vehicle Importer\n- The Vehicle Importer will now approximate token/vehicle \"size\" via crew/passenger capacity, if no size/dimension information is available\n- Added map grid data for Lorwyn: First Light (thanks @ Lyra)\n- Importers will now prefer URL-encoded image paths, where available, to improve compatibility with other modules\n- Fixed drag-dropping to a Tidy5e sheet from e.g. the Quick Insert module creating a copy of the dropped document in the sidebar"
+	},
+	{
+		"ver": "2.13.1",
+		"date": "2025-12-14",
+		"txt": "- (v13) Fixed Class Importer cantrip/spell picker dialog failing to scroll on small displays\n- Added Species Feature Importer fallback on species image when no feature-specific image is available\n- Fixed Macros compendium pack failing to contain any macros\n- Fixed Map Importer failing to apply homebrew scene data in some cases\n- Fixed chain/rope item type/activities; fixed Unarmed Strike activity names; fixed class feature activity typos\n- (Brew) Added region support to Map Importer\n- (Brew) Fixed double-encoding of already-encoded image URLs"
 	}
 ]

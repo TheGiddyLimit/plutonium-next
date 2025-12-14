@@ -1,3 +1,15 @@
+### v2.13.1
+
+> 2025-12-14
+
+- (v13) Fixed Class Importer cantrip/spell picker dialog failing to scroll on small displays
+- Added Species Feature Importer fallback on species image when no feature-specific image is available
+- Fixed Macros compendium pack failing to contain any macros
+- Fixed Map Importer failing to apply homebrew scene data in some cases
+- Fixed chain/rope item type/activities; fixed Unarmed Strike activity names; fixed class feature activity typos
+- (Brew) Added region support to Map Importer
+- (Brew) Fixed double-encoding of already-encoded image URLs
+
 ## v2.13.0 — "Mors Ab Alto" edition
 
 > 2025-11-29

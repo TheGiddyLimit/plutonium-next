@@ -1,3 +1,9 @@
+### v2.13.2
+
+> 2025-12-14
+
+- Fixed Importers setting invalid activity IDs
+
 ### v2.13.1
 
 > 2025-12-14

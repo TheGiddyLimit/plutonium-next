@@ -1833,5 +1833,10 @@
 		"ver": "2.13.2",
 		"date": "2025-12-14",
 		"txt": "- Fixed Importers setting invalid activity IDs"
+	},
+	{
+		"ver": "2.13.3",
+		"date": "2025-12-15",
+		"txt": "- Fixed compatibility issue with the Midi QOL module"
 	}
 ]

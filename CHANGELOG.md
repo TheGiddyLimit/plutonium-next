@@ -1,3 +1,9 @@
+### v2.13.3
+
+> 2025-12-15
+
+- Fixed compatibility issue with the Midi QOL module
+
 ### v2.13.2
 
 > 2025-12-14

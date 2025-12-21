@@ -1,3 +1,13 @@
+### v2.13.4
+
+> 2025-12-21
+
+- Added Map Importer support for importing vehicle floor plans
+- Added "automatically managed" display to automatically-added Blocklist entries, which can no longer be manually removed _[as refreshing would cause them to regenerate anyway]_
+- Added grid data for Fated Flight of the Recluse maps (thanks @ Lyra)
+- Fixed Creature Importer setting incorrect dynamic token scale in some cases
+- Fixed Creature Importer failing to link legandary/mythic spellcasting actions in "Legendary/Mythic Actions" 'header' item
+
 ### v2.13.3
 
 > 2025-12-15

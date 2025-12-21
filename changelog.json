@@ -1838,5 +1838,10 @@
 		"ver": "2.13.3",
 		"date": "2025-12-15",
 		"txt": "- Fixed compatibility issue with the Midi QOL module"
+	},
+	{
+		"ver": "2.13.4",
+		"date": "2025-12-21",
+		"txt": "- Added Map Importer support for importing vehicle floor plans\n- Added \"automatically managed\" display to automatically-added Blocklist entries, which can no longer be manually removed _[as refreshing would cause them to regenerate anyway]_\n- Added grid data for Fated Flight of the Recluse maps (thanks @ Lyra)\n- Fixed Creature Importer setting incorrect dynamic token scale in some cases\n- Fixed Creature Importer failing to link legandary/mythic spellcasting actions in \"Legendary/Mythic Actions\" 'header' item"
 	}
 ]

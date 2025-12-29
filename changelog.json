@@ -1843,5 +1843,10 @@
 		"ver": "2.13.4",
 		"date": "2025-12-21",
 		"txt": "- Added Map Importer support for importing vehicle floor plans\n- Added \"automatically managed\" display to automatically-added Blocklist entries, which can no longer be manually removed _[as refreshing would cause them to regenerate anyway]_\n- Added grid data for Fated Flight of the Recluse maps (thanks @ Lyra)\n- Fixed Creature Importer setting incorrect dynamic token scale in some cases\n- Fixed Creature Importer failing to link legandary/mythic spellcasting actions in \"Legendary/Mythic Actions\" 'header' item"
+	},
+	{
+		"ver": "2.13.5",
+		"date": "2025-12-29",
+		"txt": "- (v13) Fixed Class Importer generating '24-style Unarmed Strike when using 2014 rules\n- Added map grid data for vehicle maps (thanks @ Lyra)\n- Fixed Background Importer crash when importing a background with custom features\n- Fixed \"Render >4 Levels of Folder Nesting\" Config option failing to apply on initial load\n- (Brew) Fixed prerelease/homebrew content having inconsistent source \"Rules Version\"\n- (Brew) Fixed `\"additionalSpell\"` class list references failing to fully populate\n- (Brew) Added speculative `tokenHref3d` support to Creature/Vehicle/Object Importers "
 	}
 ]

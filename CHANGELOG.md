@@ -1,3 +1,15 @@
+### v2.13.5
+
+> 2025-12-29
+
+- (v13) Fixed Class Importer generating '24-style Unarmed Strike when using 2014 rules
+- Added map grid data for vehicle maps (thanks @ Lyra)
+- Fixed Background Importer crash when importing a background with custom features
+- Fixed "Render >4 Levels of Folder Nesting" Config option failing to apply on initial load
+- (Brew) Fixed prerelease/homebrew content having inconsistent source "Rules Version"
+- (Brew) Fixed `"additionalSpell"` class list references failing to fully populate
+- (Brew) Added speculative `tokenHref3d` support to Creature/Vehicle/Object Importers 
+
 ### v2.13.4
 
 > 2025-12-21

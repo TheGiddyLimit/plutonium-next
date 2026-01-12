@@ -1,3 +1,19 @@
+### v2.13.6
+
+> 2026-01-12
+
+- (v13) Fixed drag-dropping to a _non-player_ Tidy5e sheet from e.g. the Quick Insert module creating a copy of the dropped document in the sidebar
+- Tweaked World Content Blocklist auto-management strategy to avoid auto-managed values getting "stuck"
+- Exposed Equipment Shop via the API (`game.modules.get("plutonium").api.equipmentShop.pOpen`)
+- Fixed Importers failing to set "allow critical damage" on items in some cases
+- Fixed Importers importing junk activity consumption when importing via Rivet, or when importing to a directory
+- Fixed duplicate "Languages" sheet item for '14 species when importing under '24 rules
+- Fixed UI flicker when opening Import Wizard
+- Fixed Equipment Shop "Add All" button adding items with invalid sources
+- Fixed Quick Insert drag-drops failing to trigger the full Importer flow
+- (Brew) Added `foundryMonster*` support to Creature Feature Importer
+ 
+
 ### v2.13.5
 
 > 2025-12-29

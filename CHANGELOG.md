@@ -1,3 +1,9 @@
+### v2.13.7
+
+> 2026-01-13
+
+- Fixed Importer crash when no prerelease content/homebrew is available (e.g. on a network error)
+
 ### v2.13.6
 
 > 2026-01-12
@@ -12,7 +18,6 @@
 - Fixed Equipment Shop "Add All" button adding items with invalid sources
 - Fixed Quick Insert drag-drops failing to trigger the full Importer flow
 - (Brew) Added `foundryMonster*` support to Creature Feature Importer
- 
 
 ### v2.13.5
 

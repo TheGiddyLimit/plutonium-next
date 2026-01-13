@@ -1858,5 +1858,10 @@
 		"ver": "2.13.7",
 		"date": "2026-01-13",
 		"txt": "- Fixed Importer crash when no prerelease content/homebrew is available (e.g. on a network error)"
+	},
+	{
+		"ver": "2.13.8",
+		"date": "2026-01-13",
+		"txt": "- (v13) Fixed rare crash when initially rendering Import Wizard\n- Fixed crash when opening Import Wizard for the first time in a world\n- Fixed \"Render >4 Levels of Folder Nesting\" Config option crashing when game contains chat messages on load"
 	}
 ]

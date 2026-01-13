@@ -1,3 +1,11 @@
+### v2.13.8
+
+> 2026-01-13
+
+- (v13) Fixed rare crash when initially rendering Import Wizard
+- Fixed crash when opening Import Wizard for the first time in a world
+- Fixed "Render >4 Levels of Folder Nesting" Config option crashing when game contains chat messages on load
+
 ### v2.13.7
 
 > 2026-01-13

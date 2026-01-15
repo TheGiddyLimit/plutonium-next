@@ -1863,5 +1863,10 @@
 		"ver": "2.13.8",
 		"date": "2026-01-13",
 		"txt": "- (v13) Fixed rare crash when initially rendering Import Wizard\n- Fixed crash when opening Import Wizard for the first time in a world\n- Fixed \"Render >4 Levels of Folder Nesting\" Config option crashing when game contains chat messages on load"
+	},
+	{
+		"ver": "2.13.9",
+		"date": "2026-01-15",
+		"txt": "- (v13) Fixed drag-drop of rendered `@tag`s to a Tidy5e sheet\n- Fixed Importer crash when migrating '14 homebrew"
 	}
 ]

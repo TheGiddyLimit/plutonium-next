@@ -1,3 +1,10 @@
+### v2.13.9
+
+> 2026-01-15
+
+- (v13) Fixed drag-drop of rendered `@tag`s to a Tidy5e sheet
+- Fixed Importer crash when migrating '14 homebrew
+
 ### v2.13.8
 
 > 2026-01-13

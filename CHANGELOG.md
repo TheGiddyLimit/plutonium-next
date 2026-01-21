@@ -1,3 +1,11 @@
+### v2.13.10
+
+> 2026-01-21
+
+- (v13) Added support for dnd5e 5.2.5
+- (v13) Fixed Spell Importer setting junk area shape in some cases, which could result in a crash when attempting to use the spell
+- Fixed Level Up button class-picker "Confirm" failing to register inputs
+
 ### v2.13.9
 
 > 2026-01-15

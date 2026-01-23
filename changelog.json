@@ -1873,5 +1873,10 @@
 		"ver": "2.13.10",
 		"date": "2026-01-21",
 		"txt": "- (v13) Added support for dnd5e 5.2.5\n- (v13) Fixed Spell Importer setting junk area shape in some cases, which could result in a crash when attempting to use the spell\n- Fixed Level Up button class-picker \"Confirm\" failing to register inputs"
+	},
+	{
+		"ver": "2.13.11",
+		"date": "2026-01-23",
+		"txt": "- (v13) Fixed crash when using cast activities under dnd5e <= 5.2.4\n- Fixed incorrect handling of custom currency conversion tables (notably in the Equipment Shop)\n- Fixed crash when expanding list previews"
 	}
 ]

@@ -1,3 +1,11 @@
+### v2.13.11
+
+> 2026-01-23
+
+- (v13) Fixed crash when using cast activities under dnd5e <= 5.2.4
+- Fixed incorrect handling of custom currency conversion tables (notably in the Equipment Shop)
+- Fixed crash when expanding list previews
+
 ### v2.13.10
 
 > 2026-01-21

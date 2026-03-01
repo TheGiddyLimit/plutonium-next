@@ -1,3 +1,13 @@
+## v2.14.0
+
+> 2026-03-01
+
+- Improved Importer handling of "plus your <class> level" text
+- Fixed modded backend version mismatch error
+- (Brew) Added "forward" activity support
+- _[(v14) Added initial v14-compatible version (Patron-only, until Foundry v14 stable is released)]_
+- _[(v14) Added support for dnd5e 5.3.x, and dropped support for dnd5e 5.2.x.]_
+
 ### v2.13.13
 
 > 2026-02-15

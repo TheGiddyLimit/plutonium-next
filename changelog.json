@@ -1888,5 +1888,10 @@
 		"ver": "2.13.13",
 		"date": "2026-02-15",
 		"txt": "- (v13) Hardened apps against global ID pollution _[thus improving compatibility with the premium \"Tome of Beasts II\" module :^)]_\n- Fixed Import Wizard failing to render when opened from a sheet \"ADD...\" button in some more cases\n- Fixed Background Importer swallowing attached feats and marking the import as \"cancelled\" in some cases"
+	},
+	{
+		"ver": "2.14.0",
+		"date": "2026-03-01",
+		"txt": "- Improved Importer handling of \"plus your <class> level\" text\n- Fixed modded backend version mismatch error\n- (Brew) Added \"forward\" activity support\n- _[(v14) Added initial v14-compatible version (Patron-only, until Foundry v14 stable is released)]_\n- _[(v14) Added support for dnd5e 5.3.x, and dropped support for dnd5e 5.2.x.]_"
 	}
 ]

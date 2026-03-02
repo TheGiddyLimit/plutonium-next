@@ -1,3 +1,9 @@
+### v2.14.1
+
+> 2026-03-02
+
+- Fixed crash when opening a "select one"-style Importer (Class/Subclass/Species/Background) on an actor sheet
+
 ## v2.14.0
 
 > 2026-03-01

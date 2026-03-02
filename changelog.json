@@ -1893,5 +1893,10 @@
 		"ver": "2.14.0",
 		"date": "2026-03-01",
 		"txt": "- Improved Importer handling of \"plus your <class> level\" text\n- Fixed modded backend version mismatch error\n- (Brew) Added \"forward\" activity support\n- _[(v14) Added initial v14-compatible version (Patron-only, until Foundry v14 stable is released)]_\n- _[(v14) Added support for dnd5e 5.3.x, and dropped support for dnd5e 5.2.x.]_"
+	},
+	{
+		"ver": "2.14.1",
+		"date": "2026-03-02",
+		"txt": "- Fixed crash when opening a \"select one\"-style Importer (Class/Subclass/Species/Background) on an actor sheet"
 	}
 ]

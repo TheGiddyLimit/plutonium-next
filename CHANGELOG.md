@@ -1,3 +1,15 @@
+### v2.15.4
+
+> 2026-05-24
+
+- Added "Force Import Redirects for "@tag" Links" which will, when importing an adventure/book or clicking an `@tag`, ensure the most-recent-reprinting of the linked entity (e.g. MTF "Bronze Scout" -> MPMM "Clockwork Bronze Scout") is used
+- Added workaround for missing HP when importing a player class to an NPC
+- Added auto-calculation of spellcasting "Preparation Formula" to Class Importer for '14 classes 
+- Fixed non-Plutonium drag-drops to various places (e.g. region configuration UI) being incorrectly handled/squashed by Plutonium
+- Fixed Class Importer failing to respect `game.system.config.CHARACTER_EXP_LEVELS` in some cases
+- Fixed Item Importer crash when failing to parse weapon damage expression
+- (Brew) Fixed homebrew loader attempting to load non-`.json` files found in local homebrew folder
+
 ### v2.15.3
 
 > 2026-04-26

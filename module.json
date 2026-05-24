@@ -3,7 +3,7 @@
 	"type": "module",
 	"title": "Plutonium",
 	"description": "A <a href=\"https://5e.tools\" target=\"_blank\" rel=\"noopener noreferrer\">5etools</a> integration for Foundry VTT.",
-	"version": "2.15.3",
+	"version": "2.15.4",
 	"authors": [
 		{
 			"name": "Giddy",
@@ -21,10 +21,10 @@
 	"changelog": "https://raw.githubusercontent.com/TheGiddyLimit/plutonium-next/master/CHANGELOG.md",
 	"url": "https://www.patreon.com/Giddy5e",
 	"manifest": "https://github.com/TheGiddyLimit/plutonium-next/releases/latest/download/module.json",
-	"download": "https://github.com/TheGiddyLimit/plutonium-next/releases/download/v2.15.3/plutonium.zip",
+	"download": "https://github.com/TheGiddyLimit/plutonium-next/releases/download/v2.15.4/plutonium.zip",
 	"compatibility": {
 		"minimum": "14",
-		"verified": "14.360",
+		"verified": "14.363",
 		"maximum": "14.999"
 	},
 	"socket": true,
@@ -59,7 +59,7 @@
 				"type": "system",
 				"compatibility": {
 					"minimum": "5.3.0",
-					"verified": "5.3.2",
+					"verified": "5.3.3",
 					"maximum": "5.3.999"
 				}
 			},

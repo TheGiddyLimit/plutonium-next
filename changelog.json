@@ -1944,5 +1944,10 @@
 		"ver": "2.15.5",
 		"date": "2026-05-28",
 		"txt": "- Fixed migrated dnd5e <5.2.x actors losing their class advancements when levelling up via the Class Importer"
+	},
+	{
+		"ver": "2.15.6",
+		"date": "2026-05-28",
+		"txt": "- Fixed crash when initializing internal Importer entity list"
 	}
 ]

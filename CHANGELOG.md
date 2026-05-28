@@ -1,3 +1,9 @@
+### v2.15.6
+
+> 2026-05-28
+
+- Fixed crash when initializing internal Importer entity list
+
 ### v2.15.5
 
 > 2026-05-28

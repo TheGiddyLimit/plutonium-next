@@ -1,3 +1,9 @@
+### v2.15.5
+
+> 2026-05-28
+
+- Fixed migrated dnd5e <5.2.x actors losing their class advancements when levelling up via the Class Importer
+
 ### v2.15.4
 
 > 2026-05-24

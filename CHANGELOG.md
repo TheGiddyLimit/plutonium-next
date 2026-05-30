@@ -1,3 +1,9 @@
+### v2.15.7
+
+> 2026-05-30
+
+- Updated Tidy5e Sheet support for compatibility with v13.4.x+
+
 ### v2.15.6
 
 > 2026-05-28

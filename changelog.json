@@ -1949,5 +1949,10 @@
 		"ver": "2.15.6",
 		"date": "2026-05-28",
 		"txt": "- Fixed crash when initializing internal Importer entity list"
+	},
+	{
+		"ver": "2.15.7",
+		"date": "2026-05-30",
+		"txt": "- Updated Tidy5e Sheet support for compatibility with v13.4.x+"
 	}
 ]

@@ -1954,5 +1954,10 @@
 		"ver": "2.15.7",
 		"date": "2026-05-30",
 		"txt": "- Updated Tidy5e Sheet support for compatibility with v13.4.x+"
+	},
+	{
+		"ver": "2.15.8",
+		"date": "2026-06-09",
+		"txt": "- Improved compatibility with the RSReforged module, reducing console warning spam"
 	}
 ]

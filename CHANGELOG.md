@@ -1,3 +1,9 @@
+### v2.15.8
+
+> 2026-06-09
+
+- Improved compatibility with the RSReforged module, reducing console warning spam
+
 ### v2.15.7
 
 > 2026-05-30

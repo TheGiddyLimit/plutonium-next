@@ -1959,5 +1959,10 @@
 		"ver": "2.15.8",
 		"date": "2026-06-09",
 		"txt": "- Improved compatibility with the RSReforged module, reducing console warning spam"
+	},
+	{
+		"ver": "2.15.9",
+		"date": "2026-06-14",
+		"txt": "- Added _Ravenloft: The Horrors Within_ map grid data (thanks @ Lyra)\n- Fixed Importers failing to use Modern (5.5e)-styled fallback/blank token in some cases"
 	}
 ]

@@ -1,3 +1,10 @@
+### v2.15.9
+
+> 2026-06-14
+
+- Added _Ravenloft: The Horrors Within_ map grid data (thanks @ Lyra)
+- Fixed Importers failing to use Modern (5.5e)-styled fallback/blank token in some cases
+
 ### v2.15.8
 
 > 2026-06-09

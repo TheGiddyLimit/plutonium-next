@@ -1,3 +1,10 @@
+### v2.15.10
+
+> 2026-06-19
+
+- Fixed Importers failing to load folder paths in some cases
+- Fixed Adventure/Book Importers generating junk folder paths by default
+
 ### v2.15.9
 
 > 2026-06-14

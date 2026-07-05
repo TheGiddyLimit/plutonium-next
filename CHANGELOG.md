@@ -1,3 +1,29 @@
+## v2.16.0 — "Procedural Party Punishment" edition
+
+> 2026-07-05
+
+- Added Encounter Builder app, including:
+  - All features from the 5etools encounter builder
+  - Rivet support
+  - Foundry "party" actor integration, allowing difficulty to be calculated and encounters generated based on a chosen party sheet
+  - Support for drag-drop of Foundry actors:
+    - "npc" actors are added to the encounter. Optionally, NPCs may be converted to 5etools creatures, enabling additional functionality (i.e., CR scaling).
+    - "party"actors are selected in the party actor integration
+    - "encounter" actors have their NPCs added to the encounter, in appropriate quantities
+  - Optional automatic encounter actor name generation (either using the party information and difficulty, or, the number and names of creatures)
+  - Optional Foundry hotkey bindings
+- Added source selector to Loot Generator (previously relied upon currently-loaded/local homebrew)
+- Added "Loading..." overlay to Loot Generator
+- Improved legibility of World Content Blocklist UI
+- Improved layout of Equipment Shop item add/remove buttons
+- Fixed Creature Importer failing to set consumes-self-uses info on creature spells in some cases
+- Fixed Import Wizard "Select existing..." folder picker failing to update on world folder change
+- Fixed Import Wizard "Select existing..." folder picker having inconsistent styling
+- Fixed Import Wizard failing to close when closing import-target sheet in some cases
+- Fixed crash when drag-dropping a Foundry-style like generated from an `@tag[...]`
+- Fixed various minor styling issues
+- (Brew) Fixed non-local, non-repo homebrew failure to load when opening a character sheet with the Level Up button enabled preventing that homebrew from later being loaded
+
 ### v2.15.10
 
 > 2026-06-19

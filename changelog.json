@@ -1969,5 +1969,12 @@
 		"ver": "2.15.10",
 		"date": "2026-06-19",
 		"txt": "- Fixed Importers failing to load folder paths in some cases\n- Fixed Adventure/Book Importers generating junk folder paths by default"
+	},
+	{
+		"ver": "2.16.0",
+		"date": "2026-07-05",
+		"title": "Procedural Party Punishment",
+		"titleAlt": "Generating Groups of Goblins",
+		"txt": "- Added Encounter Builder app, including:\n  - All features from the 5etools encounter builder\n  - Rivet support\n  - Foundry \"party\" actor integration, allowing difficulty to be calculated and encounters generated based on a chosen party sheet\n  - Support for drag-drop of Foundry actors:\n    - \"npc\" actors are added to the encounter. Optionally, NPCs may be converted to 5etools creatures, enabling additional functionality (i.e., CR scaling).\n    - \"party\"actors are selected in the party actor integration\n    - \"encounter\" actors have their NPCs added to the encounter, in appropriate quantities\n  - Optional automatic encounter actor name generation (either using the party information and difficulty, or, the number and names of creatures)\n  - Optional Foundry hotkey bindings\n- Added source selector to Loot Generator (previously relied upon currently-loaded/local homebrew)\n- Added \"Loading...\" overlay to Loot Generator\n- Improved legibility of World Content Blocklist UI\n- Improved layout of Equipment Shop item add/remove buttons\n- Fixed Creature Importer failing to set consumes-self-uses info on creature spells in some cases\n- Fixed Import Wizard \"Select existing...\" folder picker failing to update on world folder change\n- Fixed Import Wizard \"Select existing...\" folder picker having inconsistent styling\n- Fixed Import Wizard failing to close when closing import-target sheet in some cases\n- Fixed crash when drag-dropping a Foundry-style like generated from an `@tag[...]`\n- Fixed various minor styling issues\n- (Brew) Fixed non-local, non-repo homebrew failure to load when opening a character sheet with the Level Up button enabled preventing that homebrew from later being loaded"
 	}
 ]

@@ -20,7 +20,7 @@
 - Fixed Import Wizard "Select existing..." folder picker failing to update on world folder change
 - Fixed Import Wizard "Select existing..." folder picker having inconsistent styling
 - Fixed Import Wizard failing to close when closing import-target sheet in some cases
-- Fixed crash when drag-dropping a Foundry-style like generated from an `@tag[...]`
+- Fixed crash when drag-dropping a Foundry-style link generated from an `@tag[...]`
 - Fixed various minor styling issues
 - (Brew) Fixed non-local, non-repo homebrew failure to load when opening a character sheet with the Level Up button enabled preventing that homebrew from later being loaded
 

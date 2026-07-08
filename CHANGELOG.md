@@ -1,3 +1,17 @@
+### v2.16.2
+
+> 2026-07-08
+
+- Fixed Class Importer failing to present cantrip-selection screen for subclass spellcasting
+- Fixed synthetic Midi-QOL-compatibility-shim module entries being added when Midi QOL was not active (and renamed for clarity)
+- (Server) Added error handling for failing to find request user in the users database
+
+### v2.16.1
+
+> 2026-07-05
+
+- (Literally nothing)
+
 ## v2.16.0 — "Procedural Party Punishment" edition
 
 > 2026-07-05

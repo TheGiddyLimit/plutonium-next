@@ -1,3 +1,18 @@
+## v2.17.0 — "$o Long, Old Friend" edition
+
+> 2026-07-27
+
+- Migrated away from dependency on jQuery _[aside from future-proofing, this allowed the final jQuery shims to be removed from 5etools. The entire stack is now good ol' Vanilla JS:tm:]_
+- Added "Token Append Incrementing Number" and "Token Prepend Random Adjective" options to Importers which create tokens
+- Fixed Class Importer importing all spells from prepared-spellcaster spell lists as "Prepared"
+- Fixed Creature Importer failing to set correct target count for "each creature" saving throws in some cases
+- Fixed Adventure/Book importers failing to allow correct folder customization for sub-importers (note that previously-saved data was junked, so folder path configs may be reset on next load)
+- Fixed World Content Blocklist application Config options failing to apply to expected user types
+- Fixed Prepared Spell Mass-Toggler "save" name failing to update when saving a modified name, and added "Update complete!" notification
+- Fixed `@EmbedUUID` failing to resolve relative UUIDs
+- Fixed various minor tool/picker UI element issues
+- Internally namespaced HTML element property additions to avoid conflicts with other modules
+
 ### v2.16.2
 
 > 2026-07-08

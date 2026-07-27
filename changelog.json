@@ -1986,5 +1986,12 @@
 		"ver": "2.16.2",
 		"date": "2026-07-08",
 		"txt": "- Fixed Class Importer failing to present cantrip-selection screen for subclass spellcasting\n- Fixed synthetic Midi-QOL-compatibility-shim module entries being added when Midi QOL was not active (and renamed for clarity)\n- (Server) Added error handling for failing to find request user in the users database"
+	},
+	{
+		"ver": "2.17.0",
+		"date": "2026-07-27",
+		"title": "$o Long, Old Friend",
+		"titleAlt": "What could Possibly Go Wrong",
+		"txt": "- Migrated away from dependency on jQuery _[aside from future-proofing, this allowed the final jQuery shims to be removed from 5etools. The entire stack is now good ol' Vanilla JS:tm:]_\n- Added \"Token Append Incrementing Number\" and \"Token Prepend Random Adjective\" options to Importers which create tokens\n- Fixed Class Importer importing all spells from prepared-spellcaster spell lists as \"Prepared\"\n- Fixed Creature Importer failing to set correct target count for \"each creature\" saving throws in some cases\n- Fixed Adventure/Book importers failing to allow correct folder customization for sub-importers (note that previously-saved data was junked, so folder path configs may be reset on next load)\n- Fixed World Content Blocklist application Config options failing to apply to expected user types\n- Fixed Prepared Spell Mass-Toggler \"save\" name failing to update when saving a modified name, and added \"Update complete!\" notification\n- Fixed `@EmbedUUID` failing to resolve relative UUIDs\n- Fixed various minor tool/picker UI element issues\n- Internally namespaced HTML element property additions to avoid conflicts with other modules"
 	}
 ]

@@ -1,3 +1,10 @@
+### v2.17.1
+
+> 2026-07-31
+
+- Improved support for ability score advancements in various Importers, adding chosen ability scores where available
+- Fixed Level Up button failing to appear in alternate levelling modes
+
 ## v2.17.0 — "$o Long, Old Friend" edition
 
 > 2026-07-27

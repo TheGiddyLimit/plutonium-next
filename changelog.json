@@ -1998,5 +1998,10 @@
 		"ver": "2.17.1",
 		"date": "2026-07-31",
 		"txt": "- Improved support for ability score advancements in various Importers, adding chosen ability scores where available\n- Fixed Level Up button failing to appear in alternate levelling modes"
+	},
+	{
+		"ver": "2.17.2",
+		"date": "2026-08-03",
+		"txt": "- Fixed hover windows failing to close when mousing away from their source link\n- (Brew) Added support for custom class `\"armor\"`; `\"armorProficiencies\"`"
 	}
 ]

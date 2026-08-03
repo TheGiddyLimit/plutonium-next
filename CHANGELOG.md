@@ -1,3 +1,10 @@
+### v2.17.2
+
+> 2026-08-03
+
+- Fixed hover windows failing to close when mousing away from their source link
+- (Brew) Added support for custom class `"armor"`; `"armorProficiencies"`
+
 ### v2.17.1
 
 > 2026-07-31

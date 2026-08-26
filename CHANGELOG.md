@@ -1,3 +1,17 @@
+## v2.18.0 — "Actively Horrible" edition
+
+> 2026-08-26
+
+- Added activities and effects for _Ravenloft: The Horrors Within_ content
+- Added "Skill Customization Mode" and "Language & Tool Customization Mode" Background Importer Config options, which control customization behaviour when importing 5e/'14 backgrounds in 5e/'14 rules mode
+- Improved Class Importer handling of badly-migrated advancements during level-up _[hopefully]_
+- Added modified system currency support to Equipment Shop
+- Fixed rendering of statblocks in non-adventure/book Importers
+- Fixed Importers failing to apply spell consumption target information from feats in some cases
+- Fixed Config Editor clobbering programmatically-applied changes when clicking "Apply"/"Save"
+- Fixed crash when processing Rivet messages on Firefox
+- Fixed Creature Importer failing to set target areas for 5e/'14 dragon "line" breath attacks
+
 ### v2.17.2
 
 > 2026-08-03

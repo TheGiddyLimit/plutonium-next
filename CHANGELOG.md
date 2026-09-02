@@ -1,3 +1,10 @@
+### v2.18.1
+
+> 2026-09-02
+
+- Fixed Importer crash when incorrectly attempting to make non-GM user configure compendium when using the "Use Advancement-Backing Compendium" Config option
+- Fixed Importer handling of dexterity modifier in damage expressions
+
 ## v2.18.0 — "Actively Horrible" edition
 
 > 2026-08-26

@@ -2010,5 +2010,10 @@
 		"title": "Actively Horrible",
 		"titleAlt": "As opposed to \"Passively Pleasant\"",
 		"txt": "- Added activities and effects for _Ravenloft: The Horrors Within_ content\n- Added \"Skill Customization Mode\" and \"Language & Tool Customization Mode\" Background Importer Config options, which control customization behaviour when importing 5e/'14 backgrounds in 5e/'14 rules mode\n- Improved Class Importer handling of badly-migrated advancements during level-up _[hopefully]_\n- Added modified system currency support to Equipment Shop\n- Fixed rendering of statblocks in non-adventure/book Importers\n- Fixed Importers failing to apply spell consumption target information from feats in some cases\n- Fixed Config Editor clobbering programmatically-applied changes when clicking \"Apply\"/\"Save\"\n- Fixed crash when processing Rivet messages on Firefox\n- Fixed Creature Importer failing to set target areas for 5e/'14 dragon \"line\" breath attacks"
+	},
+	{
+		"ver": "2.18.1",
+		"date": "2026-09-02",
+		"txt": "- Fixed Importer crash when incorrectly attempting to make non-GM user configure compendium when using the \"Use Advancement-Backing Compendium\" Config option\n- Fixed Importer handling of dexterity modifier in damage expressions"
 	}
 ]

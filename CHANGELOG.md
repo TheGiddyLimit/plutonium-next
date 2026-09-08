@@ -1,3 +1,9 @@
+### v2.18.2
+
+> 2026-09-08
+
+- Improved Class Importer handling of "sidekick" classes
+
 ### v2.18.1
 
 > 2026-09-02

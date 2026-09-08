@@ -2015,5 +2015,10 @@
 		"ver": "2.18.1",
 		"date": "2026-09-02",
 		"txt": "- Fixed Importer crash when incorrectly attempting to make non-GM user configure compendium when using the \"Use Advancement-Backing Compendium\" Config option\n- Fixed Importer handling of dexterity modifier in damage expressions"
+	},
+	{
+		"ver": "2.18.2",
+		"date": "2026-09-08",
+		"txt": "- Improved Class Importer handling of \"sidekick\" classes"
 	}
 ]

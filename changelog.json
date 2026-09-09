@@ -2020,5 +2020,10 @@
 		"ver": "2.18.2",
 		"date": "2026-09-08",
 		"txt": "- Improved Class Importer handling of \"sidekick\" classes"
+	},
+	{
+		"ver": "2.18.3",
+		"date": "2026-09-09",
+		"txt": "- Fixed the Adventure/Book Importer showing pre-redirected (i.e., '14-source when in '24 rules mode) linked creature/item/etc. counts, and enabled the 'Force Import Redirects for \"@tag\" Links' Config option by default"
 	}
 ]

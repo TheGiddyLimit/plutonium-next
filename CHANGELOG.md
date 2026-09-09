@@ -1,3 +1,9 @@
+### v2.18.3
+
+> 2026-09-09
+
+- Fixed the Adventure/Book Importer showing pre-redirected (i.e., '14-source when in '24 rules mode) linked creature/item/etc. counts, and enabled the 'Force Import Redirects for "@tag" Links' Config option by default
+
 ### v2.18.2
 
 > 2026-09-08

@@ -2025,5 +2025,12 @@
 		"ver": "2.18.3",
 		"date": "2026-09-09",
 		"txt": "- Fixed the Adventure/Book Importer showing pre-redirected (i.e., '14-source when in '24 rules mode) linked creature/item/etc. counts, and enabled the 'Force Import Redirects for \"@tag\" Links' Config option by default"
+	},
+	{
+		"ver": "2.19.0",
+		"date": "2026-09-16",
+		"title": "Supports Sixth Edition",
+		"titleAlt": "Maximal Effort, Minimal Results",
+		"txt": "- Dropped support for Foundry v13 _[old manifest URLs/etc. will remain available]_\n- Added support for dnd5e 6.0.x (while maintaining support for dnd5e 5.3.x)\n  - Added Item Importer support for multi-rarity output for \"group\" items\n  - Added Spell Importer support for generating rudimentary \"teleport\" activities\n  - Added Spell Importer support for generating rudimentary \"difficult terrain\" templates\n  - Added rudimentary item activity description output support to Importers in some cases (notably the Spell Importer)\n  - Added \"ring\" template shape generation support to Spell Importer _[largely as-yet unused, due to existing hand-specified data taking precedence]_\n  - (Brew) Added rudimentary \"usage\" advancement population to Class/Subclass Importer\n  - (Added support/handling for various other internal changes)\n- Added rudimentary applies-condition effect generation to Creature Feature Importer _[an expanded port of functionality previously only available when an automation module was active]_\n- Added support for pulling data from SRD 5.2 compendiums, fixing various minor issues (e.g. missing ability icons on imported 5.5e creatures)\n- Improved initial-load rendering performance of Importer list views\n- Split search module integration \"Hidden Categories\" Config options into per-\"Player\"/\"GM\" Config options\n- Added _Arcana Unleashed_ and _Ravenloft: The Horrors Within_ wall data (thanks @ Lyra); added _Arcana Unleashed_ map grid data (thanks @ Lyra)\n- Fixed Streamer Mode failing to obfuscate module name in \"Controls Configuration\" app\n- Fixed Item Importer failing to generate spell bonus damage effects\n- Fixed Class/Subclass Importer failing to populate skill/saving throw proficiency advancements in some cases\n- Fixed mis-aligned sub-folder header rows and on-modify flicker when using \"Compact Compendium Packs\" UI Config option\n- Fixed various lingering v14 deprecation warnings; minor migration issues\n"
 	}
 ]

@@ -1,3 +1,28 @@
+## v2.19.0 — "Supports Sixth Edition" edition
+
+> 2026-09-16
+
+- Dropped support for Foundry v13 _[old manifest URLs/etc. will remain available]_
+- Added support for dnd5e 6.0.x (while maintaining support for dnd5e 5.3.x)
+  - Added Item Importer support for multi-rarity output for "group" items
+  - Added Spell Importer support for generating rudimentary "teleport" activities
+  - Added Spell Importer support for generating rudimentary "difficult terrain" templates
+  - Added rudimentary item activity description output support to Importers in some cases (notably the Spell Importer)
+  - Added "ring" template shape generation support to Spell Importer _[largely as-yet unused, due to existing hand-specified data taking precedence]_
+  - (Brew) Added rudimentary "usage" advancement population to Class/Subclass Importer
+  - (Added support/handling for various other internal changes)
+- Added rudimentary applies-condition effect generation to Creature Feature Importer _[an expanded port of functionality previously only available when an automation module was active]_
+- Added support for pulling data from SRD 5.2 compendiums, fixing various minor issues (e.g. missing ability icons on imported 5.5e creatures)
+- Improved initial-load rendering performance of Importer list views
+- Split search module integration "Hidden Categories" Config options into per-"Player"/"GM" Config options
+- Added _Arcana Unleashed_ and _Ravenloft: The Horrors Within_ wall data (thanks @ Lyra); added _Arcana Unleashed_ map grid data (thanks @ Lyra)
+- Fixed Streamer Mode failing to obfuscate module name in "Controls Configuration" app
+- Fixed Item Importer failing to generate spell bonus damage effects
+- Fixed Class/Subclass Importer failing to populate skill/saving throw proficiency advancements in some cases
+- Fixed mis-aligned sub-folder header rows and on-modify flicker when using "Compact Compendium Packs" UI Config option
+- Fixed various lingering v14 deprecation warnings; minor migration issues
+
+
 ### v2.18.3
 
 > 2026-09-09

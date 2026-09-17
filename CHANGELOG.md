@@ -1,3 +1,11 @@
+### v2.19.1
+
+> 2026-09-17
+
+- (dnd5e 6.0.x) Fixed crash when an Importer attempted to populate advancements with the "Use Advancement-Backing Compendium" Config option disabled
+- Switched default "Use Advancement-Backing Compendium" Config to "enabled"
+- (dnd5e 6.0.x) Added system patch for "invalid" but otherwise-functional embedded item UUIDs in advancements
+
 ## v2.19.0 — "Supports Sixth Edition" edition
 
 > 2026-09-16

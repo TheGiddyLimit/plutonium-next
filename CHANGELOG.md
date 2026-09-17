@@ -1,3 +1,9 @@
+### v2.19.2
+
+> 2026-09-17
+
+- (dnd5e 6.0.x) Expanded system patch for "invalid" but otherwise-functional embedded item UUIDs in advancements
+
 ### v2.19.1
 
 > 2026-09-17

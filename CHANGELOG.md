@@ -1,3 +1,13 @@
+### v2.19.3
+
+> 2026-09-18
+
+- Added auto-stripping of junk advancement data on startup (this prevents issues when updating to dnd5e 6.x.y, and/or running dnd5e 6.x.y with Plutonium disabled)
+- Improved Importer list loading performance for entities with multiple sources
+- Fixed Importer crash on malformed world folder structure
+- Fixed Creature Importer crash when re-opening import list against an actor sheet
+- Fixed drag/drop crash on missing event data
+
 ### v2.19.2
 
 > 2026-09-17

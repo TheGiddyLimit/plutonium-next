@@ -2042,5 +2042,10 @@
 		"ver": "2.19.2",
 		"date": "2026-09-17",
 		"txt": "- (dnd5e 6.0.x) Expanded system patch for \"invalid\" but otherwise-functional embedded item UUIDs in advancements"
+	},
+	{
+		"ver": "2.19.3",
+		"date": "2026-09-18",
+		"txt": "- Added auto-stripping of junk advancement data on startup (this prevents issues when updating to dnd5e 6.x.y, and/or running dnd5e 6.x.y with Plutonium disabled)\n- Improved Importer list loading performance for entities with multiple sources\n- Fixed Importer crash on malformed world folder structure\n- Fixed Creature Importer crash when re-opening import list against an actor sheet\n- Fixed drag/drop crash on missing event data"
 	}
 ]

@@ -2047,5 +2047,10 @@
 		"ver": "2.19.3",
 		"date": "2026-09-18",
 		"txt": "- Added auto-stripping of junk advancement data on startup (this prevents issues when updating to dnd5e 6.x.y, and/or running dnd5e 6.x.y with Plutonium disabled)\n- Improved Importer list loading performance for entities with multiple sources\n- Fixed Importer crash on malformed world folder structure\n- Fixed Creature Importer crash when re-opening import list against an actor sheet\n- Fixed drag/drop crash on missing event data"
+	},
+	{
+		"ver": "2.19.4",
+		"date": "2026-09-21",
+		"txt": "- Added activities and effects for _Arcana Unleashed_ content\n- Fixed crash when attempting to resolve spell UUIDs on unliked tokens\n- Fixed drag-drop to UUID fields (e.g. the \"Drop a spell here\" region of a \"cast\" activity) failing to have any effect"
 	}
 ]

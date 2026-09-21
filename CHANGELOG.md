@@ -1,3 +1,11 @@
+### v2.19.4
+
+> 2026-09-21
+
+- Added activities and effects for _Arcana Unleashed_ content
+- Fixed crash when attempting to resolve spell UUIDs on unliked tokens
+- Fixed drag-drop to UUID fields (e.g. the "Drop a spell here" region of a "cast" activity) failing to have any effect
+
 ### v2.19.3
 
 > 2026-09-18

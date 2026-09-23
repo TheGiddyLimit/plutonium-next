@@ -1,3 +1,9 @@
+### v2.19.5
+
+> 2026-09-23
+
+- Fixed Class Importer crash when creating Unarmed Strike sheet item
+
 ### v2.19.4
 
 > 2026-09-21

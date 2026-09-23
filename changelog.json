@@ -2052,5 +2052,10 @@
 		"ver": "2.19.4",
 		"date": "2026-09-21",
 		"txt": "- Added activities and effects for _Arcana Unleashed_ content\n- Fixed crash when attempting to resolve spell UUIDs on unliked tokens\n- Fixed drag-drop to UUID fields (e.g. the \"Drop a spell here\" region of a \"cast\" activity) failing to have any effect"
+	},
+	{
+		"ver": "2.19.5",
+		"date": "2026-09-23",
+		"txt": "- Fixed Class Importer crash when creating Unarmed Strike sheet item"
 	}
 ]

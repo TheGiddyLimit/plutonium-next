@@ -2062,5 +2062,10 @@
 		"ver": "2.19.6",
 		"date": "2026-10-08",
 		"txt": "- Fixed Class Importer over-filtering features in some cases"
+	},
+	{
+		"ver": "2.19.7",
+		"date": "2026-10-14",
+		"txt": "- Added item mastery picker to Class Importer\n- Added \"Clear Plutonium Flags\" support to compendium docs\n- Fixed crash when Importer attempted to handle \"dry-run\" `preCreateItem` hook\n- Fixed various broken inline activity reference tags in importable side-data"
 	}
 ]

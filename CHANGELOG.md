@@ -1,3 +1,12 @@
+### v2.19.7
+
+> 2026-10-14
+
+- Added item mastery picker to Class Importer
+- Added "Clear Plutonium Flags" support to compendium docs
+- Fixed crash when Importer attempted to handle "dry-run" `preCreateItem` hook
+- Fixed various broken inline activity reference tags in importable side-data
+
 ### v2.19.6
 
 > 2026-10-08

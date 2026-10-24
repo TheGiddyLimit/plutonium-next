@@ -1,3 +1,9 @@
+### v2.19.8
+
+> 2026-10-24
+
+- Fixed World Content Blocklist failing to apply to class/subclass variant features
+
 ### v2.19.7
 
 > 2026-10-14

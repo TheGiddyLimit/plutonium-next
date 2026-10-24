@@ -2067,5 +2067,10 @@
 		"ver": "2.19.7",
 		"date": "2026-10-14",
 		"txt": "- Added item mastery picker to Class Importer\n- Added \"Clear Plutonium Flags\" support to compendium docs\n- Fixed crash when Importer attempted to handle \"dry-run\" `preCreateItem` hook\n- Fixed various broken inline activity reference tags in importable side-data"
+	},
+	{
+		"ver": "2.19.8",
+		"date": "2026-10-24",
+		"txt": "- Fixed World Content Blocklist failing to apply to class/subclass variant features"
 	}
 ]

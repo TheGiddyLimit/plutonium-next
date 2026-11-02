@@ -2072,5 +2072,10 @@
 		"ver": "2.19.8",
 		"date": "2026-10-24",
 		"txt": "- Fixed World Content Blocklist failing to apply to class/subclass variant features"
+	},
+	{
+		"ver": "2.20.0",
+		"date": "2026-11-02",
+		"txt": "- Added provisional support for dnd5e 6.1.x prerelease (while maintaining support for dnd5e 5.3.x and 6.0.x). _[Note that upgrading is not yet advisable; full support pass to be completed at a later date.]_\n  - Importers may now generate ignores-resistance effects; fall damage resistance/immunity effects in some cases\n  - Importers may now generate \"antimagic\" behaviors in some cases\n  - Improved Importer SRD data matching\n  - Added internal support for various data changes"
 	}
 ]

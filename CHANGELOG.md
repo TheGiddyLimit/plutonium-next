@@ -1,3 +1,13 @@
+## v2.20.0
+
+> 2026-11-02
+
+- Added provisional support for dnd5e 6.1.x prerelease (while maintaining support for dnd5e 5.3.x and 6.0.x). _[Note that upgrading is not yet advisable; full support pass to be completed at a later date.]_
+  - Importers may now generate ignores-resistance effects; fall damage resistance/immunity effects in some cases
+  - Importers may now generate "antimagic" behaviors in some cases
+  - Improved Importer SRD data matching
+  - Added internal support for various data changes
+
 ### v2.19.8
 
 > 2026-10-24

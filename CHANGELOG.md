@@ -1,3 +1,11 @@
+### v2.20.1
+
+> 2026-11-04
+
+- Added support for main site data changes
+- (dnd5e 6.1.x) Fixed handling of optional feature SRD advancements
+
+
 ## v2.20.0
 
 > 2026-11-02

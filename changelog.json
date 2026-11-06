@@ -2081,6 +2081,11 @@
 	{
 		"ver": "2.20.1",
 		"date": "2026-11-04",
-		"txt": "- Added support for main site data changes\n- (dnd5e 6.1.x) Fixed handling of optional feature SRD advancements\n"
+		"txt": "- Added support for main site data changes\n- (dnd5e 6.1.x) Fixed handling of optional feature SRD advancements"
+	},
+	{
+		"ver": "2.20.2",
+		"date": "2026-11-06",
+		"txt": "- Added Adventure/Book Importer support for linking to named list items, via nearest header\n- Updated custom ESC handling to match new Foundry standard"
 	}
 ]

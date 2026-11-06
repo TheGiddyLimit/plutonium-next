@@ -1,10 +1,16 @@
+### v2.20.2
+
+> 2026-11-06
+
+- Added Adventure/Book Importer support for linking to named list items, via nearest header
+- Updated custom ESC handling to match new Foundry standard
+
 ### v2.20.1
 
 > 2026-11-04
 
 - Added support for main site data changes
 - (dnd5e 6.1.x) Fixed handling of optional feature SRD advancements
-
 
 ## v2.20.0
 

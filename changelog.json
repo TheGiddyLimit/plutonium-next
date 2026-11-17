@@ -2092,5 +2092,10 @@
 		"ver": "2.20.3",
 		"date": "2026-11-08",
 		"txt": "- Added _D&D: World of Warcraft_ and _World of Warcraft: Icecrown Citadel_ grid data (thanks @ Lyra)\n- Fixed Vehicle Importer failing to set travel pace (resulting in multiplied/very large \"speed\" values being incorrectly shown)\n- Fixed Vehicle Importer setting incorrect action thresholds\n- Fixed Item Importer failing to assign stack-split items to target container"
+	},
+	{
+		"ver": "2.20.4",
+		"date": "2026-11-17",
+		"txt": "- Added _World of Warcraft: Deadmines Dungeon_ grid data (thanks @ Lyra)\n- Fixed _Waterdeep: Dragon Heist_ grid data mismatch with updated images\n- Fixed Importers failing to merge traits with those existing on character in some cases\n- Fixed Item Importer failing to import multiples of pack-expanded items\n- Fixed Table Importer failing to handle \"{n}+\" roll ranges\n- Fixed Table Importer failing to respect \"Duplicate Handling Mode\" Config option in some cases\n- Fixed actor Importers setting every `system.identifier` to `\"importing\"`\n- Fixed Content Updater clobbering token display name settings by default\n- (dnd5e 6.1.x) Added Items Importer support for food/drink\n- (dnd5e 6.1.x) Fixed Vehicle and Object importers setting incorrect AC"
 	}
 ]

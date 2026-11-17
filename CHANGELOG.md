@@ -1,3 +1,18 @@
+### v2.20.4
+
+> 2026-11-17
+
+- Added _World of Warcraft: Deadmines Dungeon_ grid data (thanks @ Lyra)
+- Fixed _Waterdeep: Dragon Heist_ grid data mismatch with updated images
+- Fixed Importers failing to merge traits with those existing on character in some cases
+- Fixed Item Importer failing to import multiples of pack-expanded items
+- Fixed Table Importer failing to handle "{n}+" roll ranges
+- Fixed Table Importer failing to respect "Duplicate Handling Mode" Config option in some cases
+- Fixed actor Importers setting every `system.identifier` to `"importing"`
+- Fixed Content Updater clobbering token display name settings by default
+- (dnd5e 6.1.x) Added Items Importer support for food/drink
+- (dnd5e 6.1.x) Fixed Vehicle and Object importers setting incorrect AC
+
 ### v2.20.3
 
 > 2026-11-08

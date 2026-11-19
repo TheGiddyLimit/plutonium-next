@@ -1,3 +1,14 @@
+### v2.20.5
+
+> 2026-11-19
+
+- Added activities and effects for _D&D: World of Warcraft_ content
+- Fixed Class Importer failing to show all available features for class reskins
+- Fixed Class Importer using incorrect identifiers when importing class resikns
+- Fixed Adventure Importer failing to import linked entities when the pre-migrated original was blocklisted
+- Fixed Adventure Importer failing to import entities linked  by source reference
+- Fixed Supernatural Gifts/Rewards Importer using incorrect document types
+
 ### v2.20.4
 
 > 2026-11-17
